@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Jointer Investment</title>
+  <meta property="og:title" content="Jointer Investment" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.elementzero.network/jointerauction/" />
+  <meta property="og:image" content="https://www.elementzero.network/jointerauction/favicon.png" />
+  <meta property="og:description" content="This is jointer investment site and you are reading description" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <script src="%PUBLIC_URL%/js/jquery.min.js?v=1.4"></script>
+  <script src="%PUBLIC_URL%/js/respond.min.js?v=1.4"></script>
+  <script src="%PUBLIC_URL%/js/bs-collaps.js?v=1.4"></script>
+  <!-- <script src="//min.gitcdn.xyz/repo/wintercounter/Protip/master/protip.min.js"></script> -->
+  <script src="%PUBLIC_URL%/js/protip.min.js"></script>
+
+  <script src="%PUBLIC_URL%/js/wow.min.js?v=1.4"></script>
+  <script src="%PUBLIC_URL%/js/jquery.mCustomScrollbar.concat.min.js?v=1.4"></script>
+  <script src="%PUBLIC_URL%/js/custom.js"></script>
+  <script src="%PUBLIC_URL%/js/flipclock.min.js"></script>
+  <script src="%PUBLIC_URL%/js/cashFlip.js"></script>
+  <script src="%PUBLIC_URL%/js/Home.js"></script>
+  <script src="%PUBLIC_URL%/js/kendo.all.min.js" defer></script>
+  <script src="%PUBLIC_URL%/js/jquery.maskMoney.min.js"></script>
+
+  <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
+  <!--======================= Fonts =====================-->
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+  <script type="text/javascript"
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css"
+    integrity="sha256-f6fW47QDm1m01HIep+UjpCpNwLVkBYKd+fhpb4VQ+gE=" crossorigin="anonymous" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.min.css" rel="stylesheet"
+    type="text/css" />
+
+  <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/kendo.common-material.min.css" />
+  <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/kendo.material.min.css" />
+  <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/kendo.material.mobile.min.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109377082-2"></script>
+  <script>
+    if (window.location.hostname !== "localhost") {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109377082-2');
+    }
+  </script>
+
+
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="%PUBLIC_URL%/js/jquery.circliful.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // izi modal script
+      $("#privacy, #terms, #cockies").iziModal({
+        headerColor: '#110828',
+        background: '#fff',
+        width: 900,
+        icon: 'icon-settings_system_daydream',
+        overlayClose: true,
+        fullscreen: false,
+        openFullscreen: false,
+        borderBottom: true,
+      });
+      // End of izi modal script
+      setTimeout(function () {
+        new window.google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+      }, 1000)
+      wow = new WOW(
+        {
+          boxClass: 'wow',      // default
+          animateClass: 'animated', // default
+          offset: 0,          // default
+          mobile: true,       // default
+          live: true        // default      
+        }
+      )
+      wow.init();
+      // $(".coin-Box01 a").click(function () {
+      //   $(".wallet-Popup").show();
+      //   $("html").addClass("no-Scroll");
+      // });
+      $(".close-Icon").click(function () {
+        $(".wallet-Popup").hide();
+        $("html").removeClass("no-Scroll");
+      });
+      $("#lrlock-btn").click(function () {
+        $(".unlock-Popup02").fadeIn();
+        $("html").addClass("no-Scroll");
+      });
+      $(".unlock-Popup02 .close-Icon").click(function () {
+        $(".unlock-Popup02").fadeOut();
+        $("html").removeClass("no-Scroll");
+      });
+      $(".sale-Box03 .arrow-Down").click(function () {
+        $(".equity-Goal, .arrow-Down").toggleClass("active");
+      });
+      // Custom Protip Function
+      $(".protipNp").each(function () {
+        var title = $(this).attr("data-pt-title")
+        var html = "<div class='mmProtip ani-1' >" + title + " </div>"
+        $(this).append(html)
+      })
+      $.protip();
+      SetChartsData();
+      SetProfitCulculator();
+
+    });
+    setInterval(function () { makeTimer(); }, 1000);
+    function makeTimer() {
+      //    var endTime = new Date("29 April 2018 9:56:00 GMT+05:00");  put 24 hour format
+      var input = '2020-05-10T09:15:30.037Z';
+      var m = moment.utc(input);
+      var endTime = m.toDate();
+      // console.log(endTime)
+      endTime = (Date.parse(endTime) / 1000);
+      var now = new Date();
+      now = (Date.parse(now) / 1000);
+      var timeLeft = endTime - now;
+      var days = Math.floor(timeLeft / 86400);
+      var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
+      var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600)) / 60);
+      var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
+      // console.log(hours)
+      if (hours < "10") {
+        hours = '<span>0</span><span>' + hours + '</span>'
+      } else {
+        hours = hours.toString();
+        hours = '<span>' + hours[0] + '</span><span>' + hours[1] + '</span>'
+      }
+      if (minutes < "10") {
+        minutes = '<span>0</span><span>' + minutes + '</span>'
+      } else {
+        minutes = minutes.toString();
+        minutes = '<span>' + minutes[0] + '</span><span>' + minutes[1] + '</span>'
+      }
+      if (seconds < "10") {
+        seconds = '<span>0</span><span>' + seconds + '</span>'
+      } else {
+        seconds = seconds.toString();
+        seconds = '<span>' + seconds[0] + '</span><span>' + seconds[1] + '</span>'
+      }
+      if (Number(days) < 0) {
+        days = '<span>0</span><span>0</span>';
+        hours = '<span>0</span><span>0</span>';
+        minutes = '<span>0</span><span>0</span>';
+        seconds = '<span>0</span><span>0</span>';
+      }
+      days = days.toString()
+      if (days.length == 1) {
+        days = '<span>0</span><span>' + days + '</span>'
+      } else {
+        let tmpDays = days
+        days = ''
+        for (let x = 0; x < tmpDays.length; x++) {
+          days += '<span>' + tmpDays[x] + '</span>'
+        }
+      }
+      // console.log(hours)
+      $(".jntr_note_days .days").html(days);
+      $(".jntr_note_days .hours").html(hours);
+      $(".jntr_note_days .minutes").html(minutes);
+      $(".jntr_note_days .seconds").html(seconds);
+    }
+
+    $(".redeem .Title02 .pop011").click(function (e) {
+      $(".daily-distribution").toggleClass("active");
+      e.stopPropagation();
+    });
+    $(".daily-distribution").click(function (e) {
+      e.stopPropagation();
+    });
+    $(document).click(function () {
+      $(".daily-distribution").removeClass("active");
+    });
+    function openModal01() {
+      alert("work")
+      $("#privacy").iziModal('open');
+    }
+    function openModal02() {
+      $("#terms").iziModal('open');
+    }
+    function openModal03() {
+      $("#cockies").iziModal('open');
+    }
+    $("#input01,#input02").maskMoney({ prefix: '$ ', allowNegative: true, thousands: ',', decimal: ',' });
+    $("#input03,#input04").maskMoney({ prefix: '', allowNegative: true, thousands: ',', decimal: ',' });
+
+  </script>
+</body>
+
+</html>

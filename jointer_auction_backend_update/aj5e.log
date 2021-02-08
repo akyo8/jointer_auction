@@ -1,0 +1,1218 @@
+Replaced!
+Result {
+  '0': '1907000000000000000000',
+  '1': '50000000000000000000000',
+  '2': '122999999',
+  '3': '272000000',
+  '4': '2500394999999',
+  '5': '500000000',
+  _todaySupply: '1907000000000000000000',
+  _yesterdaySupply: '50000000000000000000000',
+  _todayContribution: '122999999',
+  _yesterdayContribution: '272000000',
+  _totalContribution: '2500394999999',
+  _maxContributionAllowed: '500000000' }
+148997
+167851
+success undefined
+error Error: Returned error: replacement transaction underpriced
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '1907000000000000000000',
+  '1': '50000000000000000000000',
+  '2': '122999999',
+  '3': '272000000',
+  '4': '2500394999999',
+  '5': '500000000',
+  _todaySupply: '1907000000000000000000',
+  _yesterdaySupply: '50000000000000000000000',
+  _todayContribution: '122999999',
+  _yesterdayContribution: '272000000',
+  _totalContribution: '2500394999999',
+  _maxContributionAllowed: '500000000' }
+148997
+167851
+success undefined
+error Error: Returned error: replacement transaction underpriced
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '1907000000000000000000',
+  '1': '50000000000000000000000',
+  '2': '122999999',
+  '3': '272000000',
+  '4': '2500394999999',
+  '5': '500000000',
+  _todaySupply: '1907000000000000000000',
+  _yesterdaySupply: '50000000000000000000000',
+  _todayContribution: '122999999',
+  _yesterdayContribution: '272000000',
+  _totalContribution: '2500394999999',
+  _maxContributionAllowed: '500000000' }
+148997
+167851
+success undefined
+error Error: Returned error: replacement transaction underpriced
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '1907000000000000000000',
+  '1': '50000000000000000000000',
+  '2': '122999999',
+  '3': '272000000',
+  '4': '2500394999999',
+  '5': '500000000',
+  _todaySupply: '1907000000000000000000',
+  _yesterdaySupply: '50000000000000000000000',
+  _todayContribution: '122999999',
+  _yesterdayContribution: '272000000',
+  _totalContribution: '2500394999999',
+  _maxContributionAllowed: '500000000' }
+148997
+167851
+success undefined
+error Error: Returned error: replacement transaction underpriced
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '1907000000000000000000',
+  '1': '50000000000000000000000',
+  '2': '122999999',
+  '3': '272000000',
+  '4': '2500394999999',
+  '5': '500000000',
+  _todaySupply: '1907000000000000000000',
+  _yesterdaySupply: '50000000000000000000000',
+  _todayContribution: '122999999',
+  _yesterdayContribution: '272000000',
+  _totalContribution: '2500394999999',
+  _maxContributionAllowed: '500000000' }
+148997
+167851
+success 0xfc57e0754833df5ad6d9918e1f2937c1d76e08c41c51f77f5504a4f17b8d654d
+error null
+(node:7199) UnhandledPromiseRejectionWarning: Error: Transaction was not mined within 750 seconds, please make sure your transaction was properly sent. Be aware that it might still be mined!
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-method/src/index.js:447:33
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+(node:7199) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 752)
+(node:7199) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Replaced!
+Result {
+  '0': '1907000000000000000000',
+  '1': '50000000000000000000000',
+  '2': '122999999',
+  '3': '272000000',
+  '4': '2500394999999',
+  '5': '500000000',
+  _todaySupply: '1907000000000000000000',
+  _yesterdaySupply: '50000000000000000000000',
+  _todayContribution: '122999999',
+  _yesterdayContribution: '272000000',
+  _totalContribution: '2500394999999',
+  _maxContributionAllowed: '500000000' }
+148997
+167851
+success 0xa4a475331818ec861b290706b55f6f8b861a539954ea7634a7c2c002036d1991
+error null
+Replaced!
+Result {
+  '0': '825000000000000000000',
+  '1': '1907000000000000000000',
+  '2': '0',
+  '3': '122999999',
+  '4': '2500394999999',
+  '5': '272000000',
+  _todaySupply: '825000000000000000000',
+  _yesterdaySupply: '1907000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '122999999',
+  _totalContribution: '2500394999999',
+  _maxContributionAllowed: '272000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '825000000000000000000',
+  '1': '1907000000000000000000',
+  '2': '0',
+  '3': '122999999',
+  '4': '2500394999999',
+  '5': '272000000',
+  _todaySupply: '825000000000000000000',
+  _yesterdaySupply: '1907000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '122999999',
+  _totalContribution: '2500394999999',
+  _maxContributionAllowed: '272000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '825000000000000000000',
+  '1': '1907000000000000000000',
+  '2': '0',
+  '3': '122999999',
+  '4': '2500394999999',
+  '5': '272000000',
+  _todaySupply: '825000000000000000000',
+  _yesterdaySupply: '1907000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '122999999',
+  _totalContribution: '2500394999999',
+  _maxContributionAllowed: '272000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '825000000000000000000',
+  '1': '1907000000000000000000',
+  '2': '0',
+  '3': '122999999',
+  '4': '2500394999999',
+  '5': '272000000',
+  _todaySupply: '825000000000000000000',
+  _yesterdaySupply: '1907000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '122999999',
+  _totalContribution: '2500394999999',
+  _maxContributionAllowed: '272000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '825000000000000000000',
+  '1': '1907000000000000000000',
+  '2': '110000000',
+  '3': '122999999',
+  '4': '2500504999999',
+  '5': '272000000',
+  _todaySupply: '825000000000000000000',
+  _yesterdaySupply: '1907000000000000000000',
+  _todayContribution: '110000000',
+  _yesterdayContribution: '122999999',
+  _totalContribution: '2500504999999',
+  _maxContributionAllowed: '272000000' }
+148997
+167851
+success 0x1ea801b15920a40bea3a74cdf2a8775c8631c8f38ee4ed309ba012955b2858e2
+error null
+Replaced!
+Result {
+  '0': '738000000000000000000',
+  '1': '825000000000000000000',
+  '2': '100000000',
+  '3': '110000000',
+  '4': '2500604999999',
+  '5': '122999999',
+  _todaySupply: '738000000000000000000',
+  _yesterdaySupply: '825000000000000000000',
+  _todayContribution: '100000000',
+  _yesterdayContribution: '110000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '122999999' }
+148997
+167851
+success 0x0ada95bf884df2781136008b248cac9ad12e14cd07cd67a83f9a12e2fa7fc215
+error null
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000000) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '0',
+  '3': '100000000',
+  '4': '2500604999999',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '0',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500604999999',
+  _maxContributionAllowed: '110000000' }
+fail Error: Returned error: gas required exceeds allowance (8000029) or always failing transaction
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '671000000000000000000',
+  '1': '738000000000000000000',
+  '2': '20206034',
+  '3': '100000000',
+  '4': '2500625206033',
+  '5': '110000000',
+  _todaySupply: '671000000000000000000',
+  _yesterdaySupply: '738000000000000000000',
+  _todayContribution: '20206034',
+  _yesterdayContribution: '100000000',
+  _totalContribution: '2500625206033',
+  _maxContributionAllowed: '110000000' }
+148997
+167851
+success undefined
+error Error: Returned error: replacement transaction underpriced
+    at Object.ErrorResponse (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-helpers/src/errors.js:29:16)
+    at /opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-core-requestmanager/src/index.js:140:36
+    at XMLHttpRequest.request.onreadystatechange (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/web3-providers-http/src/index.js:102:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (/opt/staging-app/Blockchain/jointer_auction/jointer_auction_backend_update/node_modules/xhr2-cookies/dist/xml-http-request.js:289:61)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+Replaced!
+Result {
+  '0': '128000000000000000000',
+  '1': '671000000000000000000',
+  '2': '32999998',
+  '3': '20206034',
+  '4': '2500658206031',
+  '5': '100000000',
+  _todaySupply: '128000000000000000000',
+  _yesterdaySupply: '671000000000000000000',
+  _todayContribution: '32999998',
+  _yesterdayContribution: '20206034',
+  _totalContribution: '2500658206031',
+  _maxContributionAllowed: '100000000' }
+157231
+172133
+success 0x6ed78a4426e341e971293fbe386762cd58c77bc8e8402cb53d20dc4fd82f1d56
+error null

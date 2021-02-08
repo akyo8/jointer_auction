@@ -1,0 +1,2063 @@
+
+/*@media only screen and (max-width:1600px) {#animation_container {width: 1600px!important;height: 542px!important;position: absolute;left: 50%;bottom: -80px;z-index: 2;transform: translate(-50%, 0)}
+#animation_container canvas {width: 100%!important;height: auto!important}
+.homesection06::after {width: 270px;height: 287px;content: "";position: absolute;top: 90px;right: 8px}
+.homesection06::before {width: 283px;height: 482px;content: "";position: absolute;top: 110px;left: -150px} 
+ }
+
+@media only screen and (max-width:1460px) {.siteheaderwp {padding: 35px 55px}
+.headerrline02 span {padding: 9px 16px 0 39px;font-size: 27px}
+.headerrline01 {font-size: 48px;padding: 210px 0 19px 0;text-transform: uppercase}
+.libraryblock {/* width: 418px; *//* height: 182px; *//* height: 183px *//*} 
+.headerrline02 span:after {top: 14px;}
+ }
+*/
+@media only screen and (max-width:1366px) {
+.jntr_about .wrapper {max-width: 1220px;}
+.jntr_about .sitelogo img {width: 171px}
+.jntr_about .siteheaderwp {padding: 25px 35px}
+.jntr_about .rgdev {font-size: 13px}
+.jntr_about .rgdev-item a {padding-left: 10px;padding-right: 10px}
+.jntr_about .rgdev-item.rgdevbtn {padding-left: 0}
+.jntr_about .headerrline02 span {font-size: 28px;padding: 2px 16px 0 39px}
+.jntr_about .headerrline01 {font-size: 40px;padding: 120px 0 19px 0;transform: scale;} 
+.jntr_about .headerrline02 { margin-bottom: 30px; } 
+.jntr_about .equitynotes-box .Title03 { margin-bottom: 35px; } 
+.jntr_about .headerrline02 span::after {top: 3px}
+.jntr_about .homesection01 {background-position: 202px 0}
+.jntr_about .homesection05leftimg {width: 42.33%}
+.jntr_about .homesection05subleft {padding-right: 0}
+.jntr_about .homesection05subright {padding-right: 0}
+.jntr_about .homesection05leftimg img {width: 100%}
+.jntr_about .homesection05righttext {width: 52.66%;padding-left: 0;padding-top: 15px}
+.jntr_about .homesection07rightimg {width: 46.33%}
+.jntr_about .homesection07rightimg img {width: 100%}
+.jntr_about .homesection07lefttext {width: 52.66%;padding: 0 0 0 22px}
+.jntr_about .quotetxt {font-size: 25px;line-height: 27px}
+.jntr_about .centerhead01 {font-size: 40px}
+.jntr_about .sectioncentertxt {font-size: 26px;line-height: 37px;padding-left: 0;padding-right: 0}
+.jntr_about .homesection08head span {font-size: 27px;padding: 0 12px}
+.jntr_about .homesection08head em {width: 36px;height: 36px;font-size: 14px;line-height: 39px}
+.jntr_about .socialtxt {font-size: 18px}
+.jntr_about .compareheader01, .jntr_about .sectionhead, .jntr_about .sectionhead02, .jntr_about .sectionhead03, .jntr_about .sectionhead04 {font-size: 32px;}
+.jntr_about .homesection05head, .jntr_about .homesection07head, .jntr_about .homesection08head, .jntr_about .homesection09head, .jntr_about .homesection10head, .jntr_about .homesection11head, .jntr_about .homesection16head, .jntr_about .homesection17head, .jntr_about .homesection18head, .jntr_about .homesection19head {font-size: 28px}
+.jntr_about .homesection10headsub, .jntr_about .sectionsubhead01 {font-size: 26px}
+.jntr_about .homesection06::before {display: none}
+.jntr_about .homesection06::after {display: none}
+.jntr_about .sectiontext02 {font-size: 19px;line-height: 31px}
+.jntr_about .threeblockhead {font-size: 19px}
+.jntr_about .threeblocktxt {font-size: 16px;line-height: 23px}
+.jntr_about .homesection05subleft {width: 100%}
+.jntr_about .homesection05subright {width: 100%}
+.jntr_about .blockiconhead {font-size: 19px}
+.jntr_about .blockicontxt {font-size: 14px;line-height: 23px}
+.jntr_about .threeblock06txt {font-size: 16px;line-height: 24px}
+.jntr_about .homesection07subleft {width: 100%;padding: 0}
+.jntr_about .homesection07subright {width: 100%;padding: 0}
+.jntr_about .homesection07 {padding: 45px 0;min-height: inherit}
+.jntr_about .homesection03 {padding: 45px 0;min-height: inherit}
+.jntr_about .hmbgsection {padding-top: 10px;min-height: 960px}
+.jntr_about .homesection05, .jntr_about .homesection06, .jntr_about .homesection08, .jntr_about .homesection09, .jntr_about .homesection10, .jntr_about .homesection16, .jntr_about .homesection17, .jntr_about .homesection18 {padding: 75px 0;min-height: inherit}
+.jntr_about .comparetable>tbody>tr>td br {display: none}
+.jntr_about .grdboxseparator {background-position: right top}
+.jntr_about .allteam li {width: 50%}
+.jntr_about .libraryblockbg02 {margin-bottom: 25px}
+.jntr_about .hs05imgbox02 {width: 350px;height: 433px;position: relative;float: none;margin: 0 auto}
+.jntr_about .hs05imgbox01 {width: 350px;height: 350px;position: relative;margin: 0 auto}
+.jntr_about .responsivetable02 {overflow-y: hidden;-ms-overflow-style: -ms-autohiding-scrollbar;min-height: .01%;overflow-x: auto}
+.jntr_about .hs6SubMainbox {padding: 60px 50px}
+.jntr_about .npWrapperFix01.wrapper {max-width: 1240px}
+.jntr_about .npWrapperFix01.wrapper .responsivetable02 {overflow: hidden}
+.jntr_about .npWrapperFix01.wrapper .comparetable.cV2 {/* width: 95%; *//* margin: 0 0 0; *//* overflow: hidden; */}
+.jntr_about .npWrapperFix01.wrapper .comparetable>tbody>tr>th {padding: 15px}
+.jntr_about .headerBox01 {margin: 166px 0 0 50px}
+.jntr_about #animation_container02 {right: 0;bottom: 65px;width: 700px!important;height: 503px!important}
+.jntr_about #animation_container02 canvas {width: 100%!important;height: auto!important}
+.jntr_about .siteheader02 {min-height: 720px}
+.jntr_about .headerbtn {width: 280px;height: 54px;font-size: 20px;line-height: 51px;margin: 34px auto 0 auto}
+.jntr_about .scrollingplat {width: 160px;height: 53px;padding: 12px 8px}
+.jntr_about .valuewp .platvalue01 {font-size: 10px}
+.jntr_about .valuewp .platvalue02 {font-size: 13px}
+.jntr_about .scrollingmain01, .scrollingmain02 {height: 53px}
+.jntr_about .bannerMainBox {bottom: 20px}
+.jntr_about .calcTitle01 {font-size: 28px}
+.jntr_about .calcTitle02 {font-size: 18px}
+.jntr_about .assContainer {padding: 0 30px}
+.jntr_about .libraryblock {/* width: 336px; *//* height: 166px; */margin-bottom: 25px;/* padding: 34px; *//* margin-left: 0; *//* margin-right: 20px; */}
+.jntr_about .lbblocktext {/* padding: 22px 37px 16px 14px */}
+.jntr_about .lbblocktext span {font-size: 16px}
+.jntr_about .lbblocktext strong {font-size: 21px}
+.jntr_about .homesection17 {background-position: 50% 206px}
+.jntr_about .calcyppLink01 {font-size: 22px}
+.jntr_about #animation_container {width: 1366px!important;height: 462px!important;background-size: 100%;z-index: 1;}
+.jntr_about #animation_container canvas {width: 100%!important;height: auto!important}
+.jntr_about .headTitle02 {font: normal 21px/30px mont, arial}
+.jntr_about .headTitle02 span {font-size: 34px}
+.jntr_about .ofoAboutsection { background-size: contain}
+.jntr_about .mmProtip, .mmProtip2 {z-index: 2;display: flex;align-items: center;justify-content: center;position: absolute;text-align: center;opacity: 0;visibility: hidden;background: #000;padding: 6px;font-family: mont-light;color: #aaa;font-size: 12px;line-height: 14px;top: 2px;bottom: 2px;left: 2px;right: 2px}
+
+.jntr_about .fullscreen-bg {position: absolute;top: 0;/* right: 0; *//* bottom: 0; */left: 0;overflow: hidden;z-index: 0;opacity: 0.8;width: 932px;/* height: 526px; */} 
+/* .fullscreen-bg__video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }  */
+
+}
+
+@media only screen and (max-width:992px) {
+.jntr_about .wrapper {max-width: 720px}
+.jntr_about .dummyslideimg {margin-top: 77px}
+.jntr_about .headerrline02 span {font-size: 18px;padding: 12px 16px 0 39px}
+.jntr_about .headerrline02 span::after {top: 8px}
+.jntr_about .headerrline01 {font-size: 15px;padding-top: 135px}
+.jntr_about .siteheader {min-height: auto;height: 720px}
+.jntr_about .scrollingmain01 {margin-top: 95px}
+.jntr_about .headerbtn {width: 248px;height: 58px;font-size: 18px;line-height: 54px}
+.jntr_about .homesection01 {background-image: none}
+.jntr_about .homesectionlefttext {height: auto;display: block}
+.jntr_about .homesection01 {min-height: inherit;padding: 76px 0}
+.jntr_about .compareheader01, .jntr_about .sectionhead, .jntr_about .sectionhead02, .jntr_about .sectionhead03, .jntr_about .sectionhead04 {text-align: center;font-size: 23px !important;}
+.jntr_about .sectiontext {max-width: inherit;text-align: center}
+.jntr_about .homesection02 {padding: 76px 0;min-height: 600px}
+.jntr_about .playbtncenter button {margin-top: 155px}
+.jntr_about .homesection10headsub, .jntr_about .sectionsubhead01 {font-size: 22px}
+.jntr_about .sectionblockdiv {width: 48%;margin-left: 1%;margin-right: 1%;margin-top: 25px;margin-bottom: 25px}
+.jntr_about .blockiconhead {font-size: 16px}
+.jntr_about .centerblock {width: 100%}
+.jntr_about .hmbgsection {background-size: contain;padding-top: 100px;min-height: 798px}
+.jntr_about .sectioncentertxt {padding: 0 0 120px 0;font-size: 21px;line-height: 31px}
+.jntr_about .centerhead01 {font-size: 35px}
+.jntr_about .threeblock {width: 80%;margin: 2% 10%}
+.jntr_about .threeblock:last-child {margin-bottom: 120px}
+.jntr_about .threeblock06 {width: 80%;margin: 2% 10%}
+.jntr_about .homesection07lefttext {width: 100%;float: none}
+.jntr_about .homesection07rightimg {width: 50%;float: none;margin: 0 auto 45px auto}
+.jntr_about .homesection08head {width: 100%}
+.jntr_about .homesection08head span {float: none;display: inline-block}
+.jntr_about .homesection08head em {float: none;display: inline-block}
+.jntr_about .comparetable>tbody>tr>td {padding: 23px}
+.jntr_about .comparetable>tbody>tr>th {font-size: 15px;padding: 23px}
+.jntr_about .comparetxt01 {font-size: 16px;line-height: 28px}
+.jntr_about .comparetable02>tbody>tr>td {padding: 23px}
+.jntr_about .comparetable02>tbody>tr>th {font-size: 15px;padding: 23px}
+.jntr_about .grdboxsty {padding: 40px 0}
+.jntr_about .grdboxstyleft {width: 100%;height: auto}
+.jntr_about .grdboxstyright {width: 100%;height: auto}
+.jntr_about .grdboxseparator {display: none}
+.jntr_about .homesection09 {background-size: cover}
+.jntr_about .coinbasepartmain {width: 100%}
+.jntr_about .coinbasepartmain02 {width: 100%}
+.jntr_about .teamphotoround img {width: 131px;height: 131px}
+.jntr_about .righttextdiv {font-size: 18px}
+.jntr_about .righttextpart {padding: 0}
+.jntr_about .allteam li {padding: 25px 0}
+.jntr_about .homesection13 {padding-bottom: 0}
+.jntr_about .libraryblock {width: 100%;background-size: cover;margin: 20px 0}
+.jntr_about .opportunitymain li {width: 48%;height: auto}
+.jntr_about .opportunitytxthead {margin-top: 25px}
+.jntr_about .blogpostmain li {width: 48%}
+.jntr_about .homesection19 {padding: 75px 0}
+.jntr_about .bottompartleft {width: 100%;display: block;text-align: center;float: none}
+.jntr_about .bottompartright {width: 100%;float: none;margin: 15px 0}
+.jntr_about .infobottompartleft {width: 100%;display: block;text-align: center;float: none;line-height: 24px}
+.jntr_about .infobottompartright {width: 100%;float: none;margin: 0 0;text-align: center}
+.jntr_about .responsivetable, .jntr_about .responsivetable02 {overflow-y: hidden;-ms-overflow-style: -ms-autohiding-scrollbar;min-height: .01%;overflow-x: auto}
+.jntr_about .assBox01, .jntr_about .assBox02 {width: 33.33%}
+.jntr_about .asSeenSec {padding: 20px 20px 120px 20px}
+.jntr_about .hs05imgbox02 {width: 350px;height: 433px;position: relative;float: none;margin: 0 auto}
+.jntr_about .hs05imgbox01 {width: 240px;height: 240px;position: relative}
+.jntr_about .grdmainbox {width: 100%}
+.jntr_about .bannerBulding02 {width: 600px;height: 441px;background-size: cover;right: 100px;bottom: 0;z-index: 1}
+.jntr_about .hs6SubBox01, .jntr_about .hs6SubBox01:nth-child(2) {font: normal 18px/30px mont-light, arial;width: 100%;padding: 115px 0 0 0;display: block;color: #fff}
+.jntr_about .hs6SubBox01 span {color: #f4b638;font: normal 30px/40px mont-bold, arial;display: block}
+.jntr_about .hwMainbox {padding-top: 150px; background-size: 266px;position: relative;margin-top: 60px}
+.jntr_about .hwSubbox01, .jntr_about .hwSubbox02 {width: 250px}
+.jntr_about .hwSSbox01 {font: normal 15px/26px mont, arial;margin: 0 65px 0 0;position: relative}
+.jntr_about .hwSSbox02 {font: normal 15px/26px mont, arial;margin: 0 0 0 65px}
+.jntr_about .hwvideoBTN {position: absolute;top: 46px;width: 80px;height: 80px;background-size: cover;left: calc(50% - 40px)}
+.jntr_about .rgdev-item.rgdevbtn02 {padding-left: 0}
+.jntr_about .customFBox01 {width: 100%;border-right: none;padding: 40px 10px 0 10px}
+.jntr_about .hs04bgContainer {transform: scale(.5) translate(-50%, 0)!important;transform-origin: 0;top: 90px}
+.jntr_about #animation_container02 {width: 600px!important;height: 431px!important;position: absolute;right: 40px;bottom: 105px;z-index: 1}
+.jntr_about #animation_container02 canvas {width: 100%!important;height: auto!important}
+.jntr_about .npTabTableFix01 {width: auto!important}
+.jntr_about .calcInput01 {font: normal 18px/30px mont-bold, Arial, " sans-serif"}
+.jntr_about .calcyppLink01 {font: normal 16px/46px mont-bold, Arial, " sans-serif"}
+.jntr_about .calcyppBox02 {font: normal 16px/46px mont-bold, Arial, " sans-serif"}
+.jntr_about .calcTitle02 {font-size: 17px}
+.jntr_about .comparetable>tbody>tr>td.colblock04-02 {font-size: 16px!important}
+.jntr_about .comparetable02>tbody>tr>td.newcolblock05, .comparetable>tbody>tr>td.colblock04 {font-size: 16px}
+.jntr_about .npWrapperFix01.wrapper {max-width: 600px}
+.jntr_about #animation_container02 {right: 0;bottom: 65px;width: 520px!important;height: 374px!important}
+.jntr_about #animation_container02 canvas {width: 100%!important;height: auto!important} 
+ }
+
+@media only screen and (max-width:768px) {
+.jntr_about .homesection07rightimg {width: 100%;margin: 0 auto}
+.jntr_about .wrapper {max-width: 540px}
+.jntr_about .dummyslideimg {margin-top: 0}
+.jntr_about .headerrline01 {padding-top: 60px}
+.jntr_about .headerrline02 span {width: 100%;display: block;padding: 32px 0 20px 0;font-size: 27px}
+.jntr_about .headerrline02 span::after {top: -5px;left: 48%}
+.jntr_about .headerbtn {margin-top: 15px}
+.jntr_about .scrollingmain01 {margin-top: 65px}
+.jntr_about .sectiontext {font-size: 17px;line-height: 26px}
+.jntr_about .homesection01, .jntr_about .homesection02 {padding: 46px 0}
+.jntr_about .sectionblockdiv {width: 98%}
+.jntr_about .centerblock .sectionblockdiv {width: 98%}
+.jntr_about .quotetxt {line-height: 40px;padding: 15px 0 45px 0}
+.jntr_about .homesection04 {padding-top: 45px}
+.jntr_about .hmbgsection {background-image: none}
+.jntr_about .centerhead01 {font-size: 25px}
+.jntr_about .sectioncentertxt {font-size: 17px;line-height: 27px;padding-bottom: 45px}
+.jntr_about .homesection05leftimg {width: 50%;float: none;margin: 0 auto 45px auto}
+.jntr_about .homesection05righttext {width: 100%}
+.jntr_about .threeblock:last-child {margin-bottom: 0}
+.jntr_about .homesection05, .jntr_about .homesection06, .jntr_about .homesection08, .jntr_about .homesection09, .jntr_about .homesection10, .jntr_about .homesection16, .jntr_about .homesection17, .jntr_about .homesection18 {padding: 55px 0}
+.jntr_about .homesection05head, .jntr_about .homesection07head, .jntr_about .homesection08head, .jntr_about .homesection09head, .jntr_about .homesection10head, .jntr_about .homesection11head, .jntr_about .homesection16head, .jntr_about .homesection17head, .jntr_about .homesection18head, .jntr_about .homesection19head {text-align: center}
+.jntr_about .homesection05headsub {text-align: center}
+.jntr_about .homesection05subleft {text-align: center}
+.jntr_about .homesection05subright {text-align: center}
+.jntr_about .threeblock06 {width: 100%;margin: 20px 0}
+.jntr_about .homesection05text {text-align: center}
+.jntr_about .homesection07headsub {text-align: center}
+.jntr_about .homesection07subleft {text-align: center}
+.jntr_about .homesection07textfull {padding: 0;text-align: center}
+.jntr_about .homesection07text {text-align: center}
+.jntr_about .homesection07subright {text-align: center}
+.jntr_about .homesection08head span {font-size: 18px;padding: 0 6px}
+.jntr_about .comparetable {margin-top: 10px}
+.jntr_about .homesection08 {background-image: none}
+.jntr_about .tablebottombg:after {display: none}
+.jntr_about .compareheader01 {margin-top: 35px}
+.jntr_about .comparetxt01 {padding: 0}
+.jntr_about .comparetable02 {margin-top: 15px}
+.jntr_about .marketmakerhead {font-size: 19px}
+.jntr_about .marketmakerhead02 {font-size: 18px}
+.jntr_about .marketmakertxt {font-size: 14px;line-height: 22px}
+.jntr_about .grdboxstyleft {padding-top: 0;padding-bottom: 0}
+.jntr_about .grdboxstyright {padding-top: 0;padding-bottom: 0}
+.jntr_about .coinbasepart {width: 100%;margin-bottom: 25px}
+.jntr_about .coinbasepart02 {width: 100%}
+.jntr_about .allteam li {width: 100%}
+.jntr_about .leftphotopart {width: 33%}
+.jntr_about .righttextpart {width: 67%}
+.jntr_about .opportunitymain li {width: 98%}
+.jntr_about .blogpostmain li {width: 98%}
+.jntr_about .bottomsociallink01 li a {margin: 0 10px}
+.jntr_about .headerBox01 {margin: 106px 0 0 6px}
+.jntr_about .bannerBulding02 {width: 500px;height: 367px;background-size: cover;left: 50%;bottom: 0;transform: translate(-50%, 0);right: auto}
+.jntr_about .hwSubbox01, .jntr_about .hwSubbox02 {width: 100%}
+.jntr_about .hwSSbox01, .jntr_about .hwSSbox02 {text-align: left;display: block;padding: 30px 0 30px 80px;margin: 0;position: relative}
+.jntr_about .hwICO01:before, .jntr_about .hwICO02:before, .jntr_about .hwICO03:before, .jntr_about .hwICO04:before, .jntr_about .hwICO05:before, .jntr_about .hwICO06:before {right: auto;top: 31px;left: 10px}
+.jntr_about .calcInput01 {font: normal 18px/30px mont-bold, Arial, " sans-serif"}
+.jntr_about .calcyppLink01 {font: normal 16px/46px mont-bold, Arial, " sans-serif"}
+.jntr_about .calcyppBox02 {font: normal 16px/46px mont-bold, Arial, " sans-serif"}
+.jntr_about .calcTitle02 {font-size: 17px}
+.jntr_about .homesection17 {background-position: center bottom} 
+ }
+
+@media only screen and (max-width:767px) {
+.jntr_about .fullscreen-bg {width: 100% !important;left: 0 !important;top: -110px !important;display: none;} 
+.jntr_about .fullscreen-bg__video { display: none; } 
+.jntr_about .tokens-Popup04 .protection-Block { padding-top: 100px;   }
+.jntr_about .homesection16 .mmProtip, .jntr_about .homesection16 .mmProtip2 { min-height:auto; width:auto; } 
+.jntr_about #JnavMenus{display: none;}
+/*main{background: url('../images/banner_videoBG.jpg') left top no-repeat;background-size: 80%;}*/
+.jntr_about .hmbgsection {min-height: 642px}
+.jntr_about .sliderMainBox {margin-top: 60px}
+.jntr_about .hs04bgContainer {transform: scale(.5) translate(-50%, 0)!important;transform-origin: 0;top: 8px}
+.jntr_about #animation_container02 {width: 400px!important;height: 288px!important;position: absolute;right: 40px;bottom: 105px;z-index: 1}
+.jntr_about .calcTitle01 {font-size: 26px}
+.jntr_about .calcBox01 {width: 100%;padding: 10px 18px;margin-bottom: 20px}
+.jntr_about #accordion02 {padding: 0 15px}
+.jntr_about .homesection17 { background-repeat: no-repeat;background-position: 50% bottom}
+.jntr_about .headTitle01 {margin-bottom: 15px}
+.jntr_about .siteheaderwp {padding: 15px 10px}
+.jntr_about .headerBox01 {margin: 56px 0 0;text-align: center}
+.jntr_about .headTitle02 span span {margin-top: 4px;display: block}
+.jntr_about .headTitle02 p {margin-top: 12px;font-size: 18px;line-height: 24px}
+.jntr_about .headerbtn02 {font-size: 20px}
+.jntr_about #animation_container02 canvas {height: 250px!important}
+.jntr_about .homesection03 {margin-top: -98px;padding-bottom: 0}
+.jntr_about .sectionhead03 {font-size: 30px!important}
+.jntr_about .homesection08-02 .tablebottombg02:after, .jntr_about .homesection08-02 .tablebottombg02:before {display: none}
+.jntr_about .tableTitle01 {background: #000;margin-bottom: 1px;border-bottom: 1px solid #171717;font-size: 20px;text-transform: capitalize}
+.jntr_about .tableTitle01.active {border-color: #83af02}
+.jntr_about .npOrangebr .tableTitle01.active {border-color: #eaa01f}
+.jntr_about .comparetable.cV2>tbody>tr>td {font-size: 14px;line-height: 18px;border: none!important;color: #fff}
+.jntr_about .comparetable>tbody>tr>td.colblock04-02 {box-shadow: none}
+.jntr_about .comparetable>tbody>tr {border-bottom: 1px solid #0d0d0d}
+.jntr_about .homesection10headsub, .jntr_about .sectionsubhead01 {font-size: 24px}
+.jntr_about .sectionsubhead01 {margin-top: 25px;margin-bottom: 10px}
+.jntr_about .blockiconhead {font-size: 21px}
+.jntr_about .ofoaboutTitle01 p {font-size: 30px;margin-bottom: 10px}
+.jntr_about .hs6SubMainbox {text-align: center;padding: 30px 10px}
+.jntr_about .hs6SubBox01:after {left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%)}
+.jntr_about .homesection06-02 {padding: 50px 0 30px}
+.jntr_about .homesection08-02 {padding: 0}
+.jntr_about .homesection16head {margin-top: 0!important}
+.jntr_about .opportunitymain li .opportunityblock {padding: 54px 24px}
+.jntr_about .copyRights {display: none}
+.jntr_about .copyRights-mobile {display: block;font-size: 14px;margin-top: 30px;color: #fff}
+.jntr_about .footerWrapper {padding: 0 10px}
+.jntr_about .socialtxt {margin-bottom: 0}
+.jntr_about .rgdev-item.rgdevbtn02 a {padding: 15px 17px;border-bottom: none;border-radius: 0}
+
+.jntr_about .equitynotes-box { padding: 20px; } 
+.jntr_about .equitynotes-box .Title02 { font-size: 18px; line-height: 22px; margin-top: 5px; } 
+.jntr_about .equitynotes-box .Title03 { font-size: 16px; margin-bottom: 25px; } 
+.jntr_about .equitynotes-box .investnow-Box .investnow-Btn { font-size: 12px; padding: 20px 11px; } 
+.jntr_about .red-Lable { -webkit-transform: rotate(45deg) scale(0.5); transform: rotate(45deg) scale(0.5); right: -63px; top: 8px; } 
+.jntr_about .equitynotes-box .investnow-Box p { font-size: 10px; } 
+.jntr_about .award-Boxwrap { margin-bottom: 40px; } 
+.jntr_about .award-Boxwrap .award-Box01+.award-Box01 { order: -1; } 
+.jntr_about .award-List01 .award-Icon { display: block; margin: 0 auto; } 
+.jntr_about .award-Box .award-Text { font-size: 16px; line-height: 24px; margin-top: 10px; width: 100%; margin-left: 0; } 
+.jntr_about .award-Box01 { margin-top: 20px; } 
+.jntr_about .investnow-Box .investnow-Btn { font-size: 14px; padding: 18px 12px; } 
+.jntr_about .investnow-Box p { font-size: 11px; } 
+.jntr_about .solved-Box01 .inner-Title01 { font-size: 16px; left: 0; top: 0; } 
+.jntr_about .solved-innerBox { display: flex; } 
+.jntr_about .solved-innerBox .text-Content { padding-left: 0; } 
+.jntr_about .solved-Box01:last-child .inner-Title01 { left: inherit; right: 0; top: inherit; margin-top: 20px; } 
+.jntr_about .comparetable.cV2>tbody>tr>td { font-size: 14px !important; line-height: 18px; padding: 10px; vertical-align: middle; } 
+.jntr_about .comparetable>tbody>tr:nth-child(odd)>td.colblock04-02:last-child { font-size: 18px !important; } 
+.jntr_about .tokenomics-Box { padding-top: 0; } 
+.jntr_about .tokenomics-Box01 .text-Title01 { font-size: 20px; line-height: 30px; } 
+.jntr_about .flowfundBox01 .flowfundBx .icon-Box02 span { margin: 0; } 
+.jntr_about .public-Offering { padding-top: 70px; } 
+.jntr_about .table-Tilte { font-size: 16px; color: #fff; font-family: mont-bold; } 
+.jntr_about .comparetable02>tbody>tr>th:first-child { background: #eaa11f; } 
+.jntr_about .comparetable02>tbody>tr>th { width: 50%; border: 1px solid #0d0d0d; } 
+.jntr_about .comparetable02>tbody>tr>td { width: 50%; } 
+.jntr_about .comparetable02 { display: table; margin-bottom: 30px; } 
+.jntr_about .protection-Block { padding-top: 80px; } 
+.jntr_about .protection-Wrap { margin: 0; padding: 0; } 
+.jntr_about .protection-Wrap .protection-Box { width: 100%; padding: 0; margin-bottom: 25px; } 
+.jntr_about .protection-Wrap .protection-Box:before { transform: rotate(90deg); right: inherit; left: 50%; bottom: -50px; } 
+.jntr_about .tiTitle01 { font-size: 14px; } 
+.jntr_about .tiTitle01 span { font-size: 18px; padding: 40px 0 10px 0; } 
+.jntr_about .tiTitle02, .jntr_about .tiBlackbox a { font-size: 14px; } 
+.jntr_about .equity-Goal .equity-goalBox { background: none; } 
+.jntr_about .market-Block { padding-top: 80px; } 
+.jntr_about .market-Box { padding: 0; } 
+.jntr_about .market-Box .market-Box01, .jntr_about .market-Box .market-Box02, .jntr_about .market-Box .market-Box03, .jntr_about .market-Box .market-Box04, .jntr_about .market-Box .market-Box05, .jntr_about .market-Box .market-Box06, .jntr_about .market-Box .market-Box07 { position: relative; left: 0; top: 0; background-size: 100%; margin: 0 auto; width: 300px; height: 260px; } 
+.jntr_about .market-Box .text-Box .Title01 { font-size: 30px; } 
+.jntr_about .market-Box .text-Box { font-size: 16px; } 
+.jntr_about .equity-Goal {margin: 30px auto 0 auto;max-width: 370px;padding: 20px;} 
+
+.jntr_about .mcd-Userbox{flex-direction: column;}
+.jntr_about .mcdTextBox{width: 90%;color: #aaaaaa;font-size: 13px;font-family: "mont-light", arial;text-align: center;margin-top: 30px;}
+.jntr_about .mcdTextBox span{display: block;font-size: 20px;font-style: italic;margin-bottom: 10px;text-align: center;}
+.jntr_about .rCompany-IconBox {width:33.33%;padding: 35px;}
+.jntr_about .rCompany-IconBox:nth-last-child(01) {width: 100%; text-align: center;} 
+
+
+}
+
+@media only screen and (max-width:576px) {
+.jntr_about .calcTitle01 {font-size: 24px;padding: 0 10px}
+.jntr_about .calcBox01 {width: 100%;padding: 10px 18px;margin-bottom: 20px}
+.jntr_about .assBox01, .jntr_about .assBox02 {width: 50%}
+.jntr_about .rgdev.green-btn .rgdev-mobile {top: 19px;right: -10px;background-color: #95c608}
+.jntr_about .asSeenSec {padding: 20px 20px 80px 20px}
+.jntr_about .wrapper {max-width: none;padding: 0 10px}
+.jntr_about .sectionhead {margin-top: 35px}
+.jntr_about .sitelogo img {width: 148px}
+.jntr_about .rgdev-mobile {top: 19px;right: -14px}
+.jntr_about .headerrline01 {line-height: 24px;padding-top: 45px;font-size: 13px}
+.jntr_about .headerrline02 span {font-size: 21px;padding: 6px 0}
+.jntr_about .headerrline02 span::after {display: none}
+.jntr_about .scrollingmain01 {margin-top: 36px}
+.jntr_about .siteheader {height: 100vh;max-height: 510px}
+/*
+.compareheader01, .sectionhead, .sectionhead02, .sectionhead03, .sectionhead04 {font-size: 30px;line-height: 32px;margin-bottom: 25px}
+*/
+.jntr_about .homesection01, .jntr_about .homesection02 {min-height: 385px;padding: 56px 0}
+.jntr_about .playbtncenter button {width: 56px;height: 56px}
+.jntr_about .playbtncenter button {margin-top: 82px}
+.jntr_about .sectiontext02 {font-size: 18px;line-height: 30px}
+.jntr_about .quotetxt {font-size: 22px;line-height: 34px}
+.jntr_about .hmbgsection {padding-top: 60px;min-height: 542px}
+.jntr_about .homesection05head, .jntr_about .homesection07head, .jntr_about .homesection08head, .jntr_about .homesection09head, .jntr_about .homesection10head, .jntr_about .homesection11head, .jntr_about .homesection16head, .jntr_about .homesection17head, .jntr_about .homesection18head, .jntr_about .homesection19head {font-size: 23px;margin-bottom: 20px}
+.jntr_about .homesection05, .jntr_about .homesection06, .jntr_about .homesection08, .jntr_about .homesection09, .jntr_about .homesection10, .jntr_about .homesection16, .jntr_about .homesection17, .jntr_about .homesection18 {padding: 45px 0}
+.jntr_about .homesection05leftimg {margin-bottom: 0;width: 100%;text-align: center}
+.jntr_about .homesection08head span {display: block;/*font-size: 30px; */
+margin: 14px 0}
+ 
+.jntr_about .comparetable {margin-top: 0}
+.jntr_about .responsivetable, .jntr_about .responsivetable02 {padding: 0;margin: 0}
+.jntr_about .grdboxstyleft {padding: 0 25px;position: relative}
+.jntr_about .grdboxstyright {padding: 0 25px}
+.jntr_about .coinbasetextsty01 {font-size: 19px;line-height: 28px}
+.jntr_about .coinbasepart {width: 100%;margin: 0 0 45px 0}
+.jntr_about .coinbaseparthead {font-size: 16px}
+.jntr_about .coinbaseparttxt {font-size: 14px}
+.jntr_about .coinbasepartimg {width: 70%;margin: 0 15%;height: auto}
+.jntr_about .coinbasepartimg img {width: 100%}
+.jntr_about .homesection10headsub {margin-top: 25px}
+.jntr_about .coinbasepart02head {font-size: 17px}
+.jntr_about .coinbasepart02img {min-height: 120px}
+.jntr_about .expolerbtn {width: 80%;margin: 30px auto 20px auto;font-size: 18px}
+.jntr_about .teamblockheader {text-align: center}
+.jntr_about .leftphotopart {width: 177px;float: none;margin: 0 auto 10px auto}
+.jntr_about .righttextpart {width: 100%;text-align: center;height: auto}
+.jntr_about .homesection12 {padding-top: 25px}
+.jntr_about .homesection14 {padding-top: 25px;padding-bottom: 25px}
+.jntr_about .homesection15 {padding-top: 25px;padding-bottom: 25px}
+.jntr_about .homesection13 .leftphotopart {width: 135px}
+.jntr_about .homesection14 .leftphotopart {width: 135px}
+.jntr_about .homesection15 .leftphotopart {width: 135px}
+.jntr_about .fileicobblock {display: none}
+.jntr_about .libraryblock {margin: 10px 0;padding-top: 68px}
+.jntr_about .opportunitymain li .opblocktext {font-size: 16px;line-height: 23px}
+.jntr_about .lbblocktext {width: 100%;padding: 0;text-align: center}
+.jntr_about .lbblocktext::after {bottom: 5px;right: -6px}
+.jntr_about .bottomsociallink01 {margin: 0}
+.jntr_about .opportunitytxthead {font-size: 24px}
+.jntr_about .socialtxt {font-size: 16px;line-height: 29px}
+.jntr_about .bottomsociallink01 li a {margin: 10px 15px 10px -25px;transform: scale(.65);-webkit-transform: scale(.65);-moz-transform: scale(.65)}
+.jntr_about .bottomsociallink01 li:last-child a {margin-right: -25px}
+.jntr_about .homesection19 {padding: 25px 0}
+.jntr_about .bottomsociallink02 li a {margin: 10px}
+.jntr_about .infobottompartleft {padding: 5px 0}
+.jntr_about .comparetable>tbody>tr>td {padding: 26px 14px}
+.jntr_about .comparetable>tbody>tr>td.colblock01 {font-size: 13px}
+.jntr_about .comparetable02>tbody>tr>td {font-size: 13px}
+.jntr_about .comparetable>tbody>tr>th {font-size: 13px;padding: 13px;line-height: 23px}
+.jntr_about .comparetable02>tbody>tr>td {padding: 13px}
+.jntr_about .comparetable02>tbody>tr>td.newcolblock01 {font-size: 10px}
+.jntr_about .comparetable>tbody>tr>td {font-size: 13px}
+.jntr_about .comparetable02>tbody>tr>th {font-size: 13px;padding: 13px}
+.jntr_about .comparetable>tbody>tr>th:last-child img {max-width: 100%}
+.jntr_about .comparetable02>tbody>tr>th:last-child img {max-width: 100%}
+.jntr_about .comparetable>tbody>tr>th:last-child {box-shadow: none}
+.jntr_about .comparetable02>tbody>tr>th:last-child {box-shadow: none}
+.jntr_about .hs05imgbox02 {width: 240px;height: 272px;float: none;margin: 0 auto}
+.jntr_about .hs05imgbox01 {width: 240px;height: 240px;position: relative;margin: 0 auto}
+.jntr_about .headTitle02 span {font: normal 32px/40px mont-bold, arial}
+.jntr_about .headerbtn02 {width: 100%;height: 60px;font-size: 20px;margin-top: 10px}
+.jntr_about .ofoAboutsection {padding: 0 10px;min-height: 300px;background-size: cover}
+.jntr_about .ofoaboutTitle01 span {font: normal 24px/36px mont, arial}
+.jntr_about .hs6SubBox01 {font: normal 16px/28px mont-light, arial;width: 100%;padding: 115px 0 0 0}
+.jntr_about .hs6SubBox01 span {font-size: 20px;line-height: 26px}
+.jntr_about #animation_container02 {width: 320px!important;height: 288px!important;right: auto;bottom: -1px;top: 185px;z-index: 1;left: 50%;transform: translate(-50%, 0)}
+.jntr_about .siteheader02 {min-height: 550px}
+.jntr_about #BackVideo02 {margin-top: 350px}
+.jntr_about .playbtncenter button::after {border-width: 12px 0 12px 23px}
+.jntr_about #animation_container {width: 680px!important;height: 350px!important;bottom: -22px;background-size: 130%;}
+.jntr_about #animation_container canvas {width: 100%!important;height: auto!important}
+.jntr_about .scrollingplat {width: 109px;height: 38px;padding: 8px 5px}
+.jntr_about .valuewp .platvalue01 {font-size: 7px}
+.jntr_about .valuewp .platvalue02 {font-size: 10px}
+.jntr_about .scrollingmain01, .jntr_about .scrollingmain02 {height: 35px}
+.jntr_about .homesection05head, .jntr_about .homesection05headsub, .jntr_about .homesection05subleft, .jntr_about .homesection05subright, .jntr_about .homesection05text, .jntr_about .homesection05texthead {text-align: left}
+.jntr_about .homesection07lefttext {padding: 0}
+.jntr_about .homesection07lefttext, .homesection07lefttext * {text-align: left}
+.jntr_about .grdboxstyleft:after {content: "";width: 100px;height: 519px; position: absolute;left: 36%;bottom: -264px;transform: rotate(90deg)!important;display: block;background-size: contain}
+.jntr_about .bottompartleft a {display: block;padding: 10px 6px;border-bottom: 1px solid #272727}
+.jntr_about .bottompartleft span {display: none}
+.jntr_about .grdboxsty {margin-top: 25px}
+.jntr_about .homesection08head em {transform: rotate(90deg)!important}
+.jntr_about .homesection17 {background-position: center 103%;background-size: 1366px}
+.jntr_about .headerbtn {width: auto;height: 54px;padding-left: 14px;padding-right: 14px;font-size: 17px;line-height: 51px;margin: 34px auto 0 auto;display: inline-block}
+.jntr_about .np_mobileFix01 {text-align: center} 
+ }
+
+@media only screen and (min-width:993px) {
+.jntr_about .npShowMD {display: block!important}
+.jntr_about .npShowSM {display: none!important} 
+ }
+
+@media only screen and (max-width:992px) {
+.jntr_about .npShowMD {display: none!important}
+.jntr_about .npShowSM {display: block!important}
+.jntr_about #myOODropdown .dd-option {min-height: 58px!important}
+.jntr_about .npSMTableChildFix .comparetable>tbody>tr:nth-child(odd)>td:last-child {background-color: inherit}
+.jntr_about .npSMTableChildFix .comparetable>tbody>tr:nth-child(even)>td:last-child {background-color: inherit}
+.jntr_about .npSMTableWidthFix .comparetable02>tbody>tr>td, .jntr_about .npSMTableWidthFix .comparetable02>tbody>tr>th, .jntr_about .npSMTableWidthFix .comparetable>tbody>tr>td, .jntr_about .npSMTableWidthFix .comparetable>tbody>tr>th {border: 1px solid #3e3e3e;width: auto!important}
+.jntr_about .npSMTableWidthFix .comparetable, .jntr_about .npSMTableWidthFix .comparetable02 {display: table;width: 99%!important;margin-left: auto;margin-right: auto} 
+.jntr_about .fullscreen-bg {position: absolute;top: 0;left: -30%;overflow: hidden;z-index: 0;opacity: 0.8;width: 962px;height:auto;}
+
+ }
+
+@media only screen and (max-width:380px) {
+	.jntr_about .npSMTableWidthFix .comparetable, .jntr_about .npSMTableWidthFix .comparetable0, .jntr_about .npSMTableWidthFix .comparetable02 {width: 300px!important;table-layout: fixed} 
+ }
+
+@media only screen and (min-width:621px) {.npShowMD02 {display: block!important}
+.jntr_about .npShowSM02 {display: none!important} 
+ }
+
+@media only screen and (max-width:620px) {.npShowMD02 {display: none!important}
+.jntr_about .npShowSM02 {display: block!important} 
+ }
+
+@media screen and (max-width:500px) {.k-chart text {font-size: 7px!important} 
+.jntr_about #animation_container {background-size: 90%;}
+ }
+
+@media (max-width: 767px) {
+.jntr_about	main { background: none; }
+.jntr_about .jntr-About-block { padding: 20px 0 50px; }
+.jntr_about .jntr-About-block .about-Titletext	{ font-size: 16px; line-height: 26px; }
+.jntr_about .jntr-About-block .about-Text { font-size: 14px; line-height: 24px; }
+.jntr_about .investor-Ring .investor-ring01 { width: 100%; margin-bottom: 20px; font-size: 12px; }
+.jntr_about .investor-Ring { padding-top: 50px; }
+.jntr_about .investor-ring01 .circle01 span, .jntr_about .investor-ring01 .circle02 span, .jntr_about .investor-ring01 .circle03 span, .jntr_about .investor-ring01 .circle04 span { font-size: 24px; }
+.jntr_about .investor-ring01 .circle01, .jntr_about .investor-ring01 .circle02, .jntr_about .investor-ring01 .circle03, .jntr_about .investor-ring01 .circle04 { margin-bottom: 0; }
+.jntr_about .investor-ring01 .circle01 canvas, .jntr_about .investor-ring01 .circle02 canvas, .jntr_about .investor-ring01 .circle03 canvas, .jntr_about .investor-ring01 .circle04 canvas { -webkit-transform: scale(0.85); transform: scale(0.85); }
+.jntr_about .background-Block { padding: 50px 0; }
+.jntr_about .background-Block .background-Text { font-size: 16px; line-height: 24px; }
+.jntr_about .our-Vision { padding-bottom: 50px; }
+.jntr_about .our-Vision .vision-Text { font-size: 14px; line-height: 22px; }
+.jntr_about .our-Dna { padding: 50px 0; }
+.jntr_about .our-Dna .dna-Box .dna-Box01 { height: 120px; width: 50%; }
+.jntr_about .our-Dna .dna-Box .dna-Box01 img { -webkit-transform: scale(0.45); transform: scale(0.45); }
+.jntr_about .recent-News { padding: 50px 0; }
+.jntr_about .recent-News .news-Wrap .news-Box { width: 100%; margin-bottom: 10px; }
+.jntr_about .recent-News .news-Wrap .news-Box .news-Box01 .news-Title { font-size: 18px; line-height: 24px; }
+.jntr_about .recent-News .news-Wrap .news-Box .news-Box01 img { width: 100%; }
+.jntr_about .community-Block { padding: 50px 0; }
+.jntr_about .community-Block .community-Wrap .channels-Box, .jntr_about .community-Block .community-Wrap .auction-Box { width: 100%; }
+.jntr_about .community-Block .community-Wrap .channels-Box .channels-Title { font-size: 22px; margin-bottom: 10px; padding-bottom: 10px; }
+.jntr_about .community-Block .community-Wrap .channels-Box .channels-Text { font-size: 14px; padding-bottom: 15px; }
+.jntr_about .community-Block .social-Icons { padding-left: 0; }
+.jntr_about .community-Block .social-Icons li a { width: 40px; height: 40px; line-height: 55px; }
+.jntr_about .community-Block .social-Icons li a img { -webkit-transform: scale(0.7); transform: scale(0.7); }
+.jntr_about .community-Block .live-auctionBbox p .icon-Box { margin-right: 5px; }
+.jntr_about .community-Block .live-auctionBbox p { font-size: 10px; }
+.jntr_about .community-Block .live-auctionBbox p .protip { font-size: 11px; top: -2px; }
+.jntr_about .footer { background: #000; padding: 30px 10px; margin-left: 0; } 
+.jntr_about .footer .footer-left, .jntr_about .footer .footer-right { width: 100%; text-align: center; } 
+.jntr_about .footer .footer-right .social-Icons { padding-bottom: 20px; padding-left: 0; } 
+.jntr_about .footer .footer-left { margin-bottom: 30px; } 
+.jntr_about .footer .footer-left .f-Link a { font-size: 12px; padding: 0 5px; } 
+.jntr_about .footer .footer-left .footer-logo > a { padding-right: 0; margin-bottom: 30px; } 
+.jntr_about .footer .footer-left p span { display: block; margin-bottom: 5px; } 
+.jntr_about .footer .footer-left p { line-height: 20px; margin-top: 5px; } 
+.jntr_about .footer .footer-right p { font-size: 13px; display: inline; } 
+.jntr_about .footer .social-Icons li { padding-right: 4px; } 
+.jntr_about .footer .social-Icons li a { width: 24px; height: 24px; line-height: 30px; } 
+.jntr_about .footer .social-Icons li a.social-icon-01 img, .jntr_about .footer .social-Icons li a.social-icon-02 img, .jntr_about .footer .social-Icons li a.social-icon-05 img, .jntr_about .footer .social-Icons li a.social-icon-06 img { width: 20px; }
+.jntr_about .footer .social-Icons li a.social-icon-03 img { height: 20px; }
+.jntr_about .footer .social-Icons li a.social-icon-04 img { top: 0; }
+
+
+} 
+
+@media (min-width:320px) and (max-width:500px) {
+.jntr_about .advantage-Box .advantage-Box01 p { opacity:1; visibility:visible; font-size:18px; line-height:26px; color:#fff; width:90%; margin:0 auto; position:relative; top:auto; transform:translateY(0%); -webkit-transform:translateY(0%) } 
+.jntr_about .advantage-Box .advantage-Box01:focus .Title02, .jntr_about .advantage-Box .advantage-Box01:focus .icon-Box, .jntr_about .advantage-Box .advantage-Box01:hover .Title02, .jntr_about .advantage-Box .advantage-Box01:hover .icon-Box { opacity: 1; } 
+.jntr_about .decacorn-potentialBox01 p { opacity:1; visibility:visible; font-size:18px; line-height:26px; color:#fff; width:90%; margin:0 auto; position:relative; top:auto; transform:translateY(0%); -webkit-transform:translateY(0%) } 
+.jntr_about .decacorn-potentialBox01:focus .Title02, .jntr_about .decacorn-potentialBox01:focus .img-Box, .jntr_about .decacorn-potentialBox01:hover .Title02, .jntr_about .decacorn-potentialBox01:hover .img-Box { opacity:1; } 
+.jntr_about #meet-the-jointer-team{ padding-bottom: 0;}
+.jntr_about #partner-network {padding-bottom: 60px;}
+.jntr_about #flow-of-funds, .jntr_about #downside-protection, .jntr_about #auction-offering{padding-bottom: 0;}
+
+.jntr_about .headerTopWrap {position: relative;top: 0;right: 0;left: 0;top: 0;padding: 20px 10px 0;display: block}
+.jntr_about .siteheader {height: 100%;max-height: 100%;background-color: transparent;}
+.jntr_about .sitelogo img {width: 140px}
+.jntr_about .header-Rightbox .rgdev {margin-top: 0}
+.jntr_about .rgdev.green-btn .rgdev-mobile {top: -32px}
+.jntr_about .rgdev-list {top: -50px}
+.jntr_about .headerTopWrap .award-text {font-size: 10px;width: 100%;text-align: center;padding-left: 0;padding-top: 40px}
+.jntr_about .headerTopWrap .award-text img {width: 20px}
+.jntr_about .mail-Box {width: 100%;margin-top: 10px}
+.jntr_about .mail-Box .input-Box input {width: 100%;height: 45px;font-size: 14px}
+.jntr_about .invest-Btn {width: 100%;height: 45px;line-height: 45px;font-size: 15px}
+.jntr_about .input-Box {margin-right: 0;width: 100%;margin-bottom: 10px}
+.jntr_about .headerTopWrap .mail-Box {display: none}
+.jntr_about .headerrline01 {font-size: 20px;padding-bottom: 0;line-height: 24px;padding-top: 5px}
+.jntr_about .headerrline02 {padding-top: 15px; text-align: left; max-width: 2855px; margin: 0 auto 35px auto;}
+.jntr_about .headerrline02 span {font-size: 16px;padding: 0;line-height: 1.4;text-align: center;}
+.jntr_about .headerrline02 span:before {content: "\f058";font-family: "Font Awesome 5 Free";font-size: 15px;margin-right: 5px;color: #95c608;font-weight: 900;display: inline-block}
+.jntr_about .headerrline02 span:after {display: none}
+.jntr_about .asSeenSec {padding: 0}
+.jntr_about .assContainer {padding: 0 20px;margin-top: 0}
+.jntr_about .assBox01 img {transform: scale(.8);-webkit-transform: scale(.8)}
+.jntr_about .solved {padding-top: 0;}
+.jntr_about .solved-Box {flex-direction: column;padding: 0 20px}
+.jntr_about .solved-Box01 {width: 100%}
+.jntr_about .solved-Block {margin-top: 20px;padding: 20px 0}
+.jntr_about .solved-Block .arrow-box {width: 100%; margin: 15px 0; } 
+.jntr_about .solved-Block .arrow-box img {width: 80px !important; } 
+.jntr_about .solved-Block .arrow-box:before, .jntr_about .solved-Block .arrow-box:after { transform: scale(0.5) rotate(90deg) translateX(-50%); top: -35px; left: 37%; } 
+.jntr_about .solved-Block .arrow-box:after { transform: scale(0.5) rotate(-90deg) translateX(-50%); top: -10px; } 
+.jntr_about .solved-Title {display: none}
+.jntr_about .solved-Box01 .Title01 {display: block;font-size: 30px;font-weight: 700;text-align: center;margin-bottom: 30px}
+.jntr_about .inner-Title01 {font-size: 18px}
+.jntr_about .solved-innerBox .text-Content .Title01 { text-align: left; } 
+.jntr_about .text-Content .Title01 {font-size: 18px; text-align:center;line-height: 1;margin-bottom: 5px}
+.jntr_about .solved-innerBox .text-Content p {font-size: 14px; text-align: left; } 
+.jntr_about .solved-innerBox .text-Content {padding-left: 10px; } 
+.jntr_about .solved-innerBox {padding: 20px 0}
+.jntr_about .solved-innerBox .img-Box {width: 20%}
+.jntr_about .solved-innerBox .img-Box img {width: 50px!important}
+.jntr_about .serprator-hr {left: 0!important;margin: 30px 0}
+.jntr_about .jointer-Box {padding: 50px 0}
+.jntr_about .jointer-Box .text-Title {font-size: 18px;line-height: 30px}
+.jntr_about .Testimonials {padding: 50px 0}
+.jntr_about .testimonials-Box .text-Content {flex-direction: column}
+.jntr_about .testimonials-Box .text-Content .text-Title {font-size: 24px;line-height: 36px;text-align: center;padding-top: 10px}
+.jntr_about .testimonials-Box .text-Content .icon-Box img {width: 90px}
+.jntr_about .testimonials-Box .designation-Box {flex-direction: column;margin-left: 0;text-align: center;margin-top: 15px}
+.jntr_about .testimonials-Box .designation-Box .icon-Box img {width: 65px}
+.jntr_about .testimonials-Box .designation-Box .text-Box .text-Title01 {font-size: 16px;line-height: 24px}
+.jntr_about .testimonials-Box .designation-Box .text-Box p {font-size: 12px}
+.jntr_about .testimonials-Box .designation-Box .text-Box {margin-left: 0;margin-top: 10px}
+.jntr_about .award-Box {padding: 50px 0 0;text-align: center}
+.jntr_about .award-Boxwrap {flex-direction: column}
+.jntr_about .award-Box01 {width: 100%}
+.jntr_about .award-Box01 .icon-Box {margin-bottom: 30px}
+.jntr_about .award-Box01 .icon-Box img {width: 100px}
+.jntr_about .award-Box01 .text-Title {font-size: 24px;margin-bottom: 20px}
+.jntr_about .award-Box01 p {font-size: 18px;line-height: 30px}
+.jntr_about .award-Box01 .img-Box {margin-top: 30px}
+.jntr_about .award-Box01 .img-Box img {width: auto; max-width: 100%; } 
+.jntr_about .sponsors {padding-top: 50px}
+.jntr_about .sponsor-Box {flex-direction: column}
+.jntr_about .sponsor-Box .sponsor-Box01 {width: 100%}
+.jntr_about .sponsor-Box .sponsor-Box01 .text-Content p {font-size: 14px;line-height: 24px}
+.jntr_about .sponsor-Box .sponsor-Box01 .img-Box img {transform: scale(.8);-webkit-transform: scale(.8)}
+.jntr_about .sponsor-Box .sponsor-Box01 .img-Box {margin-bottom: 0}
+.jntr_about .sponsor-Block {padding-top: 20px}
+.jntr_about .cross-Collateral {padding: 50px 0; } 
+.jntr_about .crossCollateral-Box {flex-direction: column}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 {width: 100%}
+.jntr_about .crossCollateral-Box .logo-Box {width: 100%;margin: 50px auto;text-align: center;padding-left: 0}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li:not(:last-child):after {display: none}
+.jntr_about .crossCollateral-Block {padding-top: 30px}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li {margin-bottom: 20px;display: flex;flex-direction: row;align-items: center}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li .icon-Img {width: 70px;margin-right: 0}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li .icon-Img img {transform: scale(.7);-webkit-transform: scale(.7)}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li span {width: 100%;font-size: 18px}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li:after {margin-left: 0;transform: rotate(90deg) translateX(-50%);-webkit-transform: rotate(90deg) translateX(-50%);bottom: -80px;left: 41%;position: absolute}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01:last-child:before {position: absolute;transform: rotate(90deg) translateX(-50%);top: -30px;left: 41%}
+.jntr_about .crossCollateral-Box .logo-Box {width: 100%;margin: 20px auto 60px;text-align: center;padding-left: 0}
+.jntr_about .crossCollateral-Box .logo-Box img {margin: 55px 0 10px;width: 100px}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 .text-Content p {font-size: 18px;line-height: 24px;width: 90%;margin-top: 0}
+.jntr_about .crossCollateral-Box01 .img-Box img {width: 180px;position: relative;top: -20px}
+.jntr_about .tokenomics-Box01 {width: 100%}
+.jntr_about .tokenomics-Box01 .icon-Box img {width: 250px}
+.jntr_about .tokenomics-Box01 .list-Box li {font-size: 16px;line-height: 24px}
+.jntr_about .tokenomics-Box01:not(:last-child) {margin-bottom: 30px}
+.jntr_about .liveauction-Btn {width: 100%;height: 70px;font-size: 21px;line-height: 70px}
+.jntr_about .advantages {padding: 50px 0}
+.jntr_about .advantage-Box {flex-direction: column}
+.jntr_about .advantage-Box .advantage-Box01 {width: 100%;padding-bottom: 35px}
+.jntr_about .advantage-Box .advantage-Box01 .Title02 {font-size: 18px;line-height: 20px;padding-top: 20px}
+.jntr_about .dualToken-Box .dualToken-Box01 {width: 100%}
+.jntr_about .dualToken-Box {padding-bottom: 50px}
+.jntr_about .token-Box .token-Box01 {width: 100%;margin-bottom: 15px}
+.jntr_about .email-Box .input-Box input {font-size: 18px;height: 60px;width: 100%;margin-right: 0;padding: 10px 15px 15px 45px}
+.jntr_about .email-Box .input-Box .mail-Icon {font-size: 30px;left: 15px;top: 8px}
+.jntr_about .email-Box .input-Box {margin-right: 0}
+.jntr_about .email-Box .input-Box .reg-Text {display: none}
+.jntr_about .email-Box .input-Box~p {display: block}
+.jntr_about .email-Box .reg-Text {font-size: 11px}
+.jntr_about .email-Box .input-Box .mail-Icon i {font-size: 18px}
+.jntr_about .invest-us {height: 60px;font-size: 21px;line-height: 60px; margin-right: auto; } 
+.jntr_about .banner_loader { height:60px; padding-top:20px; } 
+.jntr_about .show-Mobile {display: block!important}
+.jntr_about .show-Desktop {display: none!important}
+.jntr_about .flowFunds {padding-top: 50px;padding-bottom: 120px}
+.jntr_about .flowFunds-Block {flex-direction: column}
+.jntr_about .flowfundBox01 {width: 100%;padding: 0 10px}
+.jntr_about .flowfundBox01 .icon-Box02 span img {width: 32px}
+.jntr_about .flowfundBox01 .icon-Box02 span+span img {width: 37px}
+.jntr_about .flowfundBox01 .arrow-Box02 {margin: 20px 0;position: relative;left: 25px}
+.jntr_about .flowfundBox01 .arrow-Box02 img {width: 13px}
+.jntr_about .flowfundBox01 .Title02 {width: 75%;font-size: 16px;line-height: 22px;padding-top: 10px}
+.jntr_about .flowfundBox01 .icon-Box01 img {width: 130px;}
+.jntr_about .flowfundBox01 .arrow-Boxwrap .arrow-Box03 {position: relative;left: -25px;top: -34px;transform: rotate(-180deg) scale(.75);-webkit-transform: rotate(-180deg) scale(.75)}
+.jntr_about .flowfundBox01 .flowfundBx {display: flex;flex-direction: row;align-items: center;justify-content: space-between}
+.jntr_about .flowfundBox01 .flowfundBx .arrow-Box02 {transform: rotate(-90deg);-webkit-transform: rotate(-90deg);margin: 0;left: 0}
+.jntr_about .flowfundBox01 .flowfundBx .icon-Wrap {text-align: right}
+.jntr_about .flowfundBox01 .flowfundBx .icon-Box02 {text-align: left;}
+.jntr_about .flowfundBox01 .flowfundBx .icon-Box02 img {max-width: 120px;}
+.jntr_about .flowfundBox01 .icon-Box02 span img {width: 27px}
+.jntr_about .flowfundBox01 .icon-Box02 span+span img {width: 30px}
+.jntr_about .flowfundBox01 .flowfundBx .Title02 {font-size: 11px;width: 100%;text-align: right;padding-top: 0}
+.jntr_about .flowfundBox01 .flowfundBx .icon-Box02 span+span {padding-left: 0; } 
+.jntr_about .flowfundBox02 {width: 100%;display: flex;flex-direction: row}
+.jntr_about .fund-Box {width: 48%}
+.jntr_about .fund-Box {padding: 25px 15px}
+.jntr_about .flowfundBox02 .fund-Box:first-child {margin-right: 5px;min-height: 288px}
+.jntr_about .flowfundBox02 .fund-Box:last-child {margin-left: 5px;height: 100%}
+.jntr_about .flowfundBox02 .fund-Box.shadow-Bx .icon-Box img {width: 40px}
+.jntr_about .flowfundBox02 .fund-Box.shadow-Bx+.fund-Box .icon-Box img {width: 26px}
+.jntr_about .fund-Box .icon-Boxwrap .percentage-Text {font-size: 24px;padding-left: 0;margin-left: -6px}
+.jntr_about .fund-Box p {font-size: 12px;line-height: 21px;margin-top: 10px}
+.jntr_about .flowfundBox03 .flow-Wrap .img-Box img {width: 100%}
+.jntr_about .flowfundBox03 .flow-Wrap .img-Box .text-Box {font-size: 12px;line-height: 18px;bottom: 25px;width: 100%;padding: 0 25px}
+.jntr_about .flowfundBox03 .text-Box {font-size: 12px;line-height: 18px;width: 70%;padding: 0 25px;margin: 0 auto}
+.jntr_about .flowFunds-Block .Title02 {font-size: 16px;line-height: 24px}
+.jntr_about .flowfundBox03 {width: 100%;position: relative}
+.jntr_about .flowfundBox03 .flow-Wrap .img-Box {width: 80%;margin: 0 auto}
+.jntr_about .flowfundBox03 .flow-Wrap .icon-Box {width: 100%;top: 10px;left: -65px}
+.jntr_about .flowfundBox03 .flow-Wrap .flow-Box {width: 100%}
+.jntr_about .flowfundBox03 .flow-Wrap .flow-Box .icon-Box01 img {width: 100px}
+.jntr_about .flowfundBox03 .arrow-Box {text-align: center;position: absolute;right: 30px;left: inherit;bottom: -50px}
+.jntr_about .arrows-Box, .jntr_about .jointerproperty-Box, .jntr_about .reserve-Box, .jntr_about .trust-Box, .jntr_about .tzero-Box {width: 100%}
+.jntr_about .tzero-Box .icon-Box .img-Box:last-child {transform: rotate(-90deg);-webkit-transform: rotate(-90deg) translateX(-50%);position: absolute;bottom: 177px;left: 22%}
+.jntr_about .tzero-Box .Title02 {margin-bottom: 195px;font-size: 16px;line-height: 24px}
+.jntr_about .tzero-Box {position: relative}
+.jntr_about .reserve-Box .Title01 {font-size: 20px;line-height: 24px}
+.jntr_about .reserve-Box {padding: 30px 24px}
+.jntr_about .reserve-Box01 .text-Content .Title02 {font-size: 16px;line-height: 20px;padding-bottom: 10px}
+.jntr_about .reserve-Box01 .text-Content p {font-size: 12px;line-height: 20px}
+.jntr_about .reserve-Box01 {padding-top: 20px;width: 49%;display: inline-block;vertical-align: top}
+.jntr_about .reserve-Box01:last-child {padding-top: 14px}
+.jntr_about .trust-Box {padding: 30px 20px}
+.jntr_about .trust-Box .text-Content .Title02 {font-size: 16px;line-height: 24px;padding-bottom: 10px}
+.jntr_about .trust-Box .text-Content p {font-size: 13px;line-height: 20px;margin-bottom: 10px}
+.jntr_about .jointerproperty-Box {background-size: 100%;background-position: 0 0;height: 465px}
+.jntr_about .flowFunds-Block .arrows-Box {width: 100%;display: flex;flex-direction: row;justify-content: center;margin: 0 0 30px;position: relative;left: -40px}
+.jntr_about .flowFunds-Block .arrows-Box .icon-Box {transform: rotate(-90deg);width: 40%}
+.jntr_about .flowFunds-Block .arrows-Box .icon-Box:first-child {padding-bottom: 0}
+.jntr_about .global-Chart {padding-top: 50px}
+.jntr_about .global-Chart .multiFamilybox {margin-bottom: 30px}
+.jntr_about .global-Chart:after, .jntr_about .global-Chart:before {display: none}
+.jntr_about .tokensale-Information {padding-top: 50px}
+.jntr_about .tokensale-InformationBox {flex-direction: column;padding-bottom: 40px;padding-top: 20px}
+.jntr_about .distribution-Funds {width: 100%}
+.jntr_about .distribution-Funds .Title01 {font-size: 18px;line-height: 36px;margin-bottom: 30px;width: 100%;text-align: center}
+.jntr_about .multiFamilybox .subTitlebox {padding: 15px}
+.jntr_about .multiFamilybox .subTitlebox .titleWrapbox {flex-wrap: nowrap}
+.jntr_about .multiFamilybox .subTitlebox .titleWrapbox .titleText {font-size: 6px;margin-bottom: 0}
+.jntr_about .multiFamilybox .subTitlebox .titleWrapbox .titleText i {font-size: 7px;top: 0}
+.jntr_about .global-Chart .titleText02 {font-size: 6px}
+.jntr_about .multiFamilybox .subTitlebox .titleWrapbox .titleLargetext {font-size: 10px}
+.jntr_about .titleWrapbox .titleBox {min-width: 120px}
+.jntr_about .multiFamilybox .subTitlebox .titleWrapbox .titleLargetext.greytext {text-align: right}
+.jntr_about .tokensale-Box {width: 100%;flex-direction: column;flex-wrap: wrap;padding-left: 0;margin-top: 30px}
+.jntr_about .global-Chart .multiFamilybox .subTitlebox .black-round-box {width: 30px;height: 30px;font-size: 12px;line-height: 30px}
+.jntr_about .sale-Detail-box {width: 100%;padding-right: 0}
+.jntr_about .sale-Detail-box:first-child {margin-bottom: 15px;width: 100%;padding-left: 0}
+.jntr_about .sale-Detail-box:last-child {width: 100%}
+.jntr_about .distribution-Funds .img-Boxwrap .tower-Box img {width: 50%}
+.jntr_about .distribution-Funds .img-Boxwrap {flex-wrap: nowrap}
+.jntr_about .distribution-Funds .img-Boxwrap .tower-Box {width: 60%}
+.jntr_about .distribution-Funds .img-Boxwrap .tower-Box img {width: 100%}
+.jntr_about .distribution-Funds .investment-properyBox {margin-left: 10px}
+.jntr_about .investment-properyBox .title-Text {font-size: 18px;padding-top: 100px}
+.jntr_about .investment-Percentage {bottom: 60px;padding-top: 25px;font-size: 12px}
+.jntr_about .investment-properyBox:before {width: 170px}
+.jntr_about .tokensale-Box01 {width: 100%;margin-top: 40px}
+.jntr_about .tokensale-Box01 .sale-Box01 .title-Wrap .Title03, .jntr_about .tokensale-Box01 .sale-Box02 .Title03 {font-size: 16px;line-height: 24px}
+.jntr_about .tokensale-Box01 .sale-Box01 .Title03.yellow-Color {margin-top: 15px}
+.jntr_about .tokensale-Box01 .sale-Tokenbox .amt-Box {width: 100%}
+.jntr_about .tokensale-Box01 .sale-Tokenbox .amt-Box .Title01 {line-height: 40px}
+.jntr_about .tokensale-Box01 .sale-Tokenbox .amt-Box .text-Title {font-size: 12px; line-height: 1.2; } 
+.jntr_about .tokensale-Box01 .sale-Tokenbox .amt-Box:not(:last-child) {margin-bottom: 20px}
+.jntr_about .jointer-progress .text-Wrap .text-Title {font-size: 10px; line-height: 1.2; } 
+.jntr_about .jointer-bonus-progress .text-Wrap {width: 80px;left: 30px}
+.jntr_about .sale-Box03 .token-descBox .token-descBox01 .Title03 { font-size: 16px; } 
+.jointer-progress { font-size: 9px; line-height: 1; } 
+.jntr_about .equity-Goal .equity-goalBox {width: 100%;padding: 0!important}
+.jntr_about .equity-goalBox .text-Title {font-size: 14px;line-height: 24px}
+.jntr_about .equity-goalBox .text-Title br {display: none;}
+.jntr_about .equity-goalBox .text-Title span i {font-size: 12px}
+.jntr_about .equity-goalBox .input-Box {flex-direction: column}
+.jntr_about .equity-goalBox .input-Box input {width: 100%;text-align: left;padding: 10px 15px; font-size: 20px; } 
+.jntr_about .equity-goalBox .text-Title01 { font-size: 20px; } 
+.jntr_about .equity-Goal .equity-goalBox:last-child {margin-top: 20px}
+.jntr_about .equity-goalBox .input-Box p {padding-left: 0;padding-top: 10px}
+.jntr_about .sale-Box03 .token-descBox .token-descBox01 {width: 100%;border-right: none;border-bottom: 2px solid #272727;padding: 20px 0; } 
+.jntr_about .sale-Box03 .token-descBox .token-descBox01 .text-Title {min-height: auto;font-size: 14px;width: 100%}
+.jntr_about .tokensale-Box01 .sale-Box03 {margin-top: 0}
+.jntr_about .tokensale-Box {margin-left: 0;margin-right: 0}
+.jntr_about .sale-Detail-box {padding: 0}
+.jntr_about .siteheader .live-auctionBbox { padding-top: 10px; } 
+.jntr_about .timer-Box {padding: 0; background: none; } 
+.jntr_about .timer-Box a, .jntr_about .timer-Box p {font-size: 10px}
+/*#timer .days, #timer .hours, #timer .minutes, #timer .seconds, #timer-Box {font-size: 18px; line-height: 1; } 
+#timer .days:after, #timer .days:before, #timer .hours:after, #timer .hours:before, #timer .minutes:after, #timer .minutes:before {font-size: 18px;right: -6px;top: -5px}
+#timer .days:after, #timer .hours:after, #timer .minutes:after {bottom: 6px;top: inherit}
+#timer .days span, #timer .hours span, #timer .minutes span, #timer .seconds span {width: 20px;height: 26px;line-height: 26px;margin: 0 1px; font: 18px; } 
+.sale-Box04 .timer-02 p {margin-bottom: 16px}
+#timer02 .days, #timer02 .hours, #timer02 .minutes, #timer02 .seconds, #timer02-Box {font-size: 28px}
+#timer02 .days:after, #timer02 .days:before, #timer02 .hours:after, #timer02 .hours:before, #timer02 .minutes:after, #timer02 .minutes:before {font-size: 28px;right: -10px;top: -12px}
+#timer02 .days:after, #timer02 .hours:after, #timer02 .minutes:after {bottom: 4px;top: inherit}
+#timer02 .days span, #timer02 .hours span, #timer02 .minutes span, #timer02 .seconds span {width: 28px;height: 38px;line-height: 38px}
+#timer02 {margin-bottom: 20px}*/
+.jntr_about .sale-Box04 {flex-direction: column}
+.jntr_about .sale-Box04 .liveauction-Btn {width: 100%;margin-left: 0}
+.jntr_about .liquidity-reserve {padding: 50px 0}
+.jntr_about .liquidityreserve-Box .img-Box, .liquidityreserve-Box .text-Content {width: 100%}
+.jntr_about .liquidityreserve-Box .img-Box {order: -1;margin-top: 15px}
+.jntr_about .liquidityreserve-Box .text-Content p {font-size: 16px;line-height: 24px;text-align: center}
+.jntr_about .liquidityreserve-Box .img-Box img {width: 250px}
+.jntr_about .profit-sourceBox01:first-child .img-Box img {width: 78px}
+.jntr_about .profit-sourceBox01 .img-Box img {width: 89px}
+.jntr_about .profit-sourceBox .icon-Box img {width: 60px}
+.jntr_about .double-investment {padding-top: 50px}
+.jntr_about .investment-Box {flex-direction: column;padding: 20px 10px 20px}
+.jntr_about .investmentInput-Box {width: 100%;padding-right: 0}
+.jntr_about .investment-Box .period-Box {width: 100%;padding-left: 0}
+.jntr_about .double-investment .text-Title {font-size: 24px}
+.jntr_about .investmentInput-Box input {height: 62px;font-size: 28px;padding: 0 15px 0 50px}
+.jntr_about .investmentInput-Box .input-Box02 span {top: 14px;font-size: 28px;left: 15px}
+.jntr_about .jntr_about .period-Box .calcyppLink01 {height: 62px;line-height: 40px;font-size: 28px}
+.jntr_about .double-investment .text-Title {margin-bottom: 20px}
+.jntr_about .investmentInput-Box .input-Box02 {margin-bottom: 20px}
+.jntr_about .period-Box .calcyppContent02 a {padding: 12px 24px;font-size: 28px;height: 62px;line-height: 42px}
+.jntr_about .period-Box .calcyppContent02 {width: 275px}
+.jntr_about .double-investment .Title02:after, .jntr_about .double-investment .Title02:before, .jntr_about .double-investment .final-amtBox:before, .jntr_about .double-investment .icon-Box04 span:after, .jntr_about .double-investment .icon-Box04 span:before, .jntr_about .investment-Box:before, .jntr_about .tokn-Box01:after, .jntr_about .tokn-Box01:before {display: none}
+.jntr_about .double-investment .Title02 {padding-top: 20px;margin-bottom: 20px}
+.jntr_about .double-investment .tokn-Box {flex-direction: column}
+.jntr_about .tokn-Box .tokn-Box01 {width: 100%;padding: 20px}
+.jntr_about .tokn-Box .tokn-Box01 .Title01 {font-size: 20px;line-height: 24px}
+.jntr_about .tokn-Box .tokn-Box01 p {font-size: 12px;line-height: 20px}
+.jntr_about .tokn-Box .tokn-Box01 .token-Amt {font-size: 28px}
+.jntr_about .tokn-Box01 .calc-Box .calc-Box01, .jntr_about .tokn-Box01 .calc-Box .calc-Box02 {width: 100%;padding: 15px 0;height: 100%}
+.jntr_about .calc-Box .calc-Box01 .title-Text01, .jntr_about .calc-Box .calc-Box02 .title-Text01 {font-size: 21px}
+.jntr_about .calc-Box .calc-Box01 p span {display: inline}
+.jntr_about .calc-Box .icon-Box01 {width: 100%;padding: 15px 0}
+.jntr_about .tokn-Box01 .calc-Box .calc-Box01:last-child {width: 100%}
+.jntr_about .tokn-Box01 .Title03 {font-size: 14px}
+.jntr_about .tokn-Box .icon-Box03 {transform: scale(.7);-webkit-transform: scale(.7);width: 100%}
+.jntr_about .double-investment .icon-Box04 {margin-top: 0}
+.jntr_about .double-investment .icon-Box04 span {transform: scale(.7);-webkit-transform: scale(.7)}
+.jntr_about .double-investment .final-amtBox {margin-top: 0;padding: 15px 0}
+.jntr_about .double-investment .final-amtBox {font-size: 16px}
+.jntr_about .double-investment .final-amtBox span {display: block}
+.jntr_about .valuation-forecast {padding-top: 50px}
+.jntr_about .valueForecast-Boxwrap {flex-direction: column}
+.jntr_about .valueForecast-Box01, .jntr_about .valueForecast-Box02, .jntr_about .valueForecast-Box03 {width: 100%;margin-bottom: 0;padding: 20px 0 50px}
+.jntr_about .valueForecast-Box01:before, .jntr_about .valueForecast-Box02:before {background: 0 0}
+.jntr_about .valueForecast-Box02:before {background: 0 0;background-color: #181818;width: 50%;height: 30px;right: inherit;left: 0;top: -29px;-webkit-clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%);clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%)}
+.jntr_about .valueForecast-Box02:after {content: "";background: 0 0;background-color: #181818;width: 50%;height: 30px;right: 0;left: inherit;top: -29px;-webkit-clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%);clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%);position: absolute}
+.jntr_about .valueForecast-Box03 {position: relative}
+.jntr_about .valueForecast-Box03:before {content: "";background-color: #2e2e2e;width: 50%;height: 30px;right: inherit;left: 0;top: -29px;-webkit-clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%);clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%);position: absolute}
+.jntr_about .valueForecast-Box03:after {content: "";background: 0 0;background-color: #2e2e2e;width: 50%;height: 30px;right: 0;left: inherit;top: -29px;-webkit-clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%);clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%);position: absolute}
+.jntr_about .valueForecast-Box {padding: 20px 0}
+.jntr_about .valueForecast-Box01 .title-Text01, .jntr_about .valueForecast-Box03 .title-Text01 {margin-bottom: 10px}
+.jntr_about .valueForecast-Box .value-Link {text-align: center}
+.jntr_about .ebita {padding-top: 50px}
+.jntr_about .ebita .tableTitle01.active {border-color: #eaa120;color: #fff}
+.jntr_about .scalability {padding-top: 50px}
+.jntr_about .scalability-Box {flex-direction: column}
+.jntr_about .scalability-Box .scalability-Box01 {width: 100%}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box {width: 100%;padding: 20px}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box .stardart-txt {font-size: 16px}
+.jntr_about .scalability-Box .scalability-Box01 .Title01 {font-size: 24px;line-height: 30px;margin-bottom: 10px}
+.jntr_about .scalability-Box .scalability-Box01:first-child {margin-bottom: 15px}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Block {flex-direction: column}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Box {width: 100%}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Box {padding: 15px 15px 0 15px}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Box p {font-size: 16px;line-height: 20px;min-height: 100px;}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Box:first-child {margin-bottom: 15px}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box li .stardart-Number {width: 35px;height: 35px;line-height: 35px;font-size: 18px}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box li {padding-bottom: 35px}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box li:nth-child(2) {padding-bottom: 25px}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box li .stardart-Number:before {bottom: -30px}
+.jntr_about .profit-source {padding-top: 50px}
+.jntr_about .profit-sourceBox {flex-direction: column;padding-top: 15px}
+.jntr_about .profit-sourceBox .icon-Box, .jntr_about .profit-sourceBox01 {width: 100%}
+.jntr_about .profit-sourceBox01 p {font-size: 18px;line-height: 30px;width: 95%;margin: 20px auto 30px}
+.jntr_about .profit-sourceBox .icon-Box {padding-bottom: 50px}
+.jntr_about .decacorn-potential {padding-top: 50px}
+.jntr_about .decacorn-potentialBox {flex-direction: column;padding: 50px 0}
+.jntr_about .decacorn-potentialBox01 {width: 100%}
+.jntr_about .decacorn-potentialBox01 .Title02 {font-size: 18px;width: 100%;line-height: 30px;padding-top: 20px}
+.jntr_about .decacorn-potentialBox01 {margin-bottom: 20px}
+.jntr_about .tableTitle01.active {border-color: #eaa01f}
+.jntr_about #roadmap-Block {padding-top: 50px}
+.jntr_about #roadmap-Block .email-Box {padding-top: 30px}
+.jntr_about #team-Block {margin-top: 0;overflow: hidden;padding-top: 0}
+.jntr_about #team-Block .advisor-team-Box .container-Grid {padding: 0 20px}
+.jntr_about #team-Block .advisor-team-Box {background-size: 30%;background-position: right 230px}
+.jntr_about .advisor-team-Box .container-Grid, .jntr_about .management-team-Box .container-Grid, .jntr_about .rd-team-Box .container-Grid {padding-right: 0}
+.jntr_about .s20ttextbox02 {font-size: 18px;line-height: 24px;margin-top: 10px}
+.jntr_about .s20tImgbox {width: 100px}
+.jntr_about .s20Teambox01, .jntr_about .s20Teambox01:nth-child(3) {padding-right: 0;width: 100%;padding-bottom: 15px;position: relative;z-index: 10}
+.jntr_about .s20Teambox01 .s20tImgbox img {width: 90px}
+.jntr_about .s20ttextbox span {font-size: 16px;line-height: 20px;margin: 0 auto 5px}
+.jntr_about .s20ttextbox {width: calc(100% - 100px);font-size: 12px;line-height: 18px;padding-left: 15px}
+.jntr_about .s20tImgbox.tI01:after {width: 40px;height: 40px;background-size: 100%;left: 50px}
+.jntr_about .s20tImgbox.tI02:after {width: 48px;height: 15px;background-size: 100%;left: 40px;bottom: 0}
+.jntr_about .s20tImgbox.tI03:after {width: 53px;height: 12px;background-size: 100%;left: 40px;bottom: 5px}
+.jntr_about .s20tImgbox.tI04:after {width: 35px;height: 35px;background-size: 100%;left: 45px;bottom: 0}
+.jntr_about .s20tImgbox.tI05:after {width: 33px;height: 34px;background-size: 100%;left: 50px;bottom: 0}
+.jntr_about .s20tImgbox.tI06:after {width: 46px;height: 11px;background-size: 100%;left: 50px}
+.jntr_about .s20tImgbox.tI07:after {width: 35px;height: 35px;background-size: 100%;left: 50px;bottom: 0}
+.jntr_about .teamLinkIcon {width: 94px;height: 93px;background-size: 31px 31px}
+.jntr_about .s20Teambox01:hover .s20RotaterBox, .jntr_about .s20Teambox01:hover .s20RotaterBox .teamLinkIcon {transform: none}
+.jntr_about #team-Block .management-team-Box {padding: 0;margin-top: 0}
+.jntr_about #team-Block .management-team-Box:before {background-size: 70%;top: -230px;right: -30px}
+.jntr_about #team-Block .rd-team-Box {padding-top: 0;background-size: 20%;background-position: left 130px}
+.jntr_about #team-Block .operation-team-Box {padding: 0;background-position: right 10px;background-size: 20%}
+.jntr_about #team-Block .s20TeamContainer {padding-top: 0}
+.jntr_about #team-Block .operation-team-Box, #team-Block .rd-team-Box {padding: 0}
+.jntr_about .s20Teambox01 .s20tImgbox .teamImgNPbox {width: 90px;height: 90px}
+.jntr_about .afterLogo {transform: scale(.5);left: 22px;bottom: -25px}
+.jntr_about #team-Block .management-team-Box:before, .jntr_about #team-Block .operation-team-Box:before {display: none}
+.jntr_about #team-Block .advisor-team-Box {background: 0 0}
+.jntr_about #team-Block .live-auctionBbox {padding: 0 10px;margin-top: 30px}
+.jntr_about .partner-network {padding-top: 50px}
+.jntr_about .partner-Box .partner-Box01 {width: 50%;margin-bottom: 5px;padding: 15px;min-height: 100px;}
+.jntr_about .partner-Box .partner-Box01 a img {/* width: 150px; */height: auto;}
+.jntr_about .partner-Btn a {width: 100%;height: 65px;line-height: 65px;font-size: 21px}
+.jntr_about .bottomotherlink li {width: 100%;text-align: center;padding: 10px 0}
+.jntr_about .bottomotherlink li:first-child {padding-right: 0}
+.jntr_about .bottomotherlink li:not(:last-child) {padding-right: 0}
+.jntr_about .infobottompartleft p {margin-top: 40px}
+.jntr_about .bottomotherlink li a {font-size: 14px}
+.jntr_about .bottomotherlink li a img {transform: scale(.5);-webkit-transform: scale(.5);padding-right: 0}
+.jntr_about #roadmap-Block .main-Box {display: none}
+.jntr_about .roadmap-Mobile {display: block}
+.jntr_about #calcyppLinkContent09 {position: absolute;z-index: 10}
+.jntr_about #q1, .jntr_about #q3, .jntr_about #q4 {display: none}
+.jntr_about .roadmap-Mobile .calcyppLink01 {width: 100%;background: #1d1d1d;border-radius: 5px;height: 65px;font-size: 24px;padding: 15px}
+.jntr_about .roadmap-Mobile .calcyppBox01 {width: 100%}
+.jntr_about .roadmap-Mobile .calcyppContent02 a {font-size: 24px;padding: 15px}
+.jntr_about .roadmap-Mobile .calcyppContent02 {width: 300px;height: auto}
+.jntr_about .fileicobblock {display: block;transform: scale(.75);-webkit-transform: scale(.75);position: relative;left: -7px}
+.jntr_about .libraryblock {padding: 25px;height: 136px}
+.jntr_about .lbblocktext {width: calc(100% - 92px);padding: 0;text-align: left;margin-top: 15px;margin-left: 15px}
+.jntr_about .lbblocktext span {font-size: 12px}
+.jntr_about .lbblocktext strong {font-size: 20px}
+.jntr_about .Copyrights, .jntr_about .bottompartright {display: none}
+.jntr_about .Copyrights-Mobile, .jntr_about .bottompartright-Mobile {display: block}
+.jntr_about .bottompartright-Mobile {margin: 30px 0}
+.jntr_about .Copyrights-Mobile {color: #fff;text-align: center} 
+.jntr_about .rCompany-IconBox { width:50%; padding:30px; }
+.jntr_about .prSolution-Box {  padding: 0px; }
+ }
+
+@media (min-width:501px) and (max-width:767px) {
+.jntr_about .advantage-Box .advantage-Box01 p { opacity:1; visibility:visible; font-size:18px; line-height:26px; color:#fff; width:90%; margin:0 auto; position:relative; top:auto; transform:translateY(0%); -webkit-transform:translateY(0%) } 
+.jntr_about .advantage-Box .advantage-Box01:focus .Title02, .jntr_about .advantage-Box .advantage-Box01:focus .icon-Box, .jntr_about .advantage-Box .advantage-Box01:hover .Title02, .jntr_about .advantage-Box .advantage-Box01:hover .icon-Box { opacity: 1; } 
+.jntr_about .decacorn-potentialBox01 p { opacity:1; visibility:visible; font-size:18px; line-height:26px; color:#fff; width:90%; margin:0 auto; position:relative; top:auto; transform:translateY(0%); -webkit-transform:translateY(0%) } 
+.jntr_about .decacorn-potentialBox01:focus .Title02, .jntr_about .decacorn-potentialBox01:focus .img-Box, .jntr_about .decacorn-potentialBox01:hover .Title02, .jntr_about .decacorn-potentialBox01:hover .img-Box { opacity:1; } 
+.jntr_about .headerTopWrap {position: relative;top: 0;right: 0;left: 0;top: 0;padding: 20px 10px 0;display: block}
+.jntr_about .siteheader {height: 100%;max-height: 100%;background-color: transparent;}
+.jntr_about .sitelogo img {width: 140px}
+.jntr_about .header-Rightbox .rgdev {margin-top: 0}
+.jntr_about .rgdev.green-btn .rgdev-mobile {top: -32px}
+.jntr_about .rgdev-list {top: -50px}
+.jntr_about .award-text {font-size: 10px;width: 100%;text-align: center;padding-left: 0;padding-top: 40px}
+.jntr_about .award-text img {width: 20px}
+.jntr_about .mail-Box {width: 100%;margin-top: 10px}
+.jntr_about .mail-Box .input-Box input {width: 100%;height: 45px;font-size: 14px}
+.jntr_about .invest-Btn {width: 100%;height: 45px;line-height: 45px;font-size: 15px}
+.jntr_about .input-Box {margin-right: 0;width: 300px;margin: 0 auto 10px !important; } 
+.jntr_about .headerTopWrap .mail-Box {display: none}
+.jntr_about .headerrline01 {font-size: 24px;padding-bottom: 0;line-height: 30px;padding-top: 5px}
+.jntr_about .headerrline02 {padding-top: 15px}
+.jntr_about .headerrline02 span {font-size: 18px;padding: 0;line-height: 1.4}
+.jntr_about .headerrline02 span:before {content: "\f058";font-family: "Font Awesome 5 Free";font-size: 15px;margin-right: 5px;color: #95c608;font-weight: 900;display: inline-block}
+.jntr_about .headerrline02 span:after {display: none}
+.jntr_about .asSeenSec {padding: 0}
+.jntr_about .assContainer {padding: 0 20px;margin-top: 0}
+.jntr_about .assBox01 img {transform: scale(.8);-webkit-transform: scale(.8)}
+.jntr_about .solved {padding-top: 50px}
+.jntr_about .solved-Box {flex-direction: column;padding: 0 20px}
+.jntr_about .solved-Box01 {width: 100%}
+.jntr_about .solved-Block {margin-top: 20px;padding: 20px 0}
+.jntr_about .solved-Block .arrow-box {margin: 50px 0; } 
+.jntr_about .solved-Block .arrow-box img { } 
+.jntr_about .solved-Title {display: none}
+.jntr_about .solved-Box01 .Title01 {display: block;font-size: 30px;font-weight: 700;text-align: center;margin-bottom: 30px}
+.jntr_about .inner-Title01 {font-size: 18px}
+.jntr_about .text-Content .Title01 {font-size: 24px;line-height: 1;margin-bottom: 5px}
+.jntr_about .solved-innerBox .text-Content p {font-size: 14px}
+.jntr_about .solved-innerBox .text-Content {padding-left: 25px}
+.jntr_about .solved-innerBox {padding: 20px 0}
+.jntr_about .solved-innerBox .img-Box {width: 20%}
+.jntr_about .solved-innerBox .img-Box img {width: 50px!important}
+.jntr_about .serprator-hr {left: 0!important;margin: 30px 0}
+ 
+.jntr_about .solved-Block .arrow-box:before, .jntr_about .solved-Block .arrow-box:after { -webkit-transform: rotate(90deg) translateX(-50%); transform: rotate(90deg) translateX(-50%); top: -35px; left: 37%; } 
+.jntr_about .solved-Block .arrow-box:after { top: 20px; -webkit-transform: rotate(-90deg) translateX(-50%); transform: rotate(-90deg) translateX(-50%); } 
+.jntr_about .jointer-Box {padding: 50px 0}
+.jntr_about .jointer-Box .text-Title {font-size: 18px;line-height: 30px}
+.jntr_about .Testimonials {padding: 50px 0}
+.jntr_about .testimonials-Box .text-Content {flex-direction: column}
+.jntr_about .testimonials-Box .text-Content .text-Title {font-size: 24px;line-height: 36px;text-align: center;padding-top: 10px}
+.jntr_about .testimonials-Box .text-Content .icon-Box img {width: 90px}
+.jntr_about .testimonials-Box .designation-Box {flex-direction: column;margin-left: 0;text-align: center;margin-top: 15px}
+.jntr_about .testimonials-Box .designation-Box .icon-Box img {width: 65px}
+.jntr_about .testimonials-Box .designation-Box .text-Box .text-Title01 {font-size: 16px;line-height: 24px}
+.jntr_about .testimonials-Box .designation-Box .text-Box p {font-size: 12px}
+.jntr_about .testimonials-Box .designation-Box .text-Box {margin-left: 0;margin-top: 10px}
+.jntr_about .award-Box {padding: 50px 0 0;text-align: center}
+.jntr_about .award-Boxwrap {flex-direction: column}
+.jntr_about .award-Box01 {width: 100%}
+.jntr_about .award-Box01 .icon-Box {margin-bottom: 30px}
+.jntr_about .award-Box01 .icon-Box img {width: 100px}
+.jntr_about .award-Box01 .text-Title {font-size: 24px;margin-bottom: 20px}
+.jntr_about .award-Box01 p {font-size: 18px;line-height: 30px}
+.jntr_about .award-Box01 .img-Box {margin-top: 30px}
+.jntr_about .award-Box01 .img-Box img {width: 100%}
+.jntr_about .sponsors {padding-top: 50px}
+.jntr_about .sponsor-Box {flex-direction: column}
+.jntr_about .sponsor-Box .sponsor-Box01 {width: 100%}
+.jntr_about .sponsor-Box .sponsor-Box01 .text-Content p {font-size: 14px;line-height: 24px}
+.jntr_about .sponsor-Box .sponsor-Box01 .img-Box img {transform: scale(.8);-webkit-transform: scale(.8)}
+.jntr_about .sponsor-Box .sponsor-Box01 .img-Box {margin-bottom: 0}
+.jntr_about .sponsor-Block {padding-top: 20px}
+.jntr_about .cross-Collateral {padding: 50px 0 100px}
+.jntr_about .crossCollateral-Box {flex-direction: column}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 {width: 100%}
+.jntr_about .crossCollateral-Box .logo-Box {width: 100%;margin: 50px auto;text-align: center;padding-left: 0}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li:not(:last-child):after {display: none}
+.jntr_about .crossCollateral-Block {padding-top: 30px}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li {margin-bottom: 20px;display: flex;flex-direction: row;align-items: center}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li .icon-Img {width: 70px;margin-right: 0}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li .icon-Img img {transform: scale(.7);-webkit-transform: scale(.7)}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li span {width: 100%;font-size: 18px}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li:after {margin-left: 0;transform: rotate(90deg) translateX(-50%);-webkit-transform: rotate(90deg) translateX(-50%);bottom: -80px;left: 45%;position: absolute}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01:last-child:before {position: absolute;transform: rotate(90deg) translateX(-50%);top: -30px;left: 45%}
+.jntr_about .crossCollateral-Box .logo-Box {width: 100%;margin: 20px auto 60px;text-align: center;padding-left: 0}
+.jntr_about .crossCollateral-Box .logo-Box img {margin: 55px 0 10px;width: 100px}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 .text-Content p {font-size: 18px;line-height: 24px;width: 90%;margin-top: 0}
+.jntr_about .crossCollateral-Box01 .img-Box img {width: 180px;position: relative;top: -20px}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 ul {width: 50%;margin: 0 auto}
+.jntr_about .tokenomics-Box01 {width: 100%}
+.jntr_about .tokenomics-Box01 .icon-Box img {width: 250px}
+.jntr_about .tokenomics-Box01 .list-Box li {font-size: 16px;line-height: 24px}
+.jntr_about .tokenomics-Box01:not(:last-child) {margin-bottom: 30px}
+.jntr_about .liveauction-Btn {width: 350px;height: 70px;font-size: 21px;line-height: 70px}
+.jntr_about .advantages {padding: 50px 0}
+.jntr_about .advantage-Box {flex-direction: column}
+.jntr_about .advantage-Box .advantage-Box01 {width: 100%;padding-bottom: 35px}
+.jntr_about .advantage-Box .advantage-Box01 .Title02 {font-size: 18px;line-height: 20px;padding-top: 20px}
+.jntr_about .dualToken-Box .dualToken-Box01 {width: 100%}
+.jntr_about .dualToken-Box {padding-bottom: 50px}
+.jntr_about .token-Box .token-Box01 {width: 100%;margin-bottom: 15px}
+.jntr_about .email-Box .input-Box input {font-size: 18px;height: 60px;width: 100%;margin-right: 0;padding: 10px 15px 15px 45px}
+.jntr_about .email-Box .input-Box .mail-Icon {font-size: 30px;left: 15px;top: 8px}
+.jntr_about .email-Box .input-Box {margin-right: 0}
+.jntr_about .email-Box .input-Box .reg-Text {display: none}
+.jntr_about .email-Box .input-Box~p {display: block}
+.jntr_about .email-Box .reg-Text {font-size: 11px}
+.jntr_about .email-Box .input-Box .mail-Icon i {font-size: 18px}
+.jntr_about .invest-us {height: 60px;font-size: 21px;line-height: 60px}
+.jntr_about .banner_loader { height:60px; padding-top:20px; } 
+.jntr_about .show-Mobile {display: block!important}
+.jntr_about .show-Desktop {display: none!important}
+.jntr_about .flowFunds {padding-top: 50px;padding-bottom: 120px}
+.jntr_about .flowFunds-Block {flex-direction: column}
+.jntr_about .flowfundBox01 {width: 100%;padding: 0 35px}
+.jntr_about .flowfundBox01 .icon-Box02 span img {width: 32px}
+.jntr_about .flowfundBox01 .icon-Box02 span+span img {width: 37px}
+.jntr_about .flowfundBox01 .arrow-Box02 {margin: 20px 0;position: relative;left: 25px}
+.jntr_about .flowfundBox01 .arrow-Box02 img {width: 13px}
+.jntr_about .flowfundBox01 .Title02 {width: 85%;font-size: 16px;line-height: 22px;padding-top: 10px}
+.jntr_about .flowfundBox01 .icon-Box01 img {width: 159px;}
+.jntr_about .flowfundBox01 .arrow-Boxwrap .arrow-Box03 {position: relative;left: 0;top: -34px;transform: rotate(-180deg) scale(.75);-webkit-transform: rotate(-180deg) scale(.75)}
+.jntr_about .flowfundBox01 .flowfundBx {display: flex;flex-direction: row;align-items: center;justify-content: space-between}
+.jntr_about .flowfundBox01 .flowfundBx .arrow-Box02 {transform: rotate(-90deg);-webkit-transform: rotate(-90deg);margin: 0;left: 0}
+.jntr_about .flowfundBox01 .flowfundBx .icon-Wrap {text-align: right}
+.jntr_about .flowfundBox01 .flowfundBx .icon-Box02 {text-align: left}
+.jntr_about .flowfundBox01 .icon-Box02 span img {width: 27px}
+.jntr_about .flowfundBox01 .icon-Box02 span+span img {width: 30px}
+.jntr_about .flowfundBox01 .flowfundBx .Title02 {font-size: 17px;width: 100%;text-align: right;padding-top: 9px;}
+.jntr_about .flowfundBox01 .flowfundBx .icon-Box02 span+span {padding-left: 10px}
+.jntr_about .flowfundBox02 {width: 100%;display: flex;flex-direction: row}
+.jntr_about .fund-Box {width: 48%}
+.jntr_about .fund-Box {padding: 25px 15px}
+.jntr_about .flowfundBox02 .fund-Box:first-child {margin-right: 5px;min-height: 202px}
+.jntr_about .flowfundBox02 .fund-Box:last-child {margin-left: 5px;height: 100%}
+.jntr_about .flowfundBox02 .fund-Box.shadow-Bx .icon-Box img {width: 40px}
+.jntr_about .flowfundBox02 .fund-Box.shadow-Bx+.fund-Box .icon-Box img {width: 26px}
+.jntr_about .fund-Box .icon-Boxwrap .percentage-Text {font-size: 24px}
+.jntr_about .fund-Box p {font-size: 12px;line-height: 21px;margin-top: 10px}
+.jntr_about .flowfundBox03 .flow-Wrap .img-Box img {width: 100%}
+.jntr_about .flowfundBox03 .flow-Wrap .img-Box .text-Box {font-size: 12px;line-height: 18px;bottom: 25px;width: 100%;padding: 0 25px}
+.jntr_about .flowfundBox03 .text-Box {font-size: 12px;line-height: 18px;width: 50%;padding: 0 25px;margin: 0 auto}
+.jntr_about .flowFunds-Block .Title02 {font-size: 16px;line-height: 24px}
+.jntr_about .flowfundBox03 {width: 100%;position: relative}
+.jntr_about .flowfundBox03 .flow-Wrap .img-Box {width: 50%;margin: 0 auto}
+.jntr_about .flowfundBox03 .flow-Wrap .icon-Box {width: 100%;top: 10px;left: -65px}
+.jntr_about .flowfundBox03 .flow-Wrap .flow-Box {width: 100%}
+.jntr_about .flowfundBox03 .flow-Wrap .flow-Box .icon-Box01 img {width: 100px}
+.jntr_about .flowfundBox03 .arrow-Box {text-align: center;position: absolute;right: 130px;left: inherit;bottom: -85px}
+.jntr_about .arrows-Box, .jntr_about .jointerproperty-Box, .jntr_about .reserve-Box, .jntr_about .trust-Box, .jntr_about .tzero-Box {width: 100%}
+.jntr_about .tzero-Box .icon-Box .img-Box:last-child {transform: rotate(-90deg);-webkit-transform: rotate(-90deg) translateX(-50%);position: absolute;bottom: 177px;left: 22%}
+.jntr_about .tzero-Box .Title02 {margin-bottom: 195px;font-size: 16px;line-height: 24px}
+.jntr_about .tzero-Box {position: relative}
+.jntr_about .reserve-Box .Title01 {font-size: 20px;line-height: 24px}
+.jntr_about .reserve-Box {padding: 30px 24px}
+.jntr_about .reserve-Box01 .text-Content .Title02 {font-size: 16px;line-height: 20px;padding-bottom: 10px}
+.jntr_about .reserve-Box01 .text-Content p {font-size: 12px;line-height: 20px}
+.jntr_about .reserve-Box01 {padding-top: 20px;width: 49%;display: inline-block;vertical-align: top}
+.jntr_about .reserve-Box01:last-child {padding-top: 14px}
+.jntr_about .trust-Box {padding: 30px 20px}
+.jntr_about .trust-Box .text-Content .Title02 {font-size: 16px;line-height: 24px;padding-bottom: 10px}
+.jntr_about .trust-Box .text-Content p {font-size: 13px;line-height: 20px;margin-bottom: 10px}
+.jntr_about .jointerproperty-Box {background-size: 100%;background-position: 0 0;height: 465px}
+.jntr_about .flowFunds-Block .arrows-Box {width: 100%;display: flex;flex-direction: row;justify-content: center;margin: 0 0 30px;position: relative;left: -40px}
+.jntr_about .flowFunds-Block .arrows-Box .icon-Box {transform: rotate(-90deg);width: 40%}
+.jntr_about .flowFunds-Block .arrows-Box .icon-Box:first-child {padding-bottom: 0}
+.jntr_about .global-Chart {padding-top: 50px}
+.jntr_about .global-Chart .multiFamilybox {margin-bottom: 30px}
+.jntr_about .global-Chart:after, .global-Chart:before {display: none}
+.jntr_about .tokensale-Information {padding-top: 50px}
+.jntr_about .tokensale-InformationBox {flex-direction: column;padding-bottom: 40px;padding-top: 20px}
+.jntr_about .multiFamilybox .subTitlebox {padding: 15px}
+.jntr_about .multiFamilybox .subTitlebox .titleWrapbox {flex-wrap: nowrap}
+.jntr_about .multiFamilybox .subTitlebox .titleWrapbox .titleText {font-size: 6px;margin-bottom: 0}
+.jntr_about .multiFamilybox .subTitlebox .titleWrapbox .titleText i {font-size: 7px;top: 0}
+.jntr_about .global-Chart .titleText02 {font-size: 6px}
+.jntr_about .multiFamilybox .subTitlebox .titleWrapbox .titleLargetext {font-size: 10px}
+.jntr_about .titleWrapbox .titleBox {min-width: 120px}
+.jntr_about .multiFamilybox .subTitlebox .titleWrapbox .titleLargetext.greytext {text-align: right}
+.jntr_about .tokensale-Box {width: 100%;flex-direction: column;flex-wrap: wrap;padding-left: 0;margin-top: 30px}
+.jntr_about .global-Chart .multiFamilybox .subTitlebox .black-round-box {width: 30px;height: 30px;font-size: 12px;line-height: 30px}
+.jntr_about .distribution-Funds {width: 100%}
+.jntr_about .distribution-Funds .Title01 {font-size: 18px;line-height: 36px;margin-bottom: 30px;width: 100%;text-align: center}
+.jntr_about .tokensale-Box {width: 100%;flex-direction: column;flex-wrap: wrap;padding-left: 0;margin-top: 30px}
+.jntr_about .sale-Detail-box {width: 100%;padding-right: 0}
+.jntr_about .sale-Detail-box:first-child {margin-bottom: 15px;width: 100%;padding-left: 0}
+.jntr_about .sale-Detail-box:last-child {width: 100%}
+.jntr_about .timer-Box {padding-top: 10px}
+/*#timer .days, #timer .hours, #timer .minutes, #timer .seconds, #timer-Box {font-size: 28px}
+#timer .days:after, #timer .days:before, #timer .hours:after, #timer .hours:before, #timer .minutes:after, #timer .minutes:before {font-size: 28px;right: -10px;top: -12px}
+#timer .days:after, #timer .hours:after, #timer .minutes:after {bottom: 4px;top: inherit}
+#timer .days span, #timer .hours span, #timer .minutes span, #timer .seconds span {width: 28px;height: 38px;line-height: 38px;margin: 0 1px}
+.sale-Box04 .timer-02 p {margin-bottom: 16px}
+#timer02 .days, #timer02 .hours, #timer02 .minutes, #timer02 .seconds, #timer02-Box {font-size: 28px}
+#timer02 .days:after, #timer02 .days:before, #timer02 .hours:after, #timer02 .hours:before, #timer02 .minutes:after, #timer02 .minutes:before {font-size: 28px;right: -10px;top: -12px}
+#timer02 .days:after, #timer02 .hours:after, #timer02 .minutes:after {bottom: 4px;top: inherit}
+#timer02 .days span, #timer02 .hours span, #timer02 .minutes span, #timer02 .seconds span {width: 28px;height: 38px;line-height: 38px}
+#timer02 {margin-bottom: 20px}*/
+.jntr_about .sale-Box04 {flex-direction: column}
+.jntr_about .sale-Box04 .liveauction-Btn {margin: 0 auto}
+.jntr_about .distribution-Funds .img-Boxwrap .tower-Box img {width: 50%}
+.jntr_about .distribution-Funds .img-Boxwrap {flex-wrap: nowrap}
+.jntr_about .distribution-Funds .img-Boxwrap .tower-Box {width: 60%}
+.jntr_about .distribution-Funds .img-Boxwrap .tower-Box img {width: 100%}
+.jntr_about .distribution-Funds .investment-properyBox {margin-left: 10px}
+.jntr_about .investment-properyBox .title-Text {font-size: 18px;padding-top: 100px}
+.jntr_about .investment-Percentage {bottom: 60px;padding-top: 25px;font-size: 12px}
+.jntr_about .investment-properyBox:before {width: 170px}
+.jntr_about .tokensale-Box01 {width: 100%;margin-top: 40px}
+.jntr_about .tokensale-Box01 .sale-Box01 .title-Wrap .Title03, .jntr_about .tokensale-Box01 .sale-Box02 .Title03 {font-size: 16px;line-height: 24px}
+.jntr_about .tokensale-Box01 .sale-Box01 .Title03.yellow-Color {margin-top: 15px}
+.jntr_about .tokensale-Box01 .sale-Tokenbox .amt-Box {width: 100%}
+.jntr_about .tokensale-Box01 .sale-Tokenbox .amt-Box .Title01 {line-height: 40px}
+.jntr_about .tokensale-Box01 .sale-Tokenbox .amt-Box .text-Title {font-size: 12px}
+.jntr_about .tokensale-Box01 .sale-Tokenbox .amt-Box:not(:last-child) {margin-bottom: 20px}
+.jntr_about .jointer-bonus-progress .text-Wrap {width: 80px;left: 40px}
+.jntr_about .equity-Goal .equity-goalBox {width: 100%;padding: 0!important}
+.jntr_about .equity-goalBox .text-Title {font-size: 14px;line-height: 24px}
+.jntr_about .equity-goalBox .text-Title br{display: none;}
+.jntr_about .equity-goalBox .text-Title span i {font-size: 12px}
+.jntr_about .equity-goalBox .input-Box {flex-direction: column}
+.jntr_about .equity-goalBox .input-Box input {width: 100%;text-align: left;padding: 10px 15px}
+.jntr_about .equity-Goal .equity-goalBox:last-child {margin-top: 20px}
+.jntr_about .equity-goalBox .input-Box p {padding-left: 0;padding-top: 10px}
+.jntr_about .sale-Box03 .token-descBox .token-descBox01 {width: 100%;border-right: none;border-bottom: 2px solid #272727;padding: 20px 0}
+.jntr_about .sale-Box03 .token-descBox .token-descBox01 .text-Title {min-height: auto;font-size: 14px;width: 100%}
+.jntr_about .tokensale-Box01 .sale-Box03 {margin-top: 0}
+.jntr_about .tokensale-Box {margin-left: 0;margin-right: 0}
+.jntr_about .sale-Detail-box {padding: 0}
+.jntr_about .liquidity-reserve {padding: 50px 0}
+.jntr_about .liquidityreserve-Box .img-Box, .jntr_about .liquidityreserve-Box .text-Content {width: 100%}
+.jntr_about .liquidityreserve-Box .img-Box {order: -1;margin-top: 15px}
+.jntr_about .liquidityreserve-Box .text-Content p {font-size: 16px;line-height: 24px;text-align: center}
+.jntr_about .liquidityreserve-Box .img-Box img {width: 250px}
+.jntr_about .profit-sourceBox01:first-child .img-Box img {width: 78px}
+.jntr_about .profit-sourceBox01 .img-Box img {width: 89px}
+.jntr_about .profit-sourceBox .icon-Box img {width: 60px}
+.jntr_about .double-investment {padding-top: 50px}
+.jntr_about .investment-Box {flex-direction: column;padding: 20px 10px 20px}
+.jntr_about .investmentInput-Box {width: 100%;padding-right: 0}
+.jntr_about .investment-Box .period-Box {width: 100%;padding-left: 0}
+.jntr_about .double-investment .text-Title {font-size: 24px}
+.jntr_about .investmentInput-Box input {height: 62px;font-size: 28px;padding: 0 15px 0 50px}
+.jntr_about .investmentInput-Box .input-Box02 span {top: 14px;font-size: 28px;left: 15px}
+.jntr_about .period-Box .calcyppLink01 {height: 62px;line-height: 40px;font-size: 28px}
+.jntr_about .double-investment .text-Title {margin-bottom: 20px}
+.jntr_about .investmentInput-Box .input-Box02 {margin-bottom: 20px}
+.jntr_about .period-Box .calcyppContent02 a {padding: 12px 24px;font-size: 28px;height: 62px;line-height: 42px}
+.jntr_about .period-Box .calcyppContent02 {width: 275px}
+.jntr_about .double-investment .Title02:after, .jntr_about .double-investment .Title02:before, .jntr_about .double-investment .final-amtBox:before, .jntr_about .double-investment .icon-Box04 span:after, .jntr_about .double-investment .icon-Box04 span:before, .jntr_about .investment-Box:before, .jntr_about .tokn-Box01:after, .jntr_about .tokn-Box01:before {display: none}
+.jntr_about .double-investment .Title02 {padding-top: 20px;margin-bottom: 20px}
+.jntr_about .double-investment .tokn-Box {flex-direction: column}
+.jntr_about .tokn-Box .tokn-Box01 {width: 100%;padding: 20px}
+.jntr_about .tokn-Box .tokn-Box01 .Title01 {font-size: 20px;line-height: 24px}
+.jntr_about .tokn-Box .tokn-Box01 p {font-size: 12px;line-height: 20px}
+.jntr_about .tokn-Box .tokn-Box01 .token-Amt {font-size: 28px}
+.jntr_about .tokn-Box01 .calc-Box .calc-Box01, .jntr_about .tokn-Box01 .calc-Box .calc-Box02 {width: 100%;padding: 15px 0;height: 100%}
+.jntr_about .calc-Box .calc-Box01 .title-Text01, .jntr_about .calc-Box .calc-Box02 .title-Text01 {font-size: 21px}
+.jntr_about .calc-Box .calc-Box01 p span {display: inline}
+.jntr_about .calc-Box .icon-Box01 {width: 100%;padding: 15px 0}
+.jntr_about .tokn-Box01 .calc-Box .calc-Box01:last-child {width: 100%}
+.jntr_about .tokn-Box01 .Title03 {font-size: 14px}
+.jntr_about .tokn-Box .icon-Box03 {transform: scale(.7);-webkit-transform: scale(.7);width: 100%}
+.jntr_about .double-investment .icon-Box04 {margin-top: 0}
+.jntr_about .double-investment .icon-Box04 span {transform: scale(.7);-webkit-transform: scale(.7)}
+.jntr_about .double-investment .final-amtBox {margin-top: 0;padding: 15px 0}
+.jntr_about .double-investment .final-amtBox {font-size: 16px}
+.jntr_about .double-investment .final-amtBox span {display: block}
+.jntr_about .valuation-forecast {padding-top: 50px}
+.jntr_about .valueForecast-Boxwrap {flex-direction: column}
+.jntr_about .valueForecast-Box01, .jntr_about .valueForecast-Box02, .jntr_about .valueForecast-Box03 {width: 100%;margin-bottom: 0;padding: 20px 0 50px}
+.jntr_about .valueForecast-Box01:before, .valueForecast-Box02:before {background: 0 0}
+.jntr_about .valueForecast-Box02:before {background: 0 0;background-color: #181818;width: 50%;height: 30px;right: inherit;left: 0;top: -29px;-webkit-clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%);clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%)}
+.jntr_about .valueForecast-Box02:after {content: "";background: 0 0;background-color: #181818;width: 50%;height: 30px;right: 0;left: inherit;top: -29px;-webkit-clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%);clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%);position: absolute}
+.jntr_about .valueForecast-Box03 {position: relative}
+.jntr_about .valueForecast-Box03:before {content: "";background-color: #2e2e2e;width: 50%;height: 30px;right: inherit;left: 0;top: -29px;-webkit-clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%);clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%);position: absolute}
+.jntr_about .valueForecast-Box03:after {content: "";background: 0 0;background-color: #2e2e2e;width: 50%;height: 30px;right: 0;left: inherit;top: -29px;-webkit-clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%);clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%);position: absolute}
+.jntr_about .valueForecast-Box {padding: 20px 0}
+.jntr_about .valueForecast-Box01 .title-Text01, .jntr_about .valueForecast-Box03 .title-Text01 {margin-bottom: 10px}
+.jntr_about .valueForecast-Box .value-Link {text-align: center}
+.jntr_about .ebita {padding-top: 50px}
+.jntr_about .ebita .tableTitle01.active {border-color: #eaa120;color: #fff}
+.jntr_about .scalability {padding-top: 50px}
+.jntr_about .scalability-Box {flex-direction: column}
+.jntr_about .scalability-Box .scalability-Box01 {width: 100%}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box {width: 100%;padding: 20px}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box .stardart-txt {font-size: 16px}
+.jntr_about .scalability-Box .scalability-Box01 .Title01 {font-size: 24px;line-height: 30px;margin-bottom: 10px}
+.jntr_about .scalability-Box .scalability-Box01:first-child {margin-bottom: 15px}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Block {flex-direction: column}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Box {width: 100%}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Box {padding: 15px 15px 0 15px}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Box p {font-size: 16px;line-height: 20px;min-height: 98px;text-align: center;}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Box:first-child {margin-bottom: 15px}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box li .stardart-Number {width: 35px;height: 35px;line-height: 35px;font-size: 18px}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box li {padding-bottom: 35px}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box li:nth-child(2) {padding-bottom: 25px}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box li .stardart-Number:before {bottom: -30px}
+.jntr_about .profit-source {padding-top: 50px}
+.jntr_about .profit-sourceBox {flex-direction: column;padding-top: 15px}
+.jntr_about .profit-sourceBox .icon-Box, .profit-sourceBox01 {width: 100%}
+.jntr_about .profit-sourceBox01 p {font-size: 18px;line-height: 30px;width: 95%;margin: 20px auto 30px}
+.jntr_about .profit-sourceBox .icon-Box {padding-bottom: 50px}
+.jntr_about .decacorn-potential {padding-top: 50px}
+.jntr_about .decacorn-potentialBox {flex-direction: column;padding: 50px 0}
+.jntr_about .decacorn-potentialBox01 {width: 100%}
+.jntr_about .decacorn-potentialBox01 .Title02 {font-size: 18px;width: 100%;line-height: 30px;padding-top: 20px}
+.jntr_about .decacorn-potentialBox01 {margin-bottom: 20px}
+.jntr_about .tableTitle01.active {border-color: #eaa01f}
+.jntr_about #roadmap-Block {padding-top: 50px}
+.jntr_about #roadmap-Block .email-Box {padding-top: 30px}
+.jntr_about #team-Block {margin-top: 0;overflow: hidden;padding-top: 0}
+.jntr_about #team-Block .advisor-team-Box .container-Grid {padding: 0 20px}
+.jntr_about #team-Block .advisor-team-Box {background-size: 30%;background-position: right 230px}
+.jntr_about .advisor-team-Box .container-Grid, .jntr_about .management-team-Box .container-Grid, .jntr_about .rd-team-Box .container-Grid {padding-right: 0}
+.jntr_about .s20ttextbox02 {font-size: 18px;line-height: 24px;margin-top: 10px}
+.jntr_about .s20tImgbox {width: 100px}
+.jntr_about .s20Teambox01, .jntr_about .s20Teambox01:nth-child(3) {padding-right: 0;width: 100%;padding-bottom: 15px;position: relative;z-index: 10}
+.jntr_about .s20Teambox01 .s20tImgbox img {width: 90px}
+.jntr_about .s20ttextbox span {font-size: 16px;line-height: 20px;margin: 0 auto 5px}
+.jntr_about .s20ttextbox {width: calc(100% - 100px);font-size: 12px;line-height: 18px;padding-left: 15px}
+.jntr_about .s20tImgbox.tI01:after {width: 40px;height: 40px;background-size: 100%;left: 50px}
+.jntr_about .s20tImgbox.tI02:after {width: 48px;height: 15px;background-size: 100%;left: 40px;bottom: 0}
+.jntr_about .s20tImgbox.tI03:after {width: 53px;height: 12px;background-size: 100%;left: 40px;bottom: 5px}
+.jntr_about .s20tImgbox.tI04:after {width: 35px;height: 35px;background-size: 100%;left: 45px;bottom: 0}
+.jntr_about .s20tImgbox.tI05:after {width: 33px;height: 34px;background-size: 100%;left: 50px;bottom: 0}
+.jntr_about .s20tImgbox.tI06:after {width: 46px;height: 11px;background-size: 100%;left: 50px}
+.jntr_about .s20tImgbox.tI07:after {width: 35px;height: 35px;background-size: 100%;left: 50px;bottom: 0}
+.jntr_about .teamLinkIcon {width: 94px;height: 93px;background-size: 31px 31px}
+.jntr_about .s20Teambox01:hover .s20RotaterBox, .jntr_about .s20Teambox01:hover .s20RotaterBox .teamLinkIcon {transform: none}
+.jntr_about #team-Block .management-team-Box {padding: 0;margin-top: 0}
+.jntr_about #team-Block .management-team-Box:before {background-size: 70%;top: -230px;right: -30px}
+.jntr_about #team-Block .rd-team-Box {padding-top: 0;background-size: 20%;background-position: left 130px}
+.jntr_about #team-Block .operation-team-Box {padding: 0;background-position: right 10px;background-size: 20%}
+.jntr_about #team-Block .s20TeamContainer {padding-top: 0}
+.jntr_about #team-Block .operation-team-Box, .jntr_about #team-Block .rd-team-Box {padding: 0}
+.jntr_about .s20Teambox01 .s20tImgbox .teamImgNPbox {width: 90px;height: 90px}
+.jntr_about .afterLogo {transform: scale(.5);left: 22px;bottom: -25px}
+.jntr_about #team-Block .management-team-Box:before, .jntr_about #team-Block .operation-team-Box:before {display: none}
+.jntr_about #team-Block .advisor-team-Box {background: 0 0}
+.jntr_about #team-Block .live-auctionBbox {padding: 0 10px;margin-top: 30px}
+.jntr_about .partner-network {padding-top: 50px}
+.jntr_about .partner-Box .partner-Box01 {width: 50%;margin-bottom: 5px}
+.jntr_about .partner-Box .partner-Box01 a img {/* width: 150px; */height: auto;}
+.jntr_about .partner-Btn a {width: 350px;height: 65px;line-height: 65px;font-size: 21px}
+.jntr_about .bottomotherlink li {width: 100%;text-align: center;padding: 10px 0}
+.jntr_about .bottomotherlink li:first-child {padding-right: 0}
+.jntr_about .bottomotherlink li:not(:last-child) {padding-right: 0}
+.jntr_about .infobottompartleft p {margin-top: 40px}
+.jntr_about .bottomotherlink li a {font-size: 14px}
+.jntr_about .bottomotherlink li a img {transform: scale(.5);-webkit-transform: scale(.5);padding-right: 0}
+.jntr_about #roadmap-Block .main-Box {display: none}
+.jntr_about .roadmap-Mobile {display: block}
+.jntr_about #calcyppLinkContent09 {position: absolute;z-index: 10}
+.jntr_about #q1, .jntr_about #q3, .jntr_about #q4 {display: none}
+.jntr_about .roadmap-Mobile .calcyppLink01 {width: 100%;background: #1d1d1d;border-radius: 5px;height: 65px;font-size: 24px;padding: 15px}
+.jntr_about .roadmap-Mobile .calcyppBox01 {width: 100%}
+.jntr_about .roadmap-Mobile .calcyppContent02 a {font-size: 24px;padding: 15px}
+.jntr_about .roadmap-Mobile .calcyppContent02 {width: 300px;height: auto}
+.jntr_about .fileicobblock {display: block;transform: scale(.75);-webkit-transform: scale(.75);position: relative;left: -7px}
+.jntr_about .libraryblock {padding: 25px;height: 136px}
+.jntr_about .lbblocktext {width: calc(100% - 92px);padding: 0;text-align: left;margin-top: 15px;margin-left: 15px}
+.jntr_about .lbblocktext span {font-size: 12px}
+.jntr_about .lbblocktext strong {font-size: 20px}
+.jntr_about .Copyrights, .jntr_about .bottompartright {display: none}
+.jntr_about .Copyrights-Mobile, .jntr_about .bottompartright-Mobile {display: block}
+.jntr_about .bottompartright-Mobile {margin: 30px 0}
+.jntr_about .Copyrights-Mobile {color: #fff;text-align: center} 
+ }
+
+
+@media (min-width:768px) and (max-width:991px) {.rgdev-item .investnow-Btn { margin-left: 0; } 
+.jntr_about .headerTopWrap {top: 10px;display: block}
+.jntr_about .headerTopWrap .mail-Box, .headerrline02 span::after {display: none}
+.jntr_about .headerTopWrap.active {padding-top: 10px;padding-bottom: 10px}
+.jntr_about .sitelogo img {width: 120px}
+.jntr_about .wrapper {max-width: 1360px;padding: 0 40px}
+.jntr_about .rgdev-mobile {top: 10px;background: #95c608}
+.jntr_about .headerTopWrap .award-text {padding: 9px 0 0 20px}
+.jntr_about .headerTopWrap .award-text span {width: 60%;display: inline-block;vertical-align: middle;font-size: 12px}
+
+.jntr_about .mail-Box .input-Box input {font-size: 12px;width: 160px;height: 40px;padding-left: 40px}
+.jntr_about .input-Box .mail-Icon {left: 10px;top: 10px;font-size: 18px}
+.jntr_about .invest-Btn {width: 110px;height: 40px;line-height: 40px;font-size: 12px}
+.jntr_about .email-Box .input-Box input {width: 350px;font-size: 18px;height: 60px;line-height: 60px;padding-left: 55px}
+.jntr_about .email-Box .input-Box .mail-Icon {font-size: 22px;left: 20px;top: 18px}
+.jntr_about .invest-us {width: 200px;height: 60px;line-height: 60px;font-size: 20px}
+.jntr_about .banner_loader { height:60px; padding-top:20px; } 
+.jntr_about .reg-Text {font-size: 11px}
+.jntr_about .equitynotes-box { padding: 40px; } 
+.jntr_about .equitynotes-box .Title02 { font-size: 22px; line-height: 30px; } 
+.jntr_about .equitynotes-box .Title03 { font-size: 18px; margin-bottom: 35px; margin-top: 10px; } 
+.jntr_about .investnow-Box .investnow-Btn { font-size: 21px; padding: 20px 25px; } 
+.jntr_about .red-Lable { -webkit-transform: rotate(45deg) scale(0.80); transform: rotate(45deg) scale(0.80); font-size: 13px; right: -50px; top: 22px; } 
+.jntr_about .homesection10headsub {margin-top: 20px}
+.jntr_about .headerrline01 {padding-top: 70px;font-size: 20px}
+.jntr_about .headerrline02 span {padding: 5px 0 5px 0;font-size: 18px}
+.jntr_about .asSeenSec {padding: 20px}
+.jntr_about .assContainer {margin-top: 30px}
+.jntr_about .assBox01 img {transform: scale(.8);-webkit-transform: scale(.8)}
+.jntr_about .jointer-Box {padding: 100px 0}
+.jntr_about .jointer-Box .text-Title {font-size: 20px;line-height: 36px}
+.jntr_about .Testimonials {padding: 50px 0}
+.jntr_about .testimonials-Box .text-Content .icon-Box img {width: 150px}
+.jntr_about .testimonials-Box .text-Content .text-Title {font-size: 24px;line-height: 42px}
+.jntr_about .testimonials-Box .designation-Box .icon-Box img {width: 85px}
+.jntr_about .testimonials-Box .designation-Box .text-Box .text-Title01 {font-size: 18px}
+.jntr_about .testimonials-Box .designation-Box .text-Box p {font-size: 14px}
+.jntr_about .award-Box {padding: 50px 0}
+.jntr_about .award-Box01 { width: 100%; } 
+.jntr_about .award-Boxwrap .award-Box01+.award-Box01 { order: -1; } 
+.jntr_about .award-Box01 .icon-Box {margin-bottom: 20px}
+.jntr_about .award-Box01 .icon-Box img {width: 80px}
+.jntr_about .award-Box01 .text-Title {font-size: 24px;margin-bottom: 20px}
+.jntr_about .award-Box01 p {font-size: 20px;line-height: 30px}
+.jntr_about .award-Box01 .img-Box img {width: auto; margin-bottom: 30px; } 
+.jntr_about .award-Boxwrap { margin-bottom: 70px; } 
+.jntr_about .award-Box .award-Text { font-size: 20px; line-height: 32px; margin-left: 20px; } 
+.jntr_about .award-List01 { margin-bottom: 25px; } 
+.jntr_about .tokenomics-Box01 {width: 50%}
+.jntr_about .tokenomics-Box01 .icon-Box img { max-width: 100%; } 
+.jntr_about .tokenomics-Box01 .text-Title01 { font-size: 18px; line-height: 24px; } 
+.jntr_about .tokenomics-Box01 .text-Title02 { font-size: 14px; line-height: 30px; } 
+.jntr_about .tokenomics-Box01 .list-Box li { font-size: 16px; line-height: 24px; padding-bottom: 15px; } 
+.jntr_about .liveauction-Btn {width: 350px;height: 70px;line-height: 70px;font-size: 21px}
+.jntr_about .timer-Box { -webkit-transform: scale(0.75); transform: scale(0.75); max-width: 480px; } 
+.jntr_about .siteheader .live-auctionBbox { padding-top: 0; } 
+.jntr_about .flowFunds {padding-top: 120px;background-size: 100%}
+.jntr_about .flowfundBox01 .arrow-Box01 img {width: 110px}
+.jntr_about .flowfundBox01 .icon-Box01 img {width: 60px}
+.jntr_about .flowFunds-Block .Title02 {font-size: 14px;line-height: 20px;padding-top: 10px}
+.jntr_about .flowfundBox01 .arrow-Box01 {text-align: center;margin: 0 0 15px 10px}
+.jntr_about .flowfundBox01 .arrow-Boxwrap .arrow-Box03 {left: -5px}
+.jntr_about .flowfundBox01 .arrow-Boxwrap .arrow-Box03 img {width: 40px}
+.jntr_about .flowfundBox01 .arrow-Boxwrap .arrow-Box02 {left: 20px}
+.jntr_about .flowfundBox01 .arrow-Boxwrap .arrow-Box02 img {height: 45px}
+.jntr_about .flowfundBox01 .icon-Box02 span img {width: 32px}
+.jntr_about .flowfundBox01 .icon-Box02 span+span img {width: 37px}
+.jntr_about .fund-Box {padding: 25px 20px}
+.jntr_about .flowfundBox02 .fund-Box.shadow-Bx .icon-Box img {width: 40px}
+.jntr_about .flowfundBox02 .fund-Box.shadow-Bx+.fund-Box .icon-Box img {width: 26px}
+.jntr_about .fund-Box .icon-Boxwrap .percentage-Text {font-size: 24px;padding-left: 0}
+.jntr_about .fund-Box p {font-size: 12px;line-height: 21px;margin-top: 10px}
+.jntr_about .flowfundBox03 .flow-Wrap .img-Box img {width: 100%}
+.jntr_about .flowfundBox03 .flow-Wrap .img-Box .text-Box {font-size: 11px;line-height: 13px;bottom: 10px;padding: 0 5px}
+.jntr_about .flowfundBox03 .text-Box {font-size: 11px;line-height: 13px;width: 100%;margin: 0 auto;padding: 0 5px}
+.jntr_about .flowfundBox03 .flow-Wrap .flow-Box .icon-Box01 img {width: 100px}
+.jntr_about .flowfundBox03 .flow-Wrap .icon-Box {left: 5px}
+.jntr_about .flowfundBox03 .flow-Wrap .icon-Box img {width: 30px}
+.jntr_about .flowfundBox03 .arrow-Box img {width: 180px}
+.jntr_about .flowfundBox01 .icon-Box02 {width: 130px;} 
+.jntr_about .flowfundBox01 .icon-Box02 img {max-width:100%;} 
+.jntr_about .flowfundBox01 .icon-Box02 span+span { padding-left: 0; } 
+.jntr_about .token-Box .token-Box01 .img-Box {height: 200px}
+.jntr_about .public-Offering { padding-top: 100px; } 
+.jntr_about .protection-Wrap { padding: 50px 0; } 
+.jntr_about .protection-Wrap .protection-Box { width: 50%; } 
+.jntr_about .protection-Wrap .protection-Box:nth-child(2):before { display: none; } 
+.jntr_about .tiTitle01 span { font-size: 36px; } 
+.jntr_about .profit-source { padding-top: 50px; } 
+.jntr_about .market-Block { padding-top: 30px; } 
+.jntr_about .market-Box { padding: 250px 0; -webkit-transform: scale(0.48); transform: scale(0.48); left: -171px; top: -145px; } 
+.jntr_about .market-Box .text-Box { width: 65%; } 
+.jntr_about .token-Box .token-Box01 .img-Box img {width: 120px}
+.jntr_about .global-Chart {padding-top: 100px}
+.jntr_about .multiFamilybox .subTitlebox .titleWrapbox .titleText {font-size: 12px}
+.jntr_about .global-Chart .titleText02 {font-size: 10px}
+.jntr_about .multiFamilybox .subTitlebox .titleWrapbox .titleLargetext {font-size: 20px}
+.jntr_about .multiFamilybox .subTitlebox .titleWrapbox .titleLargetext.greytext {padding-right: 20px}
+.jntr_about .multiFamilybox .subTitlebox .titleWrapbox .titleText i {font-size: 10px}
+.jntr_about .global-Chart .multiFamilybox .subTitlebox .black-round-box {width: 50px;height: 50px;font-size: 20px;line-height: 50px}
+.jntr_about .distribution-Funds {width: 100%}
+.jntr_about .tokensale-Box01 {width: 100%;margin-top: 40px}
+.jntr_about .distribution-Funds .img-Boxwrap {justify-content: center}
+.jntr_about .sale-Detail-box {width: 50%}
+/*#timer .days, #timer .hours, #timer .minutes, #timer .seconds, #timer-Box {font-size: 28px}
+#timer .days:after, #timer .days:before, #timer .hours:after, #timer .hours:before, #timer .minutes:after, #timer .minutes:before {font-size: 28px;right: -10px;top: -12px}
+#timer .days:after, #timer .hours:after, #timer .minutes:after {bottom: 4px;top: inherit}
+#timer .days span, #timer .hours span, #timer .minutes span, #timer .seconds span {width: 28px;height: 38px;line-height: 38px}
+.sale-Box04 .timer-02 p {margin-bottom: 16px}
+#timer02 .days, #timer02 .hours, #timer02 .minutes, #timer02 .seconds, #timer02-Box {font-size: 28px}
+#timer02 .days:after, #timer02 .days:before, #timer02 .hours:after, #timer02 .hours:before, #timer02 .minutes:after, #timer02 .minutes:before {font-size: 28px;right: -10px;top: -12px}
+#timer02 .days:after, #timer02 .hours:after, #timer02 .minutes:after {bottom: 4px;top: inherit}
+#timer02 .days span, #timer02 .hours span, #timer02 .minutes span, #timer02 .seconds span {width: 28px;height: 38px;line-height: 38px}*/
+.jntr_about .liquidityreserve-Box .text-Content p {font-size: 18px;line-height: 30px}
+.jntr_about .liquidityreserve-Box .img-Box img {width: 100%}
+.jntr_about .profit-sourceBox01 .img-Box img {width: 89px}
+.jntr_about .profit-sourceBox01:first-child .img-Box img {width: 78px}
+.jntr_about .profit-sourceBox .icon-Box img {width: 100%}
+.jntr_about .solved {padding-top: 50px}
+.jntr_about .solved-Block {padding: 0; } 
+.jntr_about .solved-Box {padding: 0; } 
+.jntr_about .solved-Title {margin-bottom: 35px}
+.jntr_about .solved-Title .Title01 {font-size: 18px; line-height: 20px; margin-bottom: 5px; } 
+.jntr_about .solved-innerBox .img-Box { margin-bottom: 0; } 
+.jntr_about .solved-innerBox .text-Content {padding-left: 0; font-size: 12px; line-height: 18px; } 
+.jntr_about .solved-Block .arrow-box { width: 45%; margin-top: 30px; } 
+.jntr_about .solved-Block .arrow-box img { width: 120px !important; } 
+.jntr_about .solved-Block .arrow-box:before, .jntr_about .solved-Block .arrow-box:after { -webkit-transform: scale(0.6); transform: scale(0.6); top: -20px; } 
+ 
+.jntr_about .text-Content .Title01 {font-size: 18px;line-height: 22px;margin-bottom: 5px}
+.jntr_about .solved-innerBox .text-Content p {font-size: 13px;line-height: 18px}
+.jntr_about .solved-innerBox .img-Box img {transform: scale(.8);-webkit-transform: scale(.8)}
+.jntr_about .sponsors {padding-top: 120px}
+.jntr_about .sponsor-Box .sponsor-Box01 .text-Content p {font-size: 16px;line-height: 30px}
+.jntr_about .solved-Box01 .inner-Title01 { font-size: 13px; left: 120px; top: 45px; } 
+.jntr_about .solved-Box01:last-child .inner-Title01 { right: 130px; } 
+ 
+.jntr_about .cross-Collateral {padding-top: 120px}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 .text-Content p {width: 100%;font-size: 16px;line-height: 24px}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li {text-align: left}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li span {width: calc(72% - 48px);font-size: 15px}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li:after {margin-left: 0}
+.jntr_about .crossCollateral-Box .logo-Box img {width: 100%}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li .icon-Img {margin-right: 15px}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 .img-Box img {width: 200px}
+.jntr_about .valueForecast-Box {padding: 30px 15px}
+.jntr_about .valueForecast-Box01, .jntr_about .valueForecast-Box02, .jntr_about .valueForecast-Box03 {padding: 27px 0}
+.jntr_about .valueForecast-Box01:before, .jntr_about .valueForecast-Box02:before {transform: scale(.7);-webkit-transform: scale(.7);right: -38px;top: -26px}
+.jntr_about .valueForecast-Box02:before {right: -102px}
+.jntr_about .valueForecast-Box02 .calcyppBox01 {width: 140px}
+.jntr_about .advantages {padding: 120px 0 0}
+.jntr_about .advantage-Box .advantage-Box01 .Title02 {font-size: 16px;padding-top: 20px}
+.jntr_about .advantage-Box .advantage-Box01 p {width: 100%;font-size: 14px}
+.jntr_about .dualToken-Box {padding-top: 0}
+.jntr_about .dualToken-Box .dualToken-Box01 .text-Content p {font-size: 15px;line-height: 30px}
+.jntr_about .flowFunds {padding-top: 120px}
+.jntr_about .token-Box {margin-left: -10px;margin-right: -10px}
+.jntr_about .token-Box .token-Box01 {padding: 0 10px}
+.jntr_about .token-Box .token-Box01 .img-Box {height: 200px}
+.jntr_about .token-Box .token-Box01 .img-Box img {width: 120px}
+.jntr_about .tzero-Box .Title02 {font-size: 16px;line-height: 24px;padding-top: 20px}
+.jntr_about .reserve-Box01 .text-Content .Title02 {font-size: 16px;line-height: 20px;padding-bottom: 15px}
+.jntr_about .reserve-Box01 .text-Content p, .jntr_about .trust-Box .text-Content p {font-size: 13px;line-height: 20px;margin-bottom: 20px}
+.jntr_about .reserve-Box .Title01 {font-size: 20px;line-height: 24px}
+.jntr_about .reserve-Box01 {padding-top: 20px}
+.jntr_about .reserve-Box01 .icon-Box img, .jntr_about .trust-Box .icon-Box img, .jntr_about .tzero-Box .icon-Box .img-Box:first-child img {width: 40px}
+.jntr_about .tzero-Box {padding-right: 10px}
+.jntr_about .tzero-Box .icon-Box .img-Box:last-child img {width: 90px}
+.jntr_about .jointerproperty-Box {background-size: 100%}
+.jntr_about .jointerproperty-Box .text-Content .Title03 {font-size: 10px}
+.jntr_about .trust-Box .text-Content .Title02 {font-size: 16px;line-height: 20px}
+.jntr_about .flowFunds-Block .arrows-Box img {width: 43px}
+.jntr_about .reserve-Box, .jntr_about .trust-Box {padding: 20px}
+.jntr_about .tower-Box {width: 180px}
+.jntr_about .tower-Box img {width: 100%}
+.jntr_about .global-Chart::before {left: -400px;top: 100px}
+.jntr_about .global-Chart::after {left: inherit;right: -400px;top: inherit;bottom: -50px}
+.jntr_about .global-Chart .multiFamilybox {margin-bottom: 50px}
+.jntr_about .tokensale-Information {padding-top: 90px}
+.jntr_about .distribution-Funds .investment-properyBox {width: 150px;margin-left: 10px}
+.jntr_about .tokensale-InformationBox {padding: 30px 0 50px}
+.jntr_about .investment-properyBox:before {width: 150px}
+.jntr_about .investment-properyBox .title-Text {font-size: 16px}
+.jntr_about .distribution-Funds .Title01 {font-size: 24px;line-height: 30px;text-align: center}
+.jntr_about .sale-Detail-box01 .Title02 {font-size: 20px;line-height: 24px}
+.jntr_about .double-investment {padding-top: 120px}
+.jntr_about .double-investment .text-Title {font-size: 28px;padding-bottom: 20px}
+.jntr_about .investmentInput-Box input {font-size: 28px}
+.jntr_about .investmentInput-Box .input-Box02 span {font-size: 28px;left: 15px;top: 15px}
+.jntr_about .investmentInput-Box input {height: 62px;padding-left: 50px}
+.jntr_about .period-Box .calcyppLink01 {height: 62px;line-height: 42px;font-size: 28px}
+.jntr_about .period-Box .calcyppContent02 {width: 245px}
+.jntr_about .period-Box .calcyppContent02 a {font-size: 28px;height: 62px;line-height: 42px}
+.jntr_about .investment-Box:before {height: 40px;bottom: -40px}
+.jntr_about .double-investment .Title02 {font-size: 16px;padding-top: 40px;margin-bottom: 45px}
+.jntr_about .double-investment .Title02:after, .jntr_about .double-investment .Title02:before {width: 48px}
+.jntr_about .tokn-Box01:after, .jntr_about .tokn-Box01:before {height: 62px}
+.jntr_about .tokn-Box01:before {top: -62px}
+.jntr_about .tokn-Box .tokn-Box01 .Title01 {font-size: 20px;line-height: 1}
+.jntr_about .tokn-Box .tokn-Box01 .Title01 i {font-size: 12px}
+.jntr_about .tokn-Box .tokn-Box01 p {font-size: 12px;line-height: 20px}
+.jntr_about .tokn-Box .tokn-Box01 .token-Amt {font-size: 28px}
+.jntr_about .tokn-Box .tokn-Box01 .icon-Box {margin: 15px 0}
+.jntr_about .tokn-Box .tokn-Box01 .icon-Box img {width: 14px!important}
+.jntr_about .tokn-Box01 .calc-Box .calc-Box01 {width: 65px;height: 65px;padding-top: 10px}
+.jntr_about .tokn-Box .tokn-Box01 {padding: 20px 15px}
+.jntr_about .calc-Box .calc-Box01 .title-Text {font-size: 12px;margin-bottom: 0}
+.jntr_about .calc-Box .calc-Box01 p, .jntr_about .calc-Box .calc-Box02 p {font-size: 8px;line-height: 1.5}
+.jntr_about .calc-Box .calc-Box01 .title-Text01, .jntr_about .calc-Box .calc-Box02 .title-Text01 {font-size: 16px;margin-bottom: 0}
+.jntr_about .calc-Box .calc-Box01 p i, .jntr_about .calc-Box .calc-Box02 p i {font-size: 8px}
+.jntr_about .tokn-Box01 .calc-Box .calc-Box01:last-child {width: 65px}
+.jntr_about .tokn-Box01 .calc-Box .calc-Box02 {width: 250px;height: 62px;padding-top: 15px}
+.jntr_about .calc-Box .icon-Box01 {width: 28px}
+.jntr_about .tokn-Box01 .Title03 {font-size: 14px}
+.jntr_about .double-investment .icon-Box04 span, .jntr_about .tokn-Box .icon-Box03 span {width: 60px;height: 60px;line-height: 48px}
+.jntr_about .double-investment .icon-Box04 span img, .jntr_about .tokn-Box .icon-Box03 span img {width: 24px}
+.jntr_about .equity-goalBox .input-Box {flex-direction: column}
+.jntr_about .equity-goalBox .input-Box input {text-align: left;padding: 10px 15px;width: 100%}
+.jntr_about .equity-goalBox .input-Box p {padding-left: 0;padding-top: 10px;text-align: center}
+.jntr_about .double-investment .final-amtBox {font-size: 24px;padding: 20px 0;margin-bottom: 40px}
+.jntr_about .tokn-Box01:after {bottom: -62px}
+.jntr_about .double-investment .icon-Box04 span:after, .jntr_about .double-investment .icon-Box04 span:before {width: 772px;left: 55px;top: 23px}
+.jntr_about .double-investment .icon-Box04 span:after {right: 56px;left: inherit}
+.jntr_about .valuation-forecast {padding-top: 120px}
+.jntr_about .valueForecast-Box01 .title-Text01, .valueForecast-Box03 .title-Text01 {font-size: 11px;margin-bottom: 10px}
+.jntr_about .valueForecast-Box02 .title-Text01 {font-size: 11px}
+.jntr_about .valueForecast-Box02 .title-Text01 i {font-size: 10px;top: -5px}
+.jntr_about .valueForecast-Box01 .title-Amt01, .jntr_about .valueForecast-Box03 .title-Amt01 {font-size: 15px}
+.jntr_about .valueForecast-Box02 .calcyppBox01 .calcyppLink01, .jntr_about .valueForecast-Box02 .calcyppContent02 a {font-size: 20px}
+.jntr_about .ebita {padding-top: 100px}
+.jntr_about .scalability {padding: 100px 0}
+.jntr_about .scalability-Box .scalability-Box01 .Title01 {font-size: 20px;margin-bottom: 15px}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box {margin-left: 0;padding: 35px 15px 15px 35px;width: 90%}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box .stardart-txt {font-size: 14px;padding-left: 20px;width: calc(100% - 32px)}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box li .stardart-Number {width: 32px;height: 32px;line-height: 35px;font-size: 18px}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box li {padding-bottom: 40px}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Box p {font-size: 13px;line-height: 17px}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Box {padding: 15px 15px 0 15px}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Box .img-Box {transform: scale(.73);-webkit-transform: scale(.50);position: relative;top: -40px;}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Block {height: 275px}
+.jntr_about .decacorn-potential {padding-top: 50px}
+.jntr_about .decacorn-potentialBox01 .Title02 {width: 100%;font-size: 16px;line-height: 20px}
+.jntr_about .decacorn-potentialBox {padding: 50px 0 90px}
+.jntr_about .decacorn-potentialBox {padding: 20px 0 50px}
+.jntr_about .partner-network {padding-top: 100px}
+.jntr_about .partner-Box .partner-Box01 a img {transform: scale(.8);-webkit-transform: scale(.8)}
+.jntr_about #roadmap-Block .main-Box .img-Box {transform: scale(.65);-webkit-transform: scale(.65);position: relative;left: -65px}
+.jntr_about #roadmap-Block #s19Tabbox {width: 100%}
+.jntr_about #s19Videobox {position: relative;left: -50px;transform: scale(.85);-webkit-transform: scale(.85)}
+.jntr_about .s19TClist01 ul li {font-size: 13px;line-height: 24px}
+.jntr_about .s20ttextbox02 {font-size: 18px}
+.jntr_about .s20tImgbox {width: 100px}
+.jntr_about .s20Teambox01 {padding-right: 20px}
+.jntr_about .s20Teambox01 .s20tImgbox img {width: 82px}
+.jntr_about .s20ttextbox span {font-size: 16px;line-height: 20px;margin: 0 auto 5px}
+.jntr_about .s20ttextbox {width: calc(100% - 100px);font-size: 11px;line-height: 18px}
+.jntr_about .s20tImgbox.tI01:after {width: 40px;height: 40px;background-size: 100%;left: 50px}
+.jntr_about .s20tImgbox.tI02:after {width: 48px;height: 15px;background-size: 100%;left: 40px;bottom: 0}
+.jntr_about .s20tImgbox.tI03:after {width: 53px;height: 12px;background-size: 100%;left: 40px;bottom: 5px}
+.jntr_about .s20tImgbox.tI04:after {width: 35px;height: 35px;background-size: 100%;left: 45px;bottom: 0}
+.jntr_about .s20tImgbox.tI05:after {width: 33px;height: 34px;background-size: 100%;left: 50px;bottom: 0}
+.jntr_about .s20tImgbox.tI06:after {width: 46px;height: 11px;background-size: 100%;left: 50px}
+.jntr_about .s20tImgbox.tI07:after {width: 35px;height: 35px;background-size: 100%;left: 50px;bottom: 0}
+.jntr_about .teamLinkIcon {width: 84px;height: 84px}
+.jntr_about .s20Teambox01:hover .s20RotaterBox, .jntr_about .s20Teambox01:hover .s20RotaterBox .teamLinkIcon {transform: none;width: 84px;height: 84px}
+.jntr_about .s20Teambox01 .s20tImgbox .teamImgNPbox {width: 80px;height: 80px}
+.jntr_about .s20Teambox01 .s20tImgbox .afterLogo img {width: 40px}
+.jntr_about .afterLogo {left: 50px}
+.jntr_about .profit-sourceBox01 p {font-size: 16px;line-height: 25px;margin-top: 0}
+.jntr_about #team-Block .management-team-Box {padding-top: 50px;padding-bottom: 0;margin-top: -50px}
+.jntr_about #team-Block .management-team-Box:before {background-size: 30%}
+.jntr_about #team-Block .rd-team-Box {padding-top: 0;background-size: 20%;background-position: left 130px}
+.jntr_about #team-Block .operation-team-Box {padding: 0;background-position: right 10px;background-size: 20%}
+.jntr_about #team-Block .management-team-Box:before, .jntr_about #team-Block .operation-team-Box:before {display: none}
+.jntr_about .partner-Box .partner-Box01 {width: 33.33%;margin-bottom: 10px}
+.jntr_about .fileicobblock {transform: scale(.7);-webkit-transform: scale(.7)}
+.jntr_about .libraryblockbg03 {margin-right: 0}
+.jntr_about .libraryblock {width: 45%;height: 110px;padding: 10px;margin: 0 15px 15px 0}
+.jntr_about .lbblocktext {padding: 10px 27px 16px 14px;width: calc(100% - 75px);margin-left: 0}
+.jntr_about .lbblocktext::after {right: 35px}
+.jntr_about .bottomotherlink {justify-content: center}
+.jntr_about .comparetable.cV2>tbody>tr>td { font-size: 14px; padding: 15px; width: 50%; } 
+.jntr_about .comparetable.cV2>tbody>tr>td:first-child { width: 70% !important; } 
+.jntr_about .homesection08-02 .comparetable>tbody>tr>td.colblock04-02 { font-size: 16px !important; } 
+.jntr_about .comparetable02>tbody>tr>th { border:1px solid #0d0d0d; width: 50%; } 
+.jntr_about .comparetable02>tbody>tr>th:first-child { background: #eaa11f !important; } 
+.jntr_about .comparetable02 { display: table; margin-bottom: 50px; } 
+.jntr_about .responsivetable02 .table-Tilte { font-size: 18px; color: #fff; } 
+
+.jntr_about .mcdTextBox{width: calc(100% - 110px);color: #aaaaaa;font-size: 13px;font-family: "mont-light", arial;}
+.jntr_about .mcdTextBox span{display: block;font-size: 18px;font-style: italic;margin-bottom: 10px;}
+ 
+.jntr_about .rCompany-IconBox { width:33.33%; padding: 20px; }
+.jntr_about #animation_container { background-size:80%; }
+.jntr_about .jntr-About-block { padding: 100px 0 50px; }
+.jntr_about .jntr-About-block .about-Titletext { font-size: 20px; line-height: 30px; padding-bottom: 10px; }
+.jntr_about .jntr-About-block .about-Text, .jntr_about .background-Block .background-Text { font-size: 16px; line-height: 24px; }
+.jntr_about .investor-Ring { padding-top: 30px; font-size: 12px; }
+.jntr_about .investor-Ring .investor-ring01 { width: 50%; margin-bottom: 20px; }
+.jntr_about .investor-ring01 .circle01, .jntr_about .investor-ring01 .circle02, .jntr_about .investor-ring01 .circle03, .jntr_about .investor-ring01 .circle04 { margin-bottom: 15px; }
+.jntr_about .investor-ring01 .circle01 span, .jntr_about .investor-ring01 .circle02 span, .jntr_about .investor-ring01 .circle03 span, .jntr_about .investor-ring01 .circle04 span { font-size: 30px; }
+.jntr_about .background-Block { padding: 70px 0; }
+.jntr_about .our-Vision { padding-bottom: 50px; }
+.jntr_about .our-Vision .img-Box img { width: 500px; }
+.jntr_about .our-Vision .vision-Text { font-size: 18px; line-height: 30px; }
+.jntr_about .our-Dna { padding: 70px 0; }
+.jntr_about .our-Dna .dna-Box .dna-Box01 { height: 150px; }
+.jntr_about .our-Dna .dna-Box .dna-Box01 img { -webkit-transform: scale(0.6); transform: scale(0.6); } 
+.jntr_about .recent-News { padding-top: 70px; padding-bottom: 50px; }
+.jntr_about .recent-News .news-Wrap .news-Box { width: 50%; }
+.jntr_about .recent-News .news-Wrap .news-Box .news-Box01 .news-Title { font-size: 18px; line-height: 24px; }
+.jntr_about .community-Block { padding: 70px 0; }
+.jntr_about .community-Block .community-Wrap .channels-Box, .jntr_about .community-Block .community-Wrap .auction-Box { width: 100%; }
+.jntr_about .community-Block .community-Wrap .channels-Box .channels-Title { font-size: 30px; padding-bottom: 20px; }
+.jntr_about .community-Block .community-Wrap .channels-Box .channels-Text { padding-bottom: 20px; }
+.jntr_about .community-Block .liveauction-Btn { width: 450px; margin-top: 20px; }
+.jntr_about .community-Block .live-auctionBbox p { font-size: 10px; }
+.jntr_about .footer { padding: 30px 20px; } 
+.jntr_about .footer .footer-left p, .footer .footer-left p a { font-size: 10px; line-height: 14px; } 
+.jntr_about .footer .footer-left p + p { margin-top: 10px; } 
+.jntr_about .footer .footer-left .footer-logo a img { width: 80px; } 
+.jntr_about .footer .footer-left .f-Link a, .footer .footer-right .social-Icons h5, .footer .footer-right p { font-size: 11px; line-height: 14px; } 
+.jntr_about .footer .footer-left .f-Link a { padding: 0 4px; } 
+.jntr_about .footer .footer-right .social-Icons li { padding-right: 0; } 
+.jntr_about .footer .footer-right .social-Icons li a { transform: scale(0.8); -webkit-transform: scale(0.8); } 
+.jntr_about .footer .footer-left .footer-logo a { padding-right: 5px; }
+
+ }
+
+@media (min-width:992px) and (max-width:1199px) {
+.jntr_about .libraryMbox {margin: 0 auto 0 auto;max-width: 800px;}
+.jntr_about .header-Rightbox .rgdev {margin-top: 0;font-size: 14px}
+.jntr_about .wrapper {max-width: 1360px;padding: 0 40px}
+.jntr_about .headerTopWrap .award-text {padding: 9px 0 0 20px}
+.jntr_about .headerTopWrap .award-text span {width: 60%;display: inline-block;vertical-align: middle;font-size: 12px}
+.jntr_about .timer-Box { max-width: 450px; } 
+.jntr_about .rgdev-item a { padding-left: 6px; padding-right: 6px; font-size: 14px; } 
+.jntr_about .rgdev-item .investnow-Btn { padding: 13px; font-size: 14px; margin-left: 15px; } 
+.jntr_about .equitynotes-box .Title02 { font-size: 24px; line-height: 36px; } 
+.jntr_about .equitynotes-box .Title03 { font-size: 18px; margin-bottom: 35px; } 
+.jntr_about .award-Box .award-Text { width: calc(100% - 150px); font-size: 20px; line-height: 30px; margin-left: 15px; } 
+.jntr_about .award-List01 { margin-bottom: 25px; } 
+.jntr_about .mail-Box {padding-left: 35px}
+.jntr_about .mail-Box .input-Box input {font-size: 13px;width: 200px;height: 40px;padding-left: 40px}
+.jntr_about .input-Box .mail-Icon {left: 10px;top: 10px;font-size: 18px}
+.jntr_about .invest-Btn {width: 112px;height: 40px;line-height: 40px;font-size: 12px}
+.jntr_about .email-Box .input-Box input {width: 335px;font-size: 18px;height: 60px;line-height: 60px;padding-left: 50px}
+.jntr_about .email-Box .input-Box .mail-Icon {font-size: 18px;left: 20px;top: 18px}
+.jntr_about .invest-us {width: 200px;height: 60px;line-height: 60px;font-size: 20px}.banner_loader { height:60px; padding-top:20px; } 
+.jntr_about .timer-Box a, .jntr_about .timer-Box p {font-size: 14px}
+.jntr_about .reg-Text {font-size: 11px}
+.jntr_about .homesection10headsub {margin-top: 20px;font-size: 18px}
+.jntr_about .headerrline01 {font-size: 38px;padding-top: 450px;padding-bottom: 10px;}
+.jntr_about .headerrline02 span, .jntr_about .headerrline02 span:after {font-size: 18px}
+.jntr_about .headerrline02 span {padding-left: 25px}
+.jntr_about .asSeenSec {padding: 20px}
+.jntr_about .assContainer {margin-top: 40px}
+.jntr_about .assBox01 img {transform: scale(.7);-webkit-transform: scale(.7)}
+.jntr_about .sponsors {padding-top: 120px}
+.jntr_about .jointer-Box {padding: 100px 0}
+.jntr_about .jointer-Box .text-Title {font-size: 24px;line-height: 42px}
+.jntr_about .testimonials-Box .text-Content .text-Title {font-size: 30px;line-height: 52px;padding-left: 40px}
+.jntr_about .testimonials-Box .text-Content .icon-Box img {width: 200px}
+.jntr_about .testimonials-Box .designation-Box .icon-Box img {width: 85px}
+.jntr_about .testimonials-Box .designation-Box .text-Box {margin-left: 25px}
+.jntr_about .testimonials-Box .designation-Box {margin-left: 25%}
+.jntr_about .award-Box01 .icon-Box img {width: 90px}
+.jntr_about .award-Box01 .text-Title {font-size: 36px;margin-bottom: 20px}
+.jntr_about .award-Box01 p {font-size: 24px;line-height: 36px}
+.jntr_about .award-Box01 .img-Box img {width: 100%}
+.jntr_about .solved {padding-top: 50px}
+.jntr_about .solved-Title {margin-bottom: 40px}
+.jntr_about .solved-Title .Title01 {font-size: 36px}
+.jntr_about .solved-Block {padding: 40px 0 0}
+.jntr_about .solved-Box {padding: 0; } 
+.jntr_about .text-Content .Title01 { font-size: 24px; line-height: 32px; } 
+.jntr_about .solved-innerBox .text-Content p { font-size: 15px; line-height: 24px; } 
+.jntr_about .solved-Box01 .inner-Title01 { font-size: 18px; } 
+.jntr_about .comparetable .rotate-Text { left: -25px; } 
+.jntr_about .comparetable.cV2>tbody>tr>td { font-size: 16px; } 
+.jntr_about .comparetable>tbody>tr>td:nth-child(2) { width: 28%; } 
+.jntr_about .comparetable02 { margin-bottom: 70px; } 
+.jntr_about .comparetable02>tbody>tr>th { padding: 15px; font-size: 14px; } 
+.jntr_about .comparetable02>tbody>tr>td { font-size: 14px; padding: 15px; } 
+.jntr_about .protection-Wrap { padding: 70px 0; margin: 0 -20px; } 
+.jntr_about .protection-Wrap .protection-Box { padding: 0 20px; } 
+.jntr_about .protection-Wrap .protection-Box .text-Bx { font-size: 13px; line-height: 24px; padding-left: 20px; } 
+.jntr_about .tiTitle01 span { padding-top: 40px; font-size: 30px; } 
+.jntr_about .tiTitle02 { font-size: 18px; } 
+.jntr_about .tiBlackbox a { font-size: 16px; } 
+ 
+ 
+.jntr_about .solved-innerBox {align-items: flex-start}
+.jntr_about .solved-innerBox .text-Content {padding-left: 0; } 
+.jntr_about .sectionhead04 {font-size: 36px}
+.jntr_about .cross-Collateral {padding-top: 120px}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 .text-Content p {width: 80%;margin-top: 0}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li {text-align: left}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li span {width: 63%}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 li:after {margin-left: 0}
+.jntr_about .crossCollateral-Box .logo-Box img {width: 100%}
+.jntr_about .crossCollateral-Box .crossCollateral-Box01 .img-Box img {width: 200px}
+.jntr_about .tokenomics-Box {margin: 0 -20px 70px}
+.jntr_about .tokenomics-Box01 {padding: 0 20px}
+.jntr_about .tokenomics-Box01 .list-Box li {font-size: 16px;line-height: 24px}
+.jntr_about .tokenomics-Box01 .icon-Box img {width: 250px}
+.jntr_about .liveauction-Btn {width: 450px;height: 70px;line-height: 70px;font-size: 21px}
+.jntr_about .siteheader .live-auctionBbox { padding-top: 20px; } 
+.jntr_about .advantages {padding: 120px 0 0}
+.jntr_about .advantage-Box .advantage-Box01 .Title02 {font-size: 21px}
+.jntr_about .advantage-Box .advantage-Box01 p {width: 100%}
+.jntr_about .dualToken-Box {padding-top: 0}
+.jntr_about .flowFunds {padding-top: 120px;background-size: 100%}
+.jntr_about .flowfundBox01 .arrow-Box01 img {width: 160px}
+.jntr_about .flowfundBox01 .icon-Box01 img {width: 60px}
+.jntr_about .flowFunds-Block .Title02 {font-size: 16px;line-height: 24px;padding-top: 10px}
+.jntr_about .flowfundBox01 .arrow-Box01 {text-align: center;margin: 0 0 15px 10px}
+.jntr_about .flowfundBox01 .arrow-Boxwrap .arrow-Box03 {left: -25px}
+.jntr_about .flowfundBox01 .arrow-Boxwrap .arrow-Box03 img {width: 50px}
+.jntr_about .flowfundBox01 .arrow-Boxwrap .arrow-Box02 {left: 20px}
+.jntr_about .flowfundBox01 .arrow-Boxwrap .arrow-Box02 img {height: 45px}
+.jntr_about .flowfundBox01 .icon-Box02 span img {width: 32px}
+.jntr_about .flowfundBox01 .icon-Box02 span+span img {width: 37px}
+.jntr_about .fund-Box {padding: 25px 20px}
+.jntr_about .flowfundBox02 .fund-Box.shadow-Bx .icon-Box img {width: 40px}
+.jntr_about .flowfundBox02 .fund-Box.shadow-Bx+.fund-Box .icon-Box img {width: 26px}
+.jntr_about .fund-Box .icon-Boxwrap .percentage-Text {font-size: 24px}
+.jntr_about .fund-Box p {font-size: 12px;line-height: 21px;margin-top: 10px}
+.jntr_about .flowfundBox03 .flow-Wrap .img-Box img {width: 100%}
+.jntr_about .flowfundBox03 .flow-Wrap .img-Box .text-Box {font-size: 12px;line-height: 18px;bottom: 20px}
+.jntr_about .flowfundBox03 .text-Box {font-size: 12px;line-height: 18px;width: 90%;margin: 0 auto}
+.jntr_about .flowfundBox03 .flow-Wrap .flow-Box .icon-Box01 img {width: 100px}
+.jntr_about .flowfundBox03 .flow-Wrap .icon-Box {left: 10px}
+.jntr_about .flowfundBox03 .flow-Wrap .icon-Box img {width: 42px}
+.jntr_about .flowfundBox03 .arrow-Box img {width: 270px}
+.jntr_about .token-Box .token-Box01 .img-Box {height: 200px}
+.jntr_about .token-Box .token-Box01 .img-Box img {width: 120px}
+.jntr_about .tzero-Box .Title02 {font-size: 16px;line-height: 24px;padding-top: 20px}
+.jntr_about .reserve-Box01 .text-Content .Title02 {font-size: 16px;line-height: 20px;padding-bottom: 15px}
+.jntr_about .reserve-Box01 .text-Content p, .jntr_about .trust-Box .text-Content p {font-size: 13px;line-height: 20px;margin-bottom: 20px}
+.jntr_about .reserve-Box .Title01 {font-size: 20px;line-height: 24px}
+.jntr_about .reserve-Box01 {padding-top: 20px}
+.jntr_about .reserve-Box01 .icon-Box img, .jntr_about .trust-Box .icon-Box img, .jntr_about .tzero-Box .icon-Box .img-Box:first-child img {width: 40px}
+.jntr_about .tzero-Box {padding-right: 20px}
+.jntr_about .tzero-Box .icon-Box .img-Box:last-child img {width: 118px}
+.jntr_about .jointerproperty-Box {background-size: 100%}
+.jntr_about .jointerproperty-Box .text-Content .Title03 {font-size: 14px}
+.jntr_about .trust-Box .text-Content .Title02 {font-size: 16px;line-height: 20px}
+.jntr_about .flowFunds-Block .arrows-Box img {width: 43px}
+.jntr_about .global-Chart::before {left: -400px;top: 100px}
+.jntr_about .global-Chart::after {left: inherit;right: -400px;top: inherit;bottom: -50px}
+.jntr_about .global-Chart .multiFamilybox {margin-bottom: 50px}
+.jntr_about .multiFamilybox .subTitlebox .titleWrapbox .titleText {font-size: 18px}
+.jntr_about .multiFamilybox .subTitlebox .titleWrapbox .titleText i {font-size: 14px}
+.jntr_about .global-Chart .titleText02 {font-size: 12px}
+.jntr_about .multiFamilybox .subTitlebox .titleWrapbox .titleLargetext {font-size: 40px}
+.jntr_about .global-Chart .multiFamilybox .subTitlebox .black-round-box {width: 80px;height: 80px;font-size: 30px;line-height: 80px}
+.jntr_about .tokensale-Information {padding-top: 90px}
+.jntr_about .distribution-Funds .img-Boxwrap .tower-Box img {width: 200px}
+.jntr_about .investment-Percentage {font-size: 14px;bottom: 90px;padding-top: 30px}
+.jntr_about .distribution-Funds .investment-properyBox {width: 180px;margin-left: 30px}
+.jntr_about .tokensale-InformationBox {padding: 30px 0 50px}
+.jntr_about .investment-properyBox:before {width: 180px}
+.jntr_about .investment-properyBox .title-Text {font-size: 18px;width: 80%}
+.jntr_about .distribution-Funds .Title01 {font-size: 24px;line-height: 30px}
+.jntr_about .sale-Detail-box01 .Title02 {font-size: 20px;line-height: 24px}
+.jntr_about .tokensale-Box01 .sale-Box01 .title-Wrap .Title03, .jntr_about .tokensale-Box01 .sale-Box02 .Title03 {font-size: 16px}
+.jntr_about .tokensale-Box01 .sale-Tokenbox {margin-top: 0;}
+.jntr_about .tokensale-Box01 .sale-Tokenbox .amt-Box .Title01 {font-size: 21px;line-height: 24px}
+.jntr_about .tokensale-Box01 .sale-Tokenbox .amt-Box .text-Title {font-size: 12px}
+.jntr_about .tokensale-Box01 .sale-Box02 .Title03 {font-size: 14px}
+.jntr_about .tokensale-Box01 .sale-Box01 {padding-bottom: 20px}
+
+.jntr_about .jointer-bonus-progress .text-Wrap {width: 190px}
+.jntr_about .jointer-bonus-progress .text-Wrap .text-Title {font-size: 12px}
+
+.jntr_about .tokensale-Box01 {padding-left: 15px}
+.jntr_about .equity-Goal {margin-top: 45px; } 
+.jntr_about .equity-Goal .equity-goalBox:first-child {padding-right: 15px}
+.jntr_about .equity-Goal .equity-goalBox:last-child {padding-left: 15px}
+.jntr_about .equity-goalBox .text-Title {font-size: 13px; line-height: 20px; } 
+.jntr_about .equity-goalBox .text-Title span i {font-size: 12px}
+.jntr_about .equity-goalBox .input-Box {flex-direction: column}
+.jntr_about .equity-goalBox .input-Box input {text-align: left;padding: 10px 15px;width: 100%}
+.jntr_about .equity-goalBox .input-Box p {padding-left: 0;padding-top: 10px;text-align: center}
+ 
+.jntr_about .sale-Box03 .token-descBox .token-descBox01 .text-Title {font-size: 13px;min-height: 35px}
+.jntr_about .sale-Box03 .token-descBox .token-descBox01 .Title03 {padding-top: 10px}
+.jntr_about .tokensale-Box01 .sale-Box03 {margin: 0 0 20px}
+.jntr_about .sale-Box04 .liveauction-Btn {width: 220px}
+.jntr_about .equity-goalBox .input-Box input { font-size: 21px; } 
+.jntr_about .equity-Goal { margin: 45px -10px 0; padding: 15px 0; } 
+.jntr_about .equity-Goal .equity-goalBox { padding: 0 10px; } 
+.jntr_about .equity-goalBox .list-Title { font-size: 10px; } 
+.jntr_about .equity-goalBox span { width: 70%; padding-right: 5px; } 
+.jntr_about .equity-goalBox span+span { width: 30%; } 
+.jntr_about .equity-goalBox:first-child span { width: 45%; padding-right: 4px; } 
+.jntr_about .equity-goalBox:first-child span+span { width: 55%; } 
+.jntr_about .sale-Box03 .token-descBox .token-descBox01 { padding: 10px 0; } 
+.jntr_about .market-Block { padding-top: 70px; } 
+.jntr_about .market-Box { padding: 350px 0; -webkit-transform: scale(0.65); transform: scale(0.65); left: -150px; top: -100px; } 
+.jntr_about .market-Box .text-Box { font-size: 18px; width: 60%; } 
+.jntr_about .market-Box .text-Box .Title01 { font-size: 40px; margin-bottom: 10px; } 
+.jntr_about .market-Box .text-Box .text-Title01 { line-height: 1.3; } 
+/*#timer .days, #timer .hours, #timer .minutes, #timer .seconds, #timer-Box {font-size: 28px}
+#timer .days:after, #timer .days:before, #timer .hours:after, #timer .hours:before, #timer .minutes:after, #timer .minutes:before {font-size: 28px;right: -10px;top: -12px}
+#timer .days:after, #timer .hours:after, #timer .minutes:after {bottom: 4px;top: inherit}
+#timer .days span, #timer .hours span, #timer .minutes span, #timer .seconds span {width: 28px;height: 38px;line-height: 38px}
+.sale-Box04 .timer-02 p {font-size: 13px}
+#timer02 .days, #timer02 .hours, #timer02 .minutes, #timer02 .seconds, #timer02-Box {font-size: 26px}
+#timer02 .days:after, #timer02 .days:before, #timer02 .hours:after, #timer02 .hours:before, #timer02 .minutes:after, #timer02 .minutes:before {font-size: 26px;right: -10px;top: -12px}
+#timer02 .days:after, #timer02 .hours:after, #timer02 .minutes:after {bottom: 4px;top: inherit}
+#timer02 .days span, #timer02 .hours span, #timer02 .minutes span, #timer02 .seconds span {width: 25px;height: 35px;line-height: 35px}*/
+.jntr_about .liquidityreserve-Box .text-Content p {font-size: 21px;line-height: 36px}
+.jntr_about .liquidityreserve-Box .img-Box {text-align: right}
+.jntr_about .liquidityreserve-Box .img-Box img {width: 420px}
+.jntr_about .double-investment {padding-top: 120px}
+.jntr_about .double-investment .text-Title {font-size: 28px;padding-bottom: 20px}
+.jntr_about .investmentInput-Box input {font-size: 28px}
+.jntr_about .investmentInput-Box .input-Box02 span {font-size: 28px;left: 15px;top: 15px}
+.jntr_about .investmentInput-Box input {height: 62px;padding-left: 50px}
+.jntr_about .profit-sourceBox01 p {font-size: 18px;line-height: 30px;margin-top: 20px}
+.jntr_about .profit-sourceBox01:first-child .img-Box img {width: 78px}
+.jntr_about .profit-sourceBox01 .img-Box img {width: 89px}
+.jntr_about .profit-sourceBox .icon-Box img {width: 100%}
+.jntr_about .homesection08-02 .npWrapperFix01.wrapper .comparetable.cV2 {width: 100%}
+.jntr_about .homesection08-02 .comparetable>tbody>tr>td {padding: 20px 15px;vertical-align: middle}
+.jntr_about .homesection08-02 .comparetable>tbody>tr>th:last-child img {width: 100%}
+.jntr_about .valueForecast-Box02:before {height: 167px}
+.jntr_about .period-Box .calcyppLink01 {height: 62px;line-height: 42px;font-size: 28px}
+.jntr_about .period-Box .calcyppContent02 {width: 335px}
+.jntr_about .period-Box .calcyppContent02 a {font-size: 28px;height: 62px;line-height: 42px}
+.jntr_about .investment-Box:before {height: 40px;bottom: -40px}
+.jntr_about .double-investment .Title02 {font-size: 16px;padding-top: 40px;margin-bottom: 45px}
+.jntr_about .double-investment .Title02:after, .jntr_about .double-investment .Title02:before {width: 112px}
+.jntr_about .tokn-Box01:after, .jntr_about .tokn-Box01:before {height: 62px}
+.jntr_about .tokn-Box01:before {top: -62px}
+.jntr_about .tokn-Box .tokn-Box01 .Title01 {font-size: 20px;line-height: 1}
+.jntr_about .tokn-Box .tokn-Box01 .Title01 i {font-size: 12px}
+.jntr_about .tokn-Box .tokn-Box01 p {font-size: 12px;line-height: 20px}
+.jntr_about .tokn-Box .tokn-Box01 .token-Amt {font-size: 28px}
+.jntr_about .tokn-Box .tokn-Box01 .icon-Box {margin: 15px 0}
+.jntr_about .tokn-Box .tokn-Box01 .icon-Box img {width: 14px!important}
+.jntr_about .tokn-Box01 .calc-Box .calc-Box01 {width: 82px;height: 82px}
+.jntr_about .tokn-Box .tokn-Box01 {padding: 20px 15px}
+.jntr_about .calc-Box .calc-Box01 .title-Text {font-size: 14px;margin-bottom: 5px}
+.jntr_about .calc-Box .calc-Box01 p, .jntr_about .calc-Box .calc-Box02 p {font-size: 8px;line-height: 1.5}
+.jntr_about .calc-Box .calc-Box01 .title-Text01, .jntr_about .calc-Box .calc-Box02 .title-Text01 {font-size: 20px;margin-bottom: 5px}
+.jntr_about .calc-Box .calc-Box01 p i, .jntr_about .calc-Box .calc-Box02 p i {font-size: 8px}
+.jntr_about .tokn-Box01 .calc-Box .calc-Box01:last-child {width: 82px}
+.jntr_about .tokn-Box01 .calc-Box .calc-Box02 {width: 250px;height: 82px;padding-top: 15px}
+.jntr_about .calc-Box .icon-Box01 {width: 50px}
+.jntr_about .tokn-Box01 .Title03 {font-size: 14px}
+.jntr_about .double-investment .icon-Box04 span, .jntr_about .tokn-Box .icon-Box03 span {width: 60px;height: 60px;line-height: 48px}
+.jntr_about .double-investment .icon-Box04 span img, .jntr_about .tokn-Box .icon-Box03 span img {width: 24px}
+.jntr_about .double-investment .final-amtBox {font-size: 24px;padding: 20px 0;margin-bottom: 40px}
+.jntr_about .tokn-Box01:after {bottom: -62px}
+.jntr_about .double-investment .icon-Box04 span:after, .jntr_about .double-investment .icon-Box04 span:before {width: 235px;left: 55px;top: 23px}
+.jntr_about .double-investment .icon-Box04 span:after {right: 56px;left: inherit}
+.jntr_about .valuation-forecast {padding-top: 120px}
+.jntr_about .valueForecast-Box01 .title-Text01, .jntr_about .valueForecast-Box03 .title-Text01 {font-size: 13px;margin-bottom: 10px}
+.jntr_about .valueForecast-Box02 .title-Text01 {font-size: 13px}
+.jntr_about .valueForecast-Box01 .title-Amt01, .jntr_about .valueForecast-Box03 .title-Amt01 {font-size: 20px}
+.jntr_about .valueForecast-Box02 .calcyppBox01 .calcyppLink01, .jntr_about .valueForecast-Box02 .calcyppContent02 a {font-size: 20px}
+.jntr_about .ebita {padding-top: 100px}
+.jntr_about .scalability {padding: 120px 0}
+.jntr_about .scalability-Box .scalability-Box01 .Title01 {font-size: 24px;margin-bottom: 15px}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box {margin-left: 0;padding: 35px 35px 15px 35px;width: 85%}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box .stardart-txt {font-size: 16px;padding-left: 25px;width: calc(100% - 32px)}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box li .stardart-Number {width: 32px;height: 32px;line-height: 35px;font-size: 18px}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box li {padding-bottom: 40px}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Box p {font-size: 13px;line-height: 21px}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Box {padding: 15px 15px 0 15px}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Box .img-Box {transform: scale(.73);-webkit-transform: scale(.73);position: relative;top: -20px}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Block {height: 275px}
+.jntr_about .decacorn-potential {padding-top: 120px}
+.jntr_about .decacorn-potentialBox01 .Title02 {width: 90%;font-size: 21px}
+.jntr_about .decacorn-potentialBox {padding: 50px 0 90px}
+.jntr_about .decacorn-potentialBox {padding: 50px 0}
+.jntr_about #roadmap-Block .main-Box .img-Box {transform: scale(.8);-webkit-transform: scale(.8);position: relative;left: -30px}
+.jntr_about #roadmap-Block #s19Tabbox {width: 100%}
+.jntr_about .s20ttextbox02 {font-size: 18px}
+.jntr_about .s20tImgbox {width: 100px}
+.jntr_about .s20Teambox01 {padding-right: 20px}
+.jntr_about .s20Teambox01 .s20tImgbox img {width: 82px}
+.jntr_about .s20ttextbox span {font-size: 16px;line-height: 20px;margin: 0 auto 5px}
+.jntr_about .s20ttextbox {width: calc(100% - 100px);font-size: 11px;line-height: 18px}
+.jntr_about .s20tImgbox.tI01:after {width: 40px;height: 40px;background-size: 100%;left: 50px}
+.jntr_about .s20tImgbox.tI02:after {width: 48px;height: 15px;background-size: 100%;left: 40px;bottom: 0}
+.jntr_about .s20tImgbox.tI03:after {width: 53px;height: 12px;background-size: 100%;left: 40px;bottom: 5px}
+.jntr_about .s20tImgbox.tI04:after {width: 35px;height: 35px;background-size: 100%;left: 45px;bottom: 0}
+.jntr_about .s20tImgbox.tI05:after {width: 33px;height: 34px;background-size: 100%;left: 50px;bottom: 0}
+.jntr_about .s20tImgbox.tI06:after {width: 46px;height: 11px;background-size: 100%;left: 50px}
+.jntr_about .s20tImgbox.tI07:after {width: 35px;height: 35px;background-size: 100%;left: 50px;bottom: 0}
+.jntr_about .teamLinkIcon {width: 84px;height: 84px}
+.jntr_about .s20Teambox01:hover .s20RotaterBox, .jntr_about .s20Teambox01:hover .s20RotaterBox .teamLinkIcon {transform: none;width: 84px;height: 84px}
+.jntr_about .s20Teambox01 .s20tImgbox .teamImgNPbox {width: 80px;height: 80px}
+.jntr_about .s20Teambox01 .s20tImgbox .afterLogo img {width: 40px}
+.jntr_about .afterLogo {left: 50px}
+.jntr_about #team-Block .management-team-Box {padding-top: 50px;padding-bottom: 0;margin-top: -50px}
+.jntr_about #team-Block .management-team-Box:before {background-size: 30%}
+.jntr_about #team-Block .rd-team-Box {padding-top: 0;background-size: 20%;background-position: left 130px}
+.jntr_about #team-Block .operation-team-Box {padding: 0;background-position: right 10px;background-size: 20%}
+.jntr_about .partner-Box .partner-Box01 {width: 33.33%;margin-bottom: 10px;}
+.jntr_about .partner-Box .partner-Box01 a img {/* width: 200px; */height: auto;}
+.jntr_about .libraryblockbg03 {/* margin-right: 0; */}
+.jntr_about .libraryblock {width: calc(50% - 30px);height: 140px;padding: 20px;margin: 15px;}
+.jntr_about .lbblocktext {width: calc(100% - 85px);margin-left: 15px}
+.jntr_about .bottomotherlink li:not(:last-child) {padding-right: 40px}
+.jntr_about .bottomotherlink li a {font-size: 14px}
+.jntr_about .infobottompartleft p {width: 60%}
+.jntr_about #s19Videobox {position: relative;left: -50px;transform: scale(.85);-webkit-transform: scale(.85)} 
+.jntr_about .jntr-About-block { padding: 120px 0 80px; }
+.jntr_about .jntr-About-block .about-Titletext { font-size: 24px; line-height: 40px; padding-bottom: 15px; }
+.jntr_about .jntr-About-block .about-Text, .jntr_about .background-Block .background-Text { font-size: 20px; line-height: 36px; }
+.jntr_about .investor-Ring { padding-top: 50px; }
+.jntr_about .award-Box { padding-bottom: 100px; }
+.jntr_about .our-Vision { padding-bottom: 70px; }
+.jntr_about .our-Vision .vision-Text { font-size: 20px; }
+.jntr_about .our-Dna { padding: 70px 0; }
+.jntr_about .recent-News .news-Wrap .news-Box .news-Box01 .news-Title { font-size: 18px; line-height: 24px; }
+.jntr_about .recent-News { padding-bottom: 70px; padding-top: 30px; }
+.jntr_about .community-Block { padding: 50px 0; }
+.jntr_about .community-Block .community-Wrap .channels-Box .channels-Title { font-size: 30px; padding-bottom: 20px; }
+.jntr_about .community-Block .community-Wrap .channels-Box .channels-Text { font-size: 16px; padding-bottom: 15px; }
+.jntr_about .investor-Ring .investor-ring01 { font-size: 12px; }
+.jntr_about .investor-ring01 .circle01, .jntr_about .investor-ring01 .circle02, .jntr_about .investor-ring01 .circle03, .jntr_about .investor-ring01 .circle04 { margin-bottom: 15px; }
+.jntr_about .our-Dna .dna-Box .dna-Box01 { height: 200px; }
+.jntr_about .our-Dna .dna-Box .dna-Box01 a { -webkit-transform: scale(0.8); transform: scale(0.8); }
+.jntr_about .our-Vision img { width: 600px; max-width: 100%; }
+.jntr_about .community-Block .social-Icons li a { width: 50px; height: 50px; line-height: 65px; }
+.jntr_about .community-Block .social-Icons li a img { -webkit-transform: scale(0.75); transform: scale(0.75); }
+.jntr_about .community-Block .community-Wrap .auction-Box .liveauction-Btn { width: 400px; }
+.jntr_about .community-Block .live-auctionBbox p { font-size: 9px; }
+.jntr_about .community-Block .live-auctionBbox p .icon-Box { margin-right: 5px; }
+.jntr_about .community-Block .live-auctionBbox p .protip { font-size: 11px; top: -4px; }
+
+ }
+
+@media (min-width:1200px) and (max-width:1399px) {
+.jntr_about.headerrline02 span {font-size: 22px}
+.jntr_about .award-Box .award-Text { font-size: 20px; line-height: 34px; margin-left: 30px; } 
+.jntr_about .solved-Box01 .inner-Title01 {font-size: 20px;top: 33px;} 
+.jntr_about .comparetable.cV2>tbody>tr>td { font-size: 15px; } 
+.jntr_about .comparetable02>tbody>tr>th, .jntr_about .comparetable02>tbody>tr>td { font-size: 16px; padding: 16px; } 
+.jntr_about .protection-Wrap { padding: 70px 0; } 
+.jntr_about .protection-Wrap .protection-Box .text-Bx {font-size: 16px;line-height: 24px;} 
+.jntr_about .market-Block {padding-top: 30px;} 
+.jntr_about .market-Box { padding: 400px 0; -webkit-transform: scale(0.78); transform: scale(0.78); left: -130px; top: -50px; } 
+.jntr_about .tiTitle01 span { font-size: 40px; padding-top: 50px; } 
+.jntr_about .equity-goalBox span {width: 65%;padding-left: 0;padding-right: 5px;} 
+.jntr_about .equity-Goal .equity-goalBox:nth-child(2) span+span { width: 35%; } 
+.jntr_about .equity-goalBox .list-Title { font-size: 11px; } 
+.jntr_about .equity-Goal .equity-goalBox:first-child span {width: 50%;} 
+.jntr_about .equity-Goal .equity-goalBox:first-child span+span {width: 50%;} 
+.jntr_about .market-Box .text-Box { font-size: 17px; } 
+.jntr_about .market-Box .text-Box .Title01 { font-size: 50px; } 
+.jntr_about .jointer-Box .text-Title {font-size: 28px;line-height: 45px}
+.jntr_about .testimonials-Box .designation-Box {margin-left: 19%}
+.jntr_about .testimonials-Box .text-Content .text-Title {font-size: 36px;line-height: 60px}
+.jntr_about .testimonials-Box .text-Content .icon-Box img {width: 200px}
+.jntr_about .award-Box01 .text-Title {font-size: 36px;margin-bottom: 35px}
+.jntr_about .award-Box01 .img-Box img {width: 100%}
+.jntr_about .award-Box01 p {font-size: 24px;line-height: 40px}
+.jntr_about .award-Box01 .text-Content {padding-right: 30px}
+.jntr_about .tokenomics-Box01 .text-Title01 {font-size: 21px;line-height: 38px}
+.jntr_about .tokenomics-Box01 .list-Box li {font-size: 16px;line-height: 24px;padding-bottom: 15px}
+.jntr_about .solved-Title {margin-bottom: 40px}
+.jntr_about .solved-Title .Title01 {font-size: 36px}
+.jntr_about .solved-innerBox .text-Content p {font-size: 15px;line-height: 22px}
+.jntr_about .text-Content .Title01 {font-size: 24px;line-height: 32px}
+.jntr_about .token-Box .token-Box01 .img-Box {height: 250px}
+.jntr_about .distribution-Funds .investment-properyBox, .investment-properyBox:before {width: 180px}
+.jntr_about .distribution-Funds .investment-properyBox {margin-left: 50px}
+.jntr_about .investment-Percentage, .investment-properyBox .title-Text {font-size: 16px}
+.jntr_about .equity-goalBox .text-Title {font-size: 14px;line-height: 20px}
+.jntr_about .sale-Box03 .token-descBox .token-descBox01 .text-Title {font-size: 12px;}
+.jntr_about .sale-Box03 .token-descBox .token-descBox01 .Title03 {font-size: 15px}
+.jntr_about .sale-Box04 {justify-content: space-between;align-items: flex-end}
+.jntr_about .sale-Box04 .liveauction-Btn {width: 270px;margin-left: 12px;height: 70px;font-size: 21px;line-height: 70px}
+/*#timer02 .days span, #timer02 .hours span, #timer02 .minutes span, #timer02 .seconds span {display: inline-block;width: 30px;height: 42px;background: #272727;border-radius: 5px;margin: 0 2px;position: relative;z-index: 1}
+#timer02 .days, #timer02 .hours, #timer02 .minutes, #timer02 .seconds, #timer02-Box {font-size: 28px;line-height: 42px}
+#timer02 .days:after, #timer02 .days:before, #timer02 .hours:after, #timer02 .hours:before  {font-size: 26px;right: -10px; top: inherit; bottom: 12px;}
+#timer02 .days:after, #timer02 .hours:after, #timer02 .minutes:after {bottom: 2px; } */
+.jntr_about .tokensale-Box01 .sale-Tokenbox .amt-Box .Title01 {font-size: 24px}
+.jntr_about .tokensale-Box01 .sale-Tokenbox .amt-Box .text-Title {font-size: 14px}
+.jntr_about .period-Box .calcyppContent02 {width: 405px}
+.jntr_about .advantage-Box .advantage-Box01 .Title02 {font-size: 20px;line-height: 24px}
+.jntr_about .double-investment .Title02 {font-size: 20px}
+.jntr_about .tokn-Box .tokn-Box01 {padding: 20px 15px}
+.jntr_about .tokn-Box .tokn-Box01 .Title01 {font-size: 24px;line-height: 30px}
+.jntr_about .tokn-Box .tokn-Box01 p {font-size: 16px;line-height: 24px}
+.jntr_about .tokn-Box .tokn-Box01 .token-Amt {font-size: 36px}
+.jntr_about .tokn-Box01 .calc-Box .calc-Box01 {width: 100px;height: 100px;padding-top: 20px}
+.jntr_about .calc-Box .icon-Box01 {width: 40px}
+.jntr_about .calc-Box .calc-Box01 .title-Text {font-size: 18px;margin-bottom: 5px}
+.jntr_about .calc-Box .calc-Box01 .title-Text01, .calc-Box .calc-Box02 .title-Text01 {font-size: 24px}
+.jntr_about .tokn-Box01 .calc-Box .calc-Box02 {width: 250px;height: 100px}
+.jntr_about .tokn-Box01 .calc-Box .calc-Box01:last-child {width: 110px}
+.jntr_about .tokn-Box01 .calc-Box .calc-Box01 p {font-size: 13px;line-height: 18px}
+.jntr_about .jointer-progress .text-Wrap .text-Title.yellow-Color { position: relative; left: 8px; } 
+ 
+.jntr_about .jointerproperty-Box {background-size: 100%}
+.jntr_about .jointerproperty-Box .text-Content .Title03 {font-size: 18px}
+.jntr_about .jointer-bonus-progress .text-Wrap {width: 276px}
+.jntr_about .double-investment .Title02:after, .double-investment .Title02:before {width: 127px}
+.jntr_about .double-investment .icon-Box04 span:after, .double-investment .icon-Box04 span:before {width: 272px}
+.jntr_about .tokn-Box01 .Title03 {font-size: 18px}
+.jntr_about .double-investment .text-Title, .investmentInput-Box input, .period-Box .calcyppLink01 {font-size: 36px}
+.jntr_about .period-Box .calcyppContent02 a {font-size: 36px;line-height: 50px}
+.jntr_about .double-investment .final-amtBox {padding: 40px 0}
+.jntr_about .flowFunds-Block .Title02 {font-size: 18px;line-height: 24px}
+.jntr_about .flowfundBox01 .arrow-Box01 img {width: 190px}
+.jntr_about .flowfundBox01 .arrow-Boxwrap .arrow-Box03 {left: -15px}
+.jntr_about .fund-Box {padding: 30px 25px}
+.jntr_about .fund-Box p {font-size: 16px;line-height: 24px}
+.jntr_about .flowfundBox03 .flow-Wrap .img-Box img {width: 100%}
+.jntr_about .flowfundBox03 .text-Box {font-size: 15px;line-height: 20px}
+.jntr_about .flowfundBox03 .flow-Wrap .img-Box .text-Box {bottom: 20px}
+.jntr_about .flowfundBox03 .arrow-Box img {width: 300px}
+.jntr_about .flowfundBox03 .flow-Wrap .icon-Box {left: 5px}
+.jntr_about .flowfundBox03 .flow-Wrap .icon-Box img {width: 45px}
+.jntr_about .liquidityreserve-Box .text-Content p {font-size: 20px;line-height: 36px}
+.jntr_about .valueForecast-Box01 .title-Text01, .jntr_about .valueForecast-Box03 .title-Text01 {font-size: 16px;margin-bottom: 15px}
+.jntr_about .valueForecast-Box01 .title-Amt01, .jntr_about .valueForecast-Box03 .title-Amt01 {font-size: 22px}
+.jntr_about .valueForecast-Box02 .calcyppBox01 .calcyppLink01, .jntr_about .valueForecast-Box02 .calcyppContent02 a {font-size: 20px}
+.jntr_about .ebita .npWrapperFix01.wrapper .comparetable.cV2 {width: 90%;margin: 0 auto}
+.jntr_about .scalability {padding: 210px 0 150px 0;}
+.jntr_about .scalability-Box .scalability-Box01 .jointerModel-Box p {font-size: 15px;line-height: 24px}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box {padding: 35px 55px 20px 35px}
+.jntr_about .scalability-Box .scalability-Box01 .standard-Box .stardart-txt {font-size: 18px}
+.jntr_about .profit-sourceBox01 p {font-size: 20px;line-height: 30px}
+.jntr_about .decacorn-potentialBox01 .Title02 {font-size: 20px;line-height: 24px;width: 90%}
+.jntr_about .lbblocktext {width: calc(100% - 80px);margin-left: 10px}
+.jntr_about #team-Block .advisor-team-Box {background-position: -180px -50px}
+.jntr_about #team-Block .operation-team-Box:before {right: -90px;bottom: -250px}
+.jntr_about #s19Videobox {position: relative;left: -50px;transform: scale(.85);-webkit-transform: scale(.85)} 
+.jntr_about .tokens-Popup04 .protection-Block { padding-top: 160px;  }
+.jntr_about .jntr-About-block { padding: 120px 0 80px; }
+.jntr_about .jntr-About-block .about-Titletext { font-size: 24px; line-height: 40px; padding-bottom: 15px; }
+.jntr_about .jntr-About-block .about-Text, .jntr_about .background-Block .background-Text { font-size: 20px; line-height: 36px; }
+.jntr_about .investor-Ring { padding-top: 50px; }
+.jntr_about .award-Box { padding-bottom: 100px; }
+.jntr_about .our-Vision { padding-bottom: 70px; }
+.jntr_about .our-Vision .vision-Text { font-size: 20px; }
+.jntr_about .our-Dna { padding: 70px 0; }
+.jntr_about .recent-News .news-Wrap .news-Box .news-Box01 .news-Title { font-size: 20px; line-height: 24px; }
+.jntr_about .recent-News { padding-bottom: 70px; }
+.jntr_about .community-Block { padding: 70px 0; }
+.jntr_about .community-Block .community-Wrap .channels-Box .channels-Title { font-size: 30px; padding-bottom: 20px; }
+.jntr_about .community-Block .community-Wrap .channels-Box .channels-Text { font-size: 16px; padding-bottom: 15px; }
+.jntr_about .community-Block .social-Icons li a { width: 50px; height: 50px; line-height: 65px; }
+.jntr_about .community-Block .social-Icons li a img { -webkit-transform: scale(0.75); transform: scale(0.75); }
+.jntr_about .community-Block .community-Wrap .auction-Box .liveauction-Btn { width: 520px; }
+
+ }
+
+/* @media (min-aspect-ratio: 16/9) {.fullscreen-bg__video { height: 300%; top: -100%; } 
+.fullscreen-bg__video02 { height: 300%; top: -100%; } 
+ }
+ 
+ @media (max-aspect-ratio: 16/9) {.fullscreen-bg__video { width: 300%; left: -100%; } 
+.fullscreen-bg__video02 { width: 300%; left: -100%; } 
+ } */
+ 

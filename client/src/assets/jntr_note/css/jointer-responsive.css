@@ -1,0 +1,1135 @@
+@charset "UTF-8";
+
+@media (min-width: 320px) and (max-width: 500px) { 
+
+    .jntr_Page .dwnPro-shild {position: fixed;width: 100%;height: auto;top: 0;left: 0;background: none;z-index: 100;clip-path: none;} 
+    .jntr_Page .dwnPro-shild a { background: rgb(141,187,8); background: -moz-linear-gradient(top, rgba(141,187,8,1) 1%, rgba(99,128,17,1) 100%); background: -webkit-linear-gradient(top, rgba(141,187,8,1) 1%,rgba(99,128,17,1) 100%); background: linear-gradient(to bottom, rgba(141,187,8,1) 1%,rgba(99,128,17,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8dbb08', endColorstr='#638011',GradientType=0 ); width: 100%; height: auto; font-size: 14px; color:#fff; padding: 19px 0; text-align: center; position: relative; transform: none !important; left: 0; top: 0; width: auto; display: block; line-height: 1; bottom: 0; box-shadow: none; font-weight: 400; } 
+    .jntr_Page .dwnPro-shild a span { position: relative; z-index: 1; } 
+    .jntr_Page .dwnPro-shild a strong { display: block; padding-top: 4px; } 
+    .jntr_Page .dwnPro-shild a:before { content: ""; background: url(../images/shield-icon.png) no-repeat 0 0; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 46px; height: 49px; } 
+    
+	.jntr_Page .showMobile { display: inline-block !important; }
+	.jntr_Page .hideMobile { display: none !important; }
+    .jntr_Page .container-Grid { padding: 0 20px; }
+    .jntr_Page .main { margin-top: 42px !important; }
+    .jntr_Page .logo img { width: 100px !important; top: 2px !important; }
+    .jntr_Page .award-text { display: none; }
+    .jntr_Page .rgdev-item a { padding: 7px 10px; }
+    .jntr_Page .rgdev-mobile { top: 20px !important; right: 20px !important; -webkit-transform: scale(0.7); transform: scale(0.7); }
+    .jntr_Page .edge-Btn:before { width: 120px; bottom: 0; }
+    .jntr_Page .mobile-Item01 { top: 3px !important; right: 65px !important; }
+    .jntr_Page .mobile-Item02 { top: -2px !important; -webkit-transform: scale(0.85) !important; transform: scale(0.75) !important; right: 8px !important; }
+    .jntr_Page .lanbox01 { width: 33.33%; }
+    .jntr_Page .mobile-sub { padding: 15px !important; }
+    .jntr_Page .rgdev-item a { font-size: 13px; }
+    .jntr_Page .rgdev-item .langBox { padding-right: 0; padding-left: 0; -webkit-transform: scale(0.7); transform: scale(0.7); top: -13px; position: relative; right: -4px; }
+    .jntr_Page .langBoxContainer { top: 10px !important; }
+    .jntr_Page .fullscreen-bg {background: url('../images/banner-bg.jpg') center center / cover no-repeat;}
+    .jntr_Page .fullscreen-bg__video {display: none;} 
+    .jntr_Page .tokensale-Block {padding: 0 0 70px;}
+    .jntr_Page .tokensale-Block.hasShield{margin-top: 117px;}
+    .jntr_Page .tokensale-Block:after { height: 70px; }
+    .jntr_Page .token-Tab ul { margin: 0 -20px; padding: 0; }
+    .jntr_Page .token-Tab ul li a { font-size: 12px; }
+    .jntr_Page .token-Tab ul li a .icon-Box { -webkit-transform: scale(0.5); transform: scale(0.5); margin-right: -4px; }
+    .jntr_Page .token-Tab ul li { padding: 0 2px; }
+    .jntr_Page .token-Tab ul li.active { border-bottom: 3px solid #ff4f37; top: 2px; }
+    .jntr_Page .tokensale-Wrap { margin: 0 -20px; padding-top: 15px; }
+    .jntr_Page .global-Chart,.jntr_Page  .tokensale-Box01 { width: 100%; padding: 0 20px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .amount-Box { width: 100%; padding-right: 0; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .duration-Box { width: 100%; padding-left: 0; margin-top: 5px; }
+    .jntr_Page .multiFamilybox .subTitlebox { padding: 15px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .amount-Box .amt-Text { font-size: 20px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .amount-Box .amt-Text span { font-size: 13px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .duration-Box ul { justify-content: flex-start}
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .duration-Box ul li a { font-size: 11px; padding: 3px 8px; }
+    .jntr_Page .chart-Detail { padding: 10px; }
+    .jntr_Page .chart-Detail ul li { font-size: 11px; width: 50%; }
+    .jntr_Page .chart-Detail ul li .help-circle { top: -5px; }
+    .jntr_Page .chart-Detail ul li:nth-child(1), .jntr_Page .chart-Detail ul li:nth-child(2) { margin-bottom: 5px; }
+    .help-circle { font-size: 9px; top: -2px; }
+    .jntr_Page .chart-Detail ul li .amount-Text { font-size: 13px; padding-top: 0; } 
+    .jntr_Page .performance-Chart .titleHeading-box .title-box { width: 40%; }
+    .jntr_Page .performance-Chart .title-box .text-Title02 { font-size: 13px; line-height: 18px; }
+    .jntr_Page .performance-Chart .title-box .titleText02 { font-size: 10px; }
+    .jntr_Page .performance-Chart .title-box .text-Title02 i { font-size: 10px; left: 0; top: -5px; position: relative; }
+    .jntr_Page .performance-Chart .title-box .text-Title02 strong { font-size: 11px; }
+    .jntr_Page .performance-Chart .title-box .Title02 { font-size: 20px; padding-top: 0; }
+    .jntr_Page .performance-Chart .title-box .Title02.red-Color { padding-top: 0; }
+    .jntr_Page .performance-Chart .round-Vs { width: 45px; height: 45px; line-height: 45px; font-size: 16px; left: -10px; }
+    .jntr_Page .performance-Chart .year-Perfomance { width: 100%; }
+    .jntr_Page .performance-Chart .year-Perfomance ul li { width: 100%; }
+    .jntr_Page .performance-Chart .year-Perfomance ul li a { position: relative; text-align: left; padding: 15px; font-size: 14px; }
+    .jntr_Page .performance-Chart .year-Perfomance li > a:before {content: "";border-width: 0 8px 8px 0;border-style: solid;border-color: transparent transparent #000 transparent;position: absolute;right: 6px;bottom: 6px;transform: rotate(-90deg);-webkit-transform: rotate(-90deg);}
+    .jntr_Page .performance-Chart .year-Perfomance #performance { background: #1e1e1e; position: absolute; width: 100%; }
+    .jntr_Page .performance-Chart .year-Perfomance #performance a { border-bottom: 1px solid rgba(255,255,255,0.2); }
+    .jntr_Page .gain-Box { margin-top: 10px; padding-bottom: 5px; }
+    .jntr_Page .gain-Box .gain-Box01 { margin-bottom: 10px; }
+    .jntr_Page .gain-Box .gain-Box01 .label-Text { width: 100%; font-size: 15px; margin-bottom: 10px; }
+    .jntr_Page .gain-Box .gain-Box01 .label-Text .help-circle { font-size: 13px; }
+    .jntr_Page .gain-Box .gain-Box01 .amt-Text01 { width: 100%; }
+    .jntr_Page .gain-Box .gain-Box01 .amt-Text01 input { width: 100%; font-size: 15px; }
+    .jntr_Page .gain-Box .gain-Box01 .amt-Text01 .net-Percentage, .jntr_Page .gain-Box .gain-Box01 .amt-Text01 .net-Profit, .jntr_Page .gain-Box .gain-Box01 .calcyppBox01 a { font-size: 15px;  }
+    .jntr_Page .tokensale-Box01 { margin-top: 15px; }
+    .jntr_Page .tokensale-Box01 .sale-Box01 { padding-bottom: 15px; }
+    .jntr_Page .tokensale-Box01 .sale-Box01 .title-Wrap .Title03, .jntr_Page .tokensale-Box01 .sale-Box02 .Title03 { font-size: 14px; }
+    .jntr_Page .tokensale-Box01 .sale-Box01 .title-Wrap .Title03:first-child { margin-bottom: 5px; }
+    .jntr_Page .tokensale-Box01 .sale-Tokenbox .amt-Box { width: 100%; }
+    .jntr_Page .tokensale-Box01 .sale-Tokenbox .amt-Box .Title01 { font-size: 18px; padding-bottom: 0; margin-bottom: 5px; }
+    .jntr_Page .tokensale-Box01 .sale-Tokenbox .amt-Box:not(:last-child) { margin-bottom: 10px; }
+    .jntr_Page .tokensale-Box01 .sale-Box02 { padding-top: 10px; }
+    .jntr_Page .jointer-progress { font-size: 7px; }
+    .jntr_Page .jointer-progress .text-Wrap .text-Title { font-size: 9px; line-height: 12px; }
+    .jointer-bonus-progress .text-Wrap {width: 120px;font-size: 9px;padding-top: 0;padding-left: 20px;line-height: 14px;}    
+    .jntr_Page .jointer-progress .text-Wrap { padding-top: 5px; }
+    .jntr_Page .jointer-bonus-progress .text-Wrap .text-Title {text-align: left;padding-top: 21px;padding-left: 5px;}
+    .jntr_Page .jointer-bonus-progress:after { right: -6px; top: 0; }
+    .jntr_Page .equity-Goal { padding: 0 0 10px; }    
+    .jntr_Page .progress-Box .progress-Bg { height: 15px; }
+    .jntr_Page .tokensale-Box01 .progress-Box { margin-top: 30px; }
+    .jntr_Page .edge-bonus-progress .perc-Box { top: -20px; right: 0; font-size: 13px; }
+    .jntr_Page .edge-progress .text-Wrap .text-Title { font-size: 13px; }
+    .jntr_Page .edge-progress .text-Wrap { padding-top: 18px; }
+    .jntr_Page .edge-bonus-progress .text-Wrap { padding-top: 20px; width: 50px; left: 33px; text-align: left; }
+    .jntr_Page .edge-bonus-progress .text-Wrap .text-Title { font-size: 13px; line-height: 1; }    
+    .jntr_Page .equity-Goal .equity-goalBox { width: 100%; border-right: none; }
+    .jntr_Page .equity-goalBox .text-Title {font-size: 13px;margin-bottom: 5px;width: 100%;}
+    .jntr_Page .equity-Goal .equity-goalBox:first-child { margin-bottom: 15px; margin-top: 10px; }        
+    .jntr_Page .equity-goalBox .calcyppBox01 .calcyppLink01 { font-size: 13px; }
+    .jntr_Page .tokensale-Box01 .sale-Box03 { margin-top: 15px; margin-bottom: 0; }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 { width: 100%; padding-top: 15px; border-right: none; border-top: 2px solid #272727; }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .text-Title { font-size: 14px; min-height: auto; }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .Title03 { font-size: 14px; }    
+    .jntr_Page .tokensale-Box01 .sale-Box03 .token-descBox { border: none; }
+    .jntr_Page .sale-Box04 { flex-direction: column; }
+    .jntr_Page .sale-Box04 .live-auctionBbox { margin: 0 auto; width: 100%; }
+    .jntr_Page .sale-Box04 .liveauction-Btn {width: 100%;margin-left: 0;height: 60px;font-size: 20px;line-height: 60px;margin-top: 20px;}
+    .jntr_Page .auction-Wrap { margin-top: 10px; }
+    .jntr_Page .auction-Wrap .timer p { font-size: 12px; }
+    .jntr_Page #timer02 .days, #timer-Box, .jntr_Page #timer02 .hours, .jntr_Page #timer02 .minutes, .jntr_Page #timer02 .seconds { font-size: 20px; line-height: 30px; } 
+    .jntr_Page #timer02 .days span, .jntr_Page #timer02 .hours span, .jntr_Page #timer02 .minutes span, .jntr_Page #timer02 .seconds span { width: 24px; height: 30px; margin: 0 2px; }
+    .jntr_Page #timer02 .days, .jntr_Page #timer02 .hours, #timer .minutes { margin-right: 8px; position: relative; }
+    .jntr_Page #timer02 .days:before, .jntr_Page #timer02 .hours:before, .jntr_Page #timer02 .minutes:before, .jntr_Page #timer02 .days:after, .jntr_Page #timer02 .hours:after, .jntr_Page #timer02 .minutes:after { content: "."; color: #fff; font-size: 18px; right: -6px; top: 0; }
+    .jntr_Page #timer02 .days:after, .jntr_Page #timer02 .hours:after, .jntr_Page #timer02 .minutes:after { bottom: 10px; top: inherit; }
+    .jntr_Page .live-auctionBbox { margin-top: 10px; }
+    .jntr_Page .auction-Wrap .live-auctionBbox a { padding: 8px 15px; font-size: 13px; }
+    .jntr_Page .token-Block:before { -webkit-transform: translate(-50%, -50%) scale(0.50) !important; transform: translate(-50%, -50%) scale(0.50) !important; }
+    .jntr_Page .tokensale-Box01 .overlay .text-Box .Title01 { font-size: 18px; margin-top: 20px; }
+    .jntr_Page .tokensale-Box01 .overlay .text-Box p { font-size: 13px; line-height: 18px; }
+    .jntr_Page .tokensale-Box01 .overlay .text-Box a { font-size: 16px; margin-top: 10px; }     
+    .jntr_Page .token-Block { padding: 30px 0; }
+    .jntr_Page .token-Block.edge-E { padding-bottom: 30px; }
+    .jntr_Page .Title01 { font-size: 20px; margin-bottom: 10px; }
+    .jntr_Page .token-Block p { font-size: 13px; line-height: 18px; margin-bottom: 10px; }
+    .jntr_Page .token-Wrap { margin-top: 0; padding: 0; }
+    .jntr_Page .token-Box { margin-bottom: 0; width: 100%; }
+    .jntr_Page .token-Box01 { padding: 10px 0; }
+    .jntr_Page .token-Box01 ul { margin-top: 10px; }
+    .jntr_Page .token-Box01 ul li { font-size: 14px; line-height: 24px; padding-bottom: 10px; }
+    .jntr_Page .token-Box01 ul li:before { width: 6px; height: 6px; }
+    .jntr_Page .token-Box01 .token-Title { font-size: 18px; }
+    .jntr_Page .token-Box01 .icon-Box { margin-right: 5px; -webkit-transform: scale(0.75); transform: scale(0.75); }
+    .jntr_Page .minting { padding: 30px 0; }
+    .jntr_Page .minting-Table { width: 100%; }
+    .jntr_Page .minting-Table table tr th { font-size: 11px; padding: 6px; }
+    .jntr_Page .minting-Table table tr td { padding: 10px; font-size: 12px; }
+    .jntr_Page .redeem { padding: 30px 0; }
+    .jntr_Page .redeem-Box { width: 100%; padding: 0; }
+    .jntr_Page .redeem .Title01 { margin-bottom: 20px; } 
+    .liquidity-Wrap .Title02 { font-size: 16px; margin-top: 20px; }    
+    .jntr_Page .redeem-Box .redeem-Box01 { border-top: none; padding: 20px 0; }    
+    .jntr_Page .redeem-Box .redeem-Box01 .edge-Logo img { width: 150px; }
+    .jntr_Page .redeem-Box .redeem-Box02 { flex-wrap: wrap; padding: 0; }
+    .jntr_Page .redeem-Box .redeem-Box02 .redeem-Bx { width: 100%; padding: 15px; }
+    .jntr_Page .redeem-Box .redeem-Box02 .redeem-Bx:last-child { border-left: none; border-top: 1px solid #03468a; }
+    .jntr_Page .redeem-Box02 .redeem-Text, .redeem-Box03 .redeem-Text, .jntr_Page .redeem-Box02 p, .jntr_Page .redeem-Box03 p { font-size: 14px; }
+    .jntr_Page .redeem-Box04 .btn { padding: 15px; font-size: 20px; }
+    .jntr_Page .liquidity-Wrap { margin: 0; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap { width: 100%; padding: 0; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap .swap-Box .cur-Text { font-size: 14px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap .swap-Box.reserve-Bx .swap-Input .swap-Title .swap-Amt { width: 110px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap .swap-Box .redeem-Text { font-size: 10px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap .swap-Box.reserve-Bx .swap-Icon a { left: -5px; top: -60px; }
+    .jntr_Page .powered-Text { margin-bottom: 8px; text-align: left; }
+    .jntr_Page .swap-Wrap .text-Title01 { font-size: 16px; line-height: 24px; }
+    .jntr_Page .swap-Wrap .swap-Box { margin-top: 10px; padding: 15px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input { justify-content: flex-start; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title { text-align: left; width: 100%; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title:first-child { margin-bottom: 10px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Text { font-size: 16px; width: 25%; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Amt { width: calc(100% - 29%); }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Amt input { font-size: 16px; }
+    .jntr_Page .swap-Wrap .swap-Box .total-Amt { font-size: 13px; }
+    .jntr_Page .swap-Wrap .swap-Box .total-Amt span { width: 20px; font-size: 22px; line-height: 5px; }
+    .jntr_Page .swap-Wrap .swap-Icon a { -webkit-transform: scale(0.70); transform: scale(0.70); left: -10px; top: -70px; }
+    .jntr_Page .swap-Wrap .swap-Btn .btn { font-size: 18px; height: 40px; line-height: 40px; }
+    .jntr_Page .swap-Wrap .swap-Textlink { flex-direction: column; margin-top: 5px; }
+    .jntr_Page .swap-Wrap .swap-Textlink .swap-Link01, .jntr_Page .swap-Wrap .swap-Textlink .swap-Link01 a, .jntr_Page .swap-Wrap .swap-Textlink .swap-Link02 { font-size: 12px; line-height: 18px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Coin:before { width: 105px; height: 105px; top: -5px;  }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Coin img { width: 95px; }  
+    .jntr_Page .edge-Holdings02 { padding: 30px 0; }
+    .jntr_Page .edge-Holdings02 .Title01 span { top: -6px; }
+    .jntr_Page .edge-Holdings02 p { font-size: 13px; line-height: 18px; }
+    .jntr_Page .holdings-Block { margin: 25px -20px 0; }
+    .jntr_Page .holdings-Block .holding-Box { width: 100%; margin-bottom: 20px; }
+    .jntr_Page .holdings-Block .holding-Box:last-child { margin-bottom: 0; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 { padding: 15px; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 .holding-Title { font-size: 20px; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 .btn { height: 40px; line-height: 40px; font-size: 16px; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 p { font-size: 13px;  margin-top: 10px; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 .wallet-address { font-size: 10px; word-break: break-all; }
+    .jntr_Page .compare-Valuations { padding: 30px 0; }
+    .jntr_Page .compare-Block { margin: 30px 0 0; }
+    .jntr_Page .compare-Box { width: 100%; margin-bottom: 20px; padding: 0; }
+    .jntr_Page .compare-Box .compare-Box01 { padding: 20px; }
+    .jntr_Page .compare-Box .compare-Box01 .text-Title01 { font-size: 18px; }
+    .jntr_Page .compare-Box .compare-Box01 .value-Box { margin: 15px auto; }
+    .jntr_Page .compare-Box .compare-Box01 .ratio-Text { font-size: 20px; }
+    .jntr_Page .compare-Box .help-circle { font-size: 14px; top: -4px; }
+    .jntr_Page .compare-Box .compare-Box01 .value-Box ul li { font-size: 14px; }
+    .jntr_Page .compare-Box .compare-Box01 .value-Box ul li.value-Text { font-size: 13px; margin-top: 5px; }
+    .jntr_Page .transaction-History { padding: 30px 0; }
+    .jntr_Page .transaction-History .Title01 { font-size: 20px; }
+    .jntr_Page .transaction-histroryWrap { margin-top: 20px; }
+    .jntr_Page .transaction-histroryBox { width: 100%; }
+    .jntr_Page .transaction-histroryBox { margin-bottom: 20px; }
+    .jntr_Page .transaction-histroryBox .Title02 { font-size: 18px; margin-bottom: 5px; }
+    .jntr_Page .transaction-histroryBox .Title02:before { display: none; }
+    .jntr_Page .transaction-histroryBox .trasaction-Amt { font-size: 14px; margin-bottom: 5px; }
+    .trasaction-Date { font-size: 13px; }
+    .jntr_Page .trasaction-Box { margin-top: 15px; padding: 15px 10px; }
+    .jntr_Page .trasaction-Box .trasaction-Status { font-size: 14px; margin-bottom: 0; }
+    .jntr_Page .trasaction-Box .trasaction-Status .icon-Box { margin-right: 5px; }
+    .jntr_Page .trasaction-Box .trans-Id { font-size: 12px; padding-left: 20px; margin-bottom: 5px; word-break: break-all; }
+    .jntr_Page .trasaction-Box .view-Trans { font-size: 13px; padding-left: 20px; }
+    .jntr_Page .arrow-Box { width: 100%; }
+    .jntr_Page .arrow-Box:before { -webkit-transform: scale(0.8) rotate(90deg) translateX(-50%); transform: scale(0.8) rotate(90deg) translateX(-50%); top: -20px; }
+    .jntr_Page .transaction-histroryBox:first-child {  margin-bottom: 40px; }
+    .jntr_Page .transaction-histroryBox p { font-size: 12px; color: #fff; text-align: left; }
+    .jntr_Page .daily-distribution { display: none !important; }
+    .jntr_Page .current-holding { padding: 50px 0; }
+    .jntr_Page .current-holding .text-Title01 { font-size: 16px; padding: 10px 0 20px; }
+    .jntr_Page .current-holding .text-Title01 .help-circle { font-size: 14px; top: -10px; }
+    .jntr_Page .current-holding .btn { border-bottom: solid 3px #7fa807; width: 250px; font-size: 15px; height: 40px; line-height: 40px; }
+    .jntr_Page .current-holding .btn span { margin-right: 10px; }
+
+    .jntr_Page .cross-Collateral { padding: 30px 0; }
+    .jntr_Page .cross-Collateral .crossCollateral-Block { margin: 15px 0; }
+    .jntr_Page .crossCollateral-Box01 { width: 100%; }
+    .jntr_Page .crossCollateral-Box02 { width: 100%; }
+    .jntr_Page .crossCollateral-Box .logo-Box { width: 100%; height: 180px; }
+    .jntr_Page .crossCollateral-Box .logo-Box:before { -webkit-transform: scale(0.6) translateX(-50%); transform: scale(0.6) translateX(-50%); top: -21px; left: 32%; }
+    .jntr_Page .crossCollateral-Box01 ul li:before { display: none; }
+    .jntr_Page .crossCollateral-Box01 ul li:last-child:before { display: block; -webkit-transform: rotate(90deg) translateX(-50%) scale(0.6); transform: rotate(90deg) translateX(-50%) scale(0.6); right: inherit; left: 35%; bottom: -80px; }
+    .jntr_Page .crossCollateral-Box01 ul li { font-size: 16px; margin-bottom: 0; }
+    .jntr_Page .crossCollateral-Box01 ul li .icon-Img { -webkit-transform: scale(0.8); transform: scale(0.8); }
+    .jntr_Page .crossCollateral-Box01 ul li span { padding-left: 5px; }
+    .jntr_Page .crossCollateral-Box01 ul li:before,.jntr_Page .crossCollateral-Box .logo-Box,.jntr_Page  .crossCollateral-Box02 .img-Box:before { -webkit-transform: scale(0.6); transform: scale(0.6); }     
+    .jntr_Page .crossCollateral-Box02 .img-Box:before { left: 0; -webkit-transform: scale(0.6) rotate(90deg) translateX(-50%); transform: scale(0.6) rotate(90deg) translateX(-50%); top: 0; left: 35%; }
+    .jntr_Page .crossCollateral-Box02 .img-Box img { max-width: 100%; }
+    .jntr_Page .crossCollateral-Box02 .text-Content p { font-size: 13px; line-height: 18px; }
+    .jntr_Page .crossCollateral-Box02 .text-Content { margin-top: 0; }
+    .jntr_Page .cross-Collateral .redemption-Text .text-Tilte02 {font-size: 14px;margin-bottom: 5px;padding-top: 5px;}
+    .jntr_Page .cross-Collateral .redemption-Text p { font-size: 12px; line-height: 20px; }       
+    .jntr_Page .main-Popup .close-Icon02,.jntr_Page  .wallet-Popup .close-Icon { width: 50px; height: 50px; -webkit-transform: scale(0.6); transform: scale(0.6); top: 20px; right: 20px; }
+    .jntr_Page .wallet-popupBlock { padding: 30px 20px; }
+    .jntr_Page .wallet-boxWrap .wallet-Bx { width: 100%; margin-bottom: 20px; padding: 0; }
+    .jntr_Page .wallet-boxWrap .wallet-Bx .img-Box { height: 230px; }
+    .jntr_Page .wallet-boxWrap .wallet-Bx .img-Box .title-Name { font-size: 16px; bottom: 20px; }
+    .jntr_Page .unlock-mainbox { margin: 30px 0; }
+    .jntr_Page .unlock-Popup { overflow-x: hidden; overflow-y: auto; }
+    .jntr_Page .unlock-Popup .container-Grid { position: relative; left: 0; top: 0; transform: none; margin-top: 40px; margin-bottom: 30px; }  
+    .jntr_Page .unlock-subbox { width: 100%; font-size: 14px; line-height: 24px; }  
+    .jntr_Page .unlock-subbox:before { right: inherit; top: inherit; bottom: -45px; left: 50%; -webkit-transform: translateX(-50%) rotate(90deg); transform: translateX(-50%) rotate(90deg); }
+    .jntr_Page .unlock-Popup .Title01 p { font-size: 20px; }
+    .jntr_Page .unlock-Popup .close-Icon { right: 10px; top: 10px; -webkit-transform: scale(0.7); transform: scale(0.7); }
+    .jntr_Page .unlock-Popup .btn-Box p { font-size: 12px; margin-top: 10px; line-height: 14px; }
+    .jntr_Page .unlock-Popup .btn-Box .btn { width: 100%; height: 50px; line-height: 48px; font-size: 16px; }
+	.jntr_Page .footer { padding: 30px 20px; margin-left: 0; }
+	.jntr_Page .footer .footer-left, .jntr_Page .footer .footer-right { width: 100%; text-align: center; }	
+	.jntr_Page .footer .footer-right .social-Icons { padding-bottom: 20px; }
+	.jntr_Page .footer .footer-left { margin-bottom: 30px; }
+	.jntr_Page .footer .footer-left .f-Link a { font-size: 12px; padding: 0 5px; }
+	.jntr_Page .footer .footer-left .footer-logo > a { padding-right: 0; margin-bottom: 30px; }
+	.jntr_Page .footer .footer-left p span { display: block; margin-bottom: 5px; }
+	.jntr_Page .footer .footer-left p { line-height: 20px; margin-top: 5px; }
+	.jntr_Page .footer .footer-right p { font-size: 13px; display: inline; }
+.jntr_Page .footer {padding: 0px 20px 0;margin-left: 0;}
+.jntr_Page .footer .footer-left, .jntr_Page .footer .footer-right { width: 100%; text-align: center; }	
+.jntr_Page .footer .footer-right .social-Icons { padding-bottom: 20px; }
+.jntr_Page .footer .footer-left {margin-bottom: 30px;margin-top: 15px;}
+.jntr_Page .footer .footer-left .f-Link a { font-size: 12px; padding: 0 5px; }
+.jntr_Page .footer .footer-left .footer-logo > a { padding-right: 0; margin-bottom: 30px; }
+.jntr_Page .footer .footer-left p span { display: block; margin-bottom: 5px; }
+.jntr_Page .footer .footer-left p { line-height: 20px; margin-top: 5px; }
+.jntr_Page .footer .footer-right p { font-size: 13px; display: inline; }
+    
+.jntr_Page .edge-Holdings02 .Title01, .compare-Valuations .Title01 { color: #fff; font-size:20px; }  /* np n*/ 
+.jntr_Page .compare-Box:after { display: none;}/* np n*/ 
+.jntr_Page .compareB-Title01 {width:100%; } /* np n*/
+    
+.jntr_Page #chart1{width:100% !important; }
+
+.jntr_Page #chart1{width:100% !important; }
+.jntr_Page  .addWall_BTN{ flex-direction:column;}
+.jntr_Page .uc-btn02{margin-top:15px;}
+.jntr_Page  .uc-btn02, .uc-btn01{font-size: 18px; min-width:280px;} 
+ }
+
+ @media (min-width: 501px) and (max-width: 767px) { 
+    .jntr_Page .dwnPro-shild {position: fixed;width: 100%;height: auto;top: 0;left: 0;background: none;z-index: 100;clip-path: none;} 
+    .jntr_Page .dwnPro-shild a { background: rgb(141,187,8); background: -moz-linear-gradient(top, rgba(141,187,8,1) 1%, rgba(99,128,17,1) 100%); background: -webkit-linear-gradient(top, rgba(141,187,8,1) 1%,rgba(99,128,17,1) 100%); background: linear-gradient(to bottom, rgba(141,187,8,1) 1%,rgba(99,128,17,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8dbb08', endColorstr='#638011',GradientType=0 ); width: 100%; height: auto; font-size: 14px; color:#fff; padding: 19px 0; text-align: center; position: relative; transform: none !important; left: 0; top: 0; width: auto; display: block; line-height: 1; bottom: 0; box-shadow: none; font-weight: 400; } 
+    .jntr_Page .dwnPro-shild a span { position: relative; z-index: 1; } 
+    .jntr_Page .dwnPro-shild a strong { display: block; padding-top: 4px; } 
+    .jntr_Page .dwnPro-shild a:before { content: ""; background: url(../images/shield-icon.png) no-repeat 0 0; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 46px; height: 49px; } 
+	.jntr_Page .showMobile { display: inline-block !important; }
+	.jntr_Page .hideMobile { display: none !important; }
+    .jntr_Page .container-Grid { padding: 0 20px; }
+    .jntr_Page .main { margin-top: 42px !important; }
+    .jntr_Page .logo img { width: 100px !important; top: 2px !important; }
+    .jntr_Page .award-text { display: none; }  
+    .jntr_Page .rgdev-item a { padding: 7px 10px; }
+    .jntr_Page .rgdev-mobile { top: 20px !important; right: 20px !important; -webkit-transform: scale(0.7); transform: scale(0.7); }
+    .jntr_Page .edge-Btn:before { width: 120px; bottom: 0; }
+    .jntr_Page .mobile-Item01 { top: 4px !important; right: 65px !important; }
+    .jntr_Page .mobile-Item02 { top: -2px !important; -webkit-transform: scale(0.85) !important; transform: scale(0.75) !important; right: 8px !important; }
+    .lanbox01 { width: 33.33%; }
+    .jntr_Page .mobile-sub { padding: 15px !important; }
+    .jntr_Page .rgdev-item a { font-size: 13px; }
+    .jntr_Page .rgdev-item .langBox { padding-right: 0; padding-left: 0; -webkit-transform: scale(0.7); transform: scale(0.7); top: -13px; position: relative; right: -4px; }
+    .jntr_Page .langBoxContainer { top: 10px !important; }
+    .jntr_Page .fullscreen-bg {background: url('../images/banner-bg.jpg') center center / cover no-repeat;}
+    .jntr_Page .fullscreen-bg__video {display: none;} 
+    .jntr_Page .tokensale-Block {padding: 0 0 70px;}
+    .jntr_Page .tokensale-Block.hasShield{margin: 118px 0 0 0;}
+    .jntr_Page .token-Tab ul { margin: 0 -20px; padding: 0; }
+    .jntr_Page .token-Tab ul li a { font-size: 14px; }
+    .jntr_Page .token-Tab ul li a .icon-Box { -webkit-transform: scale(0.5); transform: scale(0.5); margin-right: 0; }
+    .jntr_Page .token-Tab ul li { padding: 0 2px; }
+    .jntr_Page .token-Tab ul li.active { border-bottom: 3px solid #ff4f37; top: 2px; }
+    .jntr_Page .tokensale-Wrap { margin: 0 -20px; padding-top: 15px; }
+    .jntr_Page .global-Chart, .jntr_Page .tokensale-Box01 { width: 100%; padding: 0 20px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .amount-Box { width: 100%; padding-right: 0; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .duration-Box { width: 100%; padding-left: 0; margin-top: 5px; }
+    .jntr_Page .multiFamilybox .subTitlebox { padding: 15px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .amount-Box .amt-Text { font-size: 20px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .amount-Box .amt-Text span { font-size: 13px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .duration-Box ul { justify-content: flex-start}
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .duration-Box ul li a { font-size: 11px; padding: 3px 8px; }
+    .jntr_Page .chart-Detail { padding: 15px; }
+    .jntr_Page .chart-Detail ul li { font-size: 12px; width: 50%; }
+    .jntr_Page .chart-Detail ul li:nth-child(1), .jntr_Page .chart-Detail ul li:nth-child(2) { margin-bottom: 5px; }
+    .help-circle { font-size: 9px; top: -2px; }
+    .jntr_Page .chart-Detail ul li .amount-Text { font-size: 13px; padding-top: 0; }
+    .jntr_Page .performance-Chart .titleHeading-box .title-box { width: 33.33%; }
+    .jntr_Page .performance-Chart .title-box .text-Title02 { font-size: 14px; line-height: 20px; }
+    .jntr_Page .performance-Chart .title-box .Title02 { font-size: 22px; padding-top: 0; }
+    .jntr_Page .performance-Chart .title-box .titleText02 { font-size: 10px; }
+    .jntr_Page .performance-Chart .title-box .Title02.red-Color { padding-top: 0; }
+    .jntr_Page .performance-Chart .round-Vs { width: 45px; height: 45px; line-height: 45px; font-size: 16px; left: 0; }
+    .jntr_Page .performance-Chart .year-Perfomance { width: 100%; }
+    .jntr_Page .performance-Chart .year-Perfomance ul li { width: 100%; }
+    .jntr_Page .performance-Chart .year-Perfomance ul li a { position: relative; text-align: left; padding: 15px; font-size: 16px; }
+    .jntr_Page .performance-Chart .year-Perfomance li > a:before {content: "";border-width: 0 8px 8px 0;border-style: solid;border-color: transparent transparent #000 transparent;position: absolute;right: 6px;bottom: 6px;transform: rotate(-90deg);-webkit-transform: rotate(-90deg);}
+    .jntr_Page .performance-Chart .year-Perfomance #performance { background: #1e1e1e; position: absolute; width: 100%; }
+    .jntr_Page .performance-Chart .year-Perfomance #performance a { border-bottom: 1px solid rgba(255,255,255,0.2); }
+    .jntr_Page .gain-Box { margin-top: 10px; padding-bottom: 5px; }
+    .jntr_Page .gain-Box .gain-Box01 { margin-bottom: 10px; }
+    .jntr_Page .gain-Box .gain-Box01 .label-Text { width: 100%; font-size: 15px; margin-bottom: 10px; }
+    .jntr_Page .gain-Box .gain-Box01 .label-Text .help-circle { font-size: 13px; }
+    .jntr_Page .gain-Box .gain-Box01 .amt-Text01 { width: 100%; }
+    .jntr_Page .gain-Box .gain-Box01 .amt-Text01 input { width: 100%; font-size: 15px; }
+    .jntr_Page .gain-Box .gain-Box01 .amt-Text01 .net-Percentage, .jntr_Page .gain-Box .gain-Box01 .amt-Text01 .net-Profit, .jntr_Page .gain-Box .gain-Box01 .calcyppBox01 a { font-size: 15px;  } 
+    .jntr_Page .tokensale-Box01 { margin-top: 20px; }
+    .jntr_Page .tokensale-Box01 .sale-Box01 { padding-bottom: 5px; }
+    .jntr_Page .tokensale-Box01 .sale-Box01 .title-Wrap .Title03, .jntr_Page .tokensale-Box01 .sale-Box02 .Title03 { font-size: 14px; }
+    .jntr_Page .tokensale-Box01 .sale-Box01 .title-Wrap .Title03:first-child { margin-bottom: 5px; }
+    .jntr_Page .tokensale-Box01 .sale-Tokenbox .amt-Box { width: 33.33%; }
+    .jntr_Page .tokensale-Box01 .sale-Tokenbox .amt-Box .Title01 { font-size: 16px; padding-bottom: 0; margin-bottom: 5px; }
+    .jntr_Page .tokensale-Box01 .sale-Tokenbox .amt-Box .text-Title { font-size: 13px; }
+    .jntr_Page .tokensale-Box01 .sale-Tokenbox { margin-top: 5px; }
+    .jntr_Page .tokensale-Box01 .sale-Tokenbox .amt-Box:not(:last-child) { margin-bottom: 10px; }
+    .jntr_Page .tokensale-Box01 .sale-Box02 { padding-top: 10px; }
+    .jntr_Page .jointer-progress .text-Wrap { padding-top: 5px; }
+    .jntr_Page .jointer-progress .text-Wrap .text-Title { font-size: 10px; } 
+    .jntr_Page .jointer-bonus-progress .text-Wrap {width: 190px;font-size: 11px;padding-top: 0;line-height: 15px;} 
+    .jntr_Page .jointer-bonus-progress .text-Wrap .text-Title {text-align: left;padding-top: 24px;padding-left: 20px;} 
+     .jntr_Page .jointer-bonus-progress:after { right: -7px; top: 0; } 
+     .jntr_Page .progress-Box .progress-Bg { height: 15px; }
+     .jntr_Page .tokensale-Box01 .progress-Box { margin-top: 30px; }
+     .jntr_Page .edge-bonus-progress .perc-Box { top: -20px; right: 0; font-size: 13px; }
+    .jntr_Page .edge-progress .text-Wrap .text-Title { font-size: 13px; }
+    .jntr_Page .edge-progress .text-Wrap { padding-top: 18px; }
+    .jntr_Page .edge-bonus-progress .text-Wrap { padding-top: 20px; width: 110px; left: 60px; text-align: left; }
+    .jntr_Page .edge-bonus-progress .text-Wrap .text-Title { font-size: 13px; line-height: 1; }    
+    .jntr_Page .equity-Goal .equity-goalBox { width: 50%; padding: 0 20px; border: none; }
+    .jntr_Page .equity-goalBox .text-Title { font-size: 13px; margin-bottom: 5px; }
+    .jntr_Page .equity-Goal .equity-goalBox:first-child { margin-bottom: 0; margin-top: 0; }
+/*    .equity-Goal .equity-goalBox:last-child { padding-left: 0; }*/
+/*    .equity-Goal .equity-goalBox:last-child .calcyppBox01, .equity-Goal .equity-goalBox:last-child .text-Title { text-align: right; }*/
+    .jntr_Page .equity-goalBox .input-Box input { font-size: 20px; } 
+    .jntr_Page .equity-goalBox .calcyppBox01 .calcyppLink01 { font-size: 13px; }
+    .jntr_Page .equity-goalBox .text-Title01 { margin: 5px 0; } 
+    .jntr_Page .equity-goalBox .list-Title { font-size: 10px; } 
+    .tokensale-Box01 .sale-Box03 { margin-top: 15px; }
+    .jntr_Page .tokensale-Box01 .sale-Box03 .token-descBox { border: none; }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 { width: 100%; padding-top: 15px; border-right: none; border-top: 2px solid #272727; }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .text-Title { font-size: 14px; min-height: auto; }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .Title03 { font-size: 14px; } 
+    .jntr_Page .sale-Box04 { flex-direction: column; }     
+    .jntr_Page .sale-Box04 .liveauction-Btn { width: 100%; margin-left: 0; height: 70px; line-height: 70px; font-size: 20px; } 
+    .jntr_Page .liquidity-Wrap { margin: 0; } 
+    .jntr_Page .liquidity-Wrap .Title02 { font-size: 16px; } 
+    .jntr_Page .redeem-Box { padding: 0; } 
+    .jntr_Page .auction-Wrap { margin-top: 10px; }
+    .jntr_Page .auction-Wrap .timer p { font-size: 12px; }
+    .jntr_Page #timer .days, .jntr_Page #timer-Box, .jntr_Page #timer .hours, .jntr_Page #timer .minutes, .jntr_Page #timer .seconds { font-size: 18px; line-height: 30px; } 
+    .jntr_Page #timer .days span, .jntr_Page #timer .hours span, .jntr_Page #timer .minutes span, .jntr_Page #timer .seconds span { width: 24px; height: 30px; margin: 0 2px; }
+    .jntr_Page #timer .days, .jntr_Page #timer .hours, .jntr_Page #timer .minutes { margin-right: 8px; position: relative; }
+    .jntr_Page #timer .days:before, .jntr_Page #timer .hours:before, .jntr_Page #timer .minutes:before, .jntr_Page #timer .days:after, .jntr_Page #timer .hours:after, .jntr_Page #timer .minutes:after { content: "."; color: #fff; font-size: 18px; right: -6px; top: 0; }
+    .jntr_Page #timer .days:after, .jntr_Page #timer .hours:after, .jntr_Page #timer .minutes:after { bottom: 10px; top: inherit; }
+    .jntr_Page .live-auctionBbox { margin: 30px auto; width: 100%; }
+    .jntr_Page .auction-Wrap .live-auctionBbox a { padding: 8px 15px; font-size: 13px; }
+    .jntr_Page .tokensale-Box01 .overlay .text-Box .Title01 { font-size: 18px; margin-top: 20px; }
+    .jntr_Page .tokensale-Box01 .overlay .text-Box p { font-size: 13px; line-height: 18px; }
+    .jntr_Page .tokensale-Box01 .overlay .text-Box a { font-size: 16px; margin-top: 10px; } 
+    .jntr_Page .redeem-Box04 .btn { padding: 15px; font-size: 20px; } 
+    .jntr_Page .token-Block { padding: 30px 0; }
+    .jntr_Page .token-Block.edge-E { padding-bottom: 30px; }
+    .jntr_Page .tokensale-Block:after { height: 70px; }
+    .jntr_Page .Title01 { font-size: 20px; margin-bottom: 10px; }
+    .jntr_Page .token-Block p { font-size: 13px; line-height: 18px; margin-bottom: 10px; }
+    .jntr_Page .token-Wrap { margin-top: 0; padding: 0; }
+    .jntr_Page .token-Box { margin-bottom: 10px; width: 100%; }
+    .jntr_Page .token-Box01 { padding: 10px 0; width: 100%; }
+    .jntr_Page .token-Box01 ul { margin-top: 10px; }
+    .jntr_Page .token-Box01 ul li { font-size: 14px; line-height: 24px; padding-bottom: 10px; }
+    .jntr_Page .token-Box01 ul li:before { width: 6px; height: 6px; }
+    .jntr_Page .token-Box01 .token-Title { font-size: 18px; }
+    .jntr_Page .token-Box01 .icon-Box { margin-right: 5px; -webkit-transform: scale(0.75); transform: scale(0.75); }
+    .jntr_Page .minting { padding: 30px 0; }
+    .jntr_Page .minting-Table { width: 100%; }
+    .jntr_Page .minting-Table table tr th { font-size: 13px; padding: 15px; }
+    .jntr_Page .minting-Table table tr td { padding: 10px; font-size: 13px; }
+    .jntr_Page .redeem { padding: 30px 0; }
+    .jntr_Page .redeem-Box { width: 100%; }
+    .jntr_Page .redeem .Title01 { margin-bottom: 20px; } 
+    .jntr_Page .redeem-Box .redeem-Box01, .jntr_Page .redeem-Box .redeem-Box02, .jntr_Page .redeem-Box .redeem-Box03, .jntr_Page .redeem-Box .redeem-Box04 { width: 100%; padding: 15px; border-top: 1px solid #03468a; border-left: none; }    
+     .jntr_Page .redeem-Box .redeem-Box04 { border-top: none; } 
+    .jntr_Page .redeem-Box .redeem-Box01 { border-top: none; }
+    .jntr_Page .redeem-Box04 .btn-red { padding: 10px; font-size: 13px; }
+    .jntr_Page .redeem-Box04 .btn-red .icon-Box { margin-right: 10px; }
+    .jntr_Page .redeem-Box .redeem-Box01 .edge-Logo img { width: 150px; }
+    .jntr_Page .redeem-Box02 .redeem-Text, .jntr_Page .redeem-Box03 .redeem-Text, .jntr_Page .redeem-Box02 p, .jntr_Page .redeem-Box03 p { font-size: 16px; margin-bottom: 10px; } 
+    .jntr_Page .redeem-Box .redeem-Box04 { margin: 10px 0 0; } 
+    .jntr_Page .redeem-Box .redeem-Box02 .redeem-Bx { padding: 15px; } 
+    .jntr_Page .liquidity-Wrap .swap-Wrap { width: 100%; padding: 0; } 
+    .jntr_Page .powered-Text { margin-bottom: 8px; text-align: left; }
+    .jntr_Page .swap-Wrap .text-Title01 { font-size: 16px; line-height: 24px; }
+    .jntr_Page .swap-Wrap .swap-Box { margin-top: 10px; padding: 15px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input { justify-content: flex-start; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title { text-align: left; width: 100%; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title:first-child {margin-bottom: 10px;padding: 0;}
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Text { font-size: 16px; width: 25%; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Amt { width: calc(100% - 29%); }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Amt input { font-size: 16px; }
+    .jntr_Page .swap-Wrap .swap-Box .total-Amt { font-size: 13px; }
+    .jntr_Page .swap-Wrap .swap-Box .total-Amt span { width: 20px; font-size: 22px; line-height: 5px; }
+    .jntr_Page .swap-Wrap .swap-Icon a { -webkit-transform: scale(0.70); transform: scale(0.70); left: 0; top: -40px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap .swap-Box.reserve-Bx .swap-Icon a { left: 10px; } 
+    .jntr_Page .swap-Wrap .swap-Btn .btn { font-size: 18px; height: 40px; line-height: 40px; }
+    .jntr_Page .swap-Wrap .swap-Textlink { flex-direction: column; }
+    .jntr_Page .swap-Wrap .swap-Textlink .swap-Link01, .jntr_Page .swap-Wrap .swap-Textlink .swap-Link01 a, .jntr_Page .swap-Wrap .swap-Textlink .swap-Link02 { font-size: 12px; line-height: 18px; }
+    .jntr_Page .edge-Holdings02 { padding: 30px 0; }
+    .jntr_Page .edge-Holdings02 .Title01 span { top: -6px; }
+    .jntr_Page .edge-Holdings02 p { font-size: 13px; line-height: 18px; }
+    .jntr_Page .holdings-Block { margin: 25px 0 0; }
+    .jntr_Page .holdings-Block .holding-Box { width: 100%; margin-bottom: 20px; }
+    .jntr_Page .holdings-Block .holding-Box:last-child { margin-bottom: 0; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 { padding: 15px; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 .holding-Title { font-size: 20px; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 .btn { height: 40px; line-height: 40px; font-size: 16px; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 p { font-size: 13px;  margin-top: 10px; }
+    .jntr_Page .compare-Valuations { padding: 30px 0; }
+    .jntr_Page .compare-Block { margin: 30px 0 0; }
+    .jntr_Page .compare-Box { width: 100%; margin-bottom: 20px; padding: 0; }
+    .jntr_Page .compare-Box .compare-Box01 { padding: 20px; }
+    .jntr_Page .compare-Box .compare-Box01 .text-Title01 { font-size: 18px; }
+    .jntr_Page .compare-Box .compare-Box01 .value-Box { margin: 15px auto; }
+    .jntr_Page .compare-Box .compare-Box01 .ratio-Text { font-size: 20px; }
+    .jntr_Page .compare-Box .help-circle { font-size: 14px; top: -4px; }
+    .jntr_Page .compare-Box .compare-Box01 .value-Box ul li { font-size: 14px; }
+    .jntr_Page .compare-Box .compare-Box01 .value-Box ul li.value-Text { font-size: 13px; margin-top: 5px; } 
+    .jntr_Page .transaction-History { padding: 30px 0; }
+    .jntr_Page .transaction-History .Title01 { font-size: 20px; }
+    .jntr_Page .transaction-histroryWrap { margin-top: 20px; }
+    .jntr_Page .transaction-histroryBox { width: 100%; }
+    .jntr_Page .transaction-histroryBox { margin-bottom: 20px; }
+    .jntr_Page .transaction-histroryBox .Title02 { font-size: 18px; margin-bottom: 5px; }
+    .jntr_Page .transaction-histroryBox .Title02:before { display: none; }
+    .jntr_Page .transaction-histroryBox .trasaction-Amt { font-size: 14px; margin-bottom: 5px; }
+    .jntr_Page .trasaction-Date { font-size: 13px; }
+    .jntr_Page .trasaction-Box { margin-top: 15px; padding: 15px 10px; }
+    .jntr_Page .trasaction-Box .trasaction-Status { font-size: 16px; margin-bottom: 0; }
+    .jntr_Page .trasaction-Box .trasaction-Status .icon-Box { margin-right: 5px; }
+    .jntr_Page .trasaction-Box .trans-Id { font-size: 12px; padding-left: 20px; margin-bottom: 5px; word-break: break-all; }
+    .jntr_Page .trasaction-Box .view-Trans { font-size: 13px; padding-left: 20px; }
+    .jntr_Page .arrow-Box { width: 100%; }
+    .jntr_Page .arrow-Box:before { -webkit-transform: scale(0.8) rotate(90deg) translateX(-50%); transform: scale(0.8) rotate(90deg) translateX(-50%); top: -20px; }
+    .jntr_Page .transaction-histroryBox:first-child {  margin-bottom: 40px; }
+    .jntr_Page .transaction-histroryBox p { font-size: 12px; text-align: left; color: #fff; }
+    .jntr_Page .daily-distribution { display: none !important; } 
+    .jntr_Page .current-holding { padding: 50px 0; }
+    .jntr_Page .current-holding .text-Title01 { font-size: 16px; font-weight: 700; padding: 10px 0 20px; }
+    .jntr_Page .current-holding .text-Title01 .help-circle { font-size: 13px; top: -10px; }
+    .jntr_Page .current-holding .btn { border-bottom: solid 3px #7fa807; width: 250px; font-size: 15px; height: 40px; line-height: 40px; }
+    .jntr_Page .current-holding .btn span { margin-right: 10px; }
+    .jntr_Page .cross-Collateral { padding: 30px 0; }
+    .jntr_Page .cross-Collateral .crossCollateral-Block { margin: 15px 0; }
+    .jntr_Page .crossCollateral-Box01 { width: 100%; }
+    .jntr_Page .crossCollateral-Box02 { width: 100%; }
+    .jntr_Page .crossCollateral-Box .logo-Box { width: 100%; height: 180px; }
+     .jntr_Page .crossCollateral-Box .logo-Box:before { -webkit-transform: scale(0.8) translateX(-50%); transform: scale(0.8) translateX(-50%); top: -21px; left: 42%; }
+    .jntr_Page .crossCollateral-Box01 ul li:before { display: none; }
+    .jntr_Page .crossCollateral-Box01 ul li:last-child:before { display: block; -webkit-transform: rotate(90deg) translateX(-50%) scale(0.6); transform: rotate(90deg) translateX(-50%) scale(0.6); right: inherit; left: 40%; bottom: -80px; }
+    .jntr_Page .crossCollateral-Box01 ul li { font-size: 16px; margin-bottom: 0; }
+    .jntr_Page .crossCollateral-Box01 ul li .icon-Img { -webkit-transform: scale(0.8); transform: scale(0.8); }
+    .jntr_Page .crossCollateral-Box01 ul li span { padding-left: 5px; }
+    .jntr_Page .crossCollateral-Box01 ul li:before, .jntr_Page .crossCollateral-Box .logo-Box, .jntr_Page .crossCollateral-Box02 .img-Box:before { -webkit-transform: scale(0.6); transform: scale(0.6); }     
+    .jntr_Page .crossCollateral-Box02 .img-Box:before { left: 0; -webkit-transform: scale(0.6) rotate(90deg) translateX(-50%); transform: scale(0.6) rotate(90deg) translateX(-50%); top: 0; left: 40%; }
+    /* .jntr_Page .crossCollateral-Box02 .img-Box img {  } */
+    .jntr_Page .crossCollateral-Box02 .text-Content p { font-size: 13px; line-height: 18px; }
+    .jntr_Page .crossCollateral-Box02 .text-Content { margin-top: 10px; }
+    .jntr_Page .cross-Collateral .redemption-Text .text-Tilte02 {font-size: 14px;margin-bottom: 5px;padding-top: 5px;}
+    .jntr_Page .cross-Collateral .redemption-Text p { font-size: 12px; line-height: 20px; }
+    .jntr_Page .unlock-mainbox { margin: 30px 0; }
+    .jntr_Page .unlock-Popup { overflow-x: hidden; overflow-y: auto; }
+    .jntr_Page .unlock-Popup .container-Grid { position: relative; left: 0; top: 0; transform: none; margin-top: 40px; margin-bottom: 30px; }  
+    .jntr_Page .unlock-subbox { width: 100%; font-size: 14px; line-height: 24px; }  
+    .jntr_Page .unlock-subbox:before { right: inherit; top: inherit; bottom: -45px; left: 50%; -webkit-transform: translateX(-50%) rotate(90deg); transform: translateX(-50%) rotate(90deg); }
+    .jntr_Page .unlock-Popup .Title01 p { font-size: 20px; }
+    .jntr_Page .unlock-Popup .close-Icon { right: 10px; top: 10px; -webkit-transform: scale(0.7); transform: scale(0.7); }
+    .jntr_Page .unlock-Popup .btn-Box p { font-size: 12px; margin-top: 10px; line-height: 14px; }
+    .jntr_Page .unlock-Popup .btn-Box .btn { width: 100%; height: 50px; line-height: 48px; font-size: 16px; }
+    .jntr_Page .main-Popup .close-Icon02, .wallet-Popup .close-Icon { width: 50px; height: 50px; -webkit-transform: scale(0.6); transform: scale(0.6); top: 20px; right: 20px; }
+    .jntr_Page .wallet-popupBlock { padding: 30px 20px; }
+    .jntr_Page .wallet-boxWrap .wallet-Bx { width: 50%; margin-bottom: 10px; }
+    .jntr_Page .wallet-boxWrap .wallet-Bx .img-Box { height: 200px; }
+    .jntr_Page .wallet-boxWrap .wallet-Bx .img-Box .title-Name { font-size: 16px; bottom: 10px; }      
+	.jntr_Page .footer { padding: 30px 20px; margin-left: 0; }
+	.jntr_Page .footer .footer-left, .jntr_Page .footer .footer-right { width: 100%; text-align: center; }	
+	.jntr_Page .footer .footer-right .social-Icons { padding-bottom: 20px; }
+	.jntr_Page .footer .footer-left { margin-bottom: 30px; }
+	.jntr_Page .footer .footer-left .f-Link a { font-size: 12px; padding: 0 5px; }
+	.jntr_Page .footer .footer-left .footer-logo > a { padding-right: 0; margin-bottom: 30px; }
+	.jntr_Page .footer .footer-left p span { display: block; margin-bottom: 5px; }
+	.jntr_Page .footer .footer-left p { line-height: 20px; margin-top: 5px; }
+	.jntr_Page .footer .footer-right p { font-size: 13px; display: inline; }
+.jntr_Page .footer {padding: 10px 20px 0;margin-left: 0;}
+.jntr_Page .footer .footer-left, .jntr_Page .footer .footer-right { width: 100%; text-align: center; }	
+.jntr_Page .footer .footer-right .social-Icons { padding-bottom: 20px; }
+.jntr_Page .footer .footer-left { margin-bottom: 30px; }
+.jntr_Page .footer .footer-left .f-Link a { font-size: 12px; padding: 0 5px; }
+.jntr_Page .footer .footer-left .footer-logo > a { padding-right: 0; margin-bottom: 0; }
+.jntr_Page .footer .footer-left p span { display: block; margin-bottom: 5px; }
+.jntr_Page .footer .footer-left p { line-height: 20px; margin-top: 5px; }
+.jntr_Page .footer .footer-right p { font-size: 13px; display: inline; } 
+     
+.jntr_Page .edge-Holdings02 .Title01, .jntr_Page .compare-Valuations .Title01 { color: #fff; font-size:20px; }  /* np n*/ 
+.jntr_Page .compare-Box:after { display: none;}/* np n*/ 
+.jntr_Page .compareB-Title01 {width:100%; } /* np n*/ 
+
+.jntr_Page  #chart1{width:100% !important; }
+.jntr_Page  .addWall_BTN{ flex-direction:column;}
+.jntr_Page  .uc-btn02{margin-top:15px;}
+ } 
+
+@media (min-width: 768px) and (max-width: 991px) {	
+    .jntr_Page .container-Grid { padding: 0 20px; }
+    .jntr_Page .rgdev-item a { padding: 7px 15px; font-size: 14px; }    
+    .jntr_Page .rgdev-item .langBox {padding-right: 0;padding-left: 0;-webkit-transform: scale(0.7);transform: scale(0.7);top: -5px;position: relative;right: 0px;}
+    .jntr_Page .edge-Btn:before { width: 20%; bottom: 0; }
+    .jntr_Page .tokensale-Block {padding-bottom: 70px;}
+    .jntr_Page .tokensale-Block.hasShield{margin-top: 110px;}
+    .jntr_Page .tokensale-Block:after { height: 70px; }
+    .jntr_Page .token-Tab ul { margin: 0 -55px; }
+    .jntr_Page .token-Tab ul li { padding: 10px 30px; }
+    .jntr_Page .token-Tab ul li a { font-size: 20px; }
+    .jntr_Page .token-Tab ul li a .icon-Box { margin-right: 20px; }
+    .jntr_Page .global-Chart { width: 100%; }
+    .jntr_Page .multiFamilybox .subTitlebox { padding: 40px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .amount-Box .amt-Text { font-size: 24px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .amount-Box .amt-Text span { font-size: 13px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .duration-Box ul li a { font-size: 12px; }
+    .jntr_Page .gain-Box .gain-Box01 .amt-Text01 input { font-size: 15px; }
+    .jntr_Page .gain-Box .gain-Box01 .label-Text { font-size: 16px;  }
+    .jntr_Page .gain-Box .gain-Box01 .label-Text .help-circle { font-size: 14px; }
+    .jntr_Page .gain-Box .gain-Box01 .calcyppBox01 { width: 120px; }
+    .jntr_Page .gain-Box .gain-Box01 .calcyppBox01, .jntr_Page .gain-Box .gain-Box01 .amt-Text01 .net-Percentage,.jntr_Page  .gain-Box .gain-Box01 .amt-Text01 .net-Profit { font-size: 15px; }   
+    .jntr_Page .gain-Box .gain-Box01 { margin-bottom: 15px; }
+    .jntr_Page .performance-Chart .year-Perfomance ul li a { font-size: 13px; padding: 15px 10px; }
+    .jntr_Page .performance-Chart .title-box .text-Title02 { font-size: 16px; margin-bottom: 5px; }
+    .jntr_Page .performance-Chart .title-box .Title02 { font-size: 24px; }
+    .jntr_Page .performance-Chart .round-Vs { width: 60px; height: 60px; line-height: 60px; font-size: 20px; }    
+    .jntr_Page .tokensale-Wrap { padding-top: 30px; }
+    .jntr_Page .tokensale-Box01 { width: 100%; margin-top: 30px; }
+    .jntr_Page .token-Block { padding: 50px 0; }
+    .jntr_Page .token-Block.edge-E { padding-bottom: 50px; }
+    .jntr_Page .Title01,.jntr_Page  .edge-Holdings02 .Title01,.jntr_Page .compare-Valuations .Title01 { font-size: 24px; margin-bottom: 10px; }
+    .jntr_Page .jointer-bonus-progress .text-Wrap .text-Title { padding-left: 70px; }
+    .jntr_Page .token-Block p,.jntr_Page  .edge-Holdings02 p { font-size: 16px; line-height: 20px; }
+    .jntr_Page .token-Wrap { margin-top: 20px; }
+    .jntr_Page .token-Box { margin-bottom: 10px; width: 50%; }
+    .jntr_Page .token-Box01 { margin-bottom: 20px; }    
+    .jntr_Page .token-Box01 .token-Title { font-size: 18px; }
+    .jntr_Page .token-Box01 .icon-Box { margin-right: 5px; -webkit-transform: scale(0.75); transform: scale(0.75); }
+    .jntr_Page .token-Box01 ul { margin-top: 15px; }
+    .jntr_Page .token-Box01 ul li { font-size: 14px; line-height: 24px; padding-bottom: 10px; }
+    .jntr_Page .token-Block:before, .jntr_Page .token-Block.edge-E:before, .jntr_Page .token-Block.edge-X:before { background-size: 75%; }
+    .jntr_Page .minting { padding: 50px 0; }
+    .jntr_Page .minting-Table { width: 90%; }
+    .jntr_Page .minting-Table table tr th { font-size: 14px; padding: 15px 10px; }
+    .jntr_Page .minting-Table table tr td { padding: 15px; }
+    .jntr_Page .redeem { padding: 50px 0; }
+    .jntr_Page .liquidity-Wrap { margin: 0; }
+    .jntr_Page .redeem-Box,.jntr_Page .liquidity-Wrap .swap-Wrap { width: 100%; padding: 0; }
+    .jntr_Page .redeem .Title01 { margin-bottom: 20px; }  
+    .jntr_Page .redeem-Box .redeem-Box01 { padding: 20px 0; }
+    .jntr_Page .redeem-Box .redeem-Box01 .edge-Logo img { width: 200px; }  
+    .jntr_Page .redeem-Box .redeem-Box02 { padding: 15px; }
+    .jntr_Page .liquidity-Wrap .Title02 { font-size: 20px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap { margin-top: 30px; }
+    .jntr_Page .swap-Wrap .text-Title01 { font-size: 18px; line-height: 24px; }
+    .jntr_Page .swap-Wrap .swap-Box { margin-top: 25px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Text, .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Amt input { font-size: 16px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Amt { font-size: 16px; margin-left: 5px; width: 190px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Amt .currecy { font-size: 16px; margin-right: 6px; }
+    .jntr_Page .swap-Wrap .swap-Textlink .swap-Link01, .jntr_Page .swap-Wrap .swap-Textlink .swap-Link01 a, .jntr_Page .swap-Wrap .swap-Textlink .swap-Link02 { font-size: 13px; }    
+    .jntr_Page .swap-Wrap .swap-Btn .btn { height: 70px; line-height: 70px; font-size: 24px; }
+    .jntr_Page .edge-Holdings02 { padding: 50px 0; }
+    .jntr_Page .holdings-Block { margin: 40px -15px 0; }
+    .jntr_Page .holdings-Block .holding-Box { width: 50%; margin-bottom: 15px; padding: 0 15px; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 { padding: 15px; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 .holding-Title { font-size: 24px; } 
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 .wallet-address { font-size: 10px; }   
+    .jntr_Page .compare-Valuations { padding: 50px 0; }
+    .jntr_Page .compare-Block { margin: 35px -20px 0; }
+    .jntr_Page .compare-Box { width: 50%; padding: 0 20px; margin-bottom: 40px; }
+    .jntr_Page .compare-Box:last-child { margin-bottom: 0; }
+    .jntr_Page .compare-Box .compare-Box01 .text-Title01 { font-size: 20px; }
+    .jntr_Page .compare-Box .compare-Box01 .value-Box { margin: 20px auto; }
+    .jntr_Page .compare-Box .compare-Box01 .value-Box ul li { font-size: 16px; }
+    .jntr_Page .compare-Box .compare-Box01 .value-Box ul li.value-Text { font-size: 13px; margin-top: 5px; }
+    .jntr_Page .compare-Box .compare-Box01 .ratio-Text { font-size: 24px; }
+    .jntr_Page .compareB-Title01 { font-size: 18px; }
+    .jntr_Page .transaction-History { padding: 50px 0; }
+    .jntr_Page .transaction-histroryBox .Title02 { font-size: 20px; margin-bottom: 10px; }
+    .jntr_Page .transaction-histroryBox .Title02:before { width: 82%; }
+    .jntr_Page .transaction-histroryBox .Title02.blue-Color:before { width: 69%; }
+    .jntr_Page .transaction-histroryBox .Title02.pending:before { width: 70%; }
+    .jntr_Page .transaction-histroryBox .trasaction-Amt { font-size: 16px; }
+    .jntr_Page .transaction-histroryBox { margin-bottom: 20px; }
+    .jntr_Page .trasaction-Date { font-size: 13px; }
+    .jntr_Page .trasaction-Box .trasaction-Status { font-size: 18px; margin-bottom: 0; }
+    .jntr_Page .trasaction-Box .trasaction-Status .icon-Box { -webkit-transform: scale(0.85); transform: scale(0.85); }
+    .jntr_Page .trasaction-Box .trans-Id, .jntr_Page .trasaction-Box .view-Trans { font-size: 13px; margin-bottom: 5px; }
+    .jntr_Page .trasaction-Box .trans-Id { word-break: break-all; }
+    .jntr_Page .transaction-histroryBox p { font-size: 12px; }
+    .jntr_Page .arrow-Box:before { -webkit-transform: scale(0.85); transform: scale(0.85); left: 30%; top: -3px; }
+    .jntr_Page .daily-distribution { -webkit-transform: scale(0.6); transform: scale(0.6); right: -150px; bottom: -80px; }
+    .jntr_Page .current-holding { padding: 50px 0; }
+    .jntr_Page .current-holding .text-Title01 { font-size: 20px; font-weight: 700; padding: 15px 0;}
+    .jntr_Page .current-holding .btn { width: 350px; font-size: 22px; height: 60px; line-height: 60px; }
+    .jntr_Page .cross-Collateral { padding: 0; }
+    .jntr_Page .cross-Collateral .crossCollateral-Block { margin: 15px 0; }    
+    .jntr_Page .crossCollateral-Box01 ul li { font-size: 16px; margin-bottom: 10px; }
+    .jntr_Page .crossCollateral-Box01 ul li .icon-Img { -webkit-transform: scale(0.8); transform: scale(0.8); }
+    .jntr_Page .crossCollateral-Box01 ul li span { padding-left: 5px; }
+    .jntr_Page .crossCollateral-Box01 ul li:before, .jntr_Page .crossCollateral-Box .logo-Box, .jntr_Page .crossCollateral-Box02 .img-Box:before { -webkit-transform: scale(0.6); transform: scale(0.6); }     
+    .jntr_Page .crossCollateral-Box02 .img-Box:before { left: -10px; top: 35%; }
+    .jntr_Page .crossCollateral-Box02 .img-Box img { width: 140px; }
+    .jntr_Page .crossCollateral-Box02 .text-Content p { font-size: 12px; line-height: 16px; }
+    .jntr_Page .crossCollateral-Box02 .text-Content { margin-top: 10px; }
+    .jntr_Page .cross-Collateral .redemption-Text .text-Tilte02 { font-size: 16px; margin-bottom: 10px; }
+    .jntr_Page .cross-Collateral .redemption-Text p { line-height: 24px; }   
+    .jntr_Page .wallet-popupBlock { padding: 40px 20px 20px; }
+    /* .jntr_Page .wallet-Popup .close-Icon {  } */
+    .jntr_Page .wallet-boxWrap .wallet-Bx { width: 25%; }
+    .jntr_Page .wallet-boxWrap .wallet-Bx .img-Box { height: 160px; padding-bottom: 20px; }  
+    .jntr_Page .wallet-boxWrap .wallet-Bx .img-Box img { height: 90px; }
+    .jntr_Page .wallet-boxWrap .wallet-Bx .img-Box .title-Name { bottom: 15px; font-size: 15px; }  
+    .jntr_Page .unlock-subbox { width: 50%; }
+    .jntr_Page .unlock-Popup .Title01 { font-size: 30px; }
+    .jntr_Page .unlock-Popup .btn-Box .btn { width: 500px; height: 70px; line-height: 70px; font-size: 24px;  }
+    .jntr_Page .unlock-Popup .btn-Box p { margin-top: 10px; }    
+	.jntr_Page .footer { padding: 30px 20px; } 
+	.jntr_Page .footer .footer-left p, .jntr_Page .footer .footer-left p a { font-size: 10px; line-height: 14px; }
+	.jntr_Page .footer .footer-left p + p { margin-top: 10px; }
+	.jntr_Page .footer .footer-left .footer-logo a img { width: 80px; }
+	.jntr_Page .footer .footer-left .f-Link a, .jntr_Page .footer .footer-right .social-Icons h5, .jntr_Page .footer .footer-right p { font-size: 11px; line-height: 14px; }
+	.jntr_Page .footer .footer-left .f-Link a { padding: 0 4px; }
+	.jntr_Page .footer .footer-right .social-Icons li { padding-right: 0; }
+	.jntr_Page .footer .footer-right .social-Icons li a { transform: scale(0.8); -webkit-transform: scale(0.8); }
+	.jntr_Page .footer .footer-left .footer-logo a { padding-right: 5px; }
+.jntr_Page .footer {padding: 30px 20px 0 20px;} 
+.jntr_Page .footer .footer-left p, .jntr_Page .footer .footer-left p a { font-size: 10px; line-height: 14px; }
+.jntr_Page .footer .footer-left p + p { margin-top: 10px; }
+.jntr_Page .footer .footer-left .footer-logo a img { width: 80px; }
+.jntr_Page .footer .footer-left .f-Link a, .jntr_Page .footer .footer-right .social-Icons h5, .jntr_Page .footer .footer-right p { font-size: 11px; line-height: 14px; }
+.jntr_Page .footer .footer-left .f-Link a { padding: 0 4px; }
+.jntr_Page .footer .footer-right .social-Icons li { padding-right: 0; }
+.jntr_Page .footer .footer-right .social-Icons li a { transform: scale(0.8); -webkit-transform: scale(0.8); }
+.jntr_Page .footer .footer-left .footer-logo a { padding-right: 5px; }
+.jntr_Page .footer .footer-left {width: 60%;}
+.jntr_Page .footer .footer-right {width: 40%;}
+    
+.jntr_Page .dwnPro-shild {position: fixed;width: 100%;height: auto;top: 0;left: 0;background: none;z-index: 125;clip-path: none;} 
+.jntr_Page .dwnPro-shild a { background: rgb(141,187,8); background: -moz-linear-gradient(top, rgba(141,187,8,1) 1%, rgba(99,128,17,1) 100%); background: -webkit-linear-gradient(top, rgba(141,187,8,1) 1%,rgba(99,128,17,1) 100%); background: linear-gradient(to bottom, rgba(141,187,8,1) 1%,rgba(99,128,17,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8dbb08', endColorstr='#638011',GradientType=0 ); width: 100%; height: auto; font-size: 14px; color:#fff; padding: 19px 0; text-align: center; position: relative; transform: none !important; left: 0; top: 0; width: auto; display: block; line-height: 1; bottom: 0; box-shadow: none; font-weight: 400; } 
+.jntr_Page .dwnPro-shild a span { position: relative; z-index: 1; } 
+.jntr_Page .dwnPro-shild a strong { display: block; padding-top: 4px; } 
+.jntr_Page .dwnPro-shild a:before { content: ""; background: url(../images/shield-icon.png) no-repeat 0 0; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 46px; height: 49px; } 
+    
+}
+
+@media (max-width: 991px) {
+	.jntr_Page .npShowMD { display: none !important; }
+	.jntr_Page .npShowSM { display: block !important; }
+	.jntr_Page .tab-Nav { display: none; }	
+	.jntr_Page .tab-navMobile { display: block; }
+    .jntr_Page .rgdev-list { position: absolute; top: 10px; z-index: 9999; display: none; }
+    .jntr_Page .mobile-sub {margin: 0px;padding: 0px;list-style: none;float: none;width: 100%;background: rgba(0,0,0,0.9); padding: 20px; }
+    .jntr_Page .header {padding: 10px 20px;display: block;position: fixed;z-index: 99;margin-top: 70px;}
+    .jntr_Page .main { margin-top: 57px; }
+    .jntr_Page .rgdev { position: relative; }
+    .jntr_Page .rgdev-item { text-align: left; }
+    .jntr_Page .rgdev-item a.navBtn { display: inline-block; }
+    .jntr_Page .rgdev-mobile { display: block; right: 40px; top: 15px; background: #95c608 !important; }
+    .jntr_Page .logo a img { position: relative; top: 2px; }
+    .jntr_Page .mobile-sub .rgdev-item a.langBox { display: none; }
+    .jntr_Page .mobile-Item01 { position: absolute; top: 12px; right: 82px; display: none; }
+    .jntr_Page .mobile-Item02 { position: absolute; right: 11px; top: 2px; -webkit-transform: scale(0.95); transform: scale(0.95); }
+    .jntr_Page .user-Status { display: none; }
+    .jntr_Page .user-Menu:before { right: -13px; }
+    .jntr_Page .mobile-Item01 a,.jntr_Page .mobile-Item02 a { padding: 5px; }    
+    .jntr_Page #userBox1 {position: absolute;top: 40px;right: 0;z-index: 1;border-radius: 0;}
+    .jntr_Page #userBox1 a { text-transform: capitalize; font-size: 13px; }
+    .jntr_Page #userBox,.jntr_Page #userBox1 { right: inherit; left: 0; }
+    .jntr_Page .langBoxContainer { top: 5px; }
+    .jntr_Page .wallet-Bx.coming-Soon:before { font-size: 20px; }
+    .jntr_Page .container-Full { padding: 0 20px; }
+    .jntr_Page .sale-Box03 .arrow-Down { display: none; }
+    .jntr_Page .logo{margin-left: 0;}
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {	
+    .jntr_Page .dwnPro-shild { -webkit-transform: scale(0.65); transform: scale(0.65); left: -35px; top: -35px; } 
+
+    .jntr_Page .container-Grid, .jntr_Page .container-Full { padding: 0 20px; }
+    .jntr_Page .header { padding: 10px 20px; }
+    .jntr_Page .rgdev-item a { padding: 7px 10px; font-size: 12px; }
+    .jntr_Page .rgdev-item.liveauc-Btn a { font-size: 12px; padding: 10px; }
+    .jntr_Page .rgdev-item a .icon-Box { margin-right: 6px; }
+    .jntr_Page .rgdev-item a { padding: 7px; }
+    .jntr_Page .rgdev-item.liveauc-Btn { padding: 0 10px; }
+    .jntr_Page .award-text span { display: inline-block; width: 80%; vertical-align: middle; }
+    .jntr_Page .user-Menu { margin-left: 0; }
+    .jntr_Page .award-text {width: 150px;font-size: 12px;padding-left: 20px;display: none;}
+    .jntr_Page .award-text img { padding-right: 5px; }
+    /* .jntr_Page .tokensale-Block {  } */
+    .jntr_Page .token-Tab ul { margin: 0 -40px; padding: 0 12px; }
+    .jntr_Page .token-Tab ul li { padding: 10px 30px; }
+    .jntr_Page .token-Tab ul li a { font-size: 20px; }
+    .jntr_Page .token-Tab ul li a .icon-Box { margin-right: 20px; }
+    .jntr_Page .tokensale-Wrap { padding-top: 40px; }    
+    .jntr_Page .multiFamilybox .subTitlebox { padding: 40px 30px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .duration-Box ul li a { font-size: 10px; padding: 3px 5px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .amount-Box .amt-Text { font-size: 19px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .amount-Box .amt-Text span { font-size: 12px; }
+    .jntr_Page .chart-Detail ul li { font-size: 12px; }
+    .jntr_Page .help-circle { font-size: 9px; top: -2px; }
+    .jntr_Page .chart-Detail ul li .amount-Text { font-size: 14px; padding-top: 3px; } 
+    .jntr_Page .tokensale-Wrap { margin: 0 -20px; }
+    .jntr_Page .global-Chart,.jntr_Page .tokensale-Box01 { padding: 0 10px; width: 50%; }
+    .jntr_Page .gain-Box .gain-Box01 .amt-Text01 input { width: 100%; font-size: 16px; }
+    .jntr_Page .gain-Box .gain-Box01 .calcyppBox01 a { font-size: 18px; }
+    .jntr_Page .gain-Box .gain-Box01 .label-Text { font-size: 16px;  }
+    .jntr_Page .gain-Box .gain-Box01 .label-Text .help-circle { font-size: 14px; }
+    .jntr_Page .gain-Box .gain-Box01 .calcyppBox01 { width: 120px; }
+    .jntr_Page .gain-Box .gain-Box01 .calcyppBox01, .jntr_Page .gain-Box .gain-Box01 .amt-Text01 .net-Percentage, .jntr_Page .gain-Box .gain-Box01 .amt-Text01 .net-Profit { font-size: 16px; }   
+    .jntr_Page .gain-Box .gain-Box01 { margin-bottom: 15px; }
+    .jntr_Page .performance-Chart .year-Perfomance ul li a { font-size: 12px; padding: 12px 10px; }
+    .jntr_Page .performance-Chart .title-box .text-Title02 { font-size: 12px; margin-bottom: 5px; }
+    .jntr_Page .performance-Chart .title-box .Title02 { font-size: 24px; }
+    .jntr_Page .performance-Chart .round-Vs { width: 50px; height: 50px; line-height: 50px; font-size: 18px; left: -5px; }    
+    .jntr_Page .performance-Chart .title-box .titleText02 { font-size: 11px; }
+    .jntr_Page .tokensale-Box01 .overlay .text-Box .Title01 { font-size: 28px; margin-top: 30px; }
+    .jntr_Page .tokensale-Box01 .overlay .text-Box p, .jntr_Page .tokensale-Box01 .overlay .text-Box .text-Title { font-size: 14px; }
+    .jntr_Page .tokensale-Box01 .overlay .text-Box a { font-size: 18px; margin-top: 15px; }
+    .jntr_Page .tokensale-Box01 .sale-Box01 .title-Wrap .Title03, .jntr_Page .tokensale-Box01 .sale-Box02 .Title03 { font-size: 14px; }
+    .jntr_Page .tokensale-Box01 .sale-Tokenbox { margin-top: 10px; }
+    .jntr_Page .tokensale-Box01 .sale-Tokenbox .amt-Box .Title01 { font-size: 16px; padding-bottom: 2px; }
+    .jntr_Page .tokensale-Box01 .sale-Tokenbox .amt-Box .text-Title { font-size: 13px; }
+    .jntr_Page .tokensale-Box01 .sale-Box01 { padding-bottom: 15px; }
+    .jntr_Page .tokensale-Box01 .sale-Box02 { padding-top: 15px; }
+    .jntr_Page .tokensale-Box01 .progress-Box { margin-top: 30px; }
+    .jntr_Page .tokensale-Block { padding-bottom: 70px; }
+    .jntr_Page .tokensale-Block:before { background-size: 70%;bottom: 30px;background-position: 95% 50%; }
+    .jntr_Page .tokensale-Block:after { height: 70px; }
+    .jntr_Page .jointer-bonus-progress .text-Wrap { width: 210px; }
+    .jntr_Page .jointer-progress .text-Wrap .text-Title { font-size: 10px; }
+    .jntr_Page .jointer-bonus-progress .text-Wrap .text-Title { padding-left: 20px; }
+    .jntr_Page .equity-Goal { margin: 15px 0 0; padding: 10px 0; }
+    .jntr_Page .edge-bonus-progress .perc-Box { top: -30px; font-size: 14px; }
+    .jntr_Page .progress-Box .progress-Bg { height: 20px; }
+    .jntr_Page .edge-progress .text-Wrap { padding-top: 22px; }
+    .jntr_Page .progress-Box > .text-Title,.jntr_Page  .edge-bonus-progress .text-Wrap .text-Title, .jntr_Page .edge-progress .text-Wrap .text-Title  { font-size: 14px; }
+    .jntr_Page .edge-bonus-progress .text-Wrap { width: 170px; padding-top: 24px; }
+    .jntr_Page .equity-Goal .equity-goalBox { padding: 0 10px; }
+    .jntr_Page .equity-goalBox .text-Title { font-size: 12px; line-height: 18px; width: 100%; margin-bottom: 5px; }
+    .jntr_Page .equity-goalBox .input-Box input { font-size: 20px; }
+    .jntr_Page .tokensale-Box01 .sale-Box03 { margin-top: 10px; padding: 0; }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 { padding-top: 5px; }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .text-Title { font-size: 12px; min-height: 30px; }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .Title03 { font-size: 12px; padding-top: 5px; }
+    .jntr_Page .sale-Box04 .liveauction-Btn { width: 250px; margin-left: 12px; height: 80px; line-height: 80px; font-size: 22px;}
+    .jntr_Page .sale-Box04 .timer-02 p { font-size: 13px; }
+    .jntr_Page .tokensale-Box01 .sale-Box03 { margin: 5px 0 15px; }
+    .jntr_Page .sale-Box03 { position: relative; }
+    .jntr_Page .sale-Box03 .arrow-Down { position: absolute;left: 50%;-webkit-transform: translateX(-50%);transform: translateX(-50%);font-family: "Font Awesome 5 Free"; font-weight: 900;color: #faba37;top: -25px;font-size: 24px; cursor: pointer; }
+    .jntr_Page .sale-Box03 .arrow-Down.active { -webkit-transform: translateX(-50%) rotate(-180deg); transform: translateX(-50%) rotate(-180deg); }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .text-Title, .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .Title03 { font-size: 13px; }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .text-Title { min-height: 40px; }
+    .jntr_Page .equity-Goal {margin: 20px 0;padding: 10px 0;position: relative;height: 50px;overflow: hidden;-webkit-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out;}
+    .jntr_Page .equity-Goal.active { height: 265px; }
+    .jntr_Page #timer02 .days, .jntr_Page #timer02 .hours, .jntr_Page #timer02 .minutes, .jntr_Page #timer02 .seconds, .jntr_Page #timer02-Box { font-size: 18px; }
+    .jntr_Page #timer02 .days, .jntr_Page #timer02 .hours, .jntr_Page #timer02 .minutes { margin-right: 4px; }
+    .jntr_Page #timer02 .days:after, .jntr_Page #timer02 .days:before, .jntr_Page #timer02 .hours:after, .jntr_Page #timer02 .hours:before, .jntr_Page #timer02 .minutes:after, .jntr_Page #timer02 .minutes:before { font-size: 20px; right: -5px;  }
+    .jntr_Page #timer02 .days:before, .jntr_Page #timer02 .hours:before, .jntr_Page #timer02 .minutes:before { top: -7px; }
+    .jntr_Page #timer02 .days:after, .jntr_Page #timer02 .hours:after, .jntr_Page #timer02 .minutes:after { bottom: 2px; }
+    .jntr_Page #timer02 .days span,.jntr_Page #timer02 .hours span,.jntr_Page #timer02 .minutes span,.jntr_Page #timer02 .seconds span { width: 23px; height: 28px; line-height: 28px; margin: 0 2px; }     
+    .jntr_Page .auction-Wrap { margin-top: 5px; }
+    .jntr_Page .auction-Wrap .timer { -webkit-transform: scale(0.75); transform: scale(0.75); position: relative; left: -40px; }
+    .jntr_Page .auction-Wrap .live-auctionBbox a { -webkit-transform: scale(0.75); transform: scale(0.75); position: relative; left: -20px; }
+    .jntr_Page .token-Block p, .jntr_Page .edge-Holdings02 p { font-size: 18px; line-height: 22px; }
+    .jntr_Page .token-Box01 { padding: 0 15px; }
+    .jntr_Page .token-Box01 .token-Title { font-size: 14px; }
+    .jntr_Page .token-Box01 .icon-Box { margin-right: 0px; -webkit-transform: scale(0.6); transform: scale(0.6); }    
+    .jntr_Page .token-Box01 .token-Title strong { width: calc(100% - 70px); }
+    .jntr_Page .token-Box01 ul { margin-top: 5px; }
+    .jntr_Page .token-Box01 ul li { font-size: 14px; line-height: 22px; padding-bottom: 10px; }
+    .jntr_Page .token-Box01 ul li:before { width: 6px; height: 6px; }
+    .jntr_Page .Title01, .jntr_Page .edge-Holdings02 .Title01, .jntr_Page .compare-Valuations .Title01 { font-size: 30px; margin-bottom: 15px; }
+    .jntr_Page .compareB-Title01 { font-size: 20px; }
+    .jntr_Page .redeem .Title01 { margin-bottom: 25px; }   
+    .jntr_Page .liquidity-Wrap .Title02 { font-size: 20px; }
+    .jntr_Page .redeem-Box .redeem-Box01 { padding: 20px 0; }
+    .jntr_Page .redeem-Box .redeem-Box02 { padding: 15px 0; }
+    .jntr_Page .redeem-Box .redeem-Box02 .redeem-Bx { padding: 10px 0; }
+    .jntr_Page .redeem-Box02 .redeem-Text, .jntr_Page .redeem-Box03 .redeem-Text, .jntr_Page .redeem-Box02 p, .jntr_Page .redeem-Box03 p { font-size: 16px; }
+    .jntr_Page .redeem-Box04 .btn { padding: 15px; font-size: 24px; }    
+    .jntr_Page .swap-Wrap .text-Title01 { font-size: 18px; line-height: 24px; }
+    .jntr_Page .swap-Wrap .swap-Box { margin-top: 15px; padding: 20px 15px; }
+    .jntr_Page .swap-Wrap .swap-Box .coin-Box { padding-top: 10px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Text, .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Amt input { font-size: 16px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Amt { font-size: 16px; margin-left: 5px; width: 140px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Amt .currecy { font-size: 16px; margin-right: 6px; }
+    .jntr_Page .swap-Wrap .swap-Textlink .swap-Link01, .jntr_Page .swap-Wrap .swap-Textlink .swap-Link01 a, .jntr_Page .swap-Wrap .swap-Textlink .swap-Link02 { font-size: 11px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Coin { margin: 5px 0; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Coin img { width: 90px; height: 90px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Coin:before { width: 105px; height: 105px; }
+    .jntr_Page .swap-Wrap .swap-Icon a { top: -90px; -webkit-transform: scale(0.8); transform: scale(0.8); left: -10px; }
+    .jntr_Page .swap-Wrap .swap-Btn .btn { height: 70px; line-height: 70px; font-size: 24px; }    
+/*    .sale-Box03 .arrow-Down { display: none; }*/
+    .jntr_Page .holdings-Block { margin: 40px -10px 0 -10px; }
+    .jntr_Page .holdings-Block .holding-Box { padding: 0 10px; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 .holding-Title { font-size: 24px; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 { padding: 15px; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 ul { margin: 0; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 .stable-Icon01, .jntr_Page .holdings-Block .holding-Box .holding-Box01 .stable-Icon02, .jntr_Page .holdings-Block .holding-Box .holding-Box01 .stable-Icon03, .jntr_Page .holdings-Block .holding-Box .holding-Box01 .stable-Icon04 { -webkit-transform: scale(0.8); transform: scale(0.8); margin: 42px -3px 42px; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 .wallet-address { word-break: break-all; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 .wallet-address a { display: block; font-size: 10px; }
+    .jntr_Page .token-Block.edge-E { padding-bottom: 200px; }
+    .jntr_Page .compare-Box .compare-Box01 { padding: 35px 15px; }
+    .jntr_Page .compare-Box .compare-Box01 .text-Title01 { font-size: 20px; }
+    .jntr_Page .compare-Box .compare-Box01 .ratio-Text { font-size: 26px; }
+    .jntr_Page .compare-Box .compare-Box01 .value-Box ul li { font-size: 16px; }
+    .jntr_Page .compare-Box .compare-Box01 .value-Box ul li.value-Text { font-size: 13px; margin-top: 5px; }
+    .jntr_Page .compare-Box .compare-Box01 .value-Box { margin: 15px auto; }
+    .jntr_Page .minting-Table table tr th { font-size: 15px; }
+    .jntr_Page .transaction-History { padding: 100px 0; }
+    .jntr_Page .transaction-histroryBox .Title02 { font-size: 24px; margin-bottom: 15px; }
+    .jntr_Page .transaction-histroryBox .trasaction-Amt { font-size: 20px; }
+    .jntr_Page .trasaction-Date { font-size: 14px; }
+    .jntr_Page .trasaction-Box .trasaction-Status { font-size: 18px; }
+    .jntr_Page .trasaction-Box .trasaction-Status .icon-Box { -webkit-transform: scale(0.85); transform: scale(0.85); }
+    .jntr_Page .trasaction-Box .trans-Id, .jntr_Page .trasaction-Box .view-Trans { font-size: 14px; }
+    .jntr_Page .transaction-histroryBox p { font-size: 13px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap { width: 75%; margin: 0 auto; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap:last-child { margin-top: 30px; }
+    .jntr_Page .daily-distribution { -webkit-transform: scale(0.6); transform: scale(0.6); right: -290px; bottom: -80px; }
+    .jntr_Page .current-holding { padding: 50px 0 70px; }
+    .jntr_Page .current-holding .text-Title01 { font-size: 22px; font-weight: 700; padding: 15px 0;}
+    .jntr_Page .cross-Collateral .crossCollateral-Block { margin: 70px 0; }
+    .jntr_Page .crossCollateral-Box01 ul li { font-size: 20px; margin-bottom: 25px; }
+    .jntr_Page .crossCollateral-Box01 ul li span { padding-left: 25px; }
+    .jntr_Page .crossCollateral-Box01 ul li:before, .crossCollateral-Box .logo-Box, .jntr_Page .crossCollateral-Box02 .img-Box:before { -webkit-transform: scale(0.8); transform: scale(0.8); top: 45%; }     
+    /* .jntr_Page .crossCollateral-Box02 .img-Box img {  } */
+    .jntr_Page .crossCollateral-Box02 .text-Content p { font-size: 15px; line-height: 22px; }
+    .jntr_Page .wallet-popupBlock { padding: 70px 30px 30px; }    
+    .jntr_Page .wallet-boxWrap .wallet-Bx { width: 25%; }
+    .jntr_Page .wallet-boxWrap .wallet-Bx .img-Box { height: 210px; }    
+    .jntr_Page .wallet-boxWrap .wallet-Bx .img-Box .title-Name { bottom: 25px; }
+    .jntr_Page .wallet-Bx.coming-Soon:before { font-size: 20px; }    
+	.jntr_Page .footer { padding: 50px 20px; }
+	.jntr_Page .footer .footer-left .f-Link a { padding: 0 5px; }
+	.jntr_Page .footer .footer-left p + p { line-height: 1.5; }
+	.jntr_Page .footer .footer-right p { font-size: 13px; }
+    .jntr_Page .footer .footer-left .f-Link a { font-size: 13px; }
+.jntr_Page .footer .footer-left {width: 70%;}
+.jntr_Page .footer .footer-right {width: 30%;}       
+    .jntr_Page .compare-Box .compare-Box01 .value-Box ul {column-count:1;text-align: center;} /* np n*/
+    .jntr_Page .compare-Box .compare-Box01 .value-Box ul li {font-size: 15px;color: #fff;display: block;width: 100%;} /* np n*/
+    .jntr_Page .compare-Box .compare-Box01 .value-Box ul li.value-Text {font-size: 15px;margin-top: 0px;margin-bottom: 15px;} /* np n*/
+    .jntr_Page .compare-Box {width: 20%;padding: 0 6px;}  /* np n*/
+    .jntr_Page .compare-Box .compare-Box01 .text-Title01 {color: #fff;font-size: 21px;text-align: center;min-height: 48px;display: flex;align-items: center;justify-content: center;}  /* np n*/
+    .jntr_Page .compare-Box .compare-Box01 .ratio-Text {font-size: 24px;color: #298cf1;text-align: center;}  /* np n*/
+    .jntr_Page .edge-e-TextBox span {font-size: 16px; min-width: 180px; }
+
+    .jntr_Page .logo{margin-left:88px;}
+}
+@media (min-width: 992px) {
+    .jntr_Page .mobile-Item01,.jntr_Page .mobile-Item02 { display: none; }    
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {   
+    .jntr_Page .logo{margin-left: 119px;}  
+    .jntr_Page .header {padding-left: 40px;padding-right: 10px;}
+    .jntr_Page .rgdev-item a .icon-Box { margin-right: 6px; }
+    .jntr_Page .rgdev-item a { padding: 7px 10px; }
+    .jntr_Page .rgdev-item .langBox {padding-right: 0;padding-left: 0;}
+    .jntr_Page .rgdev-item .langBox img {max-width: 44px;}
+    .jntr_Page .rgdev-item.liveauc-Btn { padding: 0 10px; }
+    .jntr_Page .user-Menu { margin-left: 0; }
+    .jntr_Page .award-text {width: 190px;font-size: 11px;padding-left: 10px;}
+    .jntr_Page .award-text img { padding-right: 5px; }
+    .jntr_Page .container-Grid, .jntr_Page .container-Full { padding: 0 40px; }
+    .jntr_Page .equity-goalBox .text-Title {font-size: 14px;width: 100%;line-height: 19px;}
+    .jntr_Page .equity-goalBox .text-Title span { padding-right: 0; }
+    .jntr_Page .equity-goalBox .text-Title span i { font-size: 9px; }
+    .jntr_Page .equity-Goal {margin: 25px 0 0;padding: 15px 0;position: relative;height: 58px;overflow: hidden;-webkit-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out;}    
+    .jntr_Page .equity-Goal.active {height: 254px;}
+    .jntr_Page .equity-goalBox p {margin: 5px 0 13px 0;}
+    .jntr_Page .tokensale-Box01 .sale-Box03 { margin: 5px 0 0; }
+    .jntr_Page .sale-Box03 { position: relative; }
+    .jntr_Page .sale-Box03 .arrow-Down { position: absolute;left: 50%;-webkit-transform: translateX(-50%);transform: translateX(-50%);font-family: "Font Awesome 5 Free"; font-weight: 900;color: #faba37;top: -9px;font-size: 24px; cursor: pointer; }
+    .jntr_Page .sale-Box03 .arrow-Down.active { -webkit-transform: translateX(-50%) rotate(-180deg); transform: translateX(-50%) rotate(-180deg); }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .text-Title, .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .Title03 { font-size: 13px; }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .text-Title { min-height: 40px; }
+    .jntr_Page .auction-Wrap .timer { width: 67%; }
+    .jntr_Page .auction-Wrap .live-auctionBbox a { padding: 10px 15px; font-size: 15px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .amount-Box .amt-Text { font-size: 28px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .amount-Box .amt-Text span { font-size: 14px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .duration-Box ul li a { font-size: 12px; padding: 4px 7px; }    
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 ul { margin: 0 -1px; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 ul li { margin: 42px 1px 42px !important; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 .wallet-address { word-break: break-all; }
+    .jntr_Page .holdings-Block .holding-Box .holding-Box01 .wallet-address a { display: block; }
+    .jntr_Page .token-Block.edge-E { padding-bottom: 200px; }
+    .jntr_Page .multiFamilybox .subTitlebox { padding: 20px; }
+    .jntr_Page .performance-Chart .title-box .text-Title02 { font-size: 15px; }
+    .jntr_Page .performance-Chart .title-box .Title02 { font-size: 36px; }
+    .jntr_Page .performance-Chart .round-Vs { width: 75px; height: 75px; font-size: 30px; line-height: 75px; }
+    .jntr_Page .performance-Chart .year-Perfomance ul li a { font-size: 13px; padding: 20px 10px; }
+    .jntr_Page .chart-Detail ul li { font-size: 14px; }
+    .jntr_Page .chart-Detail ul li .amount-Text { font-size: 18px; }
+    .jntr_Page .chart-Detail ul li .help-circle { top: -5px; }
+    .jntr_Page .swap-Wrap .text-Title01 { font-size: 14px; line-height: 16px; }
+    .jntr_Page .swap-Wrap.edge-equityBox .text-Title01 { font-size: 18px; line-height: 26px; }
+    .jntr_Page .gain-Box { margin-top: 10px; }
+    .jntr_Page .gain-Box .text-Title01, .jntr_Page .gain-Box .gain-Box01 .label-Text, .jntr_Page .gain-Box .gain-Box01 .amt-Text01 .net-Percentage, .jntr_Page .gain-Box .gain-Box01 .amt-Text01 .net-Profit, .jntr_Page .gain-Box .gain-Box01 .amt-Text01 input, .jntr_Page .gain-Box .gain-Box01 .calcyppBox01 { font-size: 18px; }    
+    .jntr_Page .gain-Box .gain-Box01 { margin-bottom: 5px; }
+    .jntr_Page .gain-Box .gain-Box01 .amt-Text01 input { width: 200px; height: 45px; line-height: 45px; }
+    .jntr_Page .gain-Box .gain-Box01 .calcyppBox01 { width: 110px; height: 45px; line-height: 45px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Amt { width: 150px; }
+    .jntr_Page .swap-Wrap .swap-Box { padding: 15px;  }
+    .gain-Box + .swap-Box { margin-top: 10px; }
+    .jntr_Page .swap-Wrap .swap-Icon a { z-index: 1; -webkit-transform: scale(0.85); transform: scale(0.85); }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Amt .currecy { padding: 7px 12px; }
+    .jntr_Page .swap-Wrap .swap-Box .coin-Box { padding-top: 5px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Coin { margin: 0; -webkit-transform: scale(0.85); transform: scale(0.85); }
+    .jntr_Page .daily-distribution {-webkit-transform: scale(0.8);transform: scale(0.8);top: -32px;right: -688px;bottom: auto;}
+    .jntr_Page .token-Box01 { padding: 0 15px; }  
+    .jntr_Page .tokensale-Wrap { padding-top: 15px; }
+    .jntr_Page .tokensale-Block:before {background-size: 80%;top: -608px;background-position: 50% 50%;right: -120px;}
+    .jntr_Page .token-Box01 .token-Title { font-size: 18px; }
+    .jntr_Page .swap-Wrap { align-items: flex-start; }
+    .jntr_Page .swap-Wrap.edge-equityBox { align-items: center; }
+    .jntr_Page .global-Chart,.jntr_Page .tokensale-Box01 { width: 50%; padding: 0 15px; }
+    .jntr_Page .gain-Box .gain-Box01 .calcyppBox01 a { padding: 0 10px; }
+    .jntr_Page .redeem-Box .redeem-Box01 { padding: 65px 0 35px; }
+    .jntr_Page .redeem-Box02 .redeem-Text, .jntr_Page .redeem-Box03 .redeem-Text, .jntr_Page .redeem-Box02 p, .jntr_Page .redeem-Box03 p { font-size: 16px; }
+    .jntr_Page .redeem-Box04 .btn { padding: 15px; font-size: 18px; }
+    .jntr_Page .liquidity-Wrap .Title02 { font-size: 24px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap:first-child { padding-right: 15px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap:last-child { padding-left: 15px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap .swap-Box .cur-Text { font-size: 13px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap .swap-Box.reserve-Bx .swap-Input .swap-Title .swap-Amt { width: 110px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Text { font-size: 16px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Amt input { font-size: 16px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap .swap-Box .redeem-Text { font-size: 11px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap .swap-Box.reserve-Bx .coin-Box { padding-bottom: 11px; }
+    .jntr_Page .wallet-boxWrap .wallet-Bx .img-Box { height: 200px; padding-bottom: 30px; }   
+    .jntr_Page .wallet-boxWrap .wallet-Bx .img-Box img { height: 90px; }
+    .jntr_Page .wallet-boxWrap .wallet-Bx .img-Box .title-Name { bottom: 25px; }
+/*    .footer .footer-left .footer-logo a { padding-right: 5px; }*/
+    .jntr_Page .footer .footer-left .f-Link a { font-size: 12px; padding: 0 5px; }
+    .jntr_Page .footer { padding-left:30px; padding-right:30px; }
+.jntr_Page .compare-Box .compare-Box01 .value-Box ul {column-count:1;text-align: center;} /* np n*/
+.jntr_Page .compare-Box .compare-Box01 .value-Box ul li {font-size: 15px;color: #fff;display: block;width: 100%;} /* np n*/
+.jntr_Page .compare-Box .compare-Box01 .value-Box ul li.value-Text {font-size: 15px;margin-top: 0px;margin-bottom: 15px;} /* np n*/
+.jntr_Page .compare-Box {width: 20%;padding: 0 6px;}  /* np n*/
+.jntr_Page .compare-Box .compare-Box01 .text-Title01 {color: #fff;font-size: 21px;text-align: center;min-height: 48px;display: flex;align-items: center;justify-content: center;}  /* np n*/
+.jntr_Page .compare-Box .compare-Box01 .ratio-Text {font-size: 24px;color: #298cf1;text-align: center;}  /* np n*/
+
+    .jntr_Page #timer02 .days span, .jntr_Page #timer02 .hours span, .jntr_Page #timer02 .minutes span, .jntr_Page #timer02 .seconds span {display: inline-block;width: 26px;height: 36px; border-radius: 5px;margin: 0 2px;position: relative;z-index: 1}/* np n*/
+.jntr_Page #timer02 .days, .jntr_Page #timer02 .hours, .jntr_Page #timer02 .minutes, .jntr_Page #timer02 .seconds, .jntr_Page #timer02-Box {font-size: 22px;line-height: 38px;}/* np n*/
+.jntr_Page #timer02 .days:after, .jntr_Page #timer02 .days:before, .jntr_Page #timer02 .hours:after, .jntr_Page #timer02 .hours:before, .jntr_Page #timer02 .minutes:after, .jntr_Page #timer02 .minutes:before {font-size: 22px;right: -10px; top: inherit; bottom: 12px;}/* np n*/
+.jntr_Page #timer02 .days:after, .jntr_Page #timer02 .hours:after, .jntr_Page #timer02 .minutes:after {bottom: 2px; } /* np n*/
+.jntr_Page .sale-Box04 .liveauction-Btn {width: 250px;}  /* np n*/
+.jntr_Page .equity-Goal .equity-goalBox {width: 33.33%;padding: 0 10px;} /* np n*/
+/*.equity-Goal .equity-goalBox:first-child {padding-right: 0;}  np n*/
+.jntr_Page .global-Chart,.jntr_Page .tokensale-Box01 {width:50%; } /* np n*/
+.jntr_Page .equity-goalBox .list-Title { font-size: 11px; line-height: 14px; } /* np n*/
+.jntr_Page .equity-goalBox .input-Box {margin: 0 0;} /* np n*/
+
+.jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title:nth-child(01){padding-right: 20px;}
+.jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title:nth-child(02){padding-left: 24px;padding-right: 0;}
+
+}
+@media (min-width:1280px) and (max-width:1366px) {
+
+}
+@media (min-width: 1300px) and (max-width: 1399px) {
+	
+}
+@media (min-width: 1400px) and (max-width: 1599px) {
+    .jntr_Page .logo{margin-left: 96px;}
+    .jntr_Page .container-Grid { padding: 0 40px; }
+    .jntr_Page .metamask-Detail .Title03 { font-size: 19px; }
+    .jntr_Page .metamask-Detail .total-Amt { font-size: 40px; }
+    .jntr_Page .user-infoBox .Title02 { font-size: 33px; }
+    .jntr_Page .edge-Coins .edge-Coin .text-Caption { width: 75%; }
+    .jntr_Page .multiFamilybox .subTitlebox { padding: 50px 40px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .amount-Box .amt-Text { font-size: 28px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .amount-Box .amt-Text span { font-size: 14px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .duration-Box ul li a { padding: 4px 7px; }
+    .jntr_Page .chart-Detail ul li { font-size: 16px; }
+    .jntr_Page .chart-Detail ul li .amount-Text { font-size: 20px; }
+    .jntr_Page .chart-Detail ul li .help-circle { top: -5px; }
+    .jntr_Page .equity-goalBox .text-Title { font-size: 14px; line-height: 20px; width: 100%; }
+    .jntr_Page .tokensale-Wrap { margin: 0 -15px; }
+    .jntr_Page .global-Chart,.jntr_Page .tokensale-Box01 { padding: 0 15px; }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .text-Title { font-size: 15px; min-height: 40px; }
+    .jntr_Page .sale-Box03 { position: relative; }
+    .jntr_Page .sale-Box03 .arrow-Down { display: block !important; }
+    .jntr_Page .sale-Box03 .arrow-Down { position: absolute;left: 50%;-webkit-transform: translateX(-50%);transform: translateX(-50%);font-family: "Font Awesome 5 Free"; font-weight: 900;color: #faba37;top: -15px;font-size: 24px; cursor: pointer; }
+    .jntr_Page .sale-Box03 .arrow-Down.active { -webkit-transform: translateX(-50%) rotate(-180deg); transform: translateX(-50%) rotate(-180deg); }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .text-Title, .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .Title03 { font-size: 13px; }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .text-Title { min-height: 40px; }
+    .jntr_Page .equity-Goal {margin: 30px 0 15px;padding: 5px 0;position: relative;height: 50px;overflow: hidden;-webkit-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out;}
+    .jntr_Page .equity-Goal.active { height: 265px; }
+    .jntr_Page .liquidity-Wrap { margin: 0 -15px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap { padding: 0 15px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap .swap-Box .cur-Text { font-size: 16px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap .swap-Box.reserve-Bx .swap-Input .swap-Title .swap-Amt { width: 110px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap .swap-Box .redeem-Text { font-size: 12px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap .swap-Box.reserve-Bx .coin-Box { padding-bottom: 10px; }
+    .jntr_Page .performance-Chart .title-box .text-Title02 { font-size: 24px; }
+    .jntr_Page .performance-Chart .title-box .Title02 { font-size: 40px; }
+    .jntr_Page .performance-Chart .round-Vs { width: 85px; height: 85px; font-size: 36px; line-height: 85px; }
+    .jntr_Page .performance-Chart .year-Perfomance ul li a { font-size: 16px; padding: 24px 15px; }
+    .jntr_Page .swap-Wrap .text-Title01 { font-size: 24px; line-height: 36px; }
+    .jntr_Page .gain-Box { margin-top: 10px; }
+    .jntr_Page .gain-Box .text-Title01, .jntr_Page .gain-Box .gain-Box01 .label-Text, .jntr_Page .gain-Box .gain-Box01 .amt-Text01 .net-Percentage, .jntr_Page .gain-Box .gain-Box01 .amt-Text01 .net-Profit, .jntr_Page .gain-Box .gain-Box01 .amt-Text01 input, .jntr_Page .gain-Box .gain-Box01 .calcyppBox01 { font-size: 22px; }
+    .jntr_Page .gain-Box .gain-Box01 { margin-bottom: 15px; }
+    .jntr_Page .gain-Box .gain-Box01 .amt-Text01 input { width: 240px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Amt { width: 150px; }
+    .jntr_Page .swap-Wrap .swap-Box { padding: 25px 20px 25px; }
+    .jntr_Page .swap-Wrap .swap-Icon a { left: -10px; }
+    .jntr_Page .token-Box01 { padding: 0 20px; }
+    .jntr_Page .redeem-Box02 .redeem-Text, .jntr_Page .redeem-Box03 .redeem-Text, .jntr_Page .redeem-Box02 p, .jntr_Page .redeem-Box03 p { font-size: 16px; }
+    .jntr_Page .redeem-Box04 .btn { padding: 17px 25px; font-size: 22px; }
+    .jntr_Page .token-Box01 .icon-Box { -webkit-transform: scale(0.85); transform: scale(0.85); margin-right: 10px; }
+    .jntr_Page .token-Box01 .token-Title { font-size: 18px; }
+    .jntr_Page .token-Box01 .token-Title strong { width: calc(100% - 70px); }
+    .jntr_Page .token-Box01 ul li { font-size: 15px; line-height: 32px; }
+    
+.jntr_Page #timer02 .days span, .jntr_Page #timer02 .hours span, .jntr_Page #timer02 .minutes span, .jntr_Page #timer02 .seconds span {display: inline-block;width: 28px;height: 40px; border-radius: 5px;margin: 0 2px;position: relative;z-index: 1}/* np n*/
+.jntr_Page #timer02 .days, .jntr_Page #timer02 .hours, .jntr_Page #timer02 .minutes, .jntr_Page #timer02 .seconds, .jntr_Page #timer02-Box {font-size: 26px;line-height: 42px}/* np n*/
+.jntr_Page #timer02 .days:after, .jntr_Page #timer02 .days:before, .jntr_Page #timer02 .hours:after, .jntr_Page #timer02 .hours:before, .jntr_Page #timer02 .minutes:after, .jntr_Page #timer02 .minutes:before {font-size: 24px;right: -10px; top: inherit; bottom: 12px;}/* np n*/
+.jntr_Page #timer02 .days:after, .jntr_Page #timer02 .hours:after, .jntr_Page #timer02 .minutes:after {bottom: 2px; } /* np n*/
+.jntr_Page .sale-Box04 .liveauction-Btn {width: 250px;}  /* np n*/
+.jntr_Page .equity-Goal .equity-goalBox {width: 33.33%; padding: 0 10px; } /* np n*/
+.jntr_Page .equity-Goal .equity-goalBox:first-child { padding-right: 15px; } /* np n*/
+
+.jntr_Page .header {padding: 10px 26px 10px 55px;}  
+}
+
+@media (min-width: 1600px) and (max-width: 1860px) {
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .amount-Box .amt-Text { font-size: 28px; }
+    .jntr_Page .multiFamilybox .subTitlebox .chart-Titlebox .amount-Box .amt-Text span { font-size: 14px; }
+    .jntr_Page .equity-goalBox .text-Title { width: 100%; }
+    .jntr_Page #timer02 .days,.jntr_Page #timer02 .hours,.jntr_Page #timer02 .minutes,.jntr_Page #timer02 .seconds,.jntr_Page #timer02-Box{font-size:28px;}
+    .jntr_Page #timer02 .days span,.jntr_Page #timer02 .hours span,.jntr_Page #timer02 .minutes span,.jntr_Page #timer02 .seconds span{width:26px;height:40px; line-height: 40px;}
+    .jntr_Page #timer02 .days:after,.jntr_Page #timer02 .days:before,.jntr_Page #timer02 .hours:after,.jntr_Page #timer02 .hours:before,.jntr_Page #timer02 .minutes:after,.jntr_Page #timer02 .minutes:before { font-size: 26px; right: -10px; }
+    .jntr_Page #timer02 .days:before,.jntr_Page #timer02 .hours:before,.jntr_Page #timer02 .minutes:before  { top: -8px; }
+    .jntr_Page .sale-Box03 { position: relative; }
+    .jntr_Page .sale-Box03 .arrow-Down { display: block !important; }
+    .jntr_Page .sale-Box03 .arrow-Down { position: absolute;left: 50%;-webkit-transform: translateX(-50%);transform: translateX(-50%);font-family: "Font Awesome 5 Free"; font-weight: 900;color: #faba37;top: -15px;font-size: 24px; cursor: pointer; }
+    .jntr_Page .sale-Box03 .arrow-Down.active { -webkit-transform: translateX(-50%) rotate(-180deg); transform: translateX(-50%) rotate(-180deg); }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .text-Title, .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .Title03 { font-size: 13px; }
+    .jntr_Page .sale-Box03 .token-descBox .token-descBox01 .text-Title { min-height: 40px; }
+    .jntr_Page .equity-Goal {margin: 30px 0 15px;padding: 5px 0;position: relative;height: 60px;overflow: hidden;-webkit-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out;}
+    .jntr_Page .equity-Goal.active { height: 280px; }
+    .jntr_Page .liquidity-Wrap { margin: 0 -15px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap { padding: 0 15px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap .swap-Box .cur-Text { font-size: 16px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap .swap-Box.reserve-Bx .swap-Input .swap-Title .swap-Amt { width: 110px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap .swap-Box .redeem-Text { font-size: 12px; }
+    .jntr_Page .liquidity-Wrap .swap-Wrap .swap-Box.reserve-Bx .coin-Box { padding-bottom: 10px; }
+    .jntr_Page .swap-Wrap .swap-Box .swap-Input .swap-Title .swap-Amt {width: 184px;}
+    .jntr_Page .token-Box01 .icon-Box { -webkit-transform: scale(0.85); transform: scale(0.85); margin-right: 10px; }
+    .jntr_Page .token-Box01 .token-Title { font-size: 20px; }
+    .jntr_Page .token-Box01 .token-Title strong { width: calc(100% - 70px); }
+    
+}
+
+
+@media (min-width: 1600px) and (max-width: 1630px) {
+	
+}
+
+@media (min-width: 1400px) {
+    .jntr_Page .sale-Box03 .arrow-Down { display: none; }
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .jntr_Page .fullscreen-bg__video {height: 300%;top: -100%;}
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .jntr_Page .fullscreen-bg__video {width: 300%;left: -100%;}
+}
+
+@media (min-width:1280px) and (max-width:1299px) {  
+    .jntr_Page .dwnPro-shild { -webkit-transform: scale(0.8); transform: scale(0.8); left: -20px; top: -20px; } 
+
+}
+
+
+
+
+
+
+ 

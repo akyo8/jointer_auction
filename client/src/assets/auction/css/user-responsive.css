@@ -1,0 +1,881 @@
+@charset "UTF-8"; 
+
+@media (min-width: 320px) and (max-width: 500px) { 
+.auctionMainPage .showMobile { display: inline-block !important; } 
+.auctionMainPage .hideMobile { display: none !important; } 
+.auctionMainPage .Scroll-no { overflow: hidden; }    
+.auctionMainPage  .main { background-size: 600px; } 
+.auctionMainPage  .dwnPro-shild { position: fixed; width: 100%; height: auto; top: 0; left: 0; background: none; z-index: 100; } 
+.auctionMainPage  .dwnPro-shild a { background: rgb(141,187,8); background: -moz-linear-gradient(top, rgba(141,187,8,1) 1%, rgba(99,128,17,1) 100%); background: -webkit-linear-gradient(top, rgba(141,187,8,1) 1%,rgba(99,128,17,1) 100%); background: linear-gradient(to bottom, rgba(141,187,8,1) 1%,rgba(99,128,17,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8dbb08', endColorstr='#638011',GradientType=0 ); width: 100%; height: auto; font-size: 14px; color:#fff; padding: 19px 0; text-align: center; position: relative; transform: none !important; left: 0; top: 0; width: auto; display: block; line-height: 1; bottom: 0; box-shadow: none; font-weight: 400; } 
+.auctionMainPage  .dwnPro-shild a span { position: relative; z-index: 1; } 
+.auctionMainPage  .dwnPro-shild a strong { display: block; padding-top: 4px; } 
+.auctionMainPage  .dwnPro-shild a:before { content: ""; background: url(../images/shield-icon.png) no-repeat 0 0; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 46px; height: 49px; } 
+.auctionMainPage  .header { margin-top: 70px; } 
+.auctionMainPage  .logo { margin: 0; width: 30px; overflow: hidden; } 
+.auctionMainPage  .logo img { width: 140px; top: 6px !important; } 
+.auctionMainPage  .rgdev-item a { padding: 10px; } 
+.auctionMainPage  .rgdev-list { top: 0 !important; } 
+.auctionMainPage  .rgdev-mobile { top: 12px; right: 0 !important; background: none; margin-right: 0; } 
+.auctionMainPage  .rgdev-mobile .icon-bar { width: 30px; margin-top: 5px; } 
+.auctionMainPage  #userBox { padding: 10px; } 
+.auctionMainPage  .mobile-sub { padding: 10px !important; } 
+.auctionMainPage  .mobile-Item01 { top: 12px !important; right: 80px !important; } 
+.auctionMainPage  .mobile-Item02 { top: -2px !important; -webkit-transform: scale(0.85) !important; transform: scale(0.75) !important; right: 8px !important; } 
+.auctionMainPage  .navText01, .auctionMainPage  .nav_line { display: none; } 
+.auctionMainPage  .rgdev-item a.navBtn01 { display: inline-block; margin-right: 0; } 
+.auctionMainPage  .container-Grid { padding: 0 20px; } 
+.auctionMainPage  .container-Grid .container-Grid { padding: 0; } 
+.auctionMainPage  .lanbox01 { width: 33.33%; } 
+.auctionMainPage  .langBoxContainer { top: 250px !important; overflow-y: scroll; height: 250px; } 
+.auctionMainPage  .mainBanner { padding: 130px 0 10px 0; }  
+.auctionMainPage  .jiTitle02 { font-size: 22px; line-height: 28px; padding-bottom: 10px; } 
+.auctionMainPage  .jiCounter-title01 { font-size: 19px; line-height: 1; } 
+.auctionMainPage  .jiCounter-title01 span { padding: 4px 3px; margin-right: 2px; font-size: 19px; line-height: 1; } 
+.auctionMainPage  .jipBox01 { width: 100%; font-size: 14px; color: #aaa; background: none; padding: 5px 0; } 
+.auctionMainPage  .jipBox01 span { color: #fff; font-size: 24px; line-height: 30px; } 
+.auctionMainPage  .jipBox01 span i { font-size: 14px; top: 0; } 
+.auctionMainPage  .Cnow-btn { font-size: 22px; height: 60px; line-height: 60px; margin: 20px 0 5px; box-shadow: 0 0 15px rgba(250,186,55,1), rgba(250,186,55,0.6) 0px 0px 35px inset; } 
+.auctionMainPage  .cAuc-timer { background: none; border-radius: 0; padding: 12px 0; } 
+.auctionMainPage  .cAuc-timer span { font-weight: 700; font-size: 10px; } 
+.auctionMainPage  .cAuc-timer span ~ span { font-size: 12px; line-height: 1; } 
+.auctionMainPage  .cAuc-timer span i { padding: 4px; min-width: 20px; margin: 0 1px 0 0; font-size: 18px; line-height: 1; } 
+.auctionMainPage  .timer-Box { padding: 5px; margin: 15px auto 0; } 
+.auctionMainPage  .timer-Box a, .auctionMainPage  .timer-Box p { font-size: 10px } 
+.auctionMainPage  #timer .days, .auctionMainPage  #timer .hours, .auctionMainPage  #timer .minutes, .auctionMainPage  #timer .seconds, .auctionMainPage  #timer-Box { font-size: 16px; line-height: 1; } 
+.auctionMainPage  #timer .days:after, .auctionMainPage  #timer .days:before, .auctionMainPage  #timer .hours:after, .auctionMainPage  #timer .hours:before, .auctionMainPage  #timer .minutes:after, .auctionMainPage  #timer .minutes:before { font-size: 16px; right: -6px; top: -5px } 
+.auctionMainPage  #timer .days:after, .auctionMainPage  #timer .hours:after, .auctionMainPage  #timer .minutes:after { bottom: 6px; top: inherit } 
+.auctionMainPage  #timer .days span, .auctionMainPage  #timer .hours span, .auctionMainPage  #timer .minutes span, .auctionMainPage  #timer .seconds span { width: 18px; height: 24px; line-height: 24px; margin: 0 1px; background-position: 50% 50%; } 
+.auctionMainPage  .jipgb-title01 { font-size: 17px; line-height: 22px; margin-bottom: 50px; } 
+.auctionMainPage  .jipgb-title01 .help-circle { font-size: 12px; position: relative; top: -5px; } 
+.auctionMainPage .perc-Box { top: -26px; right: -60px; font-size: 10px; line-height: 10px; width: 130px; } 
+.auctionMainPage .perc-Box span { font-size: 10px; line-height: 12px; } 
+.auctionMainPage  .progress-Box .progress-Bg, .auctionMainPage  .jointer-bonus-progress { height: 20px; } 
+.auctionMainPage  .jointer-progress { height:20px; font-size: 10px; line-height: 14px; } 
+.auctionMainPage  .progress-Box > .text-Title, .auctionMainPage  .jointer-progress .text-Wrap .text-Title { font-size: 10px; } 
+.auctionMainPage  .jointer-bonus-progress .text-Wrap { padding-top:28px; left: 10px; width:72px; font-size: 10px; } 
+.auctionMainPage  .jointer-progress .text-Wrap { padding-top: 10px; } 
+/* .auctionMainPage  .progress-Box > .text-Title { top: 10px; }  */
+.auctionMainPage  .ji-ATable01 table tr td { font-size: 12px; font-weight: 700; padding: 15px 5px; } 
+.auctionMainPage  .ji-ATable01 table tr td.jiT-greenback02 { background: rgb(16,16,16); background: -moz-linear-gradient(top, rgba(16,16,16,1) 0%, rgba(29,38,3,1) 40%); background: -webkit-linear-gradient(top, rgba(16,16,16,1) 0%,rgba(29,38,3,1) 40%); background: linear-gradient(to bottom, rgba(16,16,16,1) 0%,rgba(29,38,3,1) 40%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', endColorstr='#1d2603',GradientType=0 ); padding: 15px; text-align: center !important; border-top: 15px solid #090909; border-bottom: 15px solid #090909; } 
+.auctionMainPage  .ji-ATable01 table tr td.jiT-greenback02:before, .auctionMainPage  .ji-ATable01 table tr td.jiT-greenback02:after { display: none; } 
+.auctionMainPage  .ji-ATable01 table tr td.jiT-greenback02 a { background: none; padding: 0; position: relative; height: 100%; color: #fff; font-size: 18px; margin-bottom: 10px; display: inline-block; font-weight: 700; top: 0; } 
+.auctionMainPage  .ji-ATable01 table tr td.jiT-greenback02 a.ji-btn02 { font-size: 18px; display: inline-block; background: none; padding-top: 0; top: 0; height: auto; background-color: #95c608; border-bottom: 2px solid #7fa807; padding: 18px 70px; width: auto; margin: 0 auto; position: relative; } 
+.auctionMainPage  .ji-ATable01 table tr td.Day { padding: 0; } 
+.auctionMainPage  .ji-ATable01 table tr td .calcyppLink01 { padding: 15px 5px; display: block; color: #fff; position: relative; } 
+.auctionMainPage  .ji-ATable01 table tr td .calcyppLink01:after { content: ""; border-width: 0 8px 8px 0; border-style: solid; border-color: transparent transparent #faba35 transparent; position: absolute; right: 6px; bottom: 6px; -webkit-transform: rotate(-90deg); transform: rotate(-90deg); } 
+.auctionMainPage  .ji-ATable01 table tr td #calcyppLinkContent { position: absolute; width: 100%; background: #191919; z-index: 1; left: 0; } 
+.auctionMainPage  .ji-ATable01 table tr td .calcyppContent02 a { color: #fff; font-weight: 700; padding: 10px; display: block; border-bottom: 1px solid #2c2c2c; } 
+.auctionMainPage  .jiT-grayback01 { border-bottom: none; } 
+.auctionMainPage  .ji-ATable01 table tr td:first-child { text-align: left; background-color: #101010; } 
+.auctionMainPage  .ji-ATable01 .jiT-grayback01 { background: #2f2f2f !important; } 
+.auctionMainPage  .ji-ATable01 .jiT-GreenBR { text-align: center !important; font-size: 14px !important; } 
+.auctionMainPage  .ji-tiSubbox01 { width: 100%; border-right: none; padding: 15px; font-size: 14px; background: url(../images/hr-line02.jpg) no-repeat 50% 100%; } 
+.auctionMainPage  .ji-tiSubbox01 span { font-size: 24px; line-height: 30px; } 
+.auctionMainPage  .ji-tiSubbox01 .help-circle { font-size: 12px; top: -10px; } 
+.auctionMainPage  .ji-tokeninfoBox { margin: 70px 0 30px; } 
+.auctionMainPage  .jiCal-Mbox { margin: 0 35px; } 
+.auctionMainPage  .jiCal-Subbox.active { min-height: auto; box-shadow: 0 0 10px 0px rgba(255,201,100,0.7); } 
+.auctionMainPage  .jiCal-Subbox { border-right: none; margin: 0 15px; } 
+.auctionMainPage  .jiCal-Subbox span { margin-top: 5px; } 
+.auctionMainPage  .advance-Module a { font-size: 14px; padding-left: 0; } 
+.auctionMainPage  .advance-Module:before, .auctionMainPage  .advance-Module:after { display: none; } 
+.auctionMainPage  .jiCal-Mbox .slick-next.slick-arrow:before, .auctionMainPage  .jiCal-Mbox .slick-prev.slick-arrow:before { font-size: 24px; color: #fff; } 
+.auctionMainPage  .jiBonusBTN, .auctionMainPage  .ycpBTN { font-size: 13px; padding: 20px; width: 100%; line-height: 1; border-radius: 0; z-index: 10; } 
+/* .auctionMainPage  .jiBonusBTN.n-collapsed { }  */
+.auctionMainPage  .ycpBTN.n-collapsed { bottom: 50px; } 
+/* .auctionMainPage  .ycpBTN, .auctionMainPage  .ycpBTN.active { background: #0a2d38 !important; }  */
+.auctionMainPage  .ycpBTN.change { bottom: 0 !important; } 
+.auctionMainPage  .jiBonusBTN, .auctionMainPage  .jiBonusBTN.active { min-width:auto; } 
+.auctionMainPage  .Btns { flex-direction: column; } 
+.auctionMainPage  .ycpsubbox01 { width: 50%; padding: 0; padding-top: 65px; font-size: 12px; background-position: center top; text-align: center; background-size: 45%; margin-bottom: 20px; } 
+.auctionMainPage  .ycpsubbox01.ycpIcon02 { background-size: auto; } 
+.auctionMainPage  .ycpBox { padding: 20px;  border-radius: 0; } 
+.auctionMainPage  .ycpsubbox01 span { font-size: 24px; line-height: 1; } 
+.auctionMainPage  .ycpsubbox01 span.help-circle { font-size: 12px; top: -5px; } 
+.auctionMainPage  .ycpsubbox01:last-child { width: 100%; padding-top: 10px; } 
+.auctionMainPage  .ycpsubbox01 .ji-btn01 { font-size: 18px; line-height: 20px; } 
+.auctionMainPage  .jiB-Box01 { width: 100%; } 
+.auctionMainPage  #jiBonus-Box {  padding: 20px 0; } 
+.auctionMainPage  .jiB-Subbox { background-size: 80px; max-width: 100%; font-size: 14px; line-height: 24px; color: #fff; } 
+.auctionMainPage  .jiB-Subbox span { font-size: 18px; line-height: 24px; } 
+.auctionMainPage  .jiB-Subbox .help-circle { font-size: 12px; } 
+.auctionMainPage  .jiB-Subbox .jiB-socialBox span { font-size: 12px; margin-bottom: 0; } 
+.auctionMainPage  .ycpBTN { bottom: 53px; } 
+.auctionMainPage  .ycpBTN.active { bottom:389px; } 
+.auctionMainPage  .ycpSection.active .ycpContainer { height: 340px; z-index: 10; } 
+.auctionMainPage  .ycpContainer { bottom: 53px; } 
+.auctionMainPage  .jiBonus-Section.active { height: 380px; z-index: 10; overflow-y: auto; } 
+.auctionMainPage  .jiBonusBTN.active { bottom: 380px; } 
+.auctionMainPage  .social-Icons li { padding-right: 4px; } 
+.auctionMainPage  .social-Icons li a { width: 24px; height: 24px; line-height: 30px; } 
+.auctionMainPage  .social-Icons li a img { -webkit-transform: scale(0.8); transform: scale(0.8); } 
+.auctionMainPage  .jiB-Subbox .jiB-socialBox { padding-top: 2px; } 
+.auctionMainPage  .jiB-Box01:last-child { margin-top: 10px; } 
+.auctionMainPage  .jiB-Box01 .ji-btn02 { padding: 10px; font-size: 12px; } 
+.auctionMainPage  .multiplier-Box i { font-size: 12px; } 
+.auctionMainPage  .multiplier-Box { position: inherit; } 
+.auctionMainPage  .multiplier-Box01 { width: 90%; margin: 0 auto; left: 0; right: 0; } 
+.auctionMainPage  .multiplier-Box .jiTitle03 { padding-bottom: 5px; font-size: 18px; line-height: 24px; } 
+.auctionMainPage  .multiplier-Box .popup03-Title01 { padding: 10px; } 
+.auctionMainPage  .multiplier-Box .jiB-Box01 .ji-btn02 { padding: 15px; font-size: 16px; margin-top: 5px; } 
+.auctionMainPage  .multiplier-Box .jiB-table01 table tr th {color: #faba37;padding: 5px 10px;font-size: 14px;line-height: 20px;width: 150px;text-align: center;} 
+.auctionMainPage  .multiplier-Box .jiB-table01 table tr td {font-size: 14px;width: 150px;text-align: center;} 
+.auctionMainPage  .jiAuc-mainbox { margin-top: 50px; } 
+.auctionMainPage  .jiAuc-subbox { width: 100%; background: none; padding: 15px; min-height: auto; border-bottom: 1px solid #0b1329; } 
+.auctionMainPage  .jiBonus-Box .down-Scroll { display: none; } 
+.auctionMainPage  .jiAucs-Title01 { font-size: 16px; } 
+.auctionMainPage  .jiAucs-Title01 .help-circle { font-size: 14px; top: -10px; } 
+.auctionMainPage  .jiAucs-Title02 input { font-size: 24px; line-height: 1; padding: 10px 10px 10px 50px; } 
+.auctionMainPage  .jiAucs-Title02:after { font-size: 24px; padding: 12px 18px 12px 18px; } 
+.auctionMainPage  .jiAucs-Title03 { margin-bottom: 5px; } 
+.auctionMainPage  .jiAucs-Title04 span, .auctionMainPage  .jiAucs-Title04 span+span { width: 60% !important; font-size: 15px; } 
+.auctionMainPage  .jiAucs-Title04 span+span { padding-right: 0; width: 40% !important; } 
+.auctionMainPage  .jiAuc-subbox:first-child .jiAucs-Title04 span, .auctionMainPage  .jiAuc-subbox:first-child .jiAucs-Title04 span+span { width: 50% !important; font-size: 15px; } 
+.auctionMainPage  .jiAucs-Title02-2 { font-size: 24px; padding: 5px; line-height: 1; } 
+.auctionMainPage  .jiAuc-subbox .ji-btn01 { font-size: 21px; padding: 7px; margin-top: 15px; } 
+.auctionMainPage  .jiAuc-subbox:last-child { border-bottom: none; } 
+.auctionMainPage  .Btns-02 { flex-direction: column; }
+.auctionMainPage  .Btns-02 a {width: 100%;font-size: 20px;height: 60px;line-height: 60px;}
+.auctionMainPage  .Btns-02 a.how-Btn01 { margin-right: 0; margin-bottom: 15px; }    
+.auctionMainPage  .cointype { width: 100px; height: 100px; } 
+.auctionMainPage  .contrSlider { margin: 50px 55px 20px; } 
+.auctionMainPage  .contribution-Container { padding: 0 20px; margin: 0; width: 100%; } 
+.auctionMainPage  .ctr-value { font-size: 18px;  } 
+.auctionMainPage  .ctr-value a { font-size: 24px; } 
+.auctionMainPage  .ctr-value a i:after { width: 13px; height: 13px; } 
+.auctionMainPage  .contrTextbox { margin: 20px 0 0; padding: 0; } 
+.auctionMainPage  .contrTextbox span, .auctionMainPage  .contrTextbox span+span { width: 100%; margin-bottom: 0; } 
+.auctionMainPage  .contrTextbox span { padding-left: 0; text-align: center; font-size: 24px; margin-bottom: 10px; } 
+.auctionMainPage  .contrTextbox .contr-Text { top: 0; } 
+.auctionMainPage  .contrTextbox span.small-Text { line-height: 2; margin-top: 10px; } 
+.auctionMainPage  .contrTextbox .small-Text .help-circle { top: 0; } 
+.auctionMainPage  .addCotr-BTN { font-size: 21px; padding: 5px 10px; margin-top: 10px; } 
+.auctionMainPage  .howW-subbox { width: 100%; font-size: 14px; line-height: 24px; padding-right: 0; } 
+.auctionMainPage  .howW-subbox:before { right: inherit; top: inherit; bottom: -45px; left: 50%; -webkit-transform: translateX(-50%) rotate(90deg); transform: translateX(-50%) rotate(90deg); } 
+.auctionMainPage  .jiTitle03 { font-size: 24px; line-height: 30px; padding-bottom: 15px; } 
+.auctionMainPage  .tokens-Popup01 .close-Icon, .auctionMainPage  .tokens-Popup03 .close-Icon, .auctionMainPage  .tokens-Popup04 .close-Icon, .auctionMainPage  .how-Popup .close-Icon, .auctionMainPage  .liquidity-Popup .close-Icon, .auctionMainPage  .tokens-Popup05 .close-Icon { right: 5px; top: 5px; -webkit-transform: scale(0.8); transform: scale(0.8); } 
+.auctionMainPage  .howW-mainbox { margin: 10px 0 30px 0; } 
+.auctionMainPage  .how-Popup .container-Grid { position: relative; top: 0; left: 0; transform: none; margin-top: 70px; } 
+.auctionMainPage  .popup4-Container { margin: 70px auto 20px; } 
+.auctionMainPage  .popup4-subbox { flex-direction: column; margin-bottom: 20px; } 
+.auctionMainPage  .pp4-Subbox01 { line-height: 28px; margin-bottom: 20px; width: 100%; padding: 0 0 0 70px; } 
+.auctionMainPage  .pp4-Subbox01:last-child { margin-bottom: 0; } 
+.auctionMainPage  .pp4-Subbox01 i { left: 0; } 
+.auctionMainPage  .tPopup-btnbar { padding: 10px 0; } 
+.auctionMainPage  .tokens-Popup04 .tPopup-btn01 { font-size: 22px; margin-right: 13px; padding: 13px 46px; line-height: 1; } 
+.auctionMainPage  .tokens-Popup04 .tPopup-btn02 { font-size: 22px; line-height: 1; padding: 13px 24px; margin-right: 0; } 
+.auctionMainPage  .liquidity-Popup .liquidity-Container { margin: 70px 0 30px; } 
+.auctionMainPage  .liquidity-Popup .liquidity-Container .jiTitle03 + .tab-Nav { margin-top: 30px; } 
+.auctionMainPage  .liquidity-Popup .tab-Nav { margin-top: 20px; } 
+.auctionMainPage  .liquidity-Popup .tab-Nav .tab-Link { font-size: 21px; width: 100%; padding-bottom: 20px; } 
+.auctionMainPage  .liquidity-Popup .tab-Nav .tab-Link .icon-Box { margin-right: 10px; } 
+.auctionMainPage  .liquidity-Popup .tab-Nav .tab-Link .icon-Box img { -webkit-transform: scale(0.7); transform: scale(0.7); } 
+.auctionMainPage  .liquidity-Popup .tab-Content { margin-top: 25px; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .jiTitle01 { font-size: 18px; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .exchange-Box { margin-top: 15px; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .exchange-Box .exchange-Icon { width: 50%; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .exchange-Box .exchange-Icon img { -webkit-transform: scale(0.65); transform: scale(0.65); position: relative; left: -15px; } 
+.auctionMainPage  .liquidity-Popup .tab-Nav .tab-Link:not(:first-child) { padding-top: 15px; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .goto-Btn { width: 220px; height: 50px; line-height: 50px; font-size: 18px; margin-top: 20px; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .goto-Btn02 { width: 260px; font-size: 17px; height: 50px; line-height: 50px; margin-top: 20px; } 
+.auctionMainPage  .tab-Nav { margin-top: 20px; }    
+.auctionMainPage  .tab-Nav .tab-Link, .auctionMainPage  .tab-Nav .tab-Link02 { font-size: 21px; width: 100%; padding-bottom: 20px; }
+.auctionMainPage  .tokens-Popup05 .tab-Nav .tab-Link02 { padding: 10px 0; }    
+.auctionMainPage  .tokens-Popup01 .popup-Title01 { font-size: 24px; line-height: 36px; margin-top: 70px; margin-bottom: 0; } 
+.auctionMainPage  .tokens-Popup01 .popup-Title02 { font-size: 16px; line-height: 36px; margin: 15px 0; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 { margin: 20px 0; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr { background: #191919; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr th { font-size: 13px; padding: 10px; text-align: left; line-height: 20px; width: 60%; border-bottom: none; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr td { color: #fff; padding: 10px; position: relative; background-color: transparent; font-size: 13px; width: 40%; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr.black-Bg { background: #101010; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr .yellow-Line { border-bottom: 15px solid #000; position: relative; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr .yellow-Line:before { content: ""; width: 100%; background: #fcb839; height: 2px; position: absolute; left: 0; bottom: 0; } 
+.auctionMainPage  .tokens-Popup05 .token-Box { position: relative; top: 0; left: 0; transform: none; margin: 70px auto 0; } 
+.auctionMainPage  .token-Box .token-Box02 { width: 100%; margin-bottom: 20px; } 
+.auctionMainPage  .token-Box .token-Box02 .img-Box { height: 240px; } 
+.auctionMainPage  .token-Box .token-Box02 .img-Box img { -webkit-transform: scale(0.7); transform: scale(0.7); }
+.auctionMainPage  .wallet-popupBlock { padding-top: 50px; }    
+.auctionMainPage  .wallet-boxWrap .wallet-Bx { width: 100%; margin-bottom: 20px; }
+.auctionMainPage  .wallet-boxWrap .wallet-Bx .img-Box { height: 230px; }
+.auctionMainPage  .wallet-boxWrap .wallet-Bx .img-Box .title-Name { font-size: 16px; bottom: 20px; }
+.auctionMainPage  .wallet-boxWrap .wallet-Bx .img-Box img { -webkit-transform: scale(1); transform: scale(1); } 
+.auctionMainPage  .search-Bx input { font-size: 15px; line-height: 20px; }
+.auctionMainPage  .search-Bx a { -webkit-transform: scale(0.60); transform: scale(0.60); margin-right: 0; position: relative; top: 5px; }    
+.auctionMainPage  .footer { background: #000; padding: 50px 20px; margin-left: 0; } 
+.auctionMainPage .footer .footer-left, .auctionMainPage  .footer .footer-right { width: 100%; text-align: center; } 
+.auctionMainPage .footer .footer-right .social-Icons { padding-bottom: 20px; } 
+.auctionMainPage .footer .footer-left { margin-bottom: 30px; } 
+.auctionMainPage .footer .footer-left .f-Link a { font-size: 12px; padding: 0 5px; } 
+.auctionMainPage .footer .footer-left .footer-logo > a { padding-right: 0; margin-bottom: 30px; } 
+.auctionMainPage .footer .footer-left p span { display: block; margin-bottom: 5px; } 
+.auctionMainPage .footer .footer-left p { line-height: 20px; margin-top: 5px; } 
+.auctionMainPage .footer .footer-right p { font-size: 13px; display: inline; } 
+.auctionMainPage .jrInvBox01,.auctionMainPage .jrInvBox02, .auctionMainPage  .jntrAucSoldbox01, .auctionMainPage  .jntrAucSoldbox02{width:100%;text-align: center;}
+.auctionMainPage .jrInvMBox,.auctionMainPage .jntrAucSoldMbox{flex-wrap:wrap-reverse;} 
+.auctionMainPage .dwnPro-shild a span { display: block; }
+.odometer-inside::before {font-size: 20px;}
+.odometer-inside {font-size: 20px;}
+.videoBG{ height:450px; overflow:hidden;}
+.auctionMainPage .investText01 .help-circle{ top: 1px;   left: 5px;}
+.auctionMainPage .perc-Box{ font-size: 12px; top:-40px;  flex-direction: column; line-height: 16px;}
+.auctionMainPage .jiAuc-mainbox .jiAuc-subbox:nth-of-type(01) .jiAucs-Title01:after, .auctionMainPage .jiAuc-mainbox .jiAuc-subbox:nth-of-type(02) .jiAucs-Title01:after, .auctionMainPage .jiAuc-mainbox .jiAuc-subbox:nth-of-type(03) .jiAucs-Title01:after {line-height: 20px; font-size:14px; color:#000; width:20px; height:20px; top: 4px;      } 
+.auctionMainPage .tokens-Popup02 .close-Icon{  right:18px;}
+/* .auctionMainPage .jointer-progress .perc-Box{ width:70px; right:-48px;}
+.auctionMainPage jointer-bonus-progress .perc-Box{ width:70px; right: -25px;} */
+.auctionMainPage .progress-Box{ margin-left:20px; margin-right:20px;}
+
+.jointer-progress .text-Wrap .text-Title:nth-of-type(01){ width:22px; }
+
+}
+
+ @media (min-width: 501px) and (max-width: 767px) { 
+.auctionMainPage .showMobile { display: inline-block !important; } 
+.auctionMainPage .hideMobile { display: none !important; } 
+.auctionMainPage .Scroll-no { overflow: hidden; }     
+.auctionMainPage  .main { background-size: 600px; } 
+.auctionMainPage  .dwnPro-shild { position: fixed; width: 100%; height: auto; top: 0; left: 0; background: none; z-index: 100; } 
+.auctionMainPage  .dwnPro-shild a { background: rgb(141,187,8); background: -moz-linear-gradient(top, rgba(141,187,8,1) 1%, rgba(99,128,17,1) 100%); background: -webkit-linear-gradient(top, rgba(141,187,8,1) 1%,rgba(99,128,17,1) 100%); background: linear-gradient(to bottom, rgba(141,187,8,1) 1%,rgba(99,128,17,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8dbb08', endColorstr='#638011',GradientType=0 ); width: 100%; height: auto; font-size: 14px; color:#fff; padding: 19px 0; text-align: center; position: relative; transform: none !important; left: 0; top: 0; width: auto; display: block; line-height: 1; bottom: 0; box-shadow: none; font-weight: 400; } 
+.auctionMainPage  .dwnPro-shild a span { position: relative; z-index: 1; } 
+.auctionMainPage  .dwnPro-shild a strong { display: block; padding-top: 4px; } 
+.auctionMainPage  .dwnPro-shild a:before { content: ""; background: url(../images/shield-icon.png) no-repeat 0 0; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 46px; height: 49px; } 
+.auctionMainPage  .header { margin-top: 70px; } 
+.auctionMainPage  .logo { margin: 0; width: 30px; overflow: hidden; } 
+.auctionMainPage  .logo img { width: 140px; top: 6px !important; } 
+.auctionMainPage  .rgdev-item a { padding: 10px; } 
+.auctionMainPage  .rgdev-list { top: 0 !important; } 
+.auctionMainPage  .rgdev-mobile { top: 12px; right: 0 !important; background: none; margin-right: 0; } 
+.auctionMainPage  .rgdev-mobile .icon-bar { width: 30px; margin-top: 5px; } 
+.auctionMainPage  #userBox { padding: 10px; } 
+.auctionMainPage  .mobile-sub { padding: 10px !important; } 
+.auctionMainPage  .mobile-Item01 { top: 12px !important; right: 80px !important; } 
+.auctionMainPage  .mobile-Item02 { top: -2px !important; -webkit-transform: scale(0.85) !important; transform: scale(0.75) !important; right: 8px !important; } 
+.auctionMainPage  .navText01, .auctionMainPage  .nav_line { display: none; } 
+.auctionMainPage  .rgdev-item a.navBtn01 { display: inline-block; margin-right: 0; } 
+.auctionMainPage  .container-Grid { padding: 0 20px; } 
+.auctionMainPage  .container-Grid .container-Grid { padding: 0; } 
+.auctionMainPage  .lanbox01 { width: 33.33%; } 
+.auctionMainPage  .langBoxContainer { top: 250px !important; overflow-y: scroll; height: 250px; } 
+.auctionMainPage  .mainBanner { padding: 126px 0 10px 0; }  
+.auctionMainPage  .jiTitle02 { font-size: 22px; line-height: 28px; padding-bottom: 10px; } 
+.auctionMainPage  .jiCounter-title01 { font-size: 19px; line-height: 1; } 
+.auctionMainPage  .jiCounter-title01 span { padding: 4px 3px; margin-right: 2px; font-size: 19px; line-height: 1; } 
+.auctionMainPage  .jipBox01 { width: 100%; font-size: 14px; color: #aaa; background: none; padding: 5px 0; } 
+.auctionMainPage  .jipBox01 span { color: #fff; font-size: 24px; line-height: 30px; } 
+.auctionMainPage  .jipBox01 span i { font-size: 14px; top: 0; } 
+.auctionMainPage  .Cnow-btn { font-size: 22px; height: 60px; line-height: 60px; margin: 20px 0 5px; box-shadow: 0 0 15px rgba(250,186,55,1), rgba(250,186,55,0.6) 0px 0px 35px inset; } 
+.auctionMainPage  .cAuc-timer { background: none; border-radius: 0; padding: 12px 0; } 
+.auctionMainPage  .cAuc-timer span { font-weight: 700; font-size: 10px; } 
+.auctionMainPage  .cAuc-timer span ~ span { font-size: 12px; line-height: 1; } 
+.auctionMainPage  .cAuc-timer span i { padding: 4px; min-width: 20px; margin: 0 1px 0 0; font-size: 18px; line-height: 1; } 
+.auctionMainPage  .timer-Box { padding: 15px; margin: 15px auto 0; } 
+.auctionMainPage  .timer-Box a, .auctionMainPage  .timer-Box p { font-size: 15px } 
+.auctionMainPage  #timer .days, .auctionMainPage  #timer .hours, .auctionMainPage  #timer .minutes, .auctionMainPage  #timer .seconds, .auctionMainPage  #timer-Box { font-size: 26px; line-height: 1; } 
+.auctionMainPage  #timer .days:after, .auctionMainPage  #timer .days:before, .auctionMainPage  #timer .hours:after, .auctionMainPage  #timer .hours:before, .auctionMainPage  #timer .minutes:after, .auctionMainPage  #timer .minutes:before { font-size: 20px; right: -6px; top: -5px } 
+.auctionMainPage  #timer .days:after, .auctionMainPage  #timer .hours:after, .auctionMainPage  #timer .minutes:after { bottom: 6px; top: inherit } 
+.auctionMainPage  #timer .days span, .auctionMainPage  #timer .hours span, .auctionMainPage  #timer .minutes span, .auctionMainPage  #timer .seconds span { width: 28px; height: 30px; line-height: 28px; margin: 0 2px; background-position: 50% 50%; } 
+.auctionMainPage  .jipgb-title01 { font-size: 17px; line-height: 22px; margin-bottom: 50px; } 
+.auctionMainPage  .jipgb-title01 .help-circle { font-size: 12px; position: relative; top: -5px; } 
+.auctionMainPage   .perc-Box { top: -34px; right: -60px; font-size:11px;  width: 120px; flex-direction: column; } 
+.auctionMainPage .investText01 .help-circle{top:0; left:6px;}
+.auctionMainPage .investText01{max-width:410px; margin:0 auto;}
+.auctionMainPage  .perc-Box span { font-size: 11px; line-height: 12px; } 
+.auctionMainPage  .progress-Box .progress-Bg, .auctionMainPage  .jointer-bonus-progress { height: 29px; } 
+.auctionMainPage  .jointer-progress { height: 29px; font-size: 10px; line-height: 24px; } 
+.auctionMainPage  .progress-Box > .text-Title, .auctionMainPage  .jointer-progress .text-Wrap .text-Title { font-size: 10px; } 
+.auctionMainPage  .jointer-bonus-progress .text-Wrap { padding-top: 40px; left: 10px; width: 92px; font-size: 10px; } 
+.auctionMainPage  .jointer-progress .text-Wrap { padding-top: 10px; } 
+.auctionMainPage  .progress-Box > .text-Title { top: 10px; } 
+.auctionMainPage  .ji-ATable01 table tr td { font-size: 12px; font-weight: 700; padding: 15px 5px; } 
+.auctionMainPage  .ji-ATable01 table tr td.jiT-greenback02 { background: rgb(16,16,16); background: -moz-linear-gradient(top, rgba(16,16,16,1) 0%, rgba(29,38,3,1) 40%); background: -webkit-linear-gradient(top, rgba(16,16,16,1) 0%,rgba(29,38,3,1) 40%); background: linear-gradient(to bottom, rgba(16,16,16,1) 0%,rgba(29,38,3,1) 40%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', endColorstr='#1d2603',GradientType=0 ); padding: 15px; text-align: center !important; border-top: 15px solid #090909; border-bottom: 15px solid #090909; } 
+.auctionMainPage  .ji-ATable01 table tr td.jiT-greenback02:before, .auctionMainPage  .ji-ATable01 table tr td.jiT-greenback02:after { display: none; } 
+.auctionMainPage  .ji-ATable01 table tr td.jiT-greenback02 a { background: none; padding: 0; position: relative; height: 100%; color: #fff; font-size: 18px; margin-bottom: 10px; display: inline-block; font-weight: 700; top: 0; } 
+.auctionMainPage  .ji-ATable01 table tr td.jiT-greenback02 a.ji-btn02 { font-size: 18px; border: none; } 
+.auctionMainPage  .ji-ATable01 table tr td.Day { padding: 0; } 
+.auctionMainPage  .ji-ATable01 table tr td .calcyppLink01 { padding: 15px 5px; display: block; color: #fff; position: relative; } 
+.auctionMainPage  .ji-ATable01 table tr td .calcyppLink01:after { content: ""; border-width: 0 8px 8px 0; border-style: solid; border-color: transparent transparent #faba35 transparent; position: absolute; right: 6px; bottom: 6px; -webkit-transform: rotate(-90deg); transform: rotate(-90deg); } 
+.auctionMainPage  .ji-ATable01 table tr td #calcyppLinkContent { position: absolute; width: 100%; background: #191919; z-index: 1; left: 0; } 
+.auctionMainPage  .ji-ATable01 table tr td .calcyppContent02 a { color: #fff; font-weight: 700; padding: 10px; display: block; border-bottom: 1px solid #2c2c2c; } 
+.auctionMainPage  .jiT-grayback01 { border-bottom: none; } 
+.auctionMainPage  .ji-ATable01 table tr td:first-child { text-align: left; background-color: #101010; } 
+.auctionMainPage  .ji-ATable01 .jiT-grayback01 { background: #2f2f2f !important; } 
+.auctionMainPage  .ji-ATable01 .jiT-GreenBR { text-align: center !important; font-size: 14px !important; } 
+.auctionMainPage  .ji-tiSubbox01 { background: url(../images/hr-line02.jpg) no-repeat 50% 100%; width: 100%; border-right: none; padding: 15px; font-size: 14px; } 
+.auctionMainPage  .ji-tiSubbox01 span { font-size: 24px; line-height: 30px; } 
+.auctionMainPage  .ji-tiSubbox01 .help-circle { font-size: 12px; top: -10px; } 
+.auctionMainPage  .ji-tokeninfoBox { margin: 70px 0 30px; } 
+.auctionMainPage  .advance-Module a { font-size: 14px; padding-left: 0; } 
+.auctionMainPage  .advance-Module:before, .auctionMainPage  .advance-Module:after { background: none; } 
+.auctionMainPage  .jiCal-Mbox { margin: 0 35px; } 
+.auctionMainPage  .jiCal-Subbox.active { min-height: auto; box-shadow: 0 0 10px 0px rgba(255,201,100,0.7); } 
+.auctionMainPage  .jiCal-Subbox { border-right: none; margin: 0 15px; } 
+.auctionMainPage  .jiCal-Subbox span { margin-top: 5px; } 
+.auctionMainPage  .jiCal-Mbox .slick-next.slick-arrow:before, .auctionMainPage  .jiCal-Mbox .slick-prev.slick-arrow:before { font-size: 24px; color: #fff; } 
+.auctionMainPage  .jiBonusBTN, .auctionMainPage  .ycpBTN { font-size: 13px; padding: 20px; width: 100%; line-height: 1; border-radius: 0; z-index: 10; } 
+/* .auctionMainPage  .jiBonusBTN.n-collapsed { }  */
+.auctionMainPage  .ycpBTN.n-collapsed { bottom: 50px; } 
+/* .auctionMainPage  .ycpBTN, .auctionMainPage  .ycpBTN.active { background: #0a2d38 !important; }  */
+.auctionMainPage  .ycpBTN.change { bottom: 0 !important; } 
+/* .auctionMainPage  .jiBonusBTN, .auctionMainPage  .jiBonusBTN.active { background: #0b1429 !important; }  */
+.auctionMainPage  .Btns { flex-direction: column; } 
+.auctionMainPage  .ycpsubbox01 { width: 50%; padding: 0; padding-top: 65px; font-size: 12px; background-position: center top; text-align: center; background-size: 45%; margin-bottom: 30px; } 
+.auctionMainPage  .ycpsubbox01.ycpIcon02 { background-size: auto; } 
+.auctionMainPage  .ycpBox { padding: 30px 20px; box-shadow: none; } 
+.auctionMainPage /* .ycpContainer, #jiBonus-Box { position: relative; } */
+.auctionMainPage  .ycpsubbox01 span { font-size: 24px; line-height: 1; } 
+.auctionMainPage  .ycpsubbox01 span.help-circle { font-size: 12px; top: -5px; } 
+.auctionMainPage  .ycpsubbox01:last-child { width: 100%; padding-top: 10px; } 
+.auctionMainPage  .ycpsubbox01 .ji-btn01 { font-size: 21px; } 
+.auctionMainPage  .ycpBTN { bottom: 53px; } 
+.auctionMainPage  .ycpBTN.active { bottom: 433px; } 
+.auctionMainPage  .ycpSection.active .ycpContainer { height: 380px; z-index: 10; } 
+.auctionMainPage  .ycpContainer { bottom: 53px; } 
+.auctionMainPage  .jiBonus-Section.active { height:350px; z-index: 10; overflow-y: scroll; } 
+.auctionMainPage  .jiBonusBTN.active { bottom:350px; } 
+.auctionMainPage  .jiB-Box01 { width: 100%; } 
+.auctionMainPage  #jiBonus-Box {  padding: 20px 0; } 
+.auctionMainPage  .jiB-Subbox { background-size: 80px; max-width: 100%; font-size: 14px; line-height: 24px; color: #fff; } 
+.auctionMainPage  .jiB-Subbox span { font-size: 18px; line-height: 24px; } 
+.auctionMainPage  .jiB-Subbox .help-circle { font-size: 12px; } 
+.auctionMainPage  .jiB-Subbox .jiB-socialBox span { font-size: 12px; margin-bottom: 0; } 
+.auctionMainPage  .social-Icons li { padding-right: 4px; } 
+.auctionMainPage  .social-Icons li a { width: 24px; height: 24px; line-height: 30px; } 
+.auctionMainPage  .social-Icons li a img { -webkit-transform: scale(0.8); transform: scale(0.8); } 
+.auctionMainPage  .jiB-Subbox .jiB-socialBox { padding-top: 2px; } 
+.auctionMainPage  .jiB-Box01:last-child { margin-top: 10px; } 
+.auctionMainPage  .jiB-Box01 .ji-btn02 { padding: 10px; font-size: 12px; } 
+.auctionMainPage  .multiplier-Box i { font-size: 12px; } 
+.auctionMainPage  .multiplier-Box { position: inherit; } 
+.auctionMainPage  .multiplier-Box01 { width: 90%; margin: 0 auto; left: 0; right: 0; } 
+.auctionMainPage  .multiplier-Box .jiTitle03 { padding-bottom: 5px; font-size: 18px; line-height: 24px; } 
+.auctionMainPage  .multiplier-Box .popup03-Title01 { padding: 10px; } 
+.auctionMainPage  .multiplier-Box .jiB-Box01 .ji-btn02 { padding: 15px; font-size: 16px; margin-top: 5px; } 
+.auctionMainPage  .multiplier-Box .jiB-table01 table tr th { color: #faba37; padding: 5px 10px; font-size: 14px; line-height: 20px; } 
+.auctionMainPage  .multiplier-Box .jiB-table01 table tr td { font-size: 14px; } 
+.auctionMainPage  .jiAuc-mainbox { margin-top: 50px; } 
+.auctionMainPage  .jiAuc-subbox { width: 100%; background: none; padding: 15px; min-height: auto; border-bottom: 1px solid #0b1329; } 
+.auctionMainPage  .jiBonus-Box .down-Scroll { display: none; } 
+.auctionMainPage  .jiAucs-Title01 { font-size: 16px; } 
+.auctionMainPage  .jiAucs-Title01 .help-circle { font-size: 14px; top: -10px; } 
+.auctionMainPage  .jiAucs-Title02 input { font-size: 24px; line-height: 1; padding: 10px 10px 10px 50px; } 
+.auctionMainPage  .jiAucs-Title02:after { font-size: 24px; padding: 12px 18px 12px 18px; } 
+.auctionMainPage  .jiAucs-Title03 { margin-bottom: 5px; } 
+.auctionMainPage  .jiAucs-Title04 span, .auctionMainPage  .jiAucs-Title04 span+span { width: 60% !important; font-size: 15px; } 
+.auctionMainPage  .jiAucs-Title04 span+span { padding-right: 0; width: 40% !important; } 
+.auctionMainPage  .jiAuc-subbox:first-child .jiAucs-Title04 span, .auctionMainPage  .jiAuc-subbox:first-child .jiAucs-Title04 span+span { width: 50% !important; font-size: 15px; } 
+.auctionMainPage  .jiAucs-Title02-2 { font-size: 24px; padding: 5px; line-height: 1; } 
+.auctionMainPage  .jiAuc-subbox .ji-btn01 { font-size: 21px; padding: 7px; margin-top: 15px; } 
+.auctionMainPage  .jiAuc-subbox:last-child { border-bottom: none; } 
+.auctionMainPage  .Btns-02 { flex-direction: column; }
+.auctionMainPage  .Btns-02 a {width: 100%;font-size: 20px;height: 60px;line-height: 60px;}
+.auctionMainPage  .Btns-02 a.how-Btn01 { margin-right: 0; margin-bottom: 15px; }     
+.auctionMainPage  .cointype { width: 100px; height: 100px; } 
+.auctionMainPage  .contrSlider { margin: 50px 55px 20px; } 
+.auctionMainPage  .contribution-Container { padding: 0 20px; margin: 0; width: 100%; } 
+.auctionMainPage  .ctr-value { font-size: 18px; color: #fff; } 
+.auctionMainPage  .ctr-value a { font-size: 24px; } 
+.auctionMainPage  .ctr-value a i:after { width: 20px; height: 20px; } 
+.auctionMainPage  .contrTextbox { margin: 20px 0 0; padding: 0; } 
+.auctionMainPage  .contrTextbox span, .auctionMainPage  .contrTextbox span+span { width: 100%; margin-bottom: 0; } 
+.auctionMainPage  .contrTextbox span { padding-left: 0; text-align: center; font-size: 24px; margin-bottom: 10px; } 
+.auctionMainPage  .contrTextbox .contr-Text { top: 0; } 
+.auctionMainPage  .contrTextbox span.small-Text { line-height: 2; margin-top: 10px; } 
+.auctionMainPage  .contrTextbox .small-Text .help-circle { top: 0; } 
+.auctionMainPage  .addCotr-BTN { font-size: 21px; padding: 5px 10px; margin-top: 10px; } 
+.auctionMainPage  .how-Popup .container-Grid { position: relative; top: 0; left: 0; transform: none; margin-top: 70px; } 
+.auctionMainPage  .howW-subbox { width: 50%; font-size: 14px; line-height: 24px; padding-right: 0; } 
+.auctionMainPage  .howW-subbox:before { right: inherit; top: inherit; bottom: -45px; left: 50%; -webkit-transform: translateX(-50%) rotate(90deg); transform: translateX(-50%) rotate(90deg); } 
+.auctionMainPage  .howW-subbox:nth-child(3):before { display: none; } 
+.auctionMainPage  .jiTitle03 { font-size: 24px; line-height: 30px; padding-bottom: 15px; } 
+.auctionMainPage  .tokens-Popup01 .close-Icon, .auctionMainPage  .tokens-Popup03 .close-Icon, .auctionMainPage  .tokens-Popup04 .close-Icon, .auctionMainPage  .how-Popup .close-Icon, .auctionMainPage  .liquidity-Popup .close-Icon, .auctionMainPage  .tokens-Popup05 .close-Icon { right: 5px; top: 5px; -webkit-transform: scale(0.8); transform: scale(0.8); } 
+.auctionMainPage  .howW-mainbox { margin: 10px 0 30px 0; } 
+.auctionMainPage  .popup4-Container { margin: 70px auto 20px; } 
+.auctionMainPage  .popup4-subbox { flex-direction: column; margin-bottom: 20px; } 
+.auctionMainPage  .pp4-Subbox01 { line-height: 28px; margin-bottom: 20px; width: 100%; padding: 0 0 0 70px; } 
+.auctionMainPage  .pp4-Subbox01:last-child { margin-bottom: 0; } 
+.auctionMainPage  .pp4-Subbox01 i { left: 0; } 
+.auctionMainPage  .tPopup-btnbar { padding: 10px 0; } 
+.auctionMainPage  .tokens-Popup04 .tPopup-btn01 { font-size: 22px; margin-right: 13px; padding: 13px 46px; line-height: 1; } 
+.auctionMainPage  .tokens-Popup04 .tPopup-btn02 { font-size: 22px; line-height: 1; padding: 13px 24px; margin-right: 0; } 
+.auctionMainPage  .liquidity-Popup .liquidity-Container { margin: 70px 0 30px; } 
+.auctionMainPage  .liquidity-Popup .liquidity-Container .jiTitle03 + .tab-Nav { margin-top: 30px; } 
+.auctionMainPage  .liquidity-Popup .tab-Nav { margin-top: 20px; } 
+.auctionMainPage  .liquidity-Popup .tab-Nav .tab-Link { font-size: 21px; width: 100%; padding-bottom: 20px; } 
+.auctionMainPage  .liquidity-Popup .tab-Nav .tab-Link .icon-Box { margin-right: 10px; } 
+.auctionMainPage  .liquidity-Popup .tab-Nav .tab-Link .icon-Box img { -webkit-transform: scale(0.7); transform: scale(0.7); } 
+.auctionMainPage  .liquidity-Popup .tab-Content { margin-top: 25px; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .jiTitle01 { font-size: 18px; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .exchange-Box { margin-top: 15px; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .exchange-Box .exchange-Icon { width: 50%; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .exchange-Box .exchange-Icon img { -webkit-transform: scale(0.65); transform: scale(0.65); position: relative; left: -15px; } 
+.auctionMainPage  .liquidity-Popup .tab-Nav .tab-Link:not(:first-child) { padding-top: 15px; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .goto-Btn { width: 220px; height: 50px; line-height: 50px; font-size: 18px; margin-top: 20px; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .goto-Btn02 { width: 260px; font-size: 17px; height: 50px; line-height: 50px; margin-top: 20px; } 
+.auctionMainPage  .tab-Nav { margin-top: 20px; }    
+.auctionMainPage  .tab-Nav .tab-Link, .auctionMainPage  .tab-Nav .tab-Link02 { font-size: 21px; width: 100%; padding-bottom: 20px; }     
+.auctionMainPage  .tokens-Popup01 .popup-Title01 { font-size: 24px; line-height: 36px; margin-top: 70px; margin-bottom: 0; } 
+.auctionMainPage  .tokens-Popup01 .popup-Title02 { font-size: 16px; line-height: 36px; margin: 15px 0; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 { margin: 20px 0; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr { background: #191919; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr th { font-size: 13px; padding: 10px; text-align: left; line-height: 20px; width: 60%; border-bottom: none; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr td { color: #fff; padding: 10px; position: relative; background-color: transparent; font-size: 13px; width: 40%; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr.black-Bg { background: #101010; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr .yellow-Line { border-bottom: 15px solid #000; position: relative; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr .yellow-Line:before { content: ""; width: 100%; background: #fcb839; height: 2px; position: absolute; left: 0; bottom: 0; } 
+.auctionMainPage  .tokens-Popup05 .token-Box { position: relative; top: 0; left: 0; transform: none; margin: 70px auto 0; } 
+.auctionMainPage  .token-Box .token-Box02 { width: 50%; margin-bottom: 20px; } 
+.auctionMainPage  .token-Box .token-Box02 .img-Box { height: 240px; } 
+.auctionMainPage  .token-Box .token-Box02 .img-Box img { -webkit-transform: scale(0.7); transform: scale(0.7); } 
+.auctionMainPage  .wallet-popupBlock { padding-top: 50px; }       
+.auctionMainPage  .wallet-boxWrap .wallet-Bx { width: 50%; }    
+.auctionMainPage  .wallet-boxWrap .wallet-Bx .img-Box img { -webkit-transform: scale(1); transform: scale(1);}     
+.auctionMainPage  .footer { background: #000; padding: 50px 20px; margin-left: 0; } 
+.auctionMainPage .footer .footer-left, .auctionMainPage  .footer .footer-right { width: 100%; text-align: center; } 
+.auctionMainPage .footer .footer-right .social-Icons { padding-bottom: 20px; } 
+.auctionMainPage .footer .footer-left { margin-bottom: 30px; } 
+.auctionMainPage .footer .footer-left .f-Link a { font-size: 12px; padding: 0 5px; } 
+.auctionMainPage .footer .footer-left .footer-logo > a { padding-right: 0; margin-bottom: 30px; } 
+.auctionMainPage .footer .footer-left p span { display: block; margin-bottom: 5px; } 
+.auctionMainPage .footer .footer-left p { line-height: 20px; margin-top: 5px; } 
+.auctionMainPage .footer .footer-right p { font-size: 13px; display: inline; } 
+.auctionMainPage .jrInvBox01, .auctionMainPage  .jrInvBox02, .auctionMainPage  .jntrAucSoldbox01, .auctionMainPage  .jntrAucSoldbox02{ width:100%;}
+.auctionMainPage .jrInvMBox, .auctionMainPage  .jntrAucSoldMbox{flex-wrap:wrap-reverse;} 
+.auctionMainPage .dwnPro-shild a span { display: block; }
+.odometer-inside::before {font-size: 20px;}
+.odometer-inside {font-size: 20px;}
+
+.videoBG{ height:450px; overflow:hidden;}
+.auctionMainPage .progress-Box{ margin-left:20px; margin-right:20px;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+ 
+.auctionMainPage  .container-Grid { padding: 0 20px; } 
+.auctionMainPage  .dwnPro-shild { position: fixed; width: 100%; height: auto; top: 0; left: 0; background: none; } 
+.auctionMainPage  .dwnPro-shild a { background: rgb(141,187,8); background: -moz-linear-gradient(top, rgba(141,187,8,1) 1%, rgba(99,128,17,1) 100%); background: -webkit-linear-gradient(top, rgba(141,187,8,1) 1%,rgba(99,128,17,1) 100%); background: linear-gradient(to bottom, rgba(141,187,8,1) 1%,rgba(99,128,17,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8dbb08', endColorstr='#638011',GradientType=0 ); width: 100%; height: auto; font-size: 14px; color:#fff; padding: 19px 0; text-align: center; position: relative; transform: none !important; left: 0; top: 0; width: auto; display: block; line-height: 1; bottom: 0; box-shadow: none; font-weight: 400; } 
+.auctionMainPage  .dwnPro-shild a span { position: relative; z-index: 1; } 
+.auctionMainPage  .dwnPro-shild a strong { display: block; padding-top: 4px; } 
+.auctionMainPage  .dwnPro-shild a:before { content: ""; background: url(../images/shield-icon.png) no-repeat 0 0; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 46px; height: 49px; } 
+.auctionMainPage  .header { margin-top: 70px; } 
+.auctionMainPage  .logo { margin: 0; } 
+.auctionMainPage  .logo img { width: 120px; } 
+.auctionMainPage  .rgdev-item a { padding: 10px; } 
+.auctionMainPage  .rgdev-list { top: 0 !important; } 
+.auctionMainPage  .rgdev-mobile { top: 12px; right: 0 !important; background: none; margin-right: 0; } 
+.auctionMainPage  .rgdev-mobile .icon-bar { width: 30px; margin-top: 5px; } 
+.auctionMainPage  #userBox { padding: 10px; } 
+.auctionMainPage  .mobile-sub { padding: 10px !important; } 
+.auctionMainPage  .mobile-Item01 { top: 12px !important; right: 80px !important; } 
+.auctionMainPage  .mobile-Item02 { top: -2px !important; -webkit-transform: scale(0.85) !important; transform: scale(0.75) !important; right: 8px !important; } 
+.auctionMainPage  .navText01, .auctionMainPage  .nav_line { display: none !important; } 
+.auctionMainPage  .rgdev-item a.navBtn01 { display: inline-block; margin-right: 0; } 
+.auctionMainPage  .container-Grid { padding: 0 20px; } 
+.auctionMainPage  .container-Grid .container-Grid { padding: 0; } 
+.auctionMainPage  .lanbox01 { width: 33.33%; } 
+.auctionMainPage  .langBoxContainer { top: 10px !important; } 
+.auctionMainPage  .mainBanner { padding: 190px 0 40px 0; } 
+.auctionMainPage  .jiTitle02 { font-size: 24px; line-height: 30px; padding-bottom: 15px; } 
+.auctionMainPage  .jiCounter-title01 { font-size: 36px; line-height: 40px; } 
+.auctionMainPage  .jiCounter-title01 span { padding: 5px 10px; margin-right: 4px; } 
+.auctionMainPage  .jipBox01 { padding: 30px 0; font-size: 13px; line-height: 20px; } 
+.auctionMainPage  .jipBox01 span { font-size: 18px; line-height: 26px; } 
+.auctionMainPage  .jipBox01 span i { font-size: 14px; } 
+.auctionMainPage  .Cnow-btn { max-width: 400px; height: 60px; line-height: 60px; font-size: 24px; } 
+.auctionMainPage  .cAuc-timer { -webkit-transform: scale(0.68); transform: scale(0.68); margin-top: -15px; } 
+.auctionMainPage  .timer-Box { margin: 0 auto; -webkit-transform: scale(0.68); transform: scale(0.68); } 
+.auctionMainPage  .jipgb-title01 { font-size: 24px; margin-bottom: 50px; } 
+.auctionMainPage  .progress-Box { -webkit-transform: scale(0.85); transform: scale(0.85); } 
+.auctionMainPage  .jointer-bonus-progress .perc-Box { width: 180px; top: -30px; } 
+.auctionMainPage  .jointer-bonus-progress .text-Wrap { width: 200px; } 
+.auctionMainPage  .ji-tokeninfoBox { margin: 70px 0; } 
+.auctionMainPage  .ji-tiSubbox01 { width: 50%; padding: 15px; } 
+.auctionMainPage  .ji-tiSubbox01:nth-child(2), .auctionMainPage  .ji-tiSubbox01:nth-child(4) { background: none; } 
+.auctionMainPage  .advance-Module { padding-bottom: 0 !important; } 
+.auctionMainPage  .advance-Module a { font-size: 14px; padding-left: 20px; } 
+.auctionMainPage  .advance-Module:before, .auctionMainPage  .advance-Module:after { width: 300px; } 
+.auctionMainPage  .advance-Module:after { width: 280px; } 
+.auctionMainPage  .ji-ATable01 table tr td { font-size: 14px; font-weight: 700; padding: 15px 5px; } 
+.auctionMainPage  .ji-ATable01 table tr td.jiT-greenback02 { background: rgb(16,16,16); background: -moz-linear-gradient(top, rgba(16,16,16,1) 0%, rgba(29,38,3,1) 40%); background: -webkit-linear-gradient(top, rgba(16,16,16,1) 0%,rgba(29,38,3,1) 40%); background: linear-gradient(to bottom, rgba(16,16,16,1) 0%,rgba(29,38,3,1) 40%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', endColorstr='#1d2603',GradientType=0 ); padding: 15px; text-align: center !important; border-top: 15px solid #090909; border-bottom: 15px solid #090909; } 
+.auctionMainPage  .ji-ATable01 table tr td.jiT-greenback02:before, .auctionMainPage  .ji-ATable01 table tr td.jiT-greenback02:after { display: none; } 
+.auctionMainPage  .ji-ATable01 table tr td.jiT-greenback02 a:first-child { background: none; padding: 0; position: relative; height: 100%; color: #fff; font-size: 18px; margin-bottom: 10px; display: inline-block; font-weight: 700; top: 0; } 
+.auctionMainPage  .ji-ATable01 table tr td.jiT-greenback02 a.ji-btn02 { font-size: 18px; display: inline-block; background: none; padding-top: 0; top: 0; height: auto; background-color: #95c608; border-bottom: 2px solid #7fa807; padding: 18px 70px; width: auto; margin: 0 auto; position: relative; } 
+.auctionMainPage  .ji-ATable01 table tr td.Day { padding: 0; } 
+.auctionMainPage  .ji-ATable01 table tr td .calcyppLink01 { padding: 15px 5px; display: block; color: #fff; position: relative; } 
+.auctionMainPage  .ji-ATable01 table tr td .calcyppLink01:after { content: ""; border-width: 0 8px 8px 0; border-style: solid; border-color: transparent transparent #faba35 transparent; position: absolute; right: 6px; bottom: 6px; -webkit-transform: rotate(-90deg); transform: rotate(-90deg); } 
+.auctionMainPage  .ji-ATable01 table tr td #calcyppLinkContent { position: absolute; width: 100%; background: #191919; z-index: 1; left: 0; } 
+.auctionMainPage  .ji-ATable01 table tr td .calcyppContent02 a { color: #fff; font-weight: 700; padding: 10px; display: block; border-bottom: 1px solid #2c2c2c; } 
+.auctionMainPage  .jiT-grayback01 { border-bottom: none; } 
+.auctionMainPage  .ji-ATable01 table tr td:first-child { text-align: left; background-color: #101010; } 
+.auctionMainPage  .ji-ATable01 .jiT-grayback01 { background: #2f2f2f !important; } 
+.auctionMainPage  .ji-ATable01 .jiT-GreenBR { text-align: center !important; font-size: 16px !important; } 
+.auctionMainPage  .jiCal-Subbox span { margin-top: 0; } 
+.auctionMainPage  .jiCal-Subbox.active { min-height: 130px; } 
+.auctionMainPage  .jiCal-Mbox { margin: 50px 0; } 
+.auctionMainPage  .jiBonusBTN, .auctionMainPage  .ycpBTN { font-size: 16px; padding: 20px; width: 100%; line-height: 1; border-radius: 0; z-index: 10; } 
+.auctionMainPage  .ycpBTN.n-collapsed { bottom: 50px; } 
+/* .auctionMainPage  .ycpBTN, .auctionMainPage  .ycpBTN.active { background: #0a2d38 !important; }  */
+.auctionMainPage  .ycpBTN.change { bottom: 0 !important; } 
+/* .auctionMainPage  .jiBonusBTN, .auctionMainPage  .jiBonusBTN.active { background: #0b1429 !important; }  */
+.auctionMainPage  .Btns { flex-direction: column; } 
+.auctionMainPage  .ycpsubbox01 { width: 50%; padding: 0; padding-top: 65px; font-size: 12px; background-position: center top; text-align: center; margin-bottom: 30px; } 
+.auctionMainPage  .ycpBox { padding: 30px 20px;  box-shadow: none; } 
+.auctionMainPage  #jiBonus-Box { position: relative; padding: 50px 0;  } 
+.auctionMainPage  .ycpsubbox01 span { font-size: 24px; line-height: 1; } 
+.auctionMainPage  .ycpsubbox01 span.help-circle { font-size: 12px; top: -5px; } 
+.auctionMainPage  .ycpsubbox01:last-child { width: 100%; padding-top: 10px; } 
+.auctionMainPage  .ycpsubbox01 .ji-btn01 { font-size: 22px; display: inline-block; } 
+.auctionMainPage  .jiB-Subbox { font-size: 14px; line-height: 24px; background-size: 80px; padding-left: 90px; } 
+.auctionMainPage  .jiB-Subbox span { font-size: 20px; line-height: 36px; } 
+.auctionMainPage  .jiB-Subbox .help-circle { font-size: 13px; } 
+.auctionMainPage  .ycpBTN { bottom: 57px; } 
+.auctionMainPage  .ycpBTN.active { bottom: 457px; } 
+.auctionMainPage  .ycpSection.active .ycpContainer { height: 400px; z-index: 10; } 
+.auctionMainPage  .ycpContainer { bottom: 57px; } 
+.auctionMainPage  .jiBonus-Section.active { height:480px; z-index: 10; overflow-y: scroll; } 
+.auctionMainPage  .jiBonusBTN.active { bottom:480px; } 
+.auctionMainPage  .multiplier-Box span { font-size: 13px; line-height: 1; } 
+.auctionMainPage  .multiplier-Box01 { -webkit-transform: scale(0.7); transform: scale(0.7); right: -127px; top: -38px; } 
+.auctionMainPage  .jiAuc-mainbox { margin-top: 50px; padding: 10px 0; } 
+.auctionMainPage  .jiAuc-subbox { width:50%; background: none; } 
+.auctionMainPage  .jiBonus-Box .down-Scroll { bottom: -40px; } 
+.auctionMainPage  .jiAucs-Title02 { width: 60%; margin: 0 auto; } 
+.auctionMainPage  .jiAuc-subbox { padding: 10px 15px; margin: 5px 0; min-height: auto; } 
+.auctionMainPage  .jiAucs-Title02 input { font-size: 24px; height: 55px; line-height: 55px; } 
+.auctionMainPage  .jiAucs-Title02:after { padding: 12px 18px 12px 18px; font-size: 24px; } 
+.auctionMainPage  .jiAucs-Title02-2 { font-size: 24px; padding: 5px; } 
+.auctionMainPage  .jiAucs-Title01 { margin-bottom: 10px; } 
+.auctionMainPage  .jiAuc-subbox .ji-btn01 { width: auto; } 
+.auctionMainPage  .jiCal-Mbox .slick-prev.slick-arrow:before { left: 0; } 
+.auctionMainPage  .jiCal-Mbox .slick-next.slick-arrow:before { right: -30px; } 
+.auctionMainPage  .contribution-Container { width: 100%; padding: 0 30px; margin: 0; } 
+.auctionMainPage  .contrTextbox { padding: 0 15px; } 
+.auctionMainPage  .contrTextbox .contr-Text {width: 1000%;padding-left: 0;padding-bottom: 26px;} 
+.auctionMainPage  .contrTextbox span+span {width: 100%;} 
+.auctionMainPage  .addCotr-BTN { font-size: 30px; } 
+.auctionMainPage  .howW-subbox { width: 50%; font-size: 14px; line-height: 24px; } 
+.auctionMainPage  .howW-subbox:nth-child(2):before { display: none; } 
+.auctionMainPage  .jiTitle03 { font-size: 24px; line-height: 30px; padding-bottom: 15px; } 
+.auctionMainPage  .tokens-Popup01 .close-Icon, .auctionMainPage  .tokens-Popup03 .close-Icon, .auctionMainPage  .tokens-Popup04 .close-Icon, .auctionMainPage  .how-Popup .close-Icon, .auctionMainPage  .liquidity-Popup .close-Icon { right: 5px; top: 5px; -webkit-transform: scale(0.8); transform: scale(0.8); } 
+.auctionMainPage  .howW-mainbox { margin: 10px 0 30px 0; } 
+.auctionMainPage  .how-Popup .container-Grid { top: 0; position: relative; left: 0; transform: none; width: 100%; margin-top: 100px; } 
+.auctionMainPage  .Btns-02 a { width: 100%; font-size: 24px; height: 70px; line-height: 70px; }
+.auctionMainPage  .Btns-02 a.how-Btn01 { margin-right: 20px; }    
+.auctionMainPage  .popup4-Container { margin: 70px auto 20px; } 
+.auctionMainPage  .popup4-subbox { /*flex-direction: column; */ flex-wrap: wrap; margin-bottom: 20px; } 
+.auctionMainPage  .pp4-Subbox01 { line-height: 28px; margin-bottom: 20px; width: 50%; padding: 0 15px 0 70px; } 
+.auctionMainPage  .pp4-Subbox01:last-child { margin-bottom: 0; } 
+.auctionMainPage  .pp4-Subbox01 i { left: 0; } 
+.auctionMainPage  .tPopup-btnbar { padding: 10px 0; } 
+.auctionMainPage  .tokens-Popup04 .tPopup-btn01 { font-size: 22px; margin-right: 13px; padding: 13px 46px; line-height: 1; } 
+.auctionMainPage  .tokens-Popup04 .tPopup-btn02 { font-size: 22px; line-height: 1; padding: 13px 24px; margin-right: 0; } 
+.auctionMainPage  .liquidity-Popup .liquidity-Container { margin: 70px 0 30px; } 
+.auctionMainPage  .liquidity-Popup .liquidity-Container .jiTitle03 + .tab-Nav { margin-top: 30px; } 
+.auctionMainPage  .liquidity-Popup .tab-Nav { margin-top: 20px; } 
+.auctionMainPage  .liquidity-Popup .tab-Nav .tab-Link { font-size: 18px; width: 33.33%; padding-bottom: 10px; } 
+.auctionMainPage  .liquidity-Popup .tab-Nav .tab-Link .icon-Box { margin-right: 0; } 
+.auctionMainPage  .liquidity-Popup .tab-Nav .tab-Link .icon-Box img { -webkit-transform: scale(0.6); transform: scale(0.6); } 
+.auctionMainPage  .liquidity-Popup .tab-Content { margin-top: 25px; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .jiTitle01 { font-size: 18px; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .exchange-Box { margin-top: 15px; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .exchange-Box .exchange-Icon { width: 50%; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .exchange-Box .exchange-Icon img { -webkit-transform: scale(0.65); transform: scale(0.65); position: relative; left: -15px; } 
+.auctionMainPage  .liquidity-Popup .tab-Nav .tab-Link:not(:first-child) { padding-top: 15px; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .goto-Btn { width: 220px; height: 50px; line-height: 50px; font-size: 18px; margin-top: 20px; } 
+.auctionMainPage  .liquidity-Popup .tab-Content .goto-Btn02 { width: 260px; font-size: 17px; height: 50px; line-height: 50px; margin-top: 20px; } 
+.auctionMainPage  .tokens-Popup01 .popup-Title01 { font-size: 24px; line-height: 36px; margin-top: 70px; margin-bottom: 0; } 
+.auctionMainPage  .tokens-Popup01 .popup-Title02 { font-size: 16px; line-height: 36px; margin: 15px 0; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 { margin: 20px 0; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr { background: #191919; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr th { font-size: 14px; padding: 10px; text-align: left; line-height: 20px; width: 60%; border-bottom: none; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr td { color: #fff; padding: 10px; position: relative; background-color: transparent; font-size: 14px; width: 40%; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr.black-Bg { background: #101010; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr .yellow-Line { border-bottom: 15px solid #000; position: relative; } 
+.auctionMainPage  .tokens-Popup01 .jiB-table02 table tr .yellow-Line:before { content: ""; width: 100%; background: #fcb839; height: 2px; position: absolute; left: 0; bottom: 0; } 
+.auctionMainPage  .token-Box .token-Box02 { width: 50%; } 
+.auctionMainPage  .token-Box .token-Box02:last-child { margin-top: 30px; }
+.auctionMainPage  .wallet-boxWrap .wallet-Bx .img-Box { height: 160px; }
+.auctionMainPage  .wallet-boxWrap .wallet-Bx .img-Box img { -webkit-transform: scale(0.7); transform: scale(0.7); }
+.auctionMainPage  .wallet-boxWrap .wallet-Bx .img-Box .title-Name { bottom: 10px; font-size: 15px; }    
+.auctionMainPage .footer { padding: 30px 20px; } 
+.auctionMainPage .footer .footer-left p, .auctionMainPage  .footer .footer-left p a { font-size: 10px; line-height: 14px; } 
+.auctionMainPage .footer .footer-left p + p { margin-top: 10px; } 
+.auctionMainPage .footer .footer-left .footer-logo a img { width: 80px; } 
+.auctionMainPage .footer .footer-left .f-Link a, .auctionMainPage  .footer .footer-right .social-Icons h5, .auctionMainPage  .footer .footer-right p { font-size: 11px; line-height: 14px; } 
+.auctionMainPage .footer .footer-left .f-Link a { padding: 0 4px; } 
+.auctionMainPage .footer .footer-right .social-Icons li { padding-right: 0; } 
+.auctionMainPage .footer .footer-right .social-Icons li a { transform: scale(0.8); -webkit-transform: scale(0.8); } 
+.auctionMainPage .footer .footer-left .footer-logo a { padding-right: 5px; } 
+.auctionMainPage .dwnPro-shild a span { display: block; }
+.odometer-inside::before {font-size: 40px;}
+.odometer-inside {font-size: 40px;}
+.auctionMainPage .tokens-Popup02 .close-Icon { right: 18px;}
+}
+
+@media (max-width: 991px) { 
+.auctionMainPage .npShowMD { display: none !important; } 
+.auctionMainPage .npShowSM { display: block !important; } 
+.auctionMainPage  .header.fixed { z-index: 100; } 
+.auctionMainPage .tab-Nav { display: none; } 
+.auctionMainPage .tab-navMobile { display: block; } 
+.auctionMainPage  .tokens-Popup05 .tab-Nav { display: flex; }      
+.auctionMainPage  .rgdev-list { position: absolute; top: 15px; z-index: 9999; display: none; } 
+.auctionMainPage  .mobile-sub { margin: 0px; padding: 0px; list-style: none; float: none; width: 100%; background: rgba(0,0,0,0.9); } 
+.auctionMainPage  .header { padding: 10px 20px; display: block; } 
+.auctionMainPage  .rgdev { position: relative; } 
+.auctionMainPage  .rgdev-item { text-align: left; } 
+.auctionMainPage  .rgdev-item a.navBtn { display: inline-block; } 
+.auctionMainPage  .rgdev-mobile { display: block; right: 105px; } 
+.auctionMainPage  .logo a img { position: relative; top: 5px; } 
+.auctionMainPage  .rgdev-item a.user-Menu { display: inline-block; } 
+.auctionMainPage  .mobile-Item01 { position: absolute; top: 18px; right: 90px; } 
+.auctionMainPage  .mobile-Item02 { position: absolute; right: 13px; top: 4px; -webkit-transform: scale(0.95); transform: scale(0.95); } 
+.auctionMainPage  .user-Status { display: none; } 
+.auctionMainPage  .user-Menu:before { right: -10px; } 
+.auctionMainPage  .mobile-Item01 a, .auctionMainPage  .mobile-Item02 a { padding: 5px; } 
+.auctionMainPage  .user-infoBox01 { border-bottom: 1px solid #1b1e20; } 
+.auctionMainPage  #userBox { right: inherit; left: 0; top: 45px; } 
+.auctionMainPage  #userBox1 { position: absolute; top: 40px; right: 0; background: rgba(0,0,0,0.8); z-index: 1; } 
+.auctionMainPage  #userBox1 a { text-transform: capitalize; font-size: 13px; } 
+.auctionMainPage  .langBoxContainer { top: 5px; } 
+.auctionMainPage  .wallet-Bx.coming-Soon:before { font-size: 20px; } 
+.auctionMainPage  .container-Full { padding: 0 20px; } 
+ 
+.auctionMainPage .dwnPro-shild{ -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+ .auctionMainPage .header { padding: 20px; } 
+ .auctionMainPage .user-Menu:before { top: 2px; right: 5px; } 
+ .auctionMainPage .container-Grid { padding: 0 20px; } 
+ .auctionMainPage .logo { margin: 0 0 0 95px; } 
+ .auctionMainPage .logo img { width: 100px; } 
+ .auctionMainPage .nav_line { padding: 0 3px !important; } 
+ .auctionMainPage .rgdev-item a { padding: 0 6px; font-size: 12px; } 
+ .auctionMainPage .navText01, .auctionMainPage  .navBtn01 { margin-right: 5px; font-size: 12px; } 
+ .auctionMainPage .navText01 span { padding-left: 0; font-size: 12px; } 
+ .auctionMainPage .navText01 .help-circle { font-size: 12px; top: -10px; } 
+ .auctionMainPage .mainBanner { padding: 200px 0 40px 0; } 
+ .auctionMainPage .jiTitle02 { font-size: 30px; padding-bottom: 0; } 
+ .auctionMainPage .jiCounter-title01 { -webkit-transform: scale(0.6); transform: scale(0.6); font-size: 60px; } 
+ .auctionMainPage .jiCounter-title01 span { padding: 6px 12px; } 
+ .auctionMainPage .jipBox01 { margin: 20px 0; padding: 20px 0; font-size: 16px; } 
+ .auctionMainPage .jipBox01 span { font-size: 24px; line-height: 30px; } 
+ .auctionMainPage .jiBonus-Box .down-Scroll { bottom: -40px; } 
+ .auctionMainPage .jipgb-title01 { font-size: 22px; margin-bottom: 50px; } 
+ .auctionMainPage .progress-Box { -webkit-transform: scale(0.9); transform: scale(0.9); } 
+ .auctionMainPage .jointer-bonus-progress .perc-Box { top: -30px; width: 180px; } 
+ .auctionMainPage .ji-tokeninfoBox { margin: 50px 0; } 
+ .auctionMainPage .ji-tokeninfoBox .help-circle { font-size: 10px; top: -8px; } 
+ .auctionMainPage .advance-Module a { font-size: 14px; padding-left: 20px; } 
+ .auctionMainPage .advance-Module:before, .auctionMainPage  .advance-Module:after { width: 430px; } 
+ .auctionMainPage .advance-Module:after { width: 410px; } 
+ .auctionMainPage .jiCal-Subbox { font-size: 10px; } 
+ .auctionMainPage .ji-tiSubbox01 { padding: 25px 10px; font-size: 11px; } 
+ .auctionMainPage .ji-tiSubbox01 span { font-size: 20px; line-height: 26px; } 
+ .auctionMainPage .jiCal-Subbox p { font-size: 9px; } 
+ .auctionMainPage .jiCal-Subbox span { font-size: 18px; margin-top: 5px; line-height: 1; } 
+ .auctionMainPage .jiCal-Subbox.highlight span { margin-top: 0; } 
+ .auctionMainPage .jiCal-Subbox span+span { font-size: 14px; } 
+ .auctionMainPage .jiCal-Subbox.active { min-height: 130px; } 
+ .auctionMainPage .Btns { padding-top: 20px; } 
+ .auctionMainPage .ycpBTN, .auctionMainPage  .jiBonusBTN { font-size: 18px; padding: 8px 20px; min-width:300px; } 
+ .auctionMainPage .ycpBox { padding:5px 20px; } 
+ .auctionMainPage .ycpsubbox01 .ji-btn01 { padding: 4px 10px; font-size: 16px; } 
+ .auctionMainPage .ycpsubbox01 { padding-left: 60px; } 
+ .auctionMainPage .ycpsubbox01 span.help-circle { font-size: 12px; top: -10px; } 
+ .auctionMainPage .ycpsubbox01 span { font-size: 18px; line-height: 1; } 
+ .auctionMainPage .ycpIcon01, .auctionMainPage  .ycpIcon02, .auctionMainPage  .ycpIcon03, .auctionMainPage  .ycpIcon04 { background-size: 50px; padding-right: 0; font-size: 12px; } 
+ .auctionMainPage .ycpIcon02 { background-size: 30px; } 
+ .auctionMainPage .ycpIcon03 { background-position: 0 8px; } 
+ .auctionMainPage .ycpSection.active .ycpContainer { height: 128px; } 
+ .auctionMainPage .ycpBTN.active { bottom: 128px; } 
+ .auctionMainPage .jiBonus-Section.active { height: 270px; overflow-y: scroll;} 
+ .auctionMainPage .jiBonusBTN.active { bottom: 270px; } 
+ .auctionMainPage .dwnPro-shild { -webkit-transform: scale(0.65); transform: scale(0.65); left: -35px; top: -35px; } 
+ .auctionMainPage .Cnow-btn { margin: 30px auto 20px; max-width: 450px; height: 70px; line-height: 70px; font-size: 24px; } 
+ .auctionMainPage .cAuc-timer { -webkit-transform: scale(0.78); transform: scale(0.78); } 
+ .auctionMainPage .timer-Box { -webkit-transform: scale(0.78); transform: scale(0.78); } 
+ .auctionMainPage .ji-ATable01 { -webkit-transform: scale(0.83); transform: scale(0.83); position: relative; left: -85px; top: -140px; } 
+ .auctionMainPage .jiCal-Mbox { -webkit-transform: scale(0.95); transform: scale(0.95); margin-top: -240px; margin-bottom: 0; } 
+ .auctionMainPage #jiBonus-Box { padding: 50px 0; } 
+ .auctionMainPage .jiB-Subbox span { font-size: 20px; } 
+ .auctionMainPage .jiB-Subbox { font-size: 14px; line-height: 24px; } 
+ .auctionMainPage .jiB-Subbox .help-circle { font-size: 13px; } 
+ .auctionMainPage .multiplier-Box i { font-size: 13px; } 
+ .auctionMainPage .multiplier-Box span { line-height: 1; } 
+ .auctionMainPage .jiAuc-mainbox { margin-top: 50px; } 
+ .auctionMainPage .jiAucs-Title01 { font-size: 16px; } 
+ .auctionMainPage .jiAucs-Title02 input, .auctionMainPage  .jiAucs-Title02-2 { font-size: 24px; } 
+ .auctionMainPage .jiAuc-subbox { padding: 24px; } 
+ .auctionMainPage .jiAucs-Title04 span+span { font-size: 15px; } 
+ .auctionMainPage .jiAuc-subbox .ji-btn01 { padding: 9px 20px; font-size: 20px; } 
+ .auctionMainPage .howW-subbox { padding: 10px 15px 10px 65px; font-size: 14px; line-height: 24px; } 
+ .auctionMainPage .howW-subbox:before { top: -20px; } 
+ .auctionMainPage .liquidity-Popup .tab-Nav .tab-Link { font-size: 22px; } 
+ .auctionMainPage .liquidity-Popup .tab-Nav .tab-Link .icon-Box { margin-right: 25px; } 
+ .auctionMainPage .liquidity-Popup .tab-Nav, .auctionMainPage  .liquidity-Popup .tab-Content, .auctionMainPage  .liquidity-Popup .tab-Content .exchange-Box { margin-top: 50px; } 
+ .auctionMainPage .contrTextbox .contr-Text {width: 34%;} 
+ .auctionMainPage .contrTextbox span+span {width: 64%;} 
+ .auctionMainPage .multiplier-Box01 { -webkit-transform: scale(0.8); transform: scale(0.8); right: -150px; top: 0; } 
+ .auctionMainPage .pp4-Subbox01 { font-size: 14px; padding: 0 10px 0 86px; } 
+ .auctionMainPage .jiTitle03 { font-size: 30px; } 
+ .auctionMainPage .popup4-Container { margin-top: 120px; } 
+ .auctionMainPage .popup4-subbox { margin-bottom: 50px; } 
+ .auctionMainPage .token-Box .token-Box02 { width: 30%; } 
+ .auctionMainPage .token-Box .token-Box02 .img-Box { height: 250px; } 
+ .auctionMainPage .tab-Nav .tab-Link, .auctionMainPage  .tab-Nav .tab-Link02 { font-size: 22px; }
+ .auctionMainPage .wallet-boxWrap .wallet-Bx .img-Box { height: 210px; }
+ .auctionMainPage .wallet-boxWrap .wallet-Bx .img-Box img { -webkit-transform: scale(0.7); transform: scale(0.7); }
+ .auctionMainPage .wallet-boxWrap .wallet-Bx .img-Box .title-Name { bottom: 25px; }
+ .auctionMainPage .wallet-Bx.coming-Soon:before { font-size: 20px; }    
+ .auctionMainPage .footer { padding: 50px 20px; } 
+.auctionMainPage .footer .footer-left .f-Link a { padding: 0 5px; } 
+.auctionMainPage .footer .footer-left p + p { line-height: 1.5; } 
+.auctionMainPage .footer .footer-right p { font-size: 13px; } 
+.auctionMainPage .footer .footer-left .f-Link a { font-size: 13px; } 
+.ycp-TTFix01 .investText01{line-height: 21px;}
+}
+@media (min-width: 992px) { 
+    .auctionMainPage .mobile-Item01, .auctionMainPage  .mobile-Item02 { display: none; } 
+    .npMText-Fix01{ display:flex !important; flex-wrap:wrap; line-height: 16px !important; text-align: left !important; }
+    .npMText-Fix01 span{ font-size: 14px !important;  line-height: 16px !important;  text-align: left !important; }
+    .rgdev-item.npMenuFix:hover #userBox { display: block; height: auto !important;}
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) { 
+ .auctionMainPage .user-Menu:before { top: 2px; right: 10px; } 
+ .auctionMainPage .container-Grid { padding: 0 30px; } 
+ .auctionMainPage .token-Box .token-Box01 .img-Box { height: 250px; } 
+ .auctionMainPage .token-Box .token-Box02 .img-Box { height: 250px; } 
+ .auctionMainPage .token-Box .token-Box02 .img-Box img, .auctionMainPage  .token-Box .token-Box01 .img-Box img { -webkit-transform: scale(0.8); transform: scale(0.8); } 
+ .auctionMainPage .token-Box .token-Box02 .title-Name { font-size: 16px; bottom: 40px; } 
+ .auctionMainPage .jiCal-Mbox .slick-next.slick-arrow:before { right: -30px; } 
+ .auctionMainPage .popup4-Container { margin-top: 120px; } 
+ .auctionMainPage .ycpSection.active .ycpContainer { height: 160px; } 
+ .auctionMainPage .ycpBTN.active { bottom: 160px; } 
+ .auctionMainPage .footer .footer-left .footer-logo a { padding-right: 5px; } 
+ .auctionMainPage .footer .footer-left .f-Link a { font-size: 12px; padding: 0 5px; } 
+ .auctionMainPage .mainBanner {padding: 100px 0 90px 0;text-align: center;}
+ .auctionMainPage .progress-Box { margin-left: 40px; margin-right: 40px; }
+
+ .auctionMainPage .jiAuc-mainbox {  margin:20px 0 0 0; }
+ .auctionMainPage .jiAuc-subbox {  min-height: 240px; padding: 15px 34px 0px 34px; }
+ .auctionMainPage .jiAucs-Title04 span, .auctionMainPage .jiAucs-Title04 span+span { font: 300 13px/22px Montserrat,sans-serif; }
+ .auctionMainPage .jiB-Subbox { font:300 15px/20px Montserrat,sans-serif; }
+ .auctionMainPage .jiBonus-Section.active { height: 508px; }
+ .auctionMainPage .jiBonusBTN.active {  bottom: 508px; }
+ .auctionMainPage .addfund-container, .auctionMainPage .liquidity-Popup .liquidity-Container {  margin-top:50px; }
+ .auctionMainPage .contribution-Container { margin-top: 30px;}
+ .auctionMainPage .liquidity-Popup .tab-Nav { margin-top:40px; }
+ .auctionMainPage .contrSlider { margin:30px 60px 20px 60px; }
+ .auctionMainPage .contrTextbox {  margin:35px 0  35px 0; }
+ .auctionMainPage .jrInvTitle01 { margin: 53px auto 0 auto; } 
+ .auctionMainPage .popup4-subbox { margin-bottom:50px;  }
+
+ .jntrAucSoldbox02v2{height: 140px; overflow: hidden;}
+ #test-circle02{ position: relative; top: -28px; }
+
+
+}
+ 
+@media (min-width:1280px) and (max-width:1299px) { 
+ .auctionMainPage .logo { margin: 0 0 0 90px; } 
+ .auctionMainPage .nav_line { padding: 0 5px !important; } 
+ .auctionMainPage .rgdev-item a { padding: 0 8px; } 
+ .auctionMainPage .navText01, .auctionMainPage  .navBtn01 { margin-right: 5px; } 
+ .auctionMainPage .navText01 span { padding-left: 5px; font-size: 14px; } 
+ .auctionMainPage .jiTitle02 { font-size: 36px; padding-bottom: 20px; } 
+ .auctionMainPage .jiCounter-title01 { -webkit-transform: scale(0.8); transform: scale(0.8); font-size: 75px; } 
+ .auctionMainPage .jipBox01 { padding: 40px 0; font-size: 20px; } 
+ .auctionMainPage .jipBox01 span { font-size: 32px; } 
+ .auctionMainPage .jipgb-title01 { font-size: 30px; margin-bottom: 60px; } 
+ .auctionMainPage .ji-tokeninfoBox { margin: 60px 0; } 
+ .auctionMainPage .jiCal-Subbox { font-size: 10px; } 
+ .auctionMainPage .ji-tiSubbox01 { padding: 25px 15px; font-size: 13px; } 
+ .auctionMainPage .ji-tiSubbox01 span { font-size: 22px; line-height: 32px; } 
+ .auctionMainPage .jiCal-Subbox p { font-size: 9px; } 
+ .auctionMainPage .jiCal-Subbox span { font-size: 18px; margin-top: 5px; line-height: 1; } 
+ .auctionMainPage .jiCal-Subbox.highlight span { margin-top: 0; } 
+ .auctionMainPage .jiCal-Subbox span+span { font-size: 14px; } 
+ .auctionMainPage .jiCal-Subbox.active { min-height: 130px; } 
+ .auctionMainPage .ycpBTN, .auctionMainPage  .jiBonusBTN { font-size: 22px; padding: 15px 30px; } 
+ .auctionMainPage .ycpBox { padding: 40px; } 
+ .auctionMainPage .ycpsubbox01 .ji-btn01 { padding: 9px 15px; font-size: 20px; } 
+ .auctionMainPage .ycpsubbox01 { padding-left: 70px; } 
+ .auctionMainPage .ycpsubbox01 span.help-circle { font-size: 13px; } 
+ .auctionMainPage .ycpsubbox01 span { font-size: 22px; line-height: 30px; } 
+ .auctionMainPage .ycpIcon01, .auctionMainPage  .ycpIcon02, .auctionMainPage  .ycpIcon03, .auctionMainPage  .ycpIcon04 { background-size: 60px; } 
+ .auctionMainPage .ycpSection.active .ycpContainer { height: 141px; } 
+ .auctionMainPage .ycpBTN.active { bottom: 141px; } 
+ .auctionMainPage .dwnPro-shild { -webkit-transform: scale(0.8); transform: scale(0.8); left: -20px; top: -20px; } 
+ .auctionMainPage .Cnow-btn { margin: 40px auto 20px; max-width: 500px; height: 75px; line-height: 75px; font-size: 26px; } 
+ .auctionMainPage .cAuc-timer { -webkit-transform: scale(0.85); transform: scale(0.85); } 
+ .auctionMainPage .timer-Box { -webkit-transform: scale(0.85); transform: scale(0.85); } 
+ .auctionMainPage .mainBanner {
+    padding: 40px 0 90px 0;
+    text-align: center;
+}
+
+}
+@media (min-width: 1300px) and (max-width: 1399px) { 
+.auctionMainPage .logo { margin: 8px 0 0 130px; } 
+.auctionMainPage .nav_line { padding: 0 5px !important; } 
+.auctionMainPage .rgdev-item a { padding: 0 10px; } 
+.auctionMainPage .navText01, .auctionMainPage  .navBtn01 { margin-right: 10px; } 
+.auctionMainPage .navText01 span { padding-left: 5px; } 
+.auctionMainPage .jiTitle02 {font-size: 36px;padding-bottom: 0px;} 
+.auctionMainPage .jiCounter-title01 { -webkit-transform: scale(0.8); transform: scale(0.8); font-size: 75px; } 
+.auctionMainPage .jipBox01 { padding: 45px 0; font-size: 20px; } 
+.auctionMainPage .jipBox01 span { font-size: 36px; } 
+.auctionMainPage .jipgb-title01 { font-size: 30px; margin-bottom: 60px; } 
+.auctionMainPage .ji-tokeninfoBox { margin: 75px 0; } 
+.auctionMainPage .ji-tiSubbox01 { padding: 30px 5px; font-size: 12px; } 
+.auctionMainPage .ji-tiSubbox01 span { font-size: 24px; line-height: 40px; } 
+.auctionMainPage .jiCal-Subbox p { font-size: 10px; } 
+.auctionMainPage .jiCal-Subbox span { font-size: 20px; margin-top: 5px; } 
+.auctionMainPage .jiCal-Subbox.highlight span { margin-top: 0; } 
+.auctionMainPage .jiCal-Subbox span+span { font-size: 15px; } 
+.auctionMainPage .ycpBTN, .auctionMainPage  .jiBonusBTN { font-size: 22px; padding: 15px 30px; min-width:396px; } 
+.auctionMainPage .ycpBox { padding: 40px; } 
+.auctionMainPage .ycpsubbox01 .ji-btn01 { padding: 9px 15px; font-size: 20px; } 
+.auctionMainPage .ycpsubbox01 { padding-left: 70px; } 
+.auctionMainPage .ycpsubbox01 span.help-circle { font-size: 13px; } 
+.auctionMainPage .ycpsubbox01 span { font-size: 22px; line-height: 30px; } 
+.auctionMainPage .ycpIcon01, .auctionMainPage  .ycpIcon02, .auctionMainPage  .ycpIcon03, .auctionMainPage  .ycpIcon04 { background-size: 60px; } 
+.auctionMainPage .ycpIcon02 { background-size: auto; } 
+.auctionMainPage .ycpIcon03 { background-position: 0 10px; } 
+.auctionMainPage .Cnow-btn {display: block;margin: 0px auto 10px;}
+.auctionMainPage .jipBox01 {padding: 15px 0 6px 0;font-size: 20px;}
+.auctionMainPage .jiPricemainbox {margin: 10px 0 0px 0;}
+.auctionMainPage .timer-Box {margin: 11px auto 0;}
+}
+@media (min-width: 1400px) and (max-width: 1700px) { 
+ .auctionMainPage .logo { margin: 0 0 0 130px; } 
+ .auctionMainPage .nav_line { padding: 0 5px !important; } 
+ .auctionMainPage .rgdev-item a { padding: 0 15px; } 
+ .auctionMainPage .navText01, .auctionMainPage  .navBtn01 { margin-right: 10px; } 
+ .auctionMainPage .navText01 span { padding-left: 5px; } 
+ .auctionMainPage .mainBanner { padding:120px 0 90px 0; }
+ .auctionMainPage .Cnow-btn {  display: block; margin:30px auto 20px auto; }
+ .auctionMainPage .jipBox01 { padding: 60px 0 0px 0; }
+ .auctionMainPage .progress-Box{margin-top:30px; margin-left: 50px; margin-right: 50px;}
+ .auctionMainPage .user-Menu:before { top:4px; }
+}
+
+
+@media (min-width:1600px) and (max-width:3000px) {
+    
+    .rgdev-item.navText01.npMText-Fix01 br{display:none;}
+
+}
+
+
+
+
+
+
+
+
+
+
+ 

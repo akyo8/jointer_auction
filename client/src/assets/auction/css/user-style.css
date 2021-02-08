@@ -1,0 +1,836 @@
+@charset "UTF-8";
+body{background:#000;margin:0 auto;color:#fff;font-family:Montserrat, sans-serif}
+.auctionMainPage h1,.auctionMainPage h2,.auctionMainPage h3,.auctionMainPage h4,.auctionMainPage h5,.auctionMainPage h6{font-weight:700;font-size:48px;color:#0e0424;position:relative;margin:0}
+.auctionMainPage .white-Color{color:#fff}
+.auctionMainPage .grey-Color{color:#6d6d6d}
+.auctionMainPage .container-Grid{max-width:1380px;margin:0 auto}
+.auctionMainPage .container-Full{width:100%;margin:0 auto;padding:0 65px}
+.auctionMainPage .yellow-Color{color:#faba37!important}
+.auctionMainPage .yellow-Bg{background:#faba37!important}
+.auctionMainPage li,.auctionMainPage ul{list-style:none;margin:0;padding:0}
+.auctionMainPage p{font-size:14px;line-height:24px;margin:0}
+/* .auctionMainPage a:active,.auctionMainPage a:focus,.auctionMainPage a:hover,.auctionMainPage a:visited{color:inherit} */
+.auctionMainPage .small{font-size:12px;line-height:21px}
+.auctionMainPage .main{background:url(../images/banner-building.png) center top no-repeat}
+.auctionMainPage .blue-Color{color:#0b4eea}
+.auctionMainPage .black-Color{color:#000}
+.auctionMainPage .white-Color{color:#fff}
+.auctionMainPage .green-Color{color:#89b60d!important}
+.auctionMainPage .red-Color{color:#f93434!important}
+.auctionMainPage .orange-Color{color:orange!important}
+.auctionMainPage .no-Bg{background:0 0!important}
+.auctionMainPage .showMobile{display:none!important}
+.auctionMainPage .npShowMD{display:block!important}
+.auctionMainPage .npShowSM{display:none!important}
+#main{overflow-x:hidden}
+.auctionMainPage .btn{background:#95c608;border:none;border-radius:4px;font-size:28px}
+.auctionMainPage .btn-yellow{background:#faba37!important;border-color:#d59e2f!important}
+.auctionMainPage .btn-yellow:focus,.auctionMainPage .btn-yellow:hover{background-color:#e5960c!important;border-color:#c97320!important}
+.auctionMainPage .btn-large{width:100%;height:80px;line-height:80px;border-bottom:3px solid #7fa807;text-transform:uppercase;color:#fff!important;display:inline-block;font-weight:700;text-align:center;font-size:28px;margin-top:30px}
+.auctionMainPage .btn-large:focus,.auctionMainPage .btn-large:hover{background:#6e9400;border-color:#455d00;color:#fff}
+.auctionMainPage .faux-Link{position:absolute;left:0;top:0;width:100%;height:100%}
+.auctionMainPage .help-circle{font-size:16px;position:relative;top:-15px}
+.auctionMainPage .help-circle:hover .fas{color:#faba37; }
+.auctionMainPage .help-circle .fas{font-size:12px; }
+.auctionMainPage .header{display:flex;align-items:center;justify-content:space-between;padding:20px 25px 20px 25px;position:fixed;z-index:11;left:0;right:0}
+.auctionMainPage .header.fixed{position:fixed;top:0;left:0;width:100%;z-index:8;background:rgba(0,0,0,1)}
+.auctionMainPage .rgdev{color:#fffefe;font-size:14px;padding:0;margin:8px 0 0 0}
+.auctionMainPage .rgdev-list{text-align:left;margin:0 auto 0 auto;width:100%;padding:0;display:flex;flex-direction:row;flex-wrap:wrap;align-items:center}
+.auctionMainPage .rgdev-item{position:relative;text-align:center;display:block;white-space:nowrap}
+.auctionMainPage .rgdev-item.rgdevbtn{padding-left:26px}
+.auctionMainPage .rgdev-item.rgdevbtn a{background-color:#faba37;border-radius:3px;padding:7px 17px;border-bottom:solid 3px #d59e2f}
+.auctionMainPage .rgdev-item.rgdevbtn a:hover{background-color:#e5960c;color:#fff;border-bottom:solid 3px #c97320}
+.auctionMainPage .rgdev-item a{display:block;color:#fffefe;padding:7px 22px;font-size:13px;font-weight:700;line-height:22px;text-decoration:none;text-transform:uppercase}
+.auctionMainPage .rgdev-item a.navBtn{background:#95c608;border-bottom:3px solid #7fa807;border-radius:4px;padding:5px 10px}
+.auctionMainPage .rgdev-item a.navBtn:hover,.rgdev-item a.navBtn:focus{background:#6e9400;border-color:#455d00;color:#fff}
+.auctionMainPage .rgdev-list li:hover>a{color:#95c608}
+.auctionMainPage .rgdev-item a:hover{color:#95c608}
+.auctionMainPage .rgdev-item a.active{color:#95c608}
+.auctionMainPage .rgdev-submenu{display:none;position:absolute;top:22px;min-width:120px;z-index:1000;margin:0;padding:2px;background-color:#525252;border-radius:4px;-webkit-box-shadow:0 0 5px 0 rgba(0,0,0,.4);box-shadow:0 0 5px 0 rgba(0,0,0,.4);font-size:14px;list-style:none}
+.auctionMainPage .rgdev-submenu:after{-moz-border-bottom-colors:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;border-color:transparent transparent #525252 transparent;border-image:none;border-style:solid;border-width:6px;content:"";left:15%;margin-top:0;position:absolute;top:-12px;z-index:1}
+.auctionMainPage .rgdev-submenu-item a{background:#424242;text-align:left;border-bottom:1px solid #252525;display:block;line-height:22px;padding:10px 15px;text-transform:none;border-right:solid 0 #000;height:auto;color:#e2e2e2}
+.auctionMainPage .rgdev-submenu li:hover>a{background-image:none;background-color:#000;color:#fff}
+.auctionMainPage .rgdev-submenu-item a:hover{background-image:none;background-color:#ccc;border-radius:0;color:#000}
+.auctionMainPage .rgdev-text{display:none}
+.auctionMainPage .rgdev-mobile{display:none;cursor:pointer;position:absolute;top:13px;right:90px;padding:7px 12px 9px 12px;margin:-56px 7px 0 7px;border-radius:4px 4px 0 0;border-radius:4px 4px 4px 4px;color:#333;font-size:14px;line-height:20px;text-align:center;vertical-align:middle;background-color:#95c608}
+.auctionMainPage .rgdev-mobile .icon-bar{display:block;width:18px;height:3px;background-image:none;background-color:#fff;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;margin-top:4px}
+.auctionMainPage .rgdev-click{position:absolute;top:0;right:0;display:none;cursor:pointer}
+.auctionMainPage .rgdev-click02{position:absolute;top:0;right:0;display:none;cursor:pointer}
+.auctionMainPage .rgdev-rotate{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}
+.auctionMainPage .rgdev-submenu-item{position:relative;margin:0;padding:0}
+.auctionMainPage .user-Icon{font-size:24px;vertical-align:middle}
+.auctionMainPage .user-Status{display:inline-block;vertical-align:middle;margin:0 8px}
+.auctionMainPage .user-Menu{position:relative}
+.auctionMainPage .user-Menu:before{content:"\f0d7";font-weight:900;right:15px;top:10px;font-size:16px;position:absolute;color:#fff;font-family:"Font Awesome 5 Free"}
+.auctionMainPage #userBox{position:absolute;background:rgba(0,0,0,1);z-index:1;top:32px;right:0;padding:20px;border-radius:3px}
+.auctionMainPage #userBox a{font-size:13px;text-transform:capitalize;text-align:left;margin-bottom:10px}
+.auctionMainPage #userBox a span{margin-right:10px;transition:none!important}
+.auctionMainPage .lan_btn{display:flex;width:64px;height:64px;border:1px solid #5a4c92;border-radius:50%;margin:16px 35px 12px 30px;text-align:center;float:left;align-items:center;justify-content:center;position:relative}
+.auctionMainPage .lan_btn:hover{transform:scale(.9)}
+.auctionMainPage .lan_btn .lanicon01,.auctionMainPage .lan_btn .lanicon010,.auctionMainPage .lan_btn .lanicon011,.auctionMainPage .lan_btn .lanicon012,.auctionMainPage .lan_btn .lanicon013,.auctionMainPage .lan_btn .lanicon014,.auctionMainPage .lan_btn .lanicon015,.auctionMainPage .lan_btn .lanicon02,.auctionMainPage .lan_btn .lanicon03,.auctionMainPage .lan_btn .lanicon04,.auctionMainPage .lan_btn .lanicon05,.auctionMainPage .lan_btn .lanicon07,.auctionMainPage .lan_btn .lanicon08,.auctionMainPage .lan_btn .lanicon09,.auctionMainPage.lan_btn .lanicon06{width:16px;height:16px;background-size:cover;margin-right:4px}
+.auctionMainPage #langBox{position:absolute;width:100%;left:0;z-index:11}
+.auctionMainPage .langBoxContainer{background-color:rgba(0,0,0,.9);width:100%;max-width:100%;margin:0 auto;position:absolute;padding:90px 10px 30px 10px;z-index:10}
+.auctionMainPage .lanbox01{float:left;width:12.5%;margin:10px 0 20px 0;text-align:center}
+.auctionMainPage .lanbox01 a{color:#ccc;text-transform:uppercase}
+.auctionMainPage .lanbox01 a.active,.auctionMainPage .lanbox01 a:hover{color:#fff}
+.auctionMainPage .lanIconbox{display:block;min-height:70px;text-align:center;padding-top:20px}
+.auctionMainPage .lanbox01:hover i{transform:scale(.8)}
+.auctionMainPage .lanicon01,.auctionMainPage .lanicon010,.auctionMainPage .lanicon011,.auctionMainPage .lanicon012,.auctionMainPage .lanicon013,.auctionMainPage .lanicon014,.auctionMainPage .lanicon015,.auctionMainPage .lanicon02,.auctionMainPage .lanicon03,.auctionMainPage .lanicon04,.auctionMainPage .lanicon05,.auctionMainPage .lanicon06,.auctionMainPage .lanicon07,.auctionMainPage .lanicon08,.auctionMainPage .lanicon09{width:34px;height:34px;display:inline-block;background:url(../images/l-Icon01.png) 50% 50% no-repeat;border-radius:50%}
+.auctionMainPage .lanicon02{background:url(../images/l-Icon02.png) 50% 50% no-repeat}
+.auctionMainPage .lanicon03{background:url(../images/l-Icon03.png) 50% 50% no-repeat}
+.auctionMainPage .lanicon04{background:url(../images/l-Icon04.png) 50% 50% no-repeat}
+.auctionMainPage .lanicon05{background:url(../images/l-Icon05.png) 50% 50% no-repeat}
+.auctionMainPage .lanicon06{background:url(../images/l-Icon06.png) 50% 50% no-repeat}
+.auctionMainPage .lanicon07{background:url(../images/l-Icon07.png) 50% 50% no-repeat}
+.auctionMainPage .lanicon08{background:url(../images/l-Icon08.png) 50% 50% no-repeat}
+.auctionMainPage .lanicon09{background:url(../images/l-Icon09.png) 50% 50% no-repeat}
+.auctionMainPage .lanicon010{background:url(../images/l-Icon010.png) 50% 50% no-repeat}
+.auctionMainPage .lanicon011{background:url(../images/l-Icon011.png) 50% 50% no-repeat}
+.auctionMainPage .lanicon012{background:url(../images/l-Icon012.png) 50% 50% no-repeat}
+.auctionMainPage .lanicon013{background:url(../images/l-Icon013.png) 50% 50% no-repeat}
+.auctionMainPage .lanicon014{background:url(../images/l-Icon014.png) 50% 50% no-repeat}
+.auctionMainPage .lanicon015{background:url(../images/l-Icon015.png) 50% 50% no-repeat}
+.auctionMainPage .translateLanguage{background:url(../images/translate.png) 50% 50% no-repeat!important}
+.auctionMainPage .logo{margin:8px 0 0 170px}
+.auctionMainPage .navText01{font:600 14px/30px Montserrat,sans-serif;margin-right:20px}
+.auctionMainPage .navText01 span{color:#95c608;font-size:18px;padding-left:10px}
+.auctionMainPage .rgdev-item a.menuT-01{color:#eaa11f}
+.auctionMainPage .navBtn01{background:0 0;color:#fff;border-radius:4px;padding:6px 12px!important;border:1px solid #95c608;text-transform:none!important;margin-right:15px}
+.auctionMainPage .navBtn01:hover{color:#fff!important;background:#95c608}
+.auctionMainPage .navBtn02{background-color:#e83231;color:#fff;border-radius:4px;padding:4px 13px 4px 35px!important;border-bottom:2px solid #c52b2a}
+.auctionMainPage .navBtn02:hover{color:#fff!important;background-color:#a61514;border-bottom:2px solid #c52b2a}
+.auctionMainPage .navBtn02 i{width:24px;height:24px;display:block;position:absolute;left:6px;top:4px;background:url(../images/ether-Icon.png) 50% 50% no-repeat}
+.auctionMainPage .nav_line{padding:0 14px!important;text-align:center}
+.auctionMainPage .mainBanner{padding:220px 0 90px 0;text-align:center}
+.auctionMainPage .bannerBoxMain{display:flex;align-items:center;flex-wrap:wrap}
+.auctionMainPage .bBox01{width:50%;text-align:left}
+.auctionMainPage .bBox02{width:50%;text-align:right}
+.auctionMainPage .bTitle01{font:700 42px/40px Montserrat,sans-serif;color:#fff;letter-spacing:-1px;padding-bottom:15px}
+.auctionMainPage .bTitle02{font:700 100px/90px Montserrat,sans-serif;color:#95c608;letter-spacing:-1px;padding-bottom:15px}
+.auctionMainPage .bTitle03{font:700 24px/30px Montserrat,sans-serif;color:#eaa11f;padding-bottom:10px}
+.auctionMainPage .bTitle03 span{font:300 24px/30px Montserrat,sans-serif;color:#fff}
+.auctionMainPage .ji-btn01{display:inline-block;color:#fff;background-color:#95c608;font:700 24px/38px Montserrat,sans-serif;border-radius:4px; padding:9px 32px; -webkit-box-shadow:inset 0 -5px 0 0 rgba(0,0,0,0.2); box-shadow:inset 0 -5px 0 0 rgba(0,0,0,0.2);}
+.auctionMainPage .ji-btn01:hover{color:#fff;background-color:#769d06; }
+.auctionMainPage .auctionMainPage .ycpContainer{position:relative;width:100%;z-index:1;height:0}
+.auctionMainPage .ycpBox{background-color:#000;background-size:100%;border-radius:5px;padding:50px 70px;-webkit-box-shadow:0 0 8px 4px rgba(0,0,0,.2);box-shadow:0 0 8px 4px rgba(0,0,0,.2)}
+.auctionMainPage .jiTitle01{color:#fff;font:700 24px/40px Montserrat,sans-serif;padding-bottom:15px}
+.auctionMainPage .ycpMainbox{display:flex;flex-wrap:wrap;align-items:center}
+.auctionMainPage .ycpsubbox01{width:20%;font:300 14px/30px Montserrat,sans-serif;padding:0 10px 0 88px}
+.auctionMainPage .ycpsubbox01:last-child{width:20%;padding-left:0}
+.auctionMainPage .ycpsubbox01 .ji-btn01{width:100%;text-align:center}
+.auctionMainPage .ycpsubbox01 span{display:block;font:700 30px/40px Montserrat,sans-serif}
+.auctionMainPage .ycpsubbox01 span.help-circle{display:inline-block;font-size:16px}
+.auctionMainPage .ycpIcon01{background:url(../images/ji-icon01.png) 0 0 no-repeat}
+.auctionMainPage .ycpIcon02{background:url(../images/ji-icon02.png) 16px 12px no-repeat}
+.auctionMainPage .ycpIcon03{background:url(../images/ji-icon03.png) 0 15px no-repeat}
+.auctionMainPage .ycpIcon04{background:url(../images/ji-icon04.png) 0 0 no-repeat}
+.auctionMainPage .jiTitle02{color:#fff;font:700 42px/50px Montserrat,sans-serif;padding-bottom:30px;letter-spacing:-1px;text-align:center;text-transform:uppercase}
+.auctionMainPage .jiCounter-title01{color:#b2df33;font:700 86px/70px Montserrat,sans-serif;text-align:center}
+.auctionMainPage .jiCounter-title01 span{display:inline-block;background:url(../images/bg02.jpg) 50% 50% no-repeat;background-size:cover;padding:19px 14px;border-radius:4px;margin-right:7px}
+.auctionMainPage .jiPricemainbox{margin:10px 0 10px 0;display:flex;flex-wrap:wrap}
+.auctionMainPage .jipBox01{width:33.33%;text-align:center;font:700 24px/22px Montserrat,sans-serif;color:#fff;padding:60px 0;position:relative;background:url(../images/line-01) right 50% no-repeat}
+.auctionMainPage .jipBox01 span{display:block;color:#faba37;font-size:42px;line-height:49px;padding-top:8px}
+.auctionMainPage .jipBox01 span i{font-size:18px;font-weight:300;font-style:normal;color:#fff;position:relative;top:-4px}
+.auctionMainPage .jipBox01:nth-child(3){background:0 0}
+.auctionMainPage .jiCal-Container{margin:0 auto;padding:0 50px;max-width:1460px;position:relative}
+.auctionMainPage .jiCal-Mbox{display:flex;margin:80px 0 110px 0;flex-wrap:wrap;align-items:center}
+.auctionMainPage .jiCal-Mbox .slick-track{display:flex;align-items:center}
+.auctionMainPage .jiCal-Subbox{width:8.33%;background-color:#252525;padding:12px;display:flex!important;align-items:center;justify-content:center;min-height:130px;font:300 11px/22px Montserrat,sans-serif;color:#fcb839;text-align:center;border-right:1px solid #000}
+.auctionMainPage .jiCal-Subbox:focus,.auctionMainPage .jiCal-Subbox:hover{background-color:#555}
+.auctionMainPage .jiCal-Subbox span{display:block;margin-top:10px;font:700 25px/30px Montserrat,sans-serif;color:#fff;letter-spacing:0}
+.auctionMainPage .jiCal-Subbox span+span{display:block;margin-top:0;font:700 16px/26px Montserrat,sans-serif;color:#fff;letter-spacing:4px}
+.auctionMainPage .jiCal-Subbox p{display:block;margin:0;font:700 11px/20px Montserrat,sans-serif;color:#fff;letter-spacing:0}
+.auctionMainPage .jiCal-Subbox.active{background:url(../images/bg03.png) 50% 50% repeat-x;background-size:cover;min-height:160px;color:#fff!important;-webkit-box-shadow:0 0 14px 2px rgba(255,201,100,.7);box-shadow:0 0 14px 2px rgba(255,201,100,.7);z-index:1;border-right:0}
+.auctionMainPage .jiCal-Subbox.ended{background-color:#131313}
+.auctionMainPage .jiCal-Subbox.ended span{color:#555!important}
+.auctionMainPage .jiCal-Subbox.highlight{background-color:#303030;-webkit-box-shadow:0 0 10px 1px rgba(255,255,255,.13);box-shadow:0 0 10px 1px rgba(255,255,255,.13)}
+.auctionMainPage .jiCal-btn01{font-size:30px;position:absolute;left:0;top:42%;color:#555}
+.auctionMainPage .jiCal-btn02{font-size:30px;position:absolute;right:0;top:42%;color:#555}
+.auctionMainPage .jiCal-Mbox .slick-next,.auctionMainPage .jiCal-Mbox .slick-prev{font-size:0;border:none;background:0 0}
+.auctionMainPage .jiCal-Mbox .slick-next.slick-arrow:before,.auctionMainPage .jiCal-Mbox .slick-prev.slick-arrow:before{content:"\f054";font-family:"Font Awesome 5 Free";font-weight:900;font-size:32px;color:#555;position:absolute;right:-50px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.auctionMainPage .jiCal-Mbox .slick-prev.slick-arrow:before{right:inherit;left:0}
+.auctionMainPage .jiCal-Mbox .slick-next.slick-arrow:hover:before,.auctionMainPage .jiCal-Mbox .slick-prev.slick-arrow:hover:before{color:#fff}
+.auctionMainPage .jiT-GreenBR{border-bottom:3px solid #496008;color:#496008;font-size:14px;letter-spacing:2px;font-weight:700}
+.auctionMainPage .jiTitle03, .auctionMainPage .jiTitle03 p{color:#fff;font:700 32px/36px Montserrat,sans-serif;padding-bottom:15px;text-align:center}
+.auctionMainPage .jiBonus-Section{text-align:right;position:relative}
+.auctionMainPage #jiBonus-Box{background:#000;padding:20px 0 5px 0;width:100%}
+.auctionMainPage .jiBonus-Box{display:flex;align-items:flex-start;flex-wrap:wrap;position:relative}
+.auctionMainPage .jiB-Box01{width:50%}
+.auctionMainPage .jiBonus-Box .down-Scroll{position:absolute;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);color:#faba35;bottom:-60px;font-size:45px}
+.auctionMainPage .jiB-Subbox{padding:0 0 0 105px;font:300 16px/30px Montserrat,sans-serif;max-width:620px;text-align:left}
+.auctionMainPage .jiB-Subbox span{display:block;font:700 24px/40px Montserrat,sans-serif}
+.auctionMainPage .jiB-icon01{background:url(../images/jib-icon01.png) 0 0 no-repeat}
+.auctionMainPage .jiB-icon02{background:url(../images/jib-icon02.png) 0 0 no-repeat}
+.auctionMainPage .jiB-Subbox .help-circle{top:-5px;left:5px}
+.auctionMainPage .jiB-Subbox .jiB-socialBox{display:block;padding-top:10px}
+.auctionMainPage .jiB-Subbox .jiB-socialBox span{display:inline-block;margin-bottom:10px;font:700 15px/30px Montserrat,sans-serif}
+.auctionMainPage .jiB-Subbox .cont-Text{padding:10px 0;display:inline-block}
+.auctionMainPage .multiplier-Box{display:inline-block;position:relative}
+.auctionMainPage .multiplier-Box i:hover{color:#faba35; cursor: pointer;}
+.auctionMainPage .multiplier-Box span{font-size:16px;margin-left:5px}
+.auctionMainPage .multiplier-Box01{position:absolute;right:5px;top:20px;width:740px;background:rgba(0,0,0,.9);border:1px solid #202020;padding:30px 25px;z-index:10;border-radius:3px;display:none}
+
+.auctionMainPage .multiplier-Box02{position:absolute;right:5px;top:10px;width:519px;background:rgba(0,0,0,.9);border:1px solid #202020;padding:25px 25px;z-index:10;border-radius:3px;display:none}
+.auctionMainPage .multiplier-Box02 p{font-size: 13px;}
+
+
+.auctionMainPage .multiplier-Box .jiTitle03{padding-bottom:15px}
+.auctionMainPage .multiplier-Box .jiB-table01{margin-top:20px}
+.auctionMainPage .jiB-table01{font:700 16px/30px Montserrat,sans-serif;margin:40px 0 0 0}
+.auctionMainPage .jiB-table01 table{border-collapse:collapse;width:100%}
+.auctionMainPage .jiB-table01 table tr th{color:#faba37;padding:15px 15px; position:relative}
+.auctionMainPage .jiB-table01 table tr td{color:#fff;padding:10px 15px;position:relative;}
+.auctionMainPage .ji-ATable01 table tr td:last-child{position:relative}
+.auctionMainPage .jiB-table01 table tr:nth-child(even){background:#121212}
+.auctionMainPage .jiB-table01 table tr:nth-child(odd){background:#1a1a1a}
+.auctionMainPage .jiAuc-mainbox{background-color:#101010;margin:38px 0 0 0;display:flex;flex-wrap:wrap}
+.auctionMainPage .jiAuc-subbox{width:33.33%;background:url(../images/line-02.png) right 50% no-repeat;min-height:240px;text-align:center;padding:20px 34px 30px 34px;margin:12px 0}
+.auctionMainPage .jiAuc-subbox:nth-last-child(1){background:0 0}
+.auctionMainPage .jiAuc-subbox .ji-btn01{width:100%}
+.auctionMainPage .jiAucs-Title01{font:700 17px/30px Montserrat,sans-serif;color:#95c608;margin-bottom:15px}
+.auctionMainPage .jiAucs-Title02{position:relative}
+.auctionMainPage .jiAucs-Title02 input{font:700 30px/40px Montserrat,sans-serif;color:#faba35;border:none;outline:0;border-radius:5px;background-color:#000;padding:12px 12px 12px 61px;margin-bottom:5px;text-align:center;border:2px solid #262626;width:100%}
+.auctionMainPage .jiAucs-Title02:after{position:absolute;top:0;left:0;padding:15px 20px 15px 20px;background-color:#262626;content:"$";font-weight:700;font-size:30px;color:#595858}
+.auctionMainPage .jiAucs-Title02-2{font:700 30px/40px Montserrat,sans-serif;color:#faba37;padding:12px;margin-bottom:5px}
+.auctionMainPage .jiAucs-Title02-2 span{font:300 21px/40px Montserrat,sans-serif;color:#fff}
+.auctionMainPage .jiAucs-Title03{font:300 14px/30px Montserrat,sans-serif; text-align:left; color:#646464;margin-bottom:15px}
+
+.auctionMainPage .jiAuc-subbox:nth-child(03) .jiAucs-Title03 { text-align:center; color:#646464 !important;  }
+
+.auctionMainPage .jiAucs-Title04{color:#fff;margin-bottom:2px}
+.auctionMainPage .jiAucs-Title04 span{display:inline-block;font:300 14px/30px Montserrat,sans-serif;width:65%;text-align:left;padding-right:10px}
+.auctionMainPage .jiAucs-Title04 span+span{display:inline-block;margin-right:0;font:700 16px/30px Montserrat,sans-serif;width:35%;text-align:right;padding-right:0}
+.auctionMainPage .jipgb-title01{font:700 34px/30px Montserrat,sans-serif;color:#fff;margin:10px 0 80px 0;text-align:center}
+.auctionMainPage .progress-Box{margin-top:30px}
+.auctionMainPage .progress-Box .progress-Bg{width:100%;height:25px;background:#f0fec9;border-radius:20px;display:flex;flex-direction:row}
+.auctionMainPage .progress-Box>.text-Title{text-align:right;padding-top:0;font-weight:700;color:#fff;top:8px;position:relative}
+.auctionMainPage .progress-Box .text-Title span{font-weight:300;color:#fff}
+.auctionMainPage .jointer-progress{width:50%;box-shadow:inset 0 0 5px rgba(255,255,255,.5);border-top-left-radius:20px;border-bottom-left-radius:20px;position:relative;height:25px;text-align:center;line-height:25px;font-weight:700;color:#000}
+.auctionMainPage .jointer-progress>span{position:relative;z-index:2}
+.auctionMainPage .jp-ornbox{background:#ea7a1f;background:-moz-linear-gradient(left,rgba(219,145,15,1) 0,rgba(250,186,55,1) 100%);background:-webkit-linear-gradient(left,rgba(219,145,15,1) 0,rgba(250,186,55,1) 100%);background:linear-gradient(to right,rgba(219,145,15,1) 0,rgba(250,186,55,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea7a1f', endColorstr='#db910f', GradientType=1 );position:absolute;left:0;top:0;bottom:0;width:60%;border-radius:25px 25px 25px 25px;z-index:1;box-shadow: inset 0 0 10px #ffd600;  border: 1px solid #ffdd22;}
+.auctionMainPage .jointer-progress:before{content:"";position:absolute;left:0;top:0;width:100%;height:100%;box-shadow:0 0 10px rgba(255,184,57,.6);border-top-left-radius:20px;border-bottom-left-radius:20px}
+.auctionMainPage .jointer-progress:after{content:"";right:0;position:absolute;top:-3px;height:32px;width:1px;background:#fff}
+.auctionMainPage .jointer-progress .text-Wrap{display:flex;flex-direction:row;justify-content:space-between;padding-top:5px}
+.auctionMainPage .jointer-progress .text-Wrap .text-Title{font-size:13px;font-weight:700;color:#fff}
+.auctionMainPage .jointer-progress .text-Wrap .text-Title:last-child{position:relative;left:20px}
+.auctionMainPage .jointer-bonus-progress{width:50%;border-top-right-radius:20px;border-bottom-right-radius:20px;box-shadow:inset 0 0 10px rgba(255,255,255,.6);position:relative;height:25px}
+.auctionMainPage .jbp-bar{background:#93c013;background:-moz-linear-gradient(left,rgba(147,192,19,1) 0,rgba(171,224,18,1) 100%);background:-webkit-linear-gradient(left,rgba(147,192,19,1) 0,rgba(171,224,18,1) 100%);background:linear-gradient(to right,rgba(147,192,19,1) 0,rgba(171,224,18,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#db910f', endColorstr='#faba37', GradientType=1 );position:absolute;left:0;top:0;bottom:0;width:0%;border-radius:0 25px 25px 0}
+.auctionMainPage .jbp-bar:before{content:"";position:absolute;left:0;top:0;width:100%;height:100%;box-shadow:0 0 20px rgba(222,247,157,.8);border-top-right-radius:20px;border-bottom-right-radius:20px}
+.auctionMainPage .jbp-bar:after{content:"";position:absolute;left:0;top:0;width:100%;height:100%;box-shadow:4px 0 15px rgba(0,0,0,.6);border-top-right-radius:20px;border-bottom-right-radius:20px}
+.auctionMainPage .jointer-bonus-progress .text-Wrap{padding-top:11px;position:absolute;left:0;width:348px;text-align:right}
+.auctionMainPage .jointer-bonus-progress .text-Wrap .text-Title.green-Color{font-weight:700}
+.auctionMainPage .perc-Box{position:absolute;top:-24px;right:-106px;width:220px;text-align:center;color:#95c608;font-weight:700;font-size:13px;line-height:10px; justify-content:center; }
+.auctionMainPage .perc-Box span{color:#fff;font-weight:400;font-size:13px;line-height:10px; }
+.auctionMainPage .perc-Box .icon-Box{display:block; position: absolute; left: 50%;  bottom: -12px; }
+.auctionMainPage .ji-tokeninfoBox{display:flex;flex-wrap:wrap;align-items:center;margin:100px 0;background-color:#101010}
+.auctionMainPage .ji-tiSubbox01{width:16.6666%;padding:36px 5px;text-align:center;background:url(../images/line-03.png) no-repeat right 50%;font:600 12px/18px Montserrat,sans-serif}
+.auctionMainPage .ji-tiSubbox01:last-child{background:0 0}
+.auctionMainPage .ji-tiSubbox01 span{margin-top:12px;display:block;font:700 24px/44px Montserrat,sans-serif;color:#eaa120}
+.auctionMainPage .advance-Module{text-align:center;position:relative;padding-bottom:30px!important}
+.auctionMainPage .advance-Module .close-Module,.auctionMainPage .advance-Module .open-Module{padding:0;color:#fff}
+
+.auctionMainPage .advance-Module a:hover .close-Module,.auctionMainPage .advance-Module  a:hover .open-Module{color:#fcb839;}
+
+.auctionMainPage .advance-Module .close-Module,.auctionMainPage .advance-Module a.active .open-Module{display:none}
+.auctionMainPage .advance-Module a.active .close-Module{display:inline-block}
+.auctionMainPage .advance-Module a{color:#fff;font-size:16px;font-weight:700;padding:16px 30px; border: 1px solid #faba37; border-radius: 2px; position: relative; left:28px; display: inline-block; width: 260px; top: -18px;}
+
+.auctionMainPage .advance-Module a.collapsed.active{border:none;}
+
+.auctionMainPage .advance-Module:after,.auctionMainPage .advance-Module:before{content:"";background:url(../images/hr-line01.jpg) no-repeat 0 0;position:absolute;left:-38px;top:9px;width:591px;height:1px}
+.auctionMainPage .advance-Module:after{left:inherit;right:-25px;-webkit-transform:rotate(-180deg);transform:rotate(-180deg);width:520px}
+.auctionMainPage .advance-Module a span{color:#fcb839;padding-left:10px}
+.auctionMainPage .advance-Module a.active span .fas{transform:rotate(-180deg)}
+.auctionMainPage .ji-ATable01{display:block;margin:30px 0;padding:30px 0}
+.auctionMainPage .ji-ATable01 table{border-collapse:collapse;border:1px solid #000;font:300 13px/20px Montserrat,sans-serif;position:relative}
+.auctionMainPage .ji-ATable01 table tr td{background-color:#101010;padding:18px 8px; position: relative; vertical-align: middle;}
+.auctionMainPage .ji-ATable01 table tr td:first-child{background-color:#1a1a1a}
+.auctionMainPage .jiT-text01,.auctionMainPage .jiT-text01 table{font:500 11px/20px Montserrat,sans-serif}
+.auctionMainPage .jiT-text02,.auctionMainPage .jiT-text02 table{font:700 13px/20px Montserrat,sans-serif;color:#797979}
+.auctionMainPage .ji-ATable01 .help-circle{font-size:12px;top:-5px}
+.auctionMainPage .ji-btn02{display:block;color:#fff;background-color:#95c608;font:700 13px/7px Montserrat,sans-serif;border-radius:4px;border-bottom:2px solid #7fa807;padding:12px 24px;white-space:nowrap}
+.auctionMainPage .ji-btn02:hover{color:#fff;background-color:#769d06;border-bottom:2px solid #5e7d04}
+.auctionMainPage .jiT-box01{font:300 13px/24px Montserrat,sans-serif;display:block;background-color:#060801;border-radius:3px;margin-bottom:6px;padding:6px 10px;color:#fcb839}
+.auctionMainPage .ji-ATable01 table tr td.jiT-greenback01,.auctionMainPage .jiT-greenback01{background-color:#3a4d03!important;padding:8px}
+.auctionMainPage .ji-ATable01 table tr td.jiT-greenback02,.auctionMainPage .jiT-greenback02{position:relative;min-width:131px}
+.auctionMainPage .ji-ATable01 table tr td.jiT-greenback02 a{background:url(../images/bg04.png) 50% 50% no-repeat;background-size:cover;font-size:16px;padding-top:120px;position:absolute;width:100%;height:calc(100% + 30px);left:0;top:-30px;color:#fff}
+.auctionMainPage .ji-ATable01 table tr td.jiT-greenback02:before{content:"90%";color:#f6ae2f;font-size:18px;font-weight:700;position:absolute;top:0;left:50%;top:-5px;transform:translateX(-50%);-webkit-transform:translateX(-50%);z-index:1;pointer-events:none}
+.auctionMainPage .ji-ATable01 table tr td.jiT-greenback02:after{content:"Downside Protection";color:#f6ae2f;font-size:12px;font-weight:700;position:absolute;top:0;left:50%;top:13px;transform:translateX(-50%);-webkit-transform:translateX(-50%);width:100%;pointer-events:none}
+
+.auctionMainPage .ji-ATable01 table tr td.jiT-greenback02:hover:after, .auctionMainPage .ji-ATable01 table tr td.jiT-greenback02:hover:before {color:#fff;}
+
+
+.auctionMainPage .ji-ATable01 table tr.jiT-grayback01 td,.auctionMainPage .jiT-grayback01{background-color:#2f2f2f;border-bottom:3px solid #eaa120}
+.auctionMainPage .ji-ATable01 table tr.jiT-grayback02 td,.auctionMainPage .jiT-grayback02{background-color:#2f2f2f}
+.auctionMainPage .jiT-txtbox01 input{background-color:#131901;border:none;text-align:center;padding:10px;margin-bottom:6px;border-radius:4px;outline:0;color:#fcb839;font:300 13px/22px Montserrat,sans-serif}
+.auctionMainPage .jiT-greencheck{background:url(../images/check-icon.png) 95% 50% no-repeat #293505}
+.auctionMainPage .jiT-timertxt{font:700 16px/24px Montserrat,sans-serif;color:#eaa120;min-width:120px}
+.auctionMainPage .jiT-timertxt span{color:#fff;display:inline-block;background-color:#000;border-radius:4px;padding:3px 5px;margin:0 2px}
+.auctionMainPage .ji-ATable01 table tr:hover td{background-color:#202020}
+.auctionMainPage .ji-ATable01 table tr:first-child:hover td{background-color:#101010}
+.auctionMainPage .jiT-popup{font:300 14px/24px Montserrat,sans-serif;color:#fff;background-color:rgba(0,0,0,.74);border:1px solid #202020;border-radius:4px;padding:10px 15px;position:absolute;right:10px;top:-50%;white-space:nowrap}
+.auctionMainPage .jiT-popup span{color:#95c608;font-weight:700}
+.auctionMainPage .ji-btn03{display:inline-block;color:#fff;background-color:#e83231;font:700 24px/38px Montserrat,sans-serif;border-radius:4px;border-bottom:2px solid #c52b2a;padding:10px 22px}
+.auctionMainPage .ji-btn03:hover{transform:scale(1.1);color:#fff;background-color:#b21716;border-bottom:2px solid #870c0b}
+.auctionMainPage .how-Popup,.auctionMainPage .liquidity-Popup,.auctionMainPage .tokens-Popup01,.auctionMainPage .tokens-Popup02,.auctionMainPage .tokens-Popup03,.auctionMainPage .tokens-Popup04,.auctionMainPage .tokens-Popup04Cancel,.auctionMainPage .tokens-Popup05,.auctionMainPage .whatIs-JNTR{background:rgba(0,0,0,.9);width:100%;height:100%;position:fixed;left:0;top:0;display:none;z-index:101;overflow-x:hidden;overflow-y:auto}
+.auctionMainPage .how-Popup .close-Icon,.auctionMainPage .liquidity-Popup .close-Icon,.auctionMainPage .tokens-Popup01 .close-Icon,.auctionMainPage .tokens-Popup03 .close-Icon,.auctionMainPage .tokens-Popup04 .close-Icon,.auctionMainPage .tokens-Popup04Cancel .close-Icon,.auctionMainPage .tokens-Popup05 .close-Icon,.auctionMainPage .whatIs-JNTR .close-Icon{position:absolute;right:30px;top:30px;z-index:1;-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out}
+.auctionMainPage .how-Popup .close-Icon:hover,.auctionMainPage .liquidity-Popup .close-Icon:hover,.auctionMainPage .tokens-Popup01 .close-Icon:hover,.auctionMainPage .tokens-Popup03 .close-Icon:hover,.auctionMainPage .tokens-Popup04 .close-Icon:hover,.auctionMainPage .tokens-Popup05 .close-Icon:hover,.auctionMainPage .whatIs-JNTR .close-Icon:hover{-webkit-transform:rotate(90deg);transform:rotate(90deg)}
+.auctionMainPage .tokens-Popup02 .close-Icon{position:absolute;right:0;top:0;transform:none!important;font-size:30px;font-weight:700;-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out}
+.auctionMainPage .tokens-Popup02 .close-Icon:after{content:"";border:0;position:absolute;right:-5px;top:12px;color:#fff;-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out;background:url(../images/close-btn.png) 50% 50% no-repeat;width:22px;height:22px}
+.auctionMainPage .tokens-Popup02 .close-Icon:hover:after{-webkit-transform:rotate(90deg);transform:rotate(90deg)}
+.auctionMainPage .token-Box{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;margin:0 -15px}
+.auctionMainPage .tokens-Popup05 .token-Box{margin-top:50px}
+.auctionMainPage .token-Box .token-Box01,.auctionMainPage .token-Box .token-Box02{width:25%;padding:0 15px;position:relative}
+.auctionMainPage .token-Box .token-Box02{width:25%}
+.auctionMainPage .token-Box .token-Box01 .img-Box,.auctionMainPage .token-Box .token-Box02 .img-Box{background:#090909;height:320px;display:flex;flex-wrap:wrap;flex-direction:column;align-items:center;justify-content:center}
+.auctionMainPage .token-Box .token-Box02 .img-Box{border-radius:5px;height:290px}
+.auctionMainPage .token-Box .token-Box02 .img-Box img{position:relative;top:-20px}
+.auctionMainPage .token-Box .token-Box02 .title-Name{font-size:18px;font-weight:700;text-align:center;position:absolute;bottom:50px}
+.auctionMainPage .token-Box .token-Box01:focus .img-Box,.auctionMainPage .token-Box .token-Box01:hover .img-Box{background:#151515;cursor:pointer}
+.auctionMainPage .token-Box .token-Box02:focus .img-Box,.auctionMainPage .token-Box .token-Box02:hover .img-Box{background:#151515;cursor:pointer;box-shadow:0 0 40px rgba(255,210,55,.4)}
+.auctionMainPage .addfund-container{margin-top:120px}
+.auctionMainPage .token-Box .token-Box02 .img-Box .coming-Soon{font-size:30px;font-weight:700;line-height:36px;text-align:center}
+.auctionMainPage .popup-Title01{font:700 34px/42px Montserrat,sans-serif;margin:120px 0 60px 0;text-align:center}
+.auctionMainPage .popup-Title02{font:700 24px/32px Montserrat,sans-serif;margin:50px 0 60px 0;text-align:center}
+.auctionMainPage .jiB-table02{font:300 16px/30px Montserrat,sans-serif;margin:40px 0 60px 0}
+.auctionMainPage .jiB-table02 table{border-collapse:collapse}
+.auctionMainPage .jiB-table02 table tr th{color:#fff;padding:0 15px;border-bottom:3px solid #faba37}
+.auctionMainPage .jiB-table02 table tr td{color:#fff;padding:10px 15px;position:relative;background-color:#101010}
+.auctionMainPage .jiB-table02 table tr:hover td{background-color:#202020}
+.auctionMainPage .jiB-table02 table tr:nth-last-child(1) td{background-color:#191919}
+.auctionMainPage .jiB-table02 table tr:nth-last-child(1) td:nth-child(01){font-weight:700}
+.auctionMainPage .how-Popup .container-Grid{ padding-top:140px; padding-bottom:60px;}
+.auctionMainPage .whatIs-JNTR .container-Grid{ padding-top:60px; padding-bottom:60px;}
+.auctionMainPage .Btns-02{display:flex;flex-direction:row;justify-content:center; margin-bottom:40px;}
+.auctionMainPage .Btns-02 a{font-size:18px;font-weight:700;color:#fff;width:430px;height:85px;line-height:85px;text-align:center;margin:0 12px; border-radius: 4px; -webkit-box-shadow:inset 0 -5px 0 0 rgba(0,0,0,0.2); box-shadow:inset 0 -5px 0 0 rgba(0,0,0,0.2);}
+.auctionMainPage .Btns-02 a.how-Btn01{background:#fff;color:#000;margin-right:20px}
+.auctionMainPage .Btns-02 a.how-Btn02{background:#95c608; -webkit-box-shadow: 0 0 24px rgba(250,186,55,1), inset 0 -5px 0 0 rgba(0,0,0,0.2);  box-shadow: 0 0 24px rgba(250,186,55,1), inset 0 -5px 0 0 rgba(0,0,0,0.2); min-width:440px;}
+.auctionMainPage .Btns-02 a.how-Btn03{background:#2c2c2c}
+.auctionMainPage .Btns-02 a.how-Btn03 i.fas{font-size: 31px; position: relative; bottom: -6px;
+  left: -3px;}
+  .auctionMainPage .Btns-02 a.how-Btn03:hover i.fas{color:#fff !important;}
+.auctionMainPage .Btns-02 a.how-Btn04{background:#919191} 
+.auctionMainPage .Btns-02 a.how-Btn01:hover{background:#faba35;color:#fff}
+.auctionMainPage .Btns-02 a.how-Btn02:hover{background:#769d06; }
+.auctionMainPage .Btns-02 a.how-Btn03:hover{background:#464646}
+.auctionMainPage .Btns-02 a.how-Btn04:hover{background:#545454}
+.auctionMainPage .cAuc-timer{font:600 24px/30px Montserrat,sans-serif;max-width:590px;color:#fff;background-color:rgba(0,0,0,.5);padding:12px;border-radius:6px;display:inline-block}
+.auctionMainPage .cAuc-timer span{width:50%;line-height:50px;font-size:22px}
+.auctionMainPage .cAuc-timer span+span{font-size:40px;font-weight:700;margin-left:10px}
+.auctionMainPage .cAuc-timer span i{background:url(../images/bg02-black.jpg) 50% 50% no-repeat;background-size:cover;padding:1px;font-style:normal;border-radius:4px;min-width:40px;display:inline-block;margin:0 2px 0 0;font-size:40px}
+.auctionMainPage .timer-Box{text-align:center;padding-top:100px;position:relative;display:flex;flex-direction:row;justify-content:space-between;align-items:center;max-width:590px;margin:20px auto 0;border-radius:4px;background:#070707;padding:15px}
+.auctionMainPage .timer-Box a,.auctionMainPage .timer-Box p{font-size:22px;text-transform:none;font-weight:700;color:#fff;margin:0}
+.auctionMainPage .timer-Box a{color:#95c608}
+.auctionMainPage .timer-Box a:focus,.auctionMainPage .timer-Box a:hover{color:#6e9400}
+.auctionMainPage .timer-Box .countdown{display:flex;flex-direction:row;justify-content:center;margin:15px 0}
+.auctionMainPage .countdown .countdown-container span:first-child{display:none}
+.auctionMainPage .countdown .countdown-container span{color:#fff;font-size:42px;font-weight:700;background:#272727;border-radius:5px;display:inline-block;padding:15px;margin-right:10px}
+.auctionMainPage #timer{display:flex;justify-content:center;margin:0}
+.auctionMainPage #timer .days,.auctionMainPage #timer .hours,.auctionMainPage #timer .minutes,.auctionMainPage #timer .seconds,.auctionMainPage #timer-Box{color:#fff;font-size:37px;font-weight:700}
+.auctionMainPage #timer .days span,.auctionMainPage #timer .hours span,.auctionMainPage #timer .minutes span,.auctionMainPage #timer .seconds span{display:inline-block;width:37px;height:48px;background:url(../images/bg02-black.jpg) no-repeat 0 0;margin:0 1px;border-radius:4px}
+.auctionMainPage #timer .days,.auctionMainPage #timer .hours,.auctionMainPage #timer .minutes{margin-right:8px;position:relative}
+.auctionMainPage #timer .days:after,.auctionMainPage #timer .days:before,.auctionMainPage #timer .hours:after,.auctionMainPage #timer .hours:before,.auctionMainPage #timer .minutes:after,.auctionMainPage #timer .minutes:before{content:".";color:#fff;font-size:37px;font-weight:700;position:absolute;right:-10px;top:-12px}
+.auctionMainPage #timer .days:after,.auctionMainPage #timer .hours:after,.auctionMainPage #timer .minutes:after{bottom:5px;top:inherit}
+.auctionMainPage #timer02{display:flex;justify-content:center;margin:0}
+.auctionMainPage #timer02 .days,.auctionMainPage #timer02 .hours,.auctionMainPage #timer02 .minutes,.auctionMainPage #timer02 .seconds,.auctionMainPage #timer02-Box{color:#fff;font-size:42px;font-weight:700;text-align:center}
+.auctionMainPage #timer02 .days span,.auctionMainPage #timer02 .hours span,.auctionMainPage #timer02 .minutes span,.auctionMainPage #timer02 .seconds span{display:inline-block;width:42px;height:54px;background:#272727;border-radius:5px;margin:0 2px;position:relative;z-index:1}
+.auctionMainPage #timer02 .days,.auctionMainPage #timer02 .hours,.auctionMainPage #timer02 .minutes{margin-right:12px;position:relative}
+.auctionMainPage #timer02 .days:after,.auctionMainPage #timer02 .days:before,.auctionMainPage #timer02 .hours:after,.auctionMainPage #timer02 .hours:before,.auctionMainPage #timer02 .minutes:after,.auctionMainPage #timer02 .minutes:before{content:".";color:#fff;font-size:42px;font-weight:700;position:absolute;right:-12px;top:-18px}
+.auctionMainPage #timer02 .days:after,.auctionMainPage #timer02 .hours:after,.auctionMainPage #timer02 .minutes:after{bottom:5px;top:inherit}
+.auctionMainPage .Wallet-btn.np-BtnFix01{max-width:none;display:block}
+.auctionMainPage .Cnow-btn{display:block;margin:60px auto 20px;background:#94c408;color:#fff;max-width:590px;height:84px;line-height:84px;color:#fff;font-size:30px;text-align:center;box-shadow:0 0 35px rgba(250,186,55,1),rgba(250,186,55,.6) 0 0 35px inset; border-radius:3px;font-weight:700; -webkit-box-shadow:inset 0 -5px 0 0 rgba(0,0,0,0.2);   box-shadow:inset 0 -5px 0 0 rgba(0,0,0,0.2);}
+.auctionMainPage .Cnow-btn:focus,.auctionMainPage .Cnow-btn:hover{background:#6d9104;}
+.auctionMainPage .Wallet-btn{display:block;margin:60px auto 20px;background:#e83231;color:#fff;max-width:590px;height:84px;line-height:84px;color:#fff;font-size:30px;text-align:center;box-shadow:0 0 35px rgba(246,107,106,1),rgba(255,164,164,.6) 0 0 35px inset;border-bottom:3px solid #cd504f;border-radius:3px;font-weight:700}
+.auctionMainPage .Wallet-btn:focus,.auctionMainPage .Wallet-btn:hover{background:#c12120;border-color:#c13736}
+.auctionMainPage .Wallet-btn .icon-Box{background:#fff;width:37px;height:37px;border-radius:50%;display:inline-block;vertical-align:middle;line-height:46px;text-align:center;margin-right:15px}
+.auctionMainPage .Wallet-btn .icon-Box img{width:30px}
+.auctionMainPage .dwnPro-shild{display:block;background:url(../images/pr-shield.png) 50% 50% no-repeat;width:192px;height:192px;background-size:cover;position:fixed;left:0;top:0;z-index:12; overflow: hidden;
+  -webkit-clip-path: polygon(0 0, 0 92%, 92% 0); clip-path: polygon(0 0, 0 92%, 92% 0); }
+.auctionMainPage .dwnPro-shild.noSignin{background:url(../images/pr-shield-02.png) left top no-repeat}
+.auctionMainPage .dwnPro-shild:focus,.auctionMainPage .dwnPro-shild:hover{-webkit-filter:brightness(1.15);filter:brightness(1.15)}
+.auctionMainPage .dwnPro-shild a span{display:none}
+.auctionMainPage .howW-mainbox{display:flex;flex-wrap:wrap;margin:40px 0 90px 0}
+.auctionMainPage .howW-subbox{width:20%;padding:10px 20px 10px 60px;position:relative;font-size:15px;line-height:26px;font-weight:300}
+.auctionMainPage .howW-subbox:before{content:"";background:url(../images/small-arrow.png) no-repeat 0 0;width:19px;height:94px;position:absolute;right:10px;top:-10px}
+.auctionMainPage .howW-subbox:last-child:before{display:none}
+.auctionMainPage .howW-subbox>i{font:700 24px/44px Montserrat,sans-serif;display:block;position:absolute;width:45px;height:45px;border:2px solid #fff;border-radius:50%;left:7px;top:11px;color:#e59d20;text-align:center}
+.auctionMainPage .howW-subbox .help-circle{top:-6px;font-size:13px;left:2px}
+
+.auctionMainPage .howW-subbox:nth-of-type(01){ width:21.6%; }
+.auctionMainPage .howW-subbox:nth-of-type(02){ width:20.8%; }
+.auctionMainPage .howW-subbox:nth-of-type(03){ width:19.6%;  padding-right:40px;}
+.auctionMainPage .howW-subbox:nth-of-type(04){ width:20.3%; padding-right:30px; }
+.auctionMainPage .howW-subbox:nth-of-type(05){ width:17.7%;}
+
+
+
+
+
+.auctionMainPage .jntr-Note{display:flex;flex-direction:row;justify-content:center}
+.auctionMainPage .jntr-Note img{max-width:100%}
+.auctionMainPage .orange-text{color:#faba35!important}
+.auctionMainPage .white-text{color:#fff!important}
+.npSmTextFix01 i{font-size:12px !important; font-style:normal; font-weight: 400; }
+.auctionMainPage .invPro-box{padding:80px 0 60px 0;background:url(../images/pro_bg.jpg) 50% 50% no-repeat;text-align:center}
+.auctionMainPage .invPro-title01{font:600 34px/40px Montserrat,sans-serif;color:#fff;text-align:center}
+.auctionMainPage .invPro-title01 span{display:block;color:#eaa120;margin:0 0 40px 0}
+.auctionMainPage .invPro-Icon{width:58px;height:62px;background:url(../images/Join-Prot-icon.png) 50% 50% no-repeat;display:inline-block;position:relative;top:20px}
+.auctionMainPage .Btns{display:flex;flex-direction:row;justify-content:space-between;padding-top:80px}
+.auctionMainPage .jiBonusBTN,.auctionMainPage .ycpBTN{font:600 26px/40px Montserrat,sans-serif;color:#fcb839;background-color:#000000;padding:20px 33px;border-radius:0 6px 0 0;display:inline-block;z-index:3; min-width: 463px; -webkit-box-shadow: 0 0 7px 1px rgba(255,255,255,0.1); box-shadow:0 0 20px 1px rgba(255,255,255,0.3);  -webkit-transition: bottom .4s ease-in-out !important;-moz-transition: bottom .4s ease-in-out !important;-o-transition: bottom .4s ease-in-out !important;-ms-transition: bottom .4s ease-in-out !important;transition: bottom .4s ease-in-out !important;   }
+.auctionMainPage .ycpBTN{position:fixed;left:0;bottom:0;-moz-transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out}
+.auctionMainPage .jiBonusBTN{position:fixed;right:0;bottom:0;-moz-transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out}
+.auctionMainPage .mCSB_inside>.mCSB_container{margin-right:0}
+.auctionMainPage .ycpSection{height:0}
+.auctionMainPage .ycpContainer{position:fixed;width:100%;z-index:3;height:0;bottom:0;-moz-transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out}
+.auctionMainPage .ycpSection.active .ycpContainer{height:180px}
+.auctionMainPage .ycpBTN.active{bottom:180px}
+.auctionMainPage .jiBonusBTN.change,.auctionMainPage .ycpBTN.change{position:relative}
+.auctionMainPage .jiBonus-Section{position:fixed;bottom:0;right:0;width:100%;height:0;-moz-transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out; z-index:12}
+.auctionMainPage .jiBonus-Section.active{height:598px;z-index:12}
+.auctionMainPage .jiBonusBTN:hover,.auctionMainPage .ycpBTN:hover{color:#B2DF33}
+.auctionMainPage .jiBonusBTN.n-collapsed .fas.fa-caret-square-up,.auctionMainPage .ycpBTN.n-collapsed .fas.fa-caret-square-up{transform:rotate(0)}
+.auctionMainPage .jiBonusBTN .fas.fa-caret-square-up,.auctionMainPage .ycpBTN .fas.fa-caret-square-up{-webkit-transform:rotate(0);transform:rotate(0)}
+.auctionMainPage .jiBonusBTN.active .fas.fa-caret-square-up,.auctionMainPage .ycpBTN.active .fas.fa-caret-square-up{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+.auctionMainPage .jiBonusBTN{ border-radius:6px 0 0 0}
+.auctionMainPage .jiBonusBTN.active{bottom:598px; z-index:100; }
+ 
+
+.auctionMainPage .disableCBTN{pointer-events:none;position:relative}
+.auctionMainPage .disableCBTN:after{content:"COMING SOON";position:absolute;left:0;right:0;top:0;bottom:0;font:600 24px/26px Montserrat,arial;color:#fff;padding:0 40px;display:flex;align-items:center;justify-content:center;background-color:rgba(0,0,0,.77)}
+.auctionMainPage .ycpSection.active .ycpContainer{height:180px}
+.auctionMainPage .contribution-Container{background-color:#000;width:98%;max-width:1298px;margin:100px auto 0 auto;-webkit-box-shadow:0 0 16px 2px rgba(0,0,0,.4);box-shadow:0 0 16px 2px rgba(0,0,0,.8);display:block;padding:0 60px;position:relative}
+.auctionMainPage .addCotr-BTN{display:block;color:#fff;background-color:#95c608;font:700 36px/42px Montserrat,sans-serif;border-radius:4px;border-bottom:2px solid #7fa807;padding:15px 32px;text-align:center;margin-top:0}
+.auctionMainPage .addCotr-BTN:hover{color:#fff;background-color:#769d06;border-bottom:2px solid #5e7d04}
+.auctionMainPage .contrSlider{margin:60px 60px}
+.auctionMainPage .ctr-box{display:flex;flex-direction:column;align-items:center;padding:10px 0}
+/* .auctionMainPage .ctr-box:hover{cursor:pointer} */
+.auctionMainPage .ctr-box:hover .cointype{cursor:pointer;background:url(../images/contr-bg02.png) 50% 50% no-repeat;-webkit-box-shadow:0 0 8px 2px rgba(255,255,255,.4);box-shadow:0 0 8px 2px rgba(255,255,255,.4)}
+/* .auctionMainPage .ctr-box:hover .ctr-value{color:#fff} */
+.auctionMainPage .cointype{display:flex;width:88px;height:88px;border-radius:50%;background:url(../images/contr-bg01.png) 50% 50% no-repeat;background-size:cover;text-align:center;align-items:center}
+.auctionMainPage .cointype img{max-width:68px;height:auto;margin:0 auto 0 auto;vertical-align:middle}
+.auctionMainPage .ctr-value{text-align:center;font:700 14px/24px Montserrat,sans-serif;color:#666}
+.auctionMainPage .tokens-Popup02 .ctr-box .ctr-value:nth-of-type(02){font-size:11px; font-weight:600;}
+.auctionMainPage .ctr-value a{display:inline-block;color:#95c608;margin-left:4px}
+.auctionMainPage .ctr-value a i{position:relative; font-size:16px; color:#95c608 !important;}
+.auctionMainPage .ctr-value a i:after{content:"";background:#fff;position:absolute;width:12px;height:12px;left:1px;top:2px;z-index:-1}
+.auctionMainPage .ctr-value a i:hover{color:#ffffff !important;}
+.auctionMainPage .ctr-value a:hover{color:#fff} 
+.auctionMainPage .ctr-value a i:hover:after{background:#020202}
+.auctionMainPage .contribution-Container .slick-next.slick-arrow,.auctionMainPage .contribution-Container .slick-prev.slick-arrow{width:25px;height:30px;background:url(../images/aerrow01.png) 50% 50% no-repeat;display:block;position:absolute;right:-30px;top:29%;border:0;outline:0!important;overflow:hidden;text-indent:-200px;opacity:.5}
+.auctionMainPage .slick-prev.slick-arrow{position:absolute;left:-30px;right:auto;top:48%;transform:rotate(180deg)}
+.auctionMainPage .contribution-Container .slick-next.slick-arrow:hover,.auctionMainPage .contribution-Container .slick-prev.slick-arrow:hover{opacity:1}
+.auctionMainPage .contribution-Container .slick-next.slick-arrow.slick-disabled,.auctionMainPage .contribution-Container .slick-prev.slick-arrow.slick-disabled{opacity:.2!important;cursor:default!important}
+.auctionMainPage .contrTextbox{font:700 24px/36px Montserrat,sans-serif;color:#fff;padding:0 40px;margin:70px 0;vertical-align:text-top}
+.auctionMainPage .contrTextbox span{display:inline-block;width:39%;padding-left:35px;vertical-align:top}
+.auctionMainPage .contrTextbox .contr-Text{position:relative;top:13px}
+.auctionMainPage .contrTextbox span+span{display:inline-block;width:60%;position:relative;padding-left:0;text-align:right}
+.auctionMainPage .contrTextbox span+span:before{position:absolute;top:0;left:0;padding:15px 20px 15px 20px;background-color:#262626;content:"$";font-weight:700;font-size:30px;color:#595858;border-top-left-radius:3px;border-bottom-left-radius:3px}
+.auctionMainPage .contrTextbox span+span input{background-color:#000;border:2px solid #262626;color:#fff;outline:0;padding:17px 24px 17px 70px;font-size:24px;font-weight:700;width:100%;border-radius:6px}
+.auctionMainPage .contrTextbox span.small-Text{text-align:left;padding-left:20px;font-size:12px;width:100%;font-weight:400;color:#fff;line-height:13px;margin-top:18px;position:relative}
+.auctionMainPage .contrTextbox span.small-Text:after,.auctionMainPage .contrTextbox span.small-Text:before{display:none}
+.auctionMainPage .contrTextbox span.small-Text i{margin-right:6px;font-size:12px;color:#faba35;position:absolute;left:0;top:2px}
+.auctionMainPage .contrTextbox span.small-Text.red-Color i{margin-right:6px;font-size:12px;color:inherit;position:absolute;left:0;top:2px}
+.auctionMainPage .contrTextbox .small-Text .help-circle{padding-left:0;font-size:10px;width:auto;top:-5px}
+.auctionMainPage .jrInvLink{color:#eaa120!important}
+.auctionMainPage .jrInvLink:hover{color:#95c608!important}
+.auctionMainPage .contrDisplay{color:#666!important;font-size:14px;font-style:normal;}
+
+.auctionMainPage .tokens-Popup02 .contrDisplay{color:#666!important;font-size:13px;font-style:normal; position: absolute; right: 9px; top: 33px; font-weight: 500;}
+
+.auctionMainPage .popup3-Container{width:100%;max-width:1360px;padding:0 20px;margin:230px auto 0 auto}
+.auctionMainPage .popup4-Container{width:100%;max-width:1360px;padding:0 0;margin:240px auto 0 auto;background:url(../images/shield-Icon03.png) 50% 50% no-repeat}
+.auctionMainPage .popup03-Title01{font:700 32px/40px Montserrat,sans-serif;color:#faba37;text-align:center;padding:20px 10px;display:flex;align-items:center;justify-content:center}
+.auctionMainPage .popup03-Title01 span{margin-right:8px}
+.auctionMainPage .tPopup-btnbar{text-align:center;padding:25px 15px}
+.auctionMainPage .tPopup-btn01{display:inline-block;color:#fff;background-color:#95c608;font:700 30px/38px Montserrat,sans-serif;border-radius:4px;border-bottom:2px solid #7fa807;padding:12px 62px;margin-right:20px}
+.auctionMainPage .tPopup-btn01:hover{transform:scale(1.05);color:#fff;background-color:#769d06;border-bottom:2px solid #5e7d04}
+.auctionMainPage .tPopup-btn02{display:inline-block;color:#fff;background-color:rgba(255,255,255,.15);font:700 30px/38px Montserrat,sans-serif;border-radius:4px;border:2px solid #fff;padding:11px 42px;margin-right:20px}
+.auctionMainPage .tPopup-btn02:hover{transform:scale(1.05);color:#000;background-color:#fff}
+.auctionMainPage .tPopup-btn03{display:inline-block;color:#bb2628;background-color:rgba(0,0,0,.15);font:700 30px/38px Montserrat,sans-serif;border-radius:4px;border:2px solid #bb2628;padding:11px 42px;margin-right:20px}
+.auctionMainPage .tPopup-btn03:hover{transform:scale(1.05);color:#fff;background-color:#bb2628}
+.auctionMainPage .popup4-subbox{display:flex;align-content:flex-start;margin-bottom:90px;margin-top:20px}
+.auctionMainPage .pp4-Subbox01{width:33.33%;padding:0 60px 0 86px;font:300 16px/28px Montserrat,sans-serif;color:#fff;position:relative}
+.auctionMainPage .pp4-Subbox01>i{font:700 24px/44px Montserrat,sans-serif;display:block;position:absolute;width:45px;height:45px;border:2px solid #fff;border-radius:50%;left:14px;top:0;color:#e59d20;text-align:center}
+.auctionMainPage .tokens-Popup04 .tPopup-btn01{margin-right:45px}
+.auctionMainPage #tab-5,.auctionMainPage #tab-6,.auctionMainPage .liquidity-Popup #tab-2,.auctionMainPage .liquidity-Popup #tab-3{display:none}
+.auctionMainPage .liquidity-Popup .liquidity-Container{width:100%;max-width:1360px;padding:0 20px;margin:120px auto 0 auto}
+.auctionMainPage .liquidity-Popup .tab-Nav{display:flex;flex-direction:row;flex-wrap:wrap;margin-top:80px}
+.auctionMainPage .liquidity-Popup .tab-Nav .tab-Link{font-size:24px;color:#fff;font-weight:700;width:33.33%;text-align:center;border-bottom:2px solid #2c2c2c;padding-bottom:30px}
+.auctionMainPage .liquidity-Popup .tab-Nav .tab-Link span{display:inline-block; }
+.auctionMainPage .liquidity-Popup .tab-Nav .tab-Link span+span{text-align: left; vertical-align: middle;}
+.auctionMainPage .liquidity-Popup .tab-Nav .tab-Link span+span i{display:block; font-size:12px; font-style: normal; }
+.auctionMainPage .liquidity-Popup .tab-Nav .tab-Link.active{border-bottom:2px solid #faba35;color:#faba35}
+.auctionMainPage .liquidity-Popup .tab-Nav .tab-Link .icon-Box{margin-right:35px;display:inline-block;vertical-align:middle}
+.auctionMainPage .liquidity-Popup .tab-Nav .tab-Link .icon-Box img{-webkit-filter:brightness(0) invert(1);filter:brightness(0) invert(1)}
+.auctionMainPage .liquidity-Popup .tab-Nav .tab-Link.active .icon-Box img{filter:none}
+.auctionMainPage .liquidity-Popup .tab-Content{margin-top:90px;text-align:center}
+.auctionMainPage .liquidity-Popup .tab-Content~.tab-Nav{margin-top:0}
+.auctionMainPage .liquidity-Popup .tab-Content .exchange-Box{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:center;margin-top:70px}
+.auctionMainPage .liquidity-Popup .tab-Content .exchange-Box .exchange-Icon{width:25%}
+.auctionMainPage .liquidity-Popup .tab-Content .exchange-Box .exchange-Icon img{-webkit-filter:brightness(0) invert(1);filter:brightness(0) invert(1)}
+.auctionMainPage .liquidity-Popup .tab-Content .exchange-Box .exchange-Icon:hover img{filter:none}
+.auctionMainPage .liquidity-Popup .tab-Content .goto-Btn,.auctionMainPage .liquidity-Popup .tab-Content .goto-Btn02{width:270px;display:inline-block;border:1px solid #fff;height:60px;box-shadow:inset 0 -3px 0 0 rgba(0,0,0,.15);line-height:60px;border-radius:5px;color:#fff;font-size:21px;font-weight:700;margin-top:50px}
+.auctionMainPage .liquidity-Popup .tab-Content .goto-Btn02{width:320px}
+.auctionMainPage .liquidity-Popup .tab-Content .goto-Btn02:focus,.auctionMainPage .liquidity-Popup .tab-Content .goto-Btn02:hover,.auctionMainPage .liquidity-Popup .tab-Content .goto-Btn:focus,.auctionMainPage .liquidity-Popup .tab-Content .goto-Btn:hover{background:#faba35;border-color:#faba35;box-shadow:inset 0 -3px 0 0 rgba(0,0,0,.15)}
+.auctionMainPage .popup3-Container{margin:70px 0 0}
+.auctionMainPage .tab-Nav{display:flex;flex-direction:row;flex-wrap:wrap;margin-top:40px}
+.auctionMainPage .tab-Nav .tab-Link,.auctionMainPage .tab-Nav .tab-Link02{font-size:24px;color:#fff;font-weight:700;width:33.33%;text-align:center;border-bottom:2px solid #fff;padding-bottom:30px}
+.auctionMainPage .tab-Nav .tab-Link.active,.auctionMainPage .tab-Nav .tab-Link02.active{border-bottom:2px solid #fcb839;color:#fcb839}
+.auctionMainPage .main-Popup{background:rgba(0,0,0,.95);width:100%;height:100%;position:fixed;left:0;top:0;display:none;z-index:1000}
+.auctionMainPage .main-Popup .user-smallBlock{position:relative;height:100%}
+.auctionMainPage .main-Popup .user-smallBox{width:100%;position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);background:#e2e2e2;border:none}
+.auctionMainPage .main-Popup .user-smallBox .Title01{font-size:30px;color:#262d36;font-weight:700}
+.auctionMainPage .close-Icon,.auctionMainPage .close-Icon02{position:absolute;right:10px;top:10px;width:30px;height:30px;background:url(../images/close-btn.png) no-repeat 0 0;-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out}
+.auctionMainPage .close-Icon02{width:48px;height:48px;background-position:-64px -60px;top:0;right:0}
+.auctionMainPage .close-Icon:hover{-webkit-transform:rotate(90deg);transform:rotate(90deg)}
+.auctionMainPage .main-Popup.verify-Code p{font-size:16px;color:#262d36;text-align:left;margin:25px 0}
+.auctionMainPage .wallet-Popup{background:rgba(0,0,0,.9);width:100%;height:100%;position:fixed;left:0;top:0;display:none;z-index:1000;overflow-y:auto}
+.auctionMainPage .search-Bx{margin-bottom:30px;padding:15px; background-color: #0d0d0d;
+  border: 2px solid #1a1a1a; border-radius: 5px;    }
+.auctionMainPage .search-Bx a{font-size:24px;color:#fff;margin-right:15px;display:inline-block;vertical-align:middle}
+.auctionMainPage .search-Bx input{font-size:24px;line-height:1;background:0 0;border:none;color:#fff;font-weight:700;vertical-align:bottom}
+.auctionMainPage .search-Bx ::-webkit-input-placeholder{color:#fff}
+.auctionMainPage .search-Bx ::-moz-placeholder{color:#fff}
+.auctionMainPage .search-Bx :-ms-input-placeholder{color:#fff}
+.auctionMainPage .search-Bx :-moz-placeholder{color:#fff}
+.wallet-popupBlock{position:relative;padding-top:70px}
+.wallet-popupBlock .jiTitle03{margin: 30px 0 40px 0;}
+.auctionMainPage .wallet-boxWrap{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;margin:0 -15px}
+.auctionMainPage .wallet-boxWrap .wallet-Bx{width:25%;padding:0 15px;position:relative;margin-bottom:30px;text-align:center}
+.auctionMainPage .wallet-boxWrap .wallet-Bx .img-Box{background:#090909;display:flex;flex-wrap:wrap;flex-direction:column;align-items:center;justify-content:center;height:240px;position:relative}
+.auctionMainPage .wallet-boxWrap .wallet-Bx .img-Box .title-Name{font-size:18px;font-weight:700;position:absolute;bottom:20px;color:#fff}
+.auctionMainPage .wallet-boxWrap .wallet-Bx .img-Box img{position:relative;-webkit-transform:scale(1.13);transform:scale(1.13)}
+.auctionMainPage .wallet-boxWrap .wallet-Bx:focus .img-Box,.auctionMainPage .wallet-boxWrap .wallet-Bx:hover .img-Box{cursor:pointer;background: #141414; box-shadow: 0 0 55px rgba(255,210,50,0.4); }
+.auctionMainPage .wallet-Bx.coming-Soon .img-Box img,.auctionMainPage .wallet-Bx.coming-Soon.ani-1 .img-Box .title-Name{opacity:.3}
+.auctionMainPage .wallet-Bx.coming-Soon{pointer-events:none}
+.auctionMainPage .wallet-Bx.coming-Soon:before{content:"Coming Soon";position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);font-size:30px;font-weight:700;z-index:1;color:#fff}
+.auctionMainPage .investText01{display:flex;align-items:center;justify-content:center;font-weight:300;font-size:12px;color:#faba35}
+.auctionMainPage .tokens-Popup02 .investText01{margin-top:15px;margin-bottom:10px}
+.auctionMainPage .investText01 img{margin-right:5px}
+.auctionMainPage .investText01 .help-circle{font-size:14px;position:relative;top:-10px}
+.auctionMainPage .jrInvMBox{display:flex}
+.auctionMainPage .jrInvBox01{width:70%}
+.auctionMainPage .jrInvBox02{width:30%}
+.auctionMainPage .jrInvTitle01{font-size:24px;font-weight:700;color:#fff;text-align:center;max-width:230px;margin:94px auto 0 auto}
+.auctionMainPage .jrInvTitle02{font-size:13px;font-weight:300;color:#fff;text-align:center;max-width:230px;margin:0 auto}
+.auctionMainPage .jrInvTitle02 span{font-size:24px;font-weight:700;color:#fff;text-align:center;margin-top:10px;display:block}
+.auctionMainPage #test-circle .number,.auctionMainPage #test-circle .percent,.auctionMainPage #test-circle02 .number,.auctionMainPage #test-circle02 .percent{font-size:28px;font-weight:700;color:#fff!important;text-align:center;fill:#fff}
+.auctionMainPage .jntrAucSoldMbox{display:flex;flex-wrap:wrap;align-items:center;width:100;max-width:590px;margin:0 auto}
+.auctionMainPage .jntrAucSoldbox01{width:68%;font-size:24px;font-weight:700;color:#fff;text-align:right;padding-right:10px}
+.auctionMainPage .jntrAucSoldbox02{width:32%}
+.auctionMainPage .dis-Coin{position:relative; color: #666!important; filter: grayscale(100%);}
+.auctionMainPage .dis-Coin .ctr-box{opacity:.4;pointer-events:none;position:relative}
+.auctionMainPage .dis-Coin:after{content:"Coming Soon";border:none;position:absolute;top:37px;left:0;right:0;color:rgb(153, 153, 153);width:100%;text-align:center;max-width:90px;margin:0 auto; font-weight: 600;}
+
+.auctionMainPage .dis-Coin  .ctr-value a {color: #666!important;}
+.auctionMainPage .footer{background:#000;padding:50px 65px 0 65px}
+.auctionMainPage .footer .footer-Block{display:flex;flex-wrap:wrap;justify-content:space-between}
+.auctionMainPage .footer .footer-left{width:60%}
+.auctionMainPage .footer .footer-right{width:40%}
+.auctionMainPage .footer .footer-left .footer-logo{padding-bottom:10px}
+.auctionMainPage .footer .footer-left .footer-logo a{display:inline-block;vertical-align:middle;padding-right:15px}
+.auctionMainPage .footer .footer-left .f-Link{display:inline-block;vertical-align:middle}
+.auctionMainPage .footer .footer-left .f-Link a{font-size:14px;line-height:18px;color:#fff;font-weight:700;text-transform:uppercase;padding:0 10px}
+.auctionMainPage .footer .f-Link a:active,.auctionMainPage .footer .f-Link a:focus,.auctionMainPage .footer .f-Link a:hover{color:#faba37}
+.auctionMainPage .footer .footer-left p,.auctionMainPage .footer .footer-left p a{font-size:12px;line-height:22px;color:#999}
+.auctionMainPage .footer .footer-left p a{padding-right:0!important}
+.auctionMainPage .footer .footer-left p a:active,.auctionMainPage .footer .footer-left p a:focus,.auctionMainPage .footer .footer-left p a:hover,.auctionMainPage .footer .footer-left p a:visited{color:#faba37}
+.auctionMainPage .footer .footer-right{text-align:right}
+.auctionMainPage .social-Icons{padding-bottom:15px}
+.auctionMainPage .footer .footer-right .social-Icons h5{font-size:14px;line-height:18px;color:#fff;text-transform:uppercase;padding-bottom:20px}
+.auctionMainPage .social-Icons li{padding-right:10px;display:inline-block}
+.auctionMainPage .social-Icons li:last-child{padding-right:0}
+.auctionMainPage .social-Icons li a{width:34px;height:34px;line-height:40px;border-radius:50%;display:block;text-align:center}
+.auctionMainPage .social-Icons li a.social-icon-01{background:#0885c8}
+.auctionMainPage .social-Icons li a.social-icon-02{background:#02c6fd}
+.auctionMainPage .social-Icons li a.social-icon-03{background:#4c76bc}
+.auctionMainPage .social-Icons li a.social-icon-04{background:#77b42f}
+.auctionMainPage .social-Icons li a.social-icon-05{background:#61539e}
+.auctionMainPage .social-Icons li a.social-icon-06{background:#4586c2}
+.auctionMainPage .social-Icons li a.social-icon-07{background:#e09c11}
+.auctionMainPage .social-Icons li a:hover{background:#faba37}
+.auctionMainPage .social-Icons li a:hover img{filter:brightness(0);-webkit-filter:brightness(0)}
+.auctionMainPage .footer .footer-right p{font-size:14px;line-height:18px;color:#999}
+.auctionMainPage .footer .footer-right p a{color:#fff}
+.auctionMainPage .footer .footer-right p a:focus,.auctionMainPage .footer .footer-right p a:hover{color:#faba37}
+.auctionMainPage .iziModal-content{padding:70px 60px!important}
+.auctionMainPage .iziModal-content button.icon-close{position:absolute;right:0;top:0;background:#bb2628;border:none;color:#fff;width:48px;height:48px;font-size:30px;border-bottom-left-radius:3px}
+.auctionMainPage .iziModal-content h3{font-size:34px;color:#555}
+.auctionMainPage .iziModal-content .balance-Coins{text-align:center;padding:30px 0;margin:25px auto 35px}
+.auctionMainPage .iziModal-content .balance-Coins h3{font-size:34px;color:#faba37}
+.auctionMainPage .iziModal-content .balance-Coins p{font-size:18px;color:#555}
+.auctionMainPage .iziModal-navigate{display:none}
+.auctionMainPage .balance-infoTable .comparetable{width:100%}
+.auctionMainPage .balance-infoTable .comparetable>tbody>tr>th strong{font-weight:700}
+.auctionMainPage .balance-infoTable .comparetable>tbody>tr>td,.auctionMainPage .balance-infoTable .comparetable>tbody>tr>th{color:#555;padding:20px;font-size:16px;border:1px solid #fff}
+.auctionMainPage .auctionMainPage .balance-infoTable .comparetable>tbody>tr:last-child{background:#fff}
+.auctionMainPage .balance-infoTable .comparetable>tbody>tr>th{width:40%}
+.auctionMainPage .n-collapse{display:none}
+.auctionMainPage .n-collapse.in{display:block}
+.auctionMainPage .collapsing{position:relative;height:0;overflow:hidden;-webkit-transition-timing-function:ease;-o-transition-timing-function:ease;transition-timing-function:ease;-webkit-transition-duration:.35s;-o-transition-duration:.35s;transition-duration:.35s;-webkit-transition-property:height,visibility;-o-transition-property:height,visibility;transition-property:height,visibility}
+.auctionMainPage .counter{display:flex;align-items:center;justify-content:center}
+.auctionMainPage .disable-btn{opacity:.7;pointer-events:none!important}
+.auctionMainPage .loader{display:block;margin:20% auto;border:4px solid #f3f3f3;border-radius:50%;border-top:4px solid #3498db;width:20px;height:20px;-webkit-animation:spin 2s linear infinite;animation:spin 2s linear infinite}
+@-webkit-keyframes spin{
+0%{-webkit-transform:rotate(0)}
+100%{-webkit-transform:rotate(360deg)}
+}
+@keyframes spin{
+0%{transform:rotate(0)}
+100%{transform:rotate(360deg)}
+}
+.auctionMainPage .np-EffectBTN{position:relative;overflow:hidden}
+.auctionMainPage .np-EffectBTN:after{width:400px;height:400px;content:"";display:block;border:none;background:url(../images/btn-Waves.png) 50% 50% no-repeat;position:absolute;left:0;top:-150px;animation-name:pulse;mix-blend-mode:lighten;opacity:.6;animation-duration:3s;animation-timing-function:ease-out;animation-delay:0s;animation-iteration-count:infinite;animation-fill-mode:none;animation-play-state:running}
+@keyframes pulse{
+0%{left:-300px}
+100%{left:calc(100% + 350px)}
+}
+.auctionMainPage ._loading_overlay_overlay{position:fixed}
+.auctionMainPage .np-stickyHead td,.auctionMainPage .np-stickyHead th{position:sticky;top:0;box-shadow:0 2px 2px -1px rgba(0,0,0,.4);background-color:#2f2f2f;border-bottom:3px solid #eaa120;z-index:12}
+.auctionMainPage .np-stickyHead02 td,.np-stickyHead02 th{position:sticky;top:-31px;box-shadow:0 2px 2px -1px rgba(0,0,0,.4);background-color:#2f2f2f;border-bottom:3px solid #eaa120;z-index:12}
+.auctionMainPage .npTableScroll{height:500px;overflow-y:scroll;margin-bottom:60px}
+.auctionMainPage .etherBalance{color:#fff}
+.auctionMainPage .jbp-bar{box-shadow:inset 0 0 8px #c8ff18, inset 0 0 8px #c8ff18,  0 0 8px #def798;}
+.auctionMainPage .advanceDiscount{color:#95c608;font-weight:900}
+
+
+.auctionMainPage .ji-ATable01 .npTableCenterFix th:nth-of-type(01) {  width:40px; }
+.auctionMainPage .ji-ATable01 .npTableCenterFix th:nth-of-type(02) {  width:76px; }
+.auctionMainPage .ji-ATable01 .npTableCenterFix th:nth-of-type(03) {  width:100px; }
+.auctionMainPage .ji-ATable01 .npTableCenterFix th:nth-of-type(04) {  width:68px; }
+.auctionMainPage .ji-ATable01 .npTableCenterFix th:nth-of-type(05) {  width:94px; }
+.auctionMainPage .ji-ATable01 .npTableCenterFix th:nth-of-type(06) {  width:80px; }
+.auctionMainPage .ji-ATable01 .npTableCenterFix th:nth-of-type(07) {  width:121px; }
+.auctionMainPage .ji-ATable01 .npTableCenterFix th:nth-of-type(08) {  width:161px; }
+.auctionMainPage .ji-ATable01 .npTableCenterFix th:nth-of-type(09) {  width:101px; }
+.auctionMainPage .ji-ATable01 .npTableCenterFix th:nth-of-type(10) {  width:87px; }
+.auctionMainPage .ji-ATable01 .npTableCenterFix th:nth-of-type(11) {  width:88px; }
+.auctionMainPage .ji-ATable01 .npTableCenterFix th:nth-of-type(12) {  width:98px; }
+.auctionMainPage .ji-ATable01 .npTableCenterFix th:nth-of-type(13) {  width:99px; }
+.auctionMainPage .ji-ATable01 .npTableCenterFix th:nth-of-type(14) {  width:74px; }
+
+
+.auctionMainPage .ji-ATable01 th, .auctionMainPage .ji-ATable01 td {position: relative;}
+.auctionMainPage .ji-ATable01 th:hover .tDataPopover, .auctionMainPage .ji-ATable01 td:hover .tDataPopover { opacity:1; visibility: visible;}
+
+.tDataPopover{position: absolute;left: -20px;top:0;bottom:0;right: -20px;background-color: #000;border: 1px solid #373737;z-index: 9999;display: flex;align-items: center;padding: 10px;  opacity:0; visibility: hidden; justify-content: center; width:auto;  }
+
+.jntrAucSoldMboxv2{ display:flex; flex-wrap:wrap; align-items: center; width:100; max-width:960px; margin:0 auto; }
+.jntrAucSoldbox01v2{ width:40%;  font-size:22px;font-weight:700;color: #c32b2d;text-align:center; padding-right:10px; }
+.jntrAucSoldbox02v2{ width:20%;  }
+.jntrAucSoldbox03v2{ width:40%; font-size:22px;font-weight:700; }
+.jntrAucSoldbox03v2 a{color:#fff; white-space: nowrap; }
+.jntrAucSoldbox03v2 a:hover{color:#faba37; }
+.pl_Link:hover{ color:#faba37 !important; cursor: pointer;}
+.pl_Link02:hover{ color:#ffffff !important; cursor: pointer;}
+.statusLink01{font-size:12px;}
+.statusLink01 .fab.fa-ethereum{  font-size:24px; margin-right:8px; position: relative; top: 4px;}
+@media (max-width:767px) {
+  .jntrAucSoldbox01v2, .jntrAucSoldbox02v2, .jntrAucSoldbox03v2  { width:100%;}
+}
+.text_left{text-align: left !important; justify-content: flex-start !important; }
+.help-circle{position: relative;}
+.htjinwall-popup{opacity: 0; visibility: hidden; background-color: #000; position: absolute; 
+  bottom:calc(100% - 13px); right: -10px; padding: 10px; border: 1px solid #000;}
+@media (min-width:1024px) and (max-width:1660px) {
+.htjinwall-popup.view_right{right:-140px;}
+}
+.investText01 .help-circle:hover .htjinwall-popup { opacity:1; visibility:visible; }
+.htjinwall-popup .input-Bx02 {background: #0f191d;width:360px;padding: 0 10px;margin-top: 5px;margin-left: 0px;display: flex;flex-direction: row;border: 2px solid #1c2426;border-radius: 4px;} 
+.htjinwall-popup .input-Bx02 input {width: 100%;height: 40px;font-size: 12px;color: #fff;border: none;background: #0f191d;font-weight: 400;} 
+.htjinwall-popup .list-Text {   opacity:1; -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out; } 
+.htjinwall-popup .list-Text li {font-size: 15px;display: flex;flex-direction: row;flex-wrap: wrap;align-items: center;margin-bottom: 15px;font-weight:400;color: #f0b236; font-style: normal; position: relative; padding-left: 18px;} 
+.htjinwall-popup .list-Text li > i { font-size:12px; margin-right: 8px; font-style: normal; font-weight:400; position: absolute; left:0px; top:2px;  } 
+.htjinwall-popup .list-Text { text-align: left; } 
+.htjinwall-popup .list-Text .copy-Btn {color: #f0b236;font-size: 18px;line-height: 40px;} 
+.htjinwall-popup .list-Text .copy-Btn:hover {color: #95c608;} 
+.htjinwall-popup .edge-Coins .edge-Coin:hover .list-Text { opacity: 1; } 
+
+.txHowToAdd { display: flex; align-items: center; flex-direction: row; justify-content: space-between; }
+.ycp-TTFix01{ margin-top: 10px;}
+/* .ycp-TTFix01 .fas.fa-question-circle{ color:#fff;} */
+.ycp-TTFix01 .input-Bx02.ani-1{display: flex;}
+.ycp-TTFix01 .htjinwall-popup .list-Text li { font-size: 13px; margin-bottom:8px; line-height:20px; }
+
+.ycp-TTFix01 .investText01:hover .htjinwall-popup, .ycp-TTFix01:hover .htjinwall-popup{ opacity:1; visibility:visible; }
+.ycp-TTFix01 .investText01:hover{color:#fff; cursor:pointer;   }
+
+
+.ycp-TTFix01.align-right .investText01{ justify-content: flex-end;}
+
+
+
+.videoBG{position:absolute;top:0;left:0;overflow:hidden;z-index:-1;opacity:1;height:auto;right:0;bottom:0}
+.fsbg_container{position:relative;width:100%;height: 100vh;}
+.fullscreen-bg__video{width:100%!important;height:auto!important}
+.fsbg_sad{position:absolute;left:0;right:0;bottom:0;background:url(../images/video_BG_sad.png) left bottom repeat-x;height:300px;z-index:6;width:100%;display:block}
+
+
+/* Star Animation css */
+
+@keyframes move-twink-back{
+  from{background-position:0 0}
+  to{background-position:-10000px 5000px}
+  }
+  @-webkit-keyframes move-twink-back{
+  from{background-position:0 0}
+  to{background-position:-10000px 5000px}
+  }
+  @-moz-keyframes move-twink-back{
+  from{background-position:0 0}
+  to{background-position:-10000px 5000px}
+  }
+  @-ms-keyframes move-twink-back{
+  from{background-position:0 0}
+  to{background-position:-10000px 5000px}
+  }
+  @keyframes move-clouds-back{
+  from{background-position:0 0}
+  to{background-position:10000px 0}
+  }
+  @-webkit-keyframes move-clouds-back{
+  from{background-position:0 0}
+  to{background-position:10000px 0}
+  }
+  @-moz-keyframes move-clouds-back{
+  from{background-position:0 0}
+  to{background-position:10000px 0}
+  }
+  @-ms-keyframes move-clouds-back{
+  from{background-position:0}
+  to{background-position:10000px 0}
+  }
+  .clouds,.stars,.twinkling{position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;display:block}
+  .stars{background:#000 url(../images/stars.png) repeat top center;z-index:0}
+  .twinkling{background:transparent url(../images/twinkling.png) repeat top center;z-index:1;-moz-animation:move-twink-back 200s linear infinite;-ms-animation:move-twink-back 200s linear infinite;-o-animation:move-twink-back 200s linear infinite;-webkit-animation:move-twink-back 200s linear infinite;animation:move-twink-back 200s linear infinite}
+  .clouds{background:transparent url(../images/clouds.png) repeat top center;z-index:3;-moz-animation:move-clouds-back 200s linear infinite;-ms-animation:move-clouds-back 200s linear infinite;-o-animation:move-clouds-back 200s linear infinite;-webkit-animation:move-clouds-back 200s linear infinite;animation:move-clouds-back 200s linear infinite}
+
+
+.npCopyFix{ cursor:pointer !important;}
+.npCopyFix input{ pointer-events: none !important;}
+.NP-ScrollFix01{height: 100vh; overflow: hidden; padding-right: 17px; }
+.auctionMainPage .jiAuc-mainbox .jiAucs-Title01{ position:relative; padding-left:20px;    }
+
+.auctionMainPage .jiAuc-mainbox .jiAuc-subbox:nth-of-type(01) .jiAucs-Title01:after, .auctionMainPage .jiAuc-mainbox .jiAuc-subbox:nth-of-type(02) .jiAucs-Title01:after, .auctionMainPage .jiAuc-mainbox .jiAuc-subbox:nth-of-type(03) .jiAucs-Title01:after { content:"1"; border:none; position: absolute; left:0px; top:0px; font-size:18px; color:#faba37; width:30px; height:30px; display:block; border-radius:50%; border:2px solid #fff; line-height: 26px;} 
+
+.auctionMainPage .jiAuc-mainbox .jiAuc-subbox:nth-of-type(02) .jiAucs-Title01:after{content:"2"; }
+.auctionMainPage .jiAuc-mainbox .jiAuc-subbox:nth-of-type(03) .jiAucs-Title01:after{content:"3"; }
+
+.auctionMainPage .timer-Box.dSPTimerFix01 { max-width: 900px; }
+#ycpOBox .input-Bx02.npCopyFix{ display:flex;}
+.ycpTTFix01{ display: inline-block;}
+.auctionMainPage .tPopupSmallText01{  font-size:13px; font-weight:300; line-height: 24px; color:#fff; max-width:1080px; margin: 0 auto; padding-left:20px; position: relative;  }
+.auctionMainPage .tPopupSmallText01  .fas.fa-info-circle { position: absolute; left: 0; top:6px;  color:#faba37 !important   }
+#wonTxt{display:none; text-align:left !important;} 
+.protip-content .wonTxt-content a{color:#faba37; text-decoration:underline; }
+.joboProgressTxt{display:block; width: 100%; text-align:center;  padding-top:4px; min-height:20px;} 
+.joboProgressTxt span{font-size:12px; font-weight:400; color:#000000;}
+.joboProgressTxt span span{font-weight:700; color:#98c613; }
+.ji-Red-btn01{font-weight: 600; color: #bb2628; max-width: 369px; border: 2px solid #bb2628; padding: 10px 7px;
+  border-radius: 3px; text-align: center; display: inline-block; line-height: 24px; }
+.ji-Red-btn01:hover{color: #fff; background-color: #bb2628;}
+.ji-Nbtn01{display:inline-block; color:#fff; border:1px solid #fff; border-radius:3px; font-size:13px; font-weight:700; padding:8px 14px; }
+.ji-Nbtn01:hover{ background-color: #fff; color:#000;}
+.boostGText01{font-weight:400; font-size:11px; color: #95c608; position: absolute; top: -31px; right: 0;}
+.auctionMainPage .boostGText01 span {display: inline-block; color:#fff; width:auto; padding-left:0; vertical-align: top; }
+
+.invMax-Box{display:inline-block; float:left;}
+
+.invMax-Box .md-checkbox { margin:4px 0 !important; } 
+.invMax-Box .md-checkbox label:before { border: none !important; background: rgba(255,255,255,0.1)  !important; } 
+.invMax-Box .md-checkbox input[type="checkbox"] { z-index: -1  !important; -webkit-appearance: none  !important; -moz-appearance: none  !important; -ms-appearance: none  !important; padding: 0 !important;
+  height: 12px !important; } 
+  /* .invMax-Box .md-checkbox input[type="checkbox"]:checked + label:before { background: #faba37  !important; }  */
+  .invMax-Box .md-checkbox label:before { width: 16px  !important; height: 16px  !important; border-radius: 3px  !important; background: rgba(255,255,255,0.2)  !important; top:10px; } 
+  .invMax-Box .md-checkbox label { margin-left: 25px  !important; color: #595959  !important; font-size: 13px  !important; display:flex !important; } 
+  .invMax-Box .md-checkbox input[type="checkbox"]:checked + label:after { top:12px !important; left:7px !important; width: 9px !important; height: 5px  !important; border-color:#faba37; transform: rotate(-45deg) scale(1.5); }
+
+ .invNow-btnBar{  padding:15px 4px; text-align:center;  }
+
+.disableBTN{ pointer-events: none;}
+.disableBTN a{color:#727272 !important ;}
+.disableBTN [class*=lanicon0]{ filter: grayscale(100%) brightness(0.5);}
+
+
+.iyw-mainB{position: relative; overflow: hidden; -webkit-transition: all .3s ease-in-out !important;-moz-transition: all .3s ease-in-out !important;-o-transition: all .3s ease-in-out !important;-ms-transition: all .3s ease-in-out !important;transition: all .3s ease-in-out !important;}
+.iyw-btn01{ position: absolute; left: 0; right: 0; top: 0; bottom: 0; background-color: #faba37; text-align: center;  -webkit-box-shadow:inset 0 -5px 0 0 rgba(0,0,0,0.2); box-shadow:inset 0 -5px 0 0 rgba(0,0,0,0.2);  display:flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; }
+
+.iyw-mainB .iyw-btn01 span {background-color:#c68005; width:40px; height:40px; border-radius: 50%; margin-right: 6px; display:flex; justify-content: center; align-items: center; }
+
+
+.iyw-mainB:hover{ -webkit-box-shadow: 0 0 30px 1px rgba(250,186,55,0.9);  box-shadow: 0 0 30px 1px rgba(250,184,55,0.9); }
+.iyw-mainB:hover .iyw-btn01{opacity:1; visibility:visible; }
+
+.ji-btn01.iyw-mainB .iyw-btn01{ font-size:18px;  }
+.ji-btn01.iyw-mainB .iyw-btn01 span{width:30px; height:30px;}
+
+
+.auctionMainPage .multiplier-Box01 .invNow-btnBar  .ji-btn01 {min-width:270px;}
+.auctionMainPage .multiplier-Box01 .invNow-btnBar  .ji-btn01.iyw-mainB .iyw-btn01{font-size:15px;}
+.auctionMainPage .multiplier-Box01 .invNow-btnBar  .ji-btn01.iyw-mainB .iyw-btn01 span{width:26px; height:26px;}
+
+.jiT-greenback01  .ji-btn02.iyw-mainB .iyw-btn01{ font-size:12px;}
+.auctionMainPage .how-Popup .Btns-02 a.how-Btn02.iyw-mainB .iyw-btn01 {font-size:16px}
+
+
+.error-Msg {
+  max-width: 800px; text-align: center; background: rgba(237,38,44,0.1); font-size: 18px;
+  color: #f81e23;
+  border: 2px solid #f81e23;
+  border-radius: 5px;
+  min-height: 75px;
+  line-height: 71px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  min-height: 50px;
+  line-height: 50px;
+}
+
+.auctionMainPage .rgdev-item a.light_Font{font-weight:400;}
+
+.is_SelectBox{ width:100%; max-width:40px; overflow: hidden; position: relative; margin-left: auto;}
+.is_SelectBox select{background-color: #0e0e0e; border:0px; outline: 0; color:#fff; 
+  width:60px;}
+.is_SelectBox:after{content:""; border:none; width:6px; height: 6px; background:url(../images/select_aero.png) center top no-repeat; position: absolute; right: 0; bottom: 0;   }
+.auctionMainPage .invInfo-Box01{ font-size:12px; color:#616161; font-weight:400; text-align: left;}
+.auctionMainPage .invInfo-Box01 i{font-style: normal;}
+.auctionMainPage .text-center{ text-align: center;}
+.auctionMainPage .watJntrText01{font-size:21px; max-width:1300px; margin:40px 0 80px 0;   } 
+
+
+.auctionMainPage .watJntrCMainbox{ display: flex; align-items:start; justify-content: center; flex-wrap: wrap; overflow: hidden; margin: 0 -15px;}
+.auctionMainPage .watJntrCSubBox{ width:calc(33.33% - 30px); margin:0 15px 30px 15px;}
+.auctionMainPage .watJntrCTitle01{font-size: 30px; line-height: 64px; padding: 0 0 0 80px; color:#fff; font-weight: 600;}
+.auctionMainPage .watJntrCTitle02{ list-style: none; margin:10px 0; padding:0px;}
+.auctionMainPage .watJntrCTitle02 li{list-style-type:none; padding: 0 0 0 30px; margin-bottom:20px; font-weight: 300; line-height:28px; background: url(../images/watJntr-LI-icon-01.png) 6px 9px no-repeat;}
+.auctionMainPage .watJntrCicon-01{background: url(../images/watJntr-icon-01.png) 10px 9px no-repeat;}
+.auctionMainPage .watJntrCicon-02{background: url(../images/watJntr-icon-02.png) 10px 9px no-repeat;}
+.auctionMainPage .watJntrCicon-03{background: url(../images/watJntr-icon-03.png) 10px 9px no-repeat;}
+.auctionMainPage .watJntrCicon-04{background: url(../images/watJntr-icon-04.png) 10px 9px no-repeat;}
+.auctionMainPage .watJntrCicon-05{background: url(../images/watJntr-icon-05.png) 10px 9px no-repeat;}
+.auctionMainPage .watJntrCicon-06{background: url(../images/watJntr-icon-06.png) 10px 9px no-repeat;}
+
+
+
+.libraryMbox{display: flex;align-items: center;justify-content: center;flex-wrap: wrap;margin: 0 -20px 0 -20px;/* overflow: hidden; */max-width: 1420px;}
+.libraryblock:nth-child(04){/* margin-right: 0; */}
+
+.libraryblock{width: calc(25% - 30px);height: 170px;display: flex;padding: 15px 15px;/* float:left; */transform:scale(1);-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out;align-items: center;justify-content: center;margin: 0 15px;}
+.libraryblock:hover{transform:scale(1.1)!important;-webkit-transition:all .4s ease-in-out!important;transition:all .4s ease-in-out!important}
+.libraryblockbg01{background-image:url(../images/boxbg01.jpg);background-repeat:no-repeat;background-position:0 0}
+.libraryblockbg02{background-image:url(../images/boxbg02.jpg);background-repeat:no-repeat;background-position:0 0;/* margin:0 33px */}
+.libraryblockbg03{background-image:url(../images/boxbg03.jpg);background-repeat:no-repeat;background-position:0 0}
+.fileicobblock{width:69px;height:91px;display:block;/* float:left; */background-image:url(../images/sprite-jLive.png);background-repeat:no-repeat;transform: scale(0.8);transform-origin: center;}
+.fileicobblock.flblock01{background-position:-595px -97px}
+.fileicobblock.flblock02{background-position:-664px -97px}
+.fileicobblock.flblock03{background-position:-733px -97px}
+.lbblocktext{/* float:left; */display:block;padding: 16px 0 16px 0;position:relative;width: calc(100% - 71px);margin-left:20px;}
+.lbblocktext::after{width:24px;height:24px;content:"";position:absolute;bottom:20px;right:3px;background-image:url(../images/sprite-jLive.png);background-repeat:no-repeat;background-position:-11px -156px}
+.lbblocktext span{color:#e09a1f;font-size:18px;display:block;margin-bottom:4px; font-weight: 600;;}
+.lbblocktext strong{display:block;color:#fff;font-size: 24px;}
+.watTitleFix{margin:100px 0 60px 0;}
+.npSelectFix{ display:flex; }
+
+
+
+
