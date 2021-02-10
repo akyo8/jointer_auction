@@ -1,3 +1,5 @@
+## Project Overview
+
 JNTR is a liquidity bridge that serves as a transfer of value between traditional commercial real estate equity and blockchain based digital currencies.
 
 JNTR is a financially engineered decentralized protocol layer on top of the Ethereum blockchain developed as the exclusive payment method to facilitate trades of Jointer’s stocks (JNTR/STOCK) and notes (JNTR/ETN). JNTR’s face value changes based on the liquidity reserve’s calculation every time investors participate in the daily auction or use JNTR to buy JNTR/STOCK or JNTR/ETN. JNTR’s face value carries an exponential return potential along with a low risk profile, providing an uncorrelated hedge against volatility in the real estate and crypto markets.
